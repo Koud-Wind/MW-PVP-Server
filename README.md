@@ -1,5 +1,5 @@
 # MW-PVP-Server
-Added two new games, optimized some commands, and allowed the store to use some new weapons
+Added two new games, optimized some commands, and allowed the store to use some new weapons, The English translation may be poor, but the server requires two players to start the game
 
 Perhaps there is more, I may not remember clearly
 
