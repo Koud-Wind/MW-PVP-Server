@@ -1,0 +1,206 @@
+ConfigVersion: 2.0.2
+CommandStatsDisplaySkullSkin: true
+DecimalFormat: '#.##'
+ItemUpdate:
+  Enabled: false
+Holographic:
+  Enabled: true
+  DisplayTime: 40
+  BlackCauseList:
+  - ENTITY_SWEEP_ATTACK
+  - POISON
+  HealthOrTake:
+    Enabled: false
+Health:
+  NameVisible:
+    Enabled: false
+    Size: 10
+    Current: ❤
+    Loss: '&7❤'
+    Prefix: '&8[&c'
+    Suffix: '&8] &7- &8[&c{0}&8]'
+    DisplayTime: 4
+  BossBar:
+    Enabled: true
+    Format: '&f{0} &a&l{1}&7/&c&l{2}'
+    DisplayTime: 4
+    BlackCauseList:
+    - ENTITY_SWEEP_ATTACK
+    - POISON
+HealthScaled:
+  Enabled: true
+  Value: 40
+ItemDisplayName: true
+DamageCalculationToEVE: false
+DamageGauges: true
+BanShieldDefense: false
+ClearDefaultAttribute:
+  ThisPlugin: true
+  All: false
+  Reset: false
+RPGInventory:
+  WhiteSlot:
+  - 5
+  - 12
+  - 21
+RandomString: true
+RepairItemValue: 3.5
+RegisterSlots:
+  Enabled: false
+  List:
+  - 17#戒指#421
+  - 26#项链#421
+  - 35#项链#421
+  Lock:
+    Enabled: false
+    Name: '&7&o%SlotName%槽'
+DefaultAttribute:
+- '生命上限: 20'
+- '暴击伤害: 100'
+- '移动速度: 100'
+Condition:
+  Hand:
+    InMain:
+      Name: 主武器
+    InOff:
+      Name: 副武器
+  Armor:
+  - 头盔
+  - 盔甲
+  - 护腿
+  - 靴子
+  Role:
+    Name: 限制职业
+  LimitLevel:
+    Name: 限制等级
+  Durability:
+    Name: 耐久度
+    ClearItem: true
+  Sell:
+    Name: 出售价格
+  ExpiryTime:
+    Name: 到期时间
+    Format: yyyy/MM/dd HH:mm
+  AttackSpeed:
+    Name: 攻击速度
+Attribute:
+  ExpAddition:
+    Name: 经验加成
+    Value: 1
+  Speed:
+    Name: 移动速度
+    Value: 1
+  Health:
+    Name: 生命上限
+    Value: 1
+  HealthRegen:
+    Name: 生命恢复
+    Value: 1
+  Dodge:
+    Name: 闪避几率
+    Value: 1
+  Defense:
+    Name: 防御力
+    Value: 1
+  PVPDefense:
+    Name: PVP防御力
+    Value: 1
+  PVEDefense:
+    Name: PVE防御力
+    Value: 1
+  Toughness:
+    Name: 韧性
+    Value: 1
+  ReflectionRate:
+    Name: 反射几率
+    Value: 1
+  Reflection:
+    Name: 反射伤害
+    Value: 1
+  BlockRate:
+    Name: 格挡几率
+    Value: 1
+  Block:
+    Name: 格挡伤害
+    Value: 1
+  Damage:
+    Name: 攻击力
+    Value: 1
+  PVPDamage:
+    Name: PVP攻击力
+    Value: 1
+  PVEDamage:
+    Name: PVE攻击力
+    Value: 1
+  HitRate:
+    Name: 命中几率
+    Value: 1
+  Real:
+    Name: 破甲几率
+    Value: 1
+  Crit:
+    Name: 暴击几率
+    Value: 1
+  CritDamage:
+    Name: 暴击伤害
+    Value: 1
+  LifeStealRate:
+    Name: 吸血几率
+    Value: 1
+  LifeSteal:
+    Name: 吸血倍率
+    Value: 1
+  Ignition:
+    Name: 点燃几率
+    Value: 1
+  Wither:
+    Name: 凋零几率
+    Value: 1
+  Poison:
+    Name: 中毒几率
+    Value: 1
+  Blindness:
+    Name: 失明几率
+    Value: 1
+  Slowness:
+    Name: 缓慢几率
+    Value: 1
+  Lightning:
+    Name: 雷霆几率
+    Value: 1
+  Tearing:
+    Name: 撕裂几率
+    Value: 1
+AttributePriority:
+  Dodge: 10
+  Damage: 20
+  Crit: 30
+  Real: 40
+  Defense: 50
+  Reflection: 60
+  Block: 70
+  LifeSteal: 80
+  Ignition: 90
+  Wither: 100
+  Poison: 110
+  Blindness: 120
+  Slowness: 130
+  Lightning: 140
+  Tearing: 150
+  Toughness: 200
+  Health: 210
+  HealthRegen: 220
+  HitRate: 230
+  ExpAddition: 240
+  Speed: 250
+  MythicmobsDrop: 260
+  EventMessage: 270
+ConditionPriority:
+  Hand: 10
+  MainHand: 20
+  OffHand: 30
+  LimitLevel: 40
+  Role: 50
+  ExpiryTime: 60
+  AttackSpeed: 70
+  Durability: 80

@@ -1,0 +1,518 @@
+menu-settings:
+  name: 'Item Shop'
+  rows: 6
+X1Y1:
+  ID: STRUCTURE_VOID
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §fClose Page
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZuWFs+mXremhtemdogAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: false
+X3Y1:
+  ID: WATCH
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eWeapon Shop
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZeatpuWZqOWVhuW6lwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop1.yml'
+  KEEP-OPEN: true
+X4Y1:
+  ID: INK_SACK
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NAME: §eCamo
+  NBT: "CgAACQAEZW5jaAoAAAABAgADbHZsAAECAAJpZABHAAMACUhpZGVGbGFncwAAAAEKAAdkaXNwbGF5\r\
+    \nCAAETmFtZQAPwqc057uI5p6B5q2m5ZmoAAA=\r\n"
+  POSITION-X: 4
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop2.yml'
+  KEEP-OPEN: true
+X5Y1:
+  ID: STONE_SWORD
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eMelee Weapon
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZei/keaImOatpuWZqAAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop3.yml'
+  KEEP-OPEN: true
+X6Y1:
+  ID: MW_FATMAN
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eUltimate Weapon
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZee7iOaegeatpuWZqAAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop4.yml'
+  KEEP-OPEN: true
+X7Y1:
+  ID: MW_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eSight
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZeeehOWHhumVnAAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop5.yml'
+  KEEP-OPEN: true
+X8Y1:
+  ID: MW_SILENCER556X45
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eSilencer
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZea2iOmfs+WZqAAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop6.yml'
+  KEEP-OPEN: true
+X1Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X3Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X4Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X5Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X6Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X7Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X8Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X9Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eUnit01 Camo
+  LORE:
+  - '§bPrice: 100 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiAxMDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAA/Cp2XlpJbmmJ/mtoLoo4UAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 15'
+  KEEP-OPEN: true
+X3Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eBlue Camo
+  LORE:
+  - '§bPrice: 2000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAyMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6JOd6Imy5raC6KOFAAA=\r\n"
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 13'
+  KEEP-OPEN: true
+X4Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §ePink Camo
+  LORE:
+  - '§bPrice: 2000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAyMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl57KJ6Imy5raC6KOFAAA=\r\n"
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 11'
+  KEEP-OPEN: true
+X5Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eBlood Forest Camo
+  LORE:
+  - '§bPrice: 2000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAyMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6KGA5ray5raC6KOFAAA=\r\n"
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 9'
+  KEEP-OPEN: true
+X6Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eWoodland Camo
+  LORE:
+  - '§bPrice: 3000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAzMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl5rKZ5ryg5raC6KOFAAA=\r\n"
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 7'
+  KEEP-OPEN: true
+X7Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eArctic Camo
+  LORE:
+  - '§bPrice: 3000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAzMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6Zuq5Zyw5raC6KOFAAA=\r\n"
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 5'
+  KEEP-OPEN: true
+X8Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eGold Camo
+  LORE:
+  - '§bPrice: 4000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiA0MDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6buE6YeR5raC6KOFAAA=\r\n"
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 3'
+  KEEP-OPEN: true
+X9Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eDiamond Camo
+  LORE:
+  - '§bPrice: 5000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiA1MDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6ZK755+z5raC6KOFAAA=\r\n"
+  POSITION-X: 9
+  POSITION-Y: 3
+  COMMAND: 'trigger S-PaintingP set 1'
+  KEEP-OPEN: true
+X1Y4:
+  ID: INK_SACK
+  DATA-VALUE: 1
+  AMOUNT: 1
+  NAME: §4Not use Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAEsKnNOS4\r\
+    \njeS9v+eUqOa2guijhQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 21'
+  KEEP-OPEN: true
+X2Y4:
+  ID: MW_UNIT01CAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eUnit01 Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeWk\r\
+    \nluaYn+a2guijhQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 16'
+  KEEP-OPEN: true
+X3Y4:
+  ID: MW_BLUECAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eBlue Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeiT\r\
+    \nneiJsua2guijhQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 14'
+  KEEP-OPEN: true
+X4Y4:
+  ID: MW_PINKCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §ePink Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeey\r\
+    \nieiJsua2guijhQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 12'
+  KEEP-OPEN: true
+X5Y4:
+  ID: MW_BLOODFORESTCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eBlood Forest Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeih\r\
+    \ngOa2sua2guijhQAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 10'
+  KEEP-OPEN: true
+X6Y4:
+  ID: MW_WOODLANDCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eWoodland Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeay\r\
+    \nmea8oOa2guijhQAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 8'
+  KEEP-OPEN: true
+X7Y4:
+  ID: MW_ARCTICCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eArctic Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZemb\r\
+    \nquWcsOa2guijhQAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 6'
+  KEEP-OPEN: true
+X8Y4:
+  ID: MW_GOLDCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eGold Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZem7\r\
+    \nhOmHkea2guijhQAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 4'
+  KEEP-OPEN: true
+X9Y4:
+  ID: MW_DIAMONDCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eDiamond Camo
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZemS\r\
+    \nu+efs+a2guijhQAA\r\n"
+  POSITION-X: 9
+  POSITION-Y: 4
+  COMMAND: 'trigger S-PaintingP set 2'
+  KEEP-OPEN: true
+X1Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X2Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X3Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X4Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X5Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X6Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X7Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X8Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X9Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X1Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X2Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X3Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X4Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X5Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X6Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X7Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X8Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X9Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 6
+  KEEP-OPEN: true

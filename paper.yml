@@ -1,0 +1,48 @@
+# This is the main configuration file for Paper.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our IRC channel.
+# 
+# IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
+# Wiki: https://paper.readthedocs.org/ 
+# Paper Forums: https://aquifermc.org/ 
+
+verbose: false
+config-version: 13
+settings:
+  bungee-online-mode: true
+  save-player-data: true
+  min-chunk-load-threads: 2
+  book-size:
+    page-max: 2560
+    total-multiplier: 0.98
+  spam-limiter:
+    tab-spam-increment: 10
+    tab-spam-limit: 500
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
+  load-permissions-yml-before-plugins: true
+  sleep-between-chunk-saves: false
+  region-file-cache-size: 256
+  enable-player-collisions: true
+  save-empty-scoreboard-teams: false
+  incoming-packet-spam-threshold: 300
+  use-alternative-luck-formula: false
+  suggest-player-names-when-null-tab-completions: true
+  remove-invalid-statistics: false
+messages:
+  kick:
+    authentication-servers-down: ''
+    flying-player: Flying is not enabled on this server
+    flying-vehicle: Flying is not enabled on this server
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600

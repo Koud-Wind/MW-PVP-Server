@@ -1,0 +1,102 @@
+# This is the main configuration file for Mohist.
+# 
+# Home: https://mohistmc.com/
+
+
+entity-tick-limit: 300
+hidejoinmodslist: false
+world:
+  directory_in_client: true
+  stopserversaveworlds: false
+  disableforgegenerate:
+    global:
+      enable: false
+      worlds:
+      - worldname
+    list:
+      worldgen-aaaaaaaa: false
+      worldgen-bbbbbbbb: false
+  dimensionsNotLoaded: []
+forge:
+  autounloadworld:
+    enable: false
+    whitelist:
+    - 0
+  modswhitelist:
+    kickmessage: 不要使用其他模组
+    list: minecraft@1.12.2,mcp@9.42,FML@8.0.99.99
+    mods_number: 0
+    enable: false
+  modsblacklist:
+    kickmessage: 不要使用其他模组
+    list: infinity@1.0,pyroclient@1.4.1,wwe@3.0.2
+    enable: false
+  disablechunkforcesystem: false
+mohist:
+  use_custom_java8: false
+  disable_config_update: false
+  check_update: true
+  downloadfile_command_enabled: false
+  server-type: FML
+  BukkitPermissionsHandler: true
+  connectionTimeout: 15000
+  lang: en_US
+  libraries_downloadsource: MOHIST
+  console_name: Jim
+  watchdog_spigot: false
+  forge_can_call_bukkit: false
+  fail-on-unresolved-gameprofile: true
+  CloseChatInConsole: false
+  showlogo: true
+  check_libraries: true
+  support_nocmd: false
+  watchdog_mohist: false
+  disable_mods_blacklist: false
+  disable_plugins_blacklist: false
+  networkmanager:
+    debug: false
+    intercept: []
+  check_update_auto_download: false
+  realtimeticking: false
+eventCanceled:
+  explosion: false
+  keepLevel: false
+  keepInventory: false
+consolecolor:
+  info-time: b
+  trace-level: c
+  fatal-time: c
+  info-msg: r
+  error-level: c
+  error-msg: c
+  info-level: '2'
+  warn-time: e
+  fatal-msg: c
+  error-time: c
+  trace-time: c
+  fatal-level: c
+  warn-msg: e
+  warn-level: e
+  trace-msg: c
+libraries_black_list: aaaaa;bbbbbb
+allowBlockLoadChunk: true
+messages:
+  Outdate-Client: 过时的客户端! 请使用 {0}
+  use-unknow-command: 未知命令。输入"/help"以获得帮助。
+  Rejections-Hack: Hack rejections %s
+  Requirements-Mod-Version: version %s
+  Requirements-Mod-Invalid-version: Requires %s but client has %s.
+  Rejections-Server-Mods: "Server Mod rejections: \n%s"
+  Outdate-Server: 过时的服务端，服务端依然处在 {0} 版本
+  Requirements-Mod-Version-range: version range %s
+  Requirements-Mod-Not-found: Requires %s but mod is not found on client.
+forceUnloadChunks: false
+keep-spawn-loaded: true
+settings:
+  min-chunk-load-threads: 2
+skip-entity-activation-range: false
+disable-announce-Advancements: false
+fake-players:
+  do-login: false
+config-version: 3
+CloseChatInConsole: false

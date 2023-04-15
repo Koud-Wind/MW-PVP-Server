@@ -1,0 +1,138 @@
+MyAnimation1:
+  #单位为毫秒
+  change-interval: 100
+  texts:
+  - '&d-&3--------------'
+  - '&3-&d-&3-------------'
+  - '&3--&d-&3------------'
+  - '&3---&d-&3-----------'
+  - '&3----&d-&3----------'
+  - '&3-----&d-&3---------'
+  - '&3------&d-&3--------'
+  - '&3-------&d-&3-------'
+  - '&3--------&d-&3------'
+  - '&3---------&d-&3-----'
+  - '&3----------&d-&3----'
+  - '&3-----------&d-&3---'
+  - '&3------------&d-&3--'
+  - '&3-------------&d-&3-'
+  - '&3--------------&d-'
+  - '&3-------------&d-&3-'
+  - '&3------------&d-&3--'
+  - '&3-----------&d-&3---'
+  - '&3----------&d-&3----'
+  - '&3---------&d-&3-----'
+  - '&3--------&d-&3------'
+  - '&3-------&d-&3-------'
+  - '&3------&d-&3--------'
+  - '&3-----&d-&3---------'
+  - '&3----&d-&3----------'
+  - '&3---&d-&3-----------'
+  - '&3--&d-&3------------'
+  - '&3-&d-&3-------------'
+  - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - "&c&lPCD服务器"
+  - "&c&n&lPCD服务器"
+  - "&b&lPCD服务器"
+  - "&b&l&nPCD服务器"
+  - "&e&lPCD服务器"
+  - "&e&n&lPCD服务器"
+web:
+  change-interval: 200
+  texts:
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&6w&eww.mcbbs.net"
+  - "&ew&6w&ew.mcbbs.net"
+  - "&eww&6w&e.mcbbs.net"
+  - "&ewww&6.&emcbbs.net"
+  - "&ewww.&6m&ecbbs.net"
+  - "&ewww.m&6c&ebbs.net"
+  - "&ewww.mc&6b&ebs.net"
+  - "&ewww.mcb&6b&es.net"
+  - "&ewww.mcbb&6s&e.net"
+  - "&ewww.mcbbs&6.&enet"
+  - "&ewww.mcbbs.&6n&eet"
+  - "&ewww.mcbbs.n&6e&et"
+  - "&ewww.mcbbs.ne&6t"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+  - "&ewww.mcbbs.net"
+online:
+  change-interval: 150
+  texts:  
+  - "&7"
+  - "&7"
+  - "&b"
+  - "&7"
+  - "&7"
+  - "&b"
+  - "&b"
+  - "&b"
+  - "&7"
+  - "&7"
+  - "&b"
+  - "&7"
+  - "&4"
+  - "&8"
+vote:
+  change-interval: 1000
+  texts:
+  - "&a欢迎您加入PCD"
+  - "&a&n欢迎您加入PCD"
+  - "&5欢迎您加入PCD"
+  - "&5&n欢迎您加入PCD"
+Welcome:
+  change-interval: 400
+  texts:
+  - "&7&l欢_"
+  - "&7&l欢_"
+  - "&7&l欢迎_"
+  - "&7&l欢迎来_"
+  - "&7&l欢迎来到_"
+  - "&7&l欢迎来到P_"
+  - "&7&l欢迎来到PC_"
+  - "&7&l欢迎来到PCD_"
+  - "&7&l欢迎来到PCD_"
+  - "&7&l欢迎来到PCD_"
+  - "&7&l欢迎来到PCD_"
+  - "&7&l欢迎来到PC_"
+  - "&7&l欢迎来到P_"
+  - "&7&l欢迎来到_"
+  - "&7&l欢迎来_"
+  - "&7&l欢迎_"
+  - "&7&l欢_"
+  - "&7&l欢_"
+time:
+  change-interval: 900
+  texts:
+  - "&7时间 &b%time%"
+  - "&7> 时间 &b%time% &7<"
+  - "&7>> 时间 &b%time% &7<<"
+  - "&7>>> 时间 &b%time% &7<<<"
+  - "&7日期 &b%date%"
+  - "&7> 日期 &b%date% &7<"
+  - "&7>> 日期 &b%date% &7<<"
+  - "&7>>> 日期 &b%date% &7<<<"
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+  - '&bTPS: &8%tps%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

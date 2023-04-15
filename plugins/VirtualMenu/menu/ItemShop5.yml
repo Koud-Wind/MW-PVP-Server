@@ -1,0 +1,404 @@
+menu-settings:
+  name: 'Item Shop'
+  rows: 6
+X1Y1:
+  ID: STRUCTURE_VOID
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §fClose Page
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZuWFs+mXremhtemdogAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: false
+X3Y1:
+  ID: WATCH
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eWeapon Shop
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZeatpuWZqOWVhuW6lwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop1.yml'
+  KEEP-OPEN: true
+X4Y1:
+  ID: INK_SACK
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NAME: §eCamo
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUACcKnZea2guijhQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop2.yml'
+  KEEP-OPEN: true
+X5Y1:
+  ID: STONE_SWORD
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eMelee Weapon
+  POSITION-X: 5
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop3.yml'
+  KEEP-OPEN: true
+X6Y1:
+  ID: MW_FATMAN
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eUltimate Weapon
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZee7iOaegeatpuWZqAAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop4.yml'
+  KEEP-OPEN: true
+X7Y1:
+  ID: MW_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eSight
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZeeehOWHhumVnAAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop5.yml'
+  KEEP-OPEN: true
+X8Y1:
+  ID: MW_SILENCER556X45
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §eSilencer
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZea2iOmfs+WZqAAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop6.yml'
+  KEEP-OPEN: true
+X1Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X3Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X4Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X5Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X6Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X7Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X8Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X9Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eRMR
+  LORE:
+  - '§bPrice: 500 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA1MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAbCp2VSTVIAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 2'
+  KEEP-OPEN: true
+X3Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eOKP-7
+  LORE:
+  - '§bPrice: 500 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA1MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAjCp2VPS1AtNwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 4'
+  KEEP-OPEN: true
+X4Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e8-18 Kobra
+  LORE:
+  - '§bPrice: 700 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA3MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAA3Cp2U4LTE4IEtvYnJhAAA=\r\n"
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 6'
+  KEEP-OPEN: true
+X5Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eKobra Gen-3
+  LORE:
+  - '§bPrice: 700 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA3MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAA7Cp2VLb2JyYSBHZW4tMwAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 8'
+  KEEP-OPEN: true
+X6Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eEOTech
+  LORE:
+  - '§bPrice: 700 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA3MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAnCp2VFT1RlY2gAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 10'
+  KEEP-OPEN: true
+X7Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eVortex
+  LORE:
+  - '§bPrice: 800 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA4MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAnCp2VWb3J0ZXgAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 12'
+  KEEP-OPEN: true
+X8Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eBijia
+  LORE:
+  - '§bPrice: 1000 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAIwqdlQmlqaWEAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'trigger S-SightP set 14'
+  KEEP-OPEN: true
+X1Y4:
+  ID: MW_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 1'
+  KEEP-OPEN: true
+X2Y4:
+  ID: MW_RMRSIGHT
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 3'
+  KEEP-OPEN: true
+X3Y4:
+  ID: MW_OKP7
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 5'
+  KEEP-OPEN: true
+X4Y4:
+  ID: MW_KOBRA
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 7'
+  KEEP-OPEN: true
+X5Y4:
+  ID: MW_KOBRAGEN3
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 9'
+  KEEP-OPEN: true
+X6Y4:
+  ID: MW_HOLOGRAPHIC2
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 11'
+  KEEP-OPEN: true
+X7Y4:
+  ID: MW_VORTEXSIGHT
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 13'
+  KEEP-OPEN: true
+X8Y4:
+  ID: MW_BIJIAREFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 4
+  COMMAND: 'trigger S-SightP set 15'
+  KEEP-OPEN: true
+X1Y5:
+  ID: MW_SPECTER
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 5
+  COMMAND: 'trigger S-SightP set 19'
+  KEEP-OPEN: true
+X2Y5:
+  ID: MW_ACOG
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 5
+  COMMAND: 'trigger S-SightP set 21'
+  KEEP-OPEN: true
+X3Y5:
+  ID: MW_NIGHTRAIDERSCOPE
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5Click to switch!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 5
+  COMMAND: 'trigger S-SightP set 23'
+  KEEP-OPEN: true
+X1Y6:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eSpecter
+  LORE:
+  - '§bPrice: 1100 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxMTAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAKwqdlU3BlY3RlcgAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 6
+  COMMAND: 'trigger S-SightP set 18'
+  KEEP-OPEN: true
+X2Y6:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eACOG
+  LORE:
+  - '§bPrice: 1200 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxMjAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAHwqdlQUNPRwAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 6
+  COMMAND: 'trigger S-SightP set 20'
+  KEEP-OPEN: true
+X3Y6:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eNight Raider
+  LORE:
+  - '§bPrice: 1500 note'
+  - §eClick to buy!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxNTAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdlTmlnaHQgUmFpZGVyAAA=\r\n"
+  POSITION-X: 3
+  POSITION-Y: 6
+  COMMAND: 'trigger S-SightP set 22'
+  KEEP-OPEN: true

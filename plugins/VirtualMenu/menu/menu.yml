@@ -1,0 +1,31 @@
+menu-settings:
+  name: 'menu'
+  rows: 1
+X3Y1:
+  ID: SKULL_ITEM
+  DATA-VALUE: 2
+  AMOUNT: 1
+  NAME: §4Zombie Doomsday
+  LORE:
+  - §eClick to start playing zombie doomsday!
+  - '§cTip: contains teammate damage! The preparation will be cancelled after entering!'
+  - §cAt least 2 people are required to participate
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAcwqdl54K55Ye75omT5byA5ri4546p6I+c5Y2VIQgA\r\
+    \nBE5hbWUAD8KnY+WDteWwuOacq+aXpQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'zombies join map1'
+  KEEP-OPEN: false
+X7Y1:
+  ID: GOLD_BLOCK
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §6§lItem Shop
+  LORE:
+  - §eClick to open the shop menu!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAcwqdl54K55Ye75omT5byA5ZWG5bqX6I+c5Y2VIQgA\r\
+    \nBE5hbWUAD8KnNumBk+WFt+WVhuW6lwAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:ItemShop1.yml'
+  KEEP-OPEN: true

@@ -1,0 +1,94 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			"min":2,
+			"max":5
+			},
+            "entries": [
+				{
+                    "type": "item",
+                    "name": "mw:ar15",
+                    "weight": 50,
+					"functions": [
+                        {
+						    "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "mw:m4a1mag_2",
+                    "weight": 50,
+					"functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Ammo:9}"
+                        },
+						{
+						    "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "mw:m38mag_2",
+                    "weight": 5,
+					"functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Ammo:9}"
+                        },
+						{
+						    "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "mw:bullet556x45",
+                    "weight": 30,
+					"functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 25
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "loot_table",
+                    "name": "item:mods5.56",
+                    "weight": 5
+                },
+				{
+                    "type": "loot_table",
+                    "name": "item:disposable",
+                    "weight": 20
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+

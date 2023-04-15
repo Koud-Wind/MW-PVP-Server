@@ -1,0 +1,16 @@
+# 格式 
+# <material>: 
+#   <action>: <menu>
+# material参考https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# 可用的action: RIGHT_SHIFT, LEFT_SHIFT, DROP_SHIFT, RIGHT_CLICK, LEFT_CLICK, DROP_ITEM
+# 下面是一个例子 下界之星 潜行右击打开 examplemenu 丢弃打开example2menu
+IRON_INGOT:
+  RIGHT_CLICK: WeaponShop1_1
+FLINT:
+  RIGHT_CLICK: WeaponShop2_1
+FEATHER:
+  RIGHT_CLICK: WeaponShop3_1
+NETHER_STAR:
+  RIGHT_CLICK: ItemShop1
+ENDER_CHEST:
+  RIGHT_CLICK: menu

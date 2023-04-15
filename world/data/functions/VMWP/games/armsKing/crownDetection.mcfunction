@@ -1,0 +1,1 @@
+function vmwp:games/armsKing/createCrown unless @a[tag=HoldCrown]
