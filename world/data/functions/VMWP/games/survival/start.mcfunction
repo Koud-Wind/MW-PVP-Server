@@ -1,5 +1,5 @@
 #计分板
-scoreboard objectives add PC-KillCount playerKillCount §eKillCount
+scoreboard objectives add PC-KillCount playerKillCount §eKill count
 scoreboard objectives setdisplay sidebar PC-KillCount
 scoreboard objectives add PC-KillJ playerKillCount
 scoreboard objectives add PC-DeathJ stat.deaths
