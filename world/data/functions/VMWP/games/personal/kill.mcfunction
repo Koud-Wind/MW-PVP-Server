@@ -27,6 +27,6 @@ scoreboard players add @s money 6
 scoreboard players tag @s add Camo
 
 execute @s[score_PC-KillCount_min=15,score_PC-KillCount=15] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-IG] ~ ~ ~ 10000000000 0
-execute @s[score_PC-KillCount_min=15,score_PC-KillCount=15] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"selector":"@s"},{"text":"§c's kill count has reached 15"}]
+execute @s[score_PC-KillCount_min=15,score_PC-KillCount=15] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"selector":"@s"},{"text":"'s §ckill count has reached 15"}]
 
 scoreboard players reset @a[score_PC-KillJ_min=1,tag=InGame] PC-KillJ
