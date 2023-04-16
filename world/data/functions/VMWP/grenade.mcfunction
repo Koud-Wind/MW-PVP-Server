@@ -71,7 +71,7 @@ scoreboard players tag @a add Burning {Fire:263s}
 #scoreboard players tag @a add Burning {Fire:102s}
 #scoreboard players tag @a add Burning {Fire:103s}
 #scoreboard players tag @a add Burning {Fire:104s}
-execute @a ~ ~ ~ detect ~ ~ ~ minecraft:fire -1 effect @s 8 1 200 true
+execute @a ~ ~ ~ detect ~ ~ ~ minecraft:fire -1 effect @s 8 1 130 true
 execute @a ~ ~ ~ detect ~ ~ ~ minecraft:fire -1 effect @s 7 1 0 true
 effect @a[tag=Burning] 7 1 1 true
 scoreboard players tag @a[tag=Burning] remove Burning
