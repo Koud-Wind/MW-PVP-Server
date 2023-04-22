@@ -20,6 +20,7 @@ execute @e[tag=VMW] ~ ~ ~ scoreboard players remove @s[score_PC-STime_min=1] PC-
 #参与人数
 scoreboard players operation @e[tag=VMW] start-RP = §fRP start-RP
 execute @e[tag=VMW] ~ ~ ~ scoreboard players tag @s[score_start-RP=1,score_PC-STime_min=1] remove RS1
+execute @e[tag=VMW] ~ ~ ~ execute @s[score_start-RP=1,score_PC-STime_min=1] ~ ~ ~ scoreboard teams leave @a[tag=!PVE-IG]
 execute @e[tag=VMW] ~ ~ ~ execute @s[score_start-RP=1,score_PC-STime_min=1] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§cThe game has been canceled due to insufficient number of players!"}]
 
 #道具与效果

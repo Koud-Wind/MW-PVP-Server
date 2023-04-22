@@ -44,6 +44,16 @@
       "name": "svd_dragunov",
       "enabled": true,
       "recoil": 12.0
+    },
+    {
+      "name": "supernova",
+      "enabled": true,
+      "damage": 7.0
+    },
+    {
+      "name": "remington870",
+      "enabled": true,
+      "damage": 7.0
     }
   ],
   "categoryConfigurations": [

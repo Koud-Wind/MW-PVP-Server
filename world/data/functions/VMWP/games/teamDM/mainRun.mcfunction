@@ -71,6 +71,7 @@ scoreboard players reset @a[score_CT-KillJ_min=1,tag=InGame] CT-KillJ
 #死亡处理
 effect @a[tag=Protect,score_CT-DeathJ=0] 11 6 50 true
 effect @a[tag=Protect,score_CT-DeathJ=0] 12 7 0 true
+effect @a[tag=Protect,score_CT-DeathJ=0] 1 1000000 0 true
 scoreboard players tag @a[tag=Protect,score_CT-DeathJ=0] remove Protect
 
 execute @a[tag=InGame,score_CT-DeathJ_min=1,team=CT] ~ ~ ~ scoreboard players add @e[tag=VMW] CT-TScore 1

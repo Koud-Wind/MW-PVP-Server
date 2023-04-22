@@ -30,7 +30,6 @@ scoreboard players tag @a[score_PVE-map_min=1,tag=shop] remove shop
 scoreboard players tag @a[score_PVE-map_min=1,tag=Preparing] remove Preparing
 scoreboard players tag @a[score_PVE-map_min=1,tag=InGame] remove InGame
 
-replaceitem entity @a[score_PVE-map_min=1] slot.inventory.3 minecraft:air
 #replaceitem entity @a[score_PVE-map_min=1] slot.armor.feet minecraft:iron_boots 1 0 {ench:[{lvl:32767s,id:4s}],Unbreakable:1b,HideFlags:5}
 
 scoreboard players tag @a[score_PVE-map_min=1] add det1 {SelectedItem:{id:"minecraft:compass",tag:{Path:"InGame",display:{Lore:[""],Name:"§6detector"}}}}
@@ -159,6 +158,18 @@ execute @a[tag=PVE-Turret] ~ ~ ~ playsound minecraft:entity.zombie_villager.cure
 replaceitem entity @a[tag=PVE-Turret] slot.hotbar.1 minecraft:stained_glass_pane 1 15 {display:{Name:" "}}
 scoreboard players set @a[tag=PVE-Turret] SecondaryW 0
 scoreboard players tag @a[tag=PVE-Turret] remove PVE-Turret
+
+execute @a[tag=MoveTurret2] ~ ~ ~ summon mw:turretupgraded ~ ~ ~
+clear @a[tag=MoveTurret2] mw:turretupgraded
+scoreboard players tag @a[tag=MoveTurret2] remove MoveTurret2
+scoreboard players tag @a[tag=PVE-IG] add MoveTurret2 {Inventory:[{id:"mw:turretupgraded"}]}
+
+execute @a[tag=MoveTurret] ~ ~ ~ summon mw:turret ~ ~ ~
+clear @a[tag=MoveTurret] mw:turret
+scoreboard players tag @a[tag=MoveTurret] remove MoveTurret
+scoreboard players tag @a[tag=PVE-IG] add MoveTurret {Inventory:[{id:"mw:turret"}]}
+
+replaceitem entity @a[score_PVE-map_min=1] slot.inventory.3 minecraft:air
 
 #shop
 function vmwp:games/zombie/shop if @a[score_PVE-map_min=1]

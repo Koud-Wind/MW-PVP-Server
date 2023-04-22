@@ -101,11 +101,11 @@ execute @e[tag=VMW] ~ ~ ~ execute @s[tag=PC-WaitF,score_PC-WaitT=0] ~ ~ ~ functi
 scoreboard players tag @e[score_PC-WaitT=0] remove PC-WaitF
 
 #计时器
-execute @e[tag=VMW,score_PC-TR_min=1200,score_PC-TR=1200] ~ ~ ~ effect @a[tag=InGame,m=2,team=CTT] 24 60 0 true
-execute @e[tag=VMW,score_PC-TR_min=1200,score_PC-TR=1200] ~ ~ ~ tellraw @a[tag=!PVE-InGame] [{"text":"§c60 seconds remaining, players will receive glow!"}]
-execute @e[tag=VMW,score_PC-TR_min=1200,score_PC-TR=1200] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000
-execute @e[tag=VMW,score_PC-TR_min=800,score_PC-TR=800] ~ ~ ~ tellraw @a[tag=!PVE-InGame] [{"text":"§4After 10 seconds, players outside the beacon will receive the withering effect!"}]
-execute @e[tag=VMW,score_PC-TR_min=800,score_PC-TR=800] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000
+execute @e[tag=VMW,score_PC-TR_min=1200,score_PC-TR=1200] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ effect @a[tag=InGame,m=2,team=CTT] 24 60 0 true
+execute @e[tag=VMW,score_PC-TR_min=1200,score_PC-TR=1200] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ tellraw @a[tag=!PVE-InGame] [{"text":"§c60 seconds remaining, players will receive glow!"}]
+execute @e[tag=VMW,score_PC-TR_min=1200,score_PC-TR=1200] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000
+execute @e[tag=VMW,score_PC-TR_min=800,score_PC-TR=800] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ tellraw @a[tag=!PVE-InGame] [{"text":"§4After 10 seconds, players outside the beacon will receive the withering effect!"}]
+execute @e[tag=VMW,score_PC-TR_min=800,score_PC-TR=800] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000
 
 execute @e[tag=VMW,score_PC-TR=600] ~ ~ ~ execute @s[tag=!PC-WaitF,score_PC-Map=0] ~ ~ ~ effect @a[tag=InGame,x=-229,y=71,z=1303,rm=10] 20 1 1 true
 execute @e[tag=VMW,score_PC-TR=600] ~ ~ ~ execute @s[tag=!PC-WaitF,score_PC-Map=1,score_PC-Map_min=1] ~ ~ ~ effect @a[tag=InGame,x=-316,y=75,z=1245,rm=10] 20 1 1 true

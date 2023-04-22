@@ -62,6 +62,7 @@ scoreboard players reset @a[score_CT-KillJ_min=1,tag=InGame] CT-KillJ
 #死亡处理
 effect @a[tag=Protect,score_CT-DeathJ=0] 11 6 50 true
 effect @a[tag=Protect,score_CT-DeathJ=0] 12 7 0 true
+effect @a[tag=Protect,score_CT-DeathJ=0] 1 1000000 0 true
 scoreboard players tag @a[tag=Protect,score_CT-DeathJ=0] remove Protect
 
 gamemode spectator @a[tag=InGame,score_CT-DeathJ_min=1,score_CT-Death_min=7]
@@ -188,7 +189,7 @@ execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ execute @a[team=T,tag=
 execute @a[team=T,tag=Occupied] ~ ~ ~ scoreboard players add @e[tag=VMW,score_CT-Occupy=2399] CT-Occupy 1
 execute @a[team=T,tag=Occupied] ~ ~ ~ scoreboard players add @s[score_CT-Prompt=59] CT-Prompt 30
 execute @a[team=T,tag=Occupied,score_CT-Prompt_min=30,score_CT-Prompt=30] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"selector":"@s"},{"text":"§a is occupying the target point!"}]
-effect @a[team=T,tag=Occupied] 23 1 0 true
+effect @a[team=T,tag=Occupied] 23 2 0 true
 scoreboard players remove @a[score_CT-Prompt_min=1,tag=!Occupied,team=T] CT-Prompt 1
 
 execute @e[tag=VMW,score_CT-Occupy_min=2400] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ execute @r[team=T,tag=Occupied] ~ ~ ~ particle hugeexplosion ~ ~2 ~ 1 1 1 0 5 force

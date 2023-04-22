@@ -21,18 +21,19 @@ execute @e[tag=VMW] ~ ~ ~ scoreboard players remove @s[score_CT-STime_min=1] CT-
 #参与人数
 scoreboard players operation @e[tag=VMW] start-RP = §fRP start-RP
 execute @e[tag=VMW] ~ ~ ~ scoreboard players tag @s[score_start-RP=1,score_CT-STime_min=1] remove RS2
+execute @e[tag=VMW] ~ ~ ~ execute @s[score_start-RP=1,score_CT-STime_min=1] ~ ~ ~ scoreboard teams leave @a[tag=!PVE-IG]
 execute @e[tag=VMW] ~ ~ ~ execute @s[score_start-RP=1,score_CT-STime_min=1] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§cThe game has been canceled due to insufficient number of players!"}]
 
 scoreboard players tag @e[type=item] add joinCT {Item:{tag:{tag:["CT"]}}}
-execute @e[type=item,tag=joinCT] ~ ~ ~ scoreboard teams join CT @p[r=3]
-execute @e[type=item,tag=joinCT] ~ ~ ~ tellraw @p[r=3] [{"text":"§aYou choose to join §9§lCT"}]
-execute @e[type=item,tag=joinCT] ~ ~ ~ playsound minecraft:block.note.pling ambient @p[r=3] ~ ~ ~ 1000000000 2
+execute @e[type=item,tag=joinCT] ~ ~ ~ scoreboard teams join CT @p[r=2]
+execute @e[type=item,tag=joinCT] ~ ~ ~ tellraw @p[r=2] [{"text":"§aYou choose to join §9§lCT"}]
+execute @e[type=item,tag=joinCT] ~ ~ ~ playsound minecraft:block.note.pling ambient @p[r=2] ~ ~ ~ 1000000000 2
 kill @e[tag=joinCT,type=item]
 
 scoreboard players tag @e[type=item] add joinT {Item:{tag:{tag:["T"]}}}
-execute @e[type=item,tag=joinT] ~ ~ ~ scoreboard teams join T @p[r=3]
-execute @e[type=item,tag=joinT] ~ ~ ~ tellraw @p[r=3] [{"text":"§aYou choose to join §4§lT"}]
-execute @e[type=item,tag=joinT] ~ ~ ~ playsound minecraft:block.note.pling ambient @p[r=3] ~ ~ ~ 1000000000 2
+execute @e[type=item,tag=joinT] ~ ~ ~ scoreboard teams join T @p[r=2]
+execute @e[type=item,tag=joinT] ~ ~ ~ tellraw @p[r=2] [{"text":"§aYou choose to join §4§lT"}]
+execute @e[type=item,tag=joinT] ~ ~ ~ playsound minecraft:block.note.pling ambient @p[r=2] ~ ~ ~ 1000000000 2
 kill @e[tag=joinT,type=item]
 #道具与效果
 execute @e[tag=VMW] ~ ~ ~ effect @a[tag=!PVE-IG] 18 1 1 true
