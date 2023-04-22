@@ -170,6 +170,7 @@ scoreboard players set §fdivision PC-RTC 20
 scoreboard objectives add PC-KCC dummy
 scoreboard objectives add PC-1rdK dummy
 scoreboard objectives add PC-2rdK dummy
+scoreboard objectives add PC-3rdK dummy
 scoreboard objectives add PC-Glow dummy
 scoreboard objectives add PC-Join trigger
 

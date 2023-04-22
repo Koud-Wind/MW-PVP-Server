@@ -36,7 +36,7 @@ scoreboard players tag @a[tag=DRandomTp] add RandomTp
 scoreboard players tag @a[tag=DRandomTp] remove DRandomTp
 scoreboard players tag @a[tag=InGame,score_PC-DeathJ_min=1] add RandomTp
 scoreboard players tag @a[tag=InGame,score_PC-DeathJ_min=1] add DropCrown {Inventory:[{id:"minecraft:golden_helmet",tag:{ench:[{lvl:1s,id:16s},{lvl:1s,id:10s}]}}]}
-execute @a[tag=DropCrown] ~ ~ ~ summon minecraft:item ~ ~ ~ {Tags:["Crown"],Item:{id:"minecraft:golden_helmet",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:999999999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§eCrown",Glowing:1b}
+execute @a[tag=DropCrown] ~ ~ ~ summon minecraft:item ~ ~ ~ {Tags:["Crown"],Item:{id:"minecraft:golden_helmet",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:999999999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§eCrown(Need to meet 3 kills)",Glowing:1b}
 replaceitem entity @a[tag=DropCrown] slot.armor.head minecraft:air
 scoreboard players tag @a[tag=DropCrown] remove DropCrown
 scoreboard players set @a[score_PC-DeathJ_min=1] PC-DeathJ 0
@@ -57,7 +57,7 @@ scoreboard players tag @a[tag=HoldCrown] remove HoldCrown
 #关于Crown
 scoreboard players tag @e[type=item] add Crown {Item:{id:"minecraft:golden_helmet",tag:{ench:[{lvl:1s,id:16s}]}}}
 execute @e[tag=Crown,type=item] ~ ~ ~ execute @s[tag=!Display] ~ ~ ~ tellraw @a[tag=!PVE-IG] {"text":"§aThe crown has fallen!"}
-entitydata @e[type=item,tag=Crown] {Tags:["Crown","Display"],Item:{id:"minecraft:golden_helmet",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:999999999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§eCrown",Glowing:1b}
+entitydata @e[type=item,tag=Crown] {Tags:["Crown","Display"],Item:{id:"minecraft:golden_helmet",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:999999999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§eCrown(Need to meet 3 kills)",Glowing:1b}
 execute @e[type=item,tag=Crown] ~ ~ ~ scoreboard players tag @a[r=1,team=CTT,m=2,score_PC-KillCount_min=3] add PickUpCrown
 replaceitem entity @a[tag=PickUpCrown] slot.armor.head minecraft:golden_helmet 1 0 {ench:[{lvl:1s,id:16s},{lvl:1s,id:10s}],Unbreakable:1b,HideFlags:5,display:{Name:"§eCrown"},AttributeModifiers:[{UUIDMost:7315363430355781807L,UUIDLeast:-5678051707942990044L,Amount:1.0d,Slot:"head",AttributeName:"generic.armor",Operation:0,Name:"generic.armor"}]}
 execute @a[tag=PickUpCrown] ~ ~ ~ kill @e[type=item,tag=Crown,c=1]

@@ -26,6 +26,7 @@ scoreboard players set @a[score_MainW_min=1] PVE-map 1 {Inventory:[{id:"minecraf
 #scoreboard players set @a PVE-map 2 {Inventory:[{id:"minecraft:skull",tag:{map:2b}}]}
 #scoreboard players set @a PVE-map 3 {Inventory:[{id:"minecraft:skull",tag:{map:3b}}]}
 
+scoreboard players tag @a[score_PVE-map_min=1,tag=shop] remove shop
 scoreboard players tag @a[score_PVE-map_min=1,tag=Preparing] remove Preparing
 scoreboard players tag @a[score_PVE-map_min=1,tag=InGame] remove InGame
 

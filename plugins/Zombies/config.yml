@@ -107,12 +107,18 @@ Rewards:
   - entitydata @e[type=mw:turret] {Health:-1.0f}
   - scoreboard players remove @a[score_PVE-map_min=1,tag=!PVE-End,score_wins_min=1]
     wins 1
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] MainW
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] SecondaryW
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] money
   - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-End] add PVE-End
   GameWin:
   - entitydata @e[type=mw:turretupgraded] {Health:-1.0f}
   - entitydata @e[type=mw:turret] {Health:-1.0f}
   - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-End] note 500
   - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-End] wins 10
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] MainW
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] SecondaryW
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] money
   - tellraw @a[score_PVE-map_min=1,tag=!PVE-End] [{"text":"§eThe round is over! +500
     note"}]
   - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-End] add PVE-End
