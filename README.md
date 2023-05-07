@@ -4,4 +4,3 @@
 
 In addition, version 0.7.26 does not need to be distributed, just use the latest vmw.
 
-I will update it again in a few days.
