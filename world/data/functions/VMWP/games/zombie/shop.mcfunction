@@ -197,16 +197,17 @@ replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=71,score_MainW=71] slo
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=100,score_MainW=100] slot.inventory.1 mw:grenade40mm 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=101,score_MainW=101] slot.inventory.1 mw:rpg7_rocket 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=102,score_MainW=102] slot.inventory.1 mw:plasmacapsule 64 0
-replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=103,score_MainW=103] slot.inventory.1 mw:asvalmag 6 0 {Ammo:30}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=103,score_MainW=103] slot.inventory.1 mw:asvalmag 6 0 {Ammo:40}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=104,score_MainW=104] slot.inventory.1 mw:m202rocket 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=105,score_MainW=105] slot.inventory.1 mw:grenade40mm 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=106,score_MainW=106] slot.inventory.1 mw:m134mag 6 0 {Ammo:200}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=107,score_MainW=107] slot.inventory.1 mw:mininuke 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=108,score_MainW=108] slot.inventory.1 mw:origin12drummag 6 0 {Ammo:25}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=109,score_MainW=109] slot.inventory.1 mw:m134mag 6 0 {Ammo:1000}
-replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=110,score_MainW=110] slot.inventory.1 mw:m82mag_2 6 0 {Ammo:1.E99}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=110,score_MainW=110] slot.inventory.1 mw:ssg08mag 6 0 {Ammo:38}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=111,score_MainW=111] slot.inventory.1 mw:glock18cmag_2 6 0 {Ammo:1.E99}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=112,score_MainW=112] slot.inventory.1 mw:p2022mag 6 0 {Ammo:1.E99}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=113,score_MainW=113] slot.inventory.1 mw:ak100mag 6 0 {Ammo:120}
 
 replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=1,score_SecondaryW=1] slot.inventory.2 mw:apsmag_2 6 0 {Ammo:20}
 replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=2,score_SecondaryW=2] slot.inventory.2 mw:bullet500 64 0

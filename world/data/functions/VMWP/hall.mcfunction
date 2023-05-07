@@ -29,8 +29,9 @@ function vmwp:shop/itemShop if @a[score_S-SilencerP_min=1]
 clear @a[tag=!PVE-IG,m=2] minecraft:stained_glass_pane
 
 #开始计时器
-execute @e[tag=VMW,score_start-TR_min=320,score_start-TR=320] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ tellraw @s[tag=!Preparing] [{"text":"§cTip: You are not ready to participate in the game"}]
-execute @e[tag=VMW,score_start-TR_min=220,score_start-TR=220] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ title @s[tag=!Preparing] title [{"text":"§aGame is about to start"}]
+execute @e[tag=VMW,score_start-TR_min=420,score_start-TR=420] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ tellraw @s[tag=!Preparing] [{"text":"§cTip: You are not ready to participate in the game"}]
+execute @e[tag=VMW,score_start-TR_min=220,score_start-TR=220] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ tellraw @s[tag=!Preparing] [{"text":"§cTip: You are not ready to participate in the game"}]
+execute @e[tag=VMW,score_start-TR_min=220,score_start-TR=220] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ title @s[tag=!Preparing] title [{"text":"§cGame is about to start"}]
 execute @e[tag=VMW,score_start-TR_min=220,score_start-TR=220] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ playsound minecraft:block.note.hat ambient @s[tag=!Preparing] ~ ~ ~ 1000000000
 execute @e[tag=VMW,score_start-TR_min=120,score_start-TR=120] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ playsound minecraft:block.note.hat ambient @s ~ ~ ~ 1000000000
 execute @e[tag=VMW,score_start-TR_min=100,score_start-TR=100] ~ ~ ~ execute @a[tag=!PVE-IG] ~ ~ ~ playsound minecraft:block.note.hat ambient @s ~ ~ ~ 1000000000
@@ -44,7 +45,7 @@ execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!suspend] ~ ~ ~ scoreboard players remo
 execute @e[tag=VMW] ~ ~ ~ scoreboard players tag @s[score_start-TR=0,score_start-RP_min=2,score_start-RP=5] add RS1
 #execute @e[tag=VMW] ~ ~ ~ scoreboard players tag @s[score_start-TR=0,score_start-RP_min=2] add RS2
 execute @e[tag=VMW] ~ ~ ~ scoreboard players tag @s[score_start-TR=0,score_start-RP_min=6] add RS2
-execute @e[tag=VMW] ~ ~ ~ scoreboard players set @s[score_start-TR_min=1,score_start-RP=1] start-TR 900
+execute @e[tag=VMW] ~ ~ ~ scoreboard players set @s[score_start-TR_min=1,score_start-RP=1] start-TR 1200
 execute @e[tag=VMW] ~ ~ ~ scoreboard players tag @s[score_start-TR_min=1,score_start-RP=1] remove suspend
 
 #参与人数计算

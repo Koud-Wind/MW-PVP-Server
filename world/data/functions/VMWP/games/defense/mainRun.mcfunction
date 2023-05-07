@@ -186,7 +186,7 @@ scoreboard players operation §4§lT CT-lifeC = @e[tag=VMW] CT-TLife
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ execute @a[team=T,tag=InGame,m=2] ~ ~ ~ detect ~ ~-2 ~ minecraft:structure_block -1 scoreboard players tag @s add Occupied
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ execute @a[team=T,tag=InGame,m=2] ~ ~ ~ detect ~ ~-3 ~ minecraft:structure_block -1 scoreboard players tag @s add Occupied
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ execute @a[team=T,tag=InGame,m=2] ~ ~ ~ detect ~ ~-4 ~ minecraft:structure_block -1 scoreboard players tag @s add Occupied
-execute @a[team=T,tag=Occupied] ~ ~ ~ scoreboard players add @e[tag=VMW,score_CT-Occupy=2399] CT-Occupy 1
+execute @a[team=T,tag=Occupied,c=3] ~ ~ ~ scoreboard players add @e[tag=VMW,score_CT-Occupy=2399] CT-Occupy 1
 execute @a[team=T,tag=Occupied] ~ ~ ~ scoreboard players add @s[score_CT-Prompt=59] CT-Prompt 30
 execute @a[team=T,tag=Occupied,score_CT-Prompt_min=30,score_CT-Prompt=30] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"selector":"@s"},{"text":"§a is occupying the target point!"}]
 effect @a[team=T,tag=Occupied] 23 2 0 true

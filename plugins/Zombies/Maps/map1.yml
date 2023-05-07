@@ -30,14 +30,14 @@ Health:
   Clown: 30.0
   Penguin: 30.0
   EnderZombie: 30.0
-  Inferno: 500.0
+  Inferno: 1000.0
   Bombie: 1000.0
   TheBroodmother: 1500.0
-  KingSlime: 500.0
-  KingWither: 500.0
-  Herobrine: 500.0
-  SantaClaus: 500.0
-  Pennywise: 500.0
+  KingSlime: 1500.0
+  KingWither: 1500.0
+  Herobrine: 2000.0
+  SantaClaus: 2000.0
+  Pennywise: 1500.0
 Rounds: 30
 Round:
   '1':
@@ -1895,7 +1895,7 @@ Round:
       Penguin: 0
       EnderZombie: 0
       Inferno: 0
-      Bombie: 1
+      Bombie: 2
       TheBroodmother: 0
       KingSlime: 0
       KingWither: 0
@@ -1967,8 +1967,8 @@ Round:
       Clown: 0
       Penguin: 0
       EnderZombie: 0
-      Inferno: 1
-      Bombie: 0
+      Inferno: 2
+      Bombie: 2
       TheBroodmother: 0
       KingSlime: 0
       KingWither: 0
@@ -2040,9 +2040,9 @@ Round:
       Clown: 0
       Penguin: 0
       EnderZombie: 0
-      Inferno: 1
-      Bombie: 1
-      TheBroodmother: 0
+      Inferno: 2
+      Bombie: 3
+      TheBroodmother: 1
       KingSlime: 0
       KingWither: 0
       Herobrine: 0
@@ -2113,11 +2113,11 @@ Round:
       Clown: 0
       Penguin: 0
       EnderZombie: 0
-      Inferno: 1
+      Inferno: 2
       Bombie: 2
-      TheBroodmother: 0
+      TheBroodmother: 1
       KingSlime: 0
-      KingWither: 0
+      KingWither: 1
       Herobrine: 0
       SantaClaus: 0
       Pennywise: 0
@@ -2159,39 +2159,39 @@ Round:
       Pennywise: 0.32
   '30':
     Entities:
-      NormalZombie: 23
-      NormalStrongZombie: 17
-      NormalProtectedZombie: 17
-      PigZombie: 17
-      TNTZombie: 17
-      EmpoweredZombie: 17
-      IronZombie: 16
-      IronProtectedZombie: 16
-      GlowingZombie: 13
-      MagmaZombie: 11
-      GuardianZombie: 9
-      Skeleton: 5
-      Wolf: 16
-      Endermite: 8
-      Blaze: 8
+      NormalZombie: 0
+      NormalStrongZombie: 0
+      NormalProtectedZombie: 0
+      PigZombie: 0
+      TNTZombie: 0
+      EmpoweredZombie: 0
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 0
+      Endermite: 0
+      Blaze: 0
       Soldier: 0
-      Witch: 16
-      CaveSpider: 16
-      Spider: 16
-      WitherZombie: 14
-      SlimeZombie: 16
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
       SantaHelperZombie: 0
       EasterBunnyZombie: 0
       Mosquito: 0
       Clown: 0
       Penguin: 0
       EnderZombie: 0
-      Inferno: 2
-      Bombie: 2
+      Inferno: 3
+      Bombie: 5
       TheBroodmother: 2
       KingSlime: 0
-      KingWither: 0
-      Herobrine: 0
+      KingWither: 2
+      Herobrine: 1
       SantaClaus: 0
       Pennywise: 0
     Speed:
@@ -3014,12 +3014,6 @@ PerkShop:
       PerkName: SPEED
       PerkGold: 400
       Hologram: world:-827.5:78:1311.5:0:0
-    world#-43#73#1357#world#-43#73#1357:
-      Pos1: world:-885:84:1311
-      Pos2: world:-885:84:1311
-      PerkName: EXTRA_HEALTH
-      PerkGold: 700
-      Hologram: world:-884.5:85:1311.5:0:0
 ArmorShop:
   Position:
     world#8#73#1363#world#8#75#1365:

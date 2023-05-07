@@ -111,6 +111,18 @@ Rewards:
   - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] SecondaryW
   - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] money
   - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-End] add PVE-End
+  - fill -858 69 1286 -858 72 1288 minecraft:quartz_block 4
+  - fill -858 70 1286 -858 70 1288 minecraft:stained_glass 8
+  - fill -843 72 1308 -843 69 1310 minecraft:quartz_block 4
+  - fill -843 70 1308 -843 70 1310 minecraft:stained_glass 8
+  - fill -837 73 1309 -837 70 1311 minecraft:quartz_block 4
+  - fill -837 71 1309 -837 71 1311 minecraft:stained_glass 8
+  - fill -853 72 1258 -851 69 1258 minecraft:quartz_block 3
+  - fill -853 70 1258 -851 70 1258 minecraft:stained_glass 8
+  - fill -861 79 1269 -863 76 1269 minecraft:quartz_block 3
+  - fill -861 77 1269 -863 77 1269 minecraft:stained_glass 8
+  - fill -876 80 1296 -878 77 1296 minecraft:quartz_block 3
+  - fill -876 78 1296 -878 78 1296 minecraft:stained_glass 8
   GameWin:
   - entitydata @e[type=mw:turretupgraded] {Health:-1.0f}
   - entitydata @e[type=mw:turret] {Health:-1.0f}
@@ -122,6 +134,18 @@ Rewards:
   - tellraw @a[score_PVE-map_min=1,tag=!PVE-End] [{"text":"§eThe round is over! +500
     note"}]
   - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-End] add PVE-End
+  - fill -858 69 1286 -858 72 1288 minecraft:quartz_block 4
+  - fill -858 70 1286 -858 70 1288 minecraft:stained_glass 8
+  - fill -843 72 1308 -843 69 1310 minecraft:quartz_block 4
+  - fill -843 70 1308 -843 70 1310 minecraft:stained_glass 8
+  - fill -837 73 1309 -837 70 1311 minecraft:quartz_block 4
+  - fill -837 71 1309 -837 71 1311 minecraft:stained_glass 8
+  - fill -853 72 1258 -851 69 1258 minecraft:quartz_block 3
+  - fill -853 70 1258 -851 70 1258 minecraft:stained_glass 8
+  - fill -861 79 1269 -863 76 1269 minecraft:quartz_block 3
+  - fill -861 77 1269 -863 77 1269 minecraft:stained_glass 8
+  - fill -876 80 1296 -878 77 1296 minecraft:quartz_block 3
+  - fill -876 78 1296 -878 78 1296 minecraft:stained_glass 8
   Rounds:
     '1':
     - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-End] money 8
@@ -365,12 +389,11 @@ Weapon:
     UltimateReload: 1.0
     WeaponsChest: false
   Rifle:
-    DisplayName: '&6Rifle'
-    UltimateDisplayName: '&6&lUltimate Rifle'
-    Material: STONE_HOE
+    DisplayName: §4RPK§z
+    UltimateDisplayName: ''
+    Material: MW_AK47
     Lores:
-    - '&7Shoots at a faster rate than the'
-    - '&7Pistol.'
+    - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_FIREWORK_BLAST
     Particle: FIREWORKS_SPARK
@@ -384,7 +407,7 @@ Weapon:
     UltimateClipAmmo: 35
     UltimateFireRate: 0.2
     UltimateReload: 1.0
-    WeaponsChest: false
+    WeaponsChest: true
   Shotgun:
     DisplayName: §dTurret§z
     UltimateDisplayName: ''
@@ -507,9 +530,9 @@ Weapon:
     UltimateReload: 1.5
     WeaponsChest: true
   Sniper:
-    DisplayName: §4M82 Barrett§z
+    DisplayName: §4SSG-08§z
     UltimateDisplayName: ''
-    Material: MW_M82_BARRETT
+    Material: MW_SSG_08
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -647,9 +670,9 @@ Powerups:
     MinRound: 1
 WeaponsChest:
   ClaimDuration: 20.0
-  GoldPrice: 1500
+  GoldPrice: 1800
   ShoppingSpree:
-    GoldPrice: 700
+    GoldPrice: 10
 TeamMachine:
   Price:
     AmmoSupply: 999999
