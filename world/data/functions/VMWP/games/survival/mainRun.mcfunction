@@ -4,6 +4,10 @@ execute @a[team=Watch] ~ ~ ~ title @s actionbar [{"text":"§3Round:"},{"score":{
 execute @a[team=,tag=!PVE-InGame] ~ ~ ~ title @s actionbar [{"text":"§3Round:"},{"score":{"objective":"PC-Games","name":"@e[tag=VMW]"}},{"text":" §bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §cPlease wait for end §6First score:"},{"score":{"objective":"PC-1rdK","name":"@e[tag=VMW]"}},{"text":" §eSecond score:"},{"score":{"objective":"PC-2rdK","name":"@e[tag=VMW]"}}]
 
 #shop函数
+replaceitem entity @a[m=2,tag=shop,score_S-Shop=0] slot.hotbar.6 minecraft:iron_ingot 1 0 {ench:[{lvl:1s,id:71s}],HideFlags:1,display:{Name:"§fWeapon shop1"}}
+replaceitem entity @a[m=2,tag=shop,score_S-Shop=1,score_S-Shop_min=1] slot.hotbar.6 minecraft:flint 1 0 {ench:[{lvl:1s,id:71s}],HideFlags:1,display:{Name:"§fWeapon shop2"}}
+replaceitem entity @a[m=2,tag=shop,score_S-Shop=2,score_S-Shop_min=2] slot.hotbar.6 minecraft:feather 1 0 {ench:[{lvl:1s,id:71s}],HideFlags:1,display:{Name:"§fWeapon shop3"}}
+
 tellraw @a[score_assaultRP_min=1,tag=InGame] [{"text":"§cThe main weapon in this mode can only be purchased with SR/DMR/SMG"}]
 scoreboard players reset @a[score_assaultRP_min=1,tag=InGame] assaultRP
 tellraw @a[score_shotGunP_min=1,tag=InGame] [{"text":"§cThe main weapon in this mode can only be purchased with SR/DMR/SMG"}]
@@ -13,7 +17,21 @@ scoreboard players reset @a[score_heavyP_min=1,tag=InGame] heavyP
 tellraw @a[score_ultimateWP_min=1,tag=InGame] [{"text":"§cThe main weapon in this mode can only be purchased with SR/DMR/SMG"}]
 scoreboard players reset @a[score_ultimateWP_min=1,tag=InGame] ultimateWP
 
-execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/weaponShop
+scoreboard players enable @a[tag=InGame] moduleP
+scoreboard players enable @a[tag=InGame] grenadeP
+scoreboard players enable @a[tag=InGame] assaultRP
+scoreboard players enable @a[tag=InGame] S&DMRP
+scoreboard players enable @a[tag=InGame] SMGP
+scoreboard players enable @a[tag=InGame] shotGunP
+scoreboard players enable @a[tag=InGame] heavyP
+scoreboard players enable @a[tag=InGame] pistolP
+scoreboard players enable @a[tag=InGame] ultimateWP
+
+execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/weaponShop if @a[score_moduleP_min=1]
+execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/weaponShop if @a[score_grenadeP_min=1]
+execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/weaponShop if @a[score_S&DMRP_min=1]
+execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/weaponShop if @a[score_SMGP_min=1]
+execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/weaponShop if @a[score_pistolP_min=1]
 execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/buyGive
 
 #优化计时器检测
@@ -55,6 +73,8 @@ execute @a[tag=IsNoOne] ~ ~ ~ function vmwp:games/survival/reset unless @a[tag=!
 scoreboard players tag @a[tag=IsNoOne] remove IsNoOne
 
 #NumberP判定
+execute @a[tag=InGame,m=2,c=4] ~ ~ ~ scoreboard players add @e[tag=VMW] PC-N 1
+
 execute @e[tag=VMW,score_PC-N=3,score_PC-N_min=3,score_PC-TR=2599] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ scoreboard players tag @a[tag=InGame,team=CTT,m=2] add survival3
 execute @e[tag=VMW,score_PC-N=2,score_PC-N_min=2,score_PC-TR=2599] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ scoreboard players tag @a[tag=InGame,team=CTT,m=2] add survival2
 execute @e[tag=VMW,score_PC-N=2,score_PC-N_min=2,score_PC-TR=2599] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ execute @a[tag=survival2] ~ ~ ~ effect @a[tag=InGame,m=2,team=CTT] 24 2 0 true
@@ -63,24 +83,26 @@ execute @e[tag=VMW,score_PC-N=2,score_PC-N_min=2,score_PC-TR=2599] ~ ~ ~ execute
 execute @e[tag=VMW,score_PC-N=2,score_PC-N_min=2,score_PC-TR=2599] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ scoreboard players tag @s[tag=!GlowT] add GlowT
 execute @e[tag=VMW,score_PC-N=1,score_PC-N_min=1,score_PC-TR=2599] ~ ~ ~ execute @s[tag=!PC-WaitF] ~ ~ ~ scoreboard players tag @a[tag=InGame,team=CTT,m=2] add survival1
 
-scoreboard players tag @p[tag=InGame,team=CTT,m=2] add NumberP1
-execute @r[tag=NumberP1] ~ ~ ~ scoreboard players tag @p[tag=!NumberP1,team=CTT,m=2] add NumberP2
-execute @a[tag=NumberP2] ~ ~ ~ scoreboard players tag @a[tag=NumberP1] add NumberP2
-scoreboard players tag @a[tag=NumberP2] remove NumberP1
-execute @r[tag=NumberP2] ~ ~ ~ scoreboard players tag @p[tag=!NumberP2,team=CTT,m=2] add NumberP3
-execute @a[tag=NumberP3] ~ ~ ~ scoreboard players tag @a[tag=NumberP2] add NumberP3
-scoreboard players tag @a[tag=NumberP3] remove NumberP2
-execute @r[tag=NumberP3] ~ ~ ~ scoreboard players tag @p[tag=!NumberP3,team=CTT,m=2] add NumberP4
-execute @a[tag=NumberP4] ~ ~ ~ scoreboard players tag @a[tag=NumberP3] add NumberP4
-scoreboard players tag @a[tag=NumberP4] remove NumberP3
-execute @r[tag=NumberP1] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 1
-execute @r[tag=NumberP2] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 2
-execute @r[tag=NumberP3] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 3
-execute @r[tag=NumberP4] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 4
-scoreboard players tag @a[tag=NumberP1] remove NumberP1
-scoreboard players tag @a[tag=NumberP2] remove NumberP2
-scoreboard players tag @a[tag=NumberP3] remove NumberP3
-scoreboard players tag @a[tag=NumberP4] remove NumberP4
+scoreboard players set @e[tag=VMW] PC-N 0
+
+#scoreboard players tag @p[tag=InGame,team=CTT,m=2] add NumberP1
+#execute @r[tag=NumberP1] ~ ~ ~ scoreboard players tag @p[tag=!NumberP1,team=CTT,m=2] add NumberP2
+#execute @a[tag=NumberP2] ~ ~ ~ scoreboard players tag @a[tag=NumberP1] add NumberP2
+#scoreboard players tag @a[tag=NumberP2] remove NumberP1
+#execute @r[tag=NumberP2] ~ ~ ~ scoreboard players tag @p[tag=!NumberP2,team=CTT,m=2] add NumberP3
+#execute @a[tag=NumberP3] ~ ~ ~ scoreboard players tag @a[tag=NumberP2] add NumberP3
+#scoreboard players tag @a[tag=NumberP3] remove NumberP2
+#execute @r[tag=NumberP3] ~ ~ ~ scoreboard players tag @p[tag=!NumberP3,team=CTT,m=2] add NumberP4
+#execute @a[tag=NumberP4] ~ ~ ~ scoreboard players tag @a[tag=NumberP3] add NumberP4
+#scoreboard players tag @a[tag=NumberP4] remove NumberP3
+#execute @r[tag=NumberP1] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 1
+#execute @r[tag=NumberP2] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 2
+#execute @r[tag=NumberP3] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 3
+#execute @r[tag=NumberP4] ~ ~ ~ scoreboard players set @e[tag=VMW] PC-N 4
+#scoreboard players tag @a[tag=NumberP1] remove NumberP1
+#scoreboard players tag @a[tag=NumberP2] remove NumberP2
+#scoreboard players tag @a[tag=NumberP3] remove NumberP3
+#scoreboard players tag @a[tag=NumberP4] remove NumberP4
 
 #死亡处理
 gamemode spectator @a[tag=InGame,score_PC-DeathJ_min=1]

@@ -35,6 +35,14 @@ execute @e[tag=VMW,score_PC-STime=0,score_Start-SMode=0] ~ ~ ~ function vmwp:gam
 execute @e[tag=VMW,score_PC-STime=0,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ function vmwp:games/armsKing/start
 execute @e[tag=VMW,score_PC-STime=0,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ function vmwp:games/survival/start
 
+execute @e[tag=VMW,score_PC-STime=0] ~ ~ ~ scoreboard teams join CT @r[team=,tag=Preparing]
+execute @e[tag=VMW,score_PC-STime=0] ~ ~ ~ scoreboard teams join T @r[team=,tag=Preparing]
+execute @e[tag=VMW,score_PC-STime=0] ~ ~ ~ scoreboard players operation @s CT-Map = @s PC-Map
+
+execute @e[tag=VMW,score_PC-STime=0,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ function vmwp:games/blast/start unless @a[team=,tag=Preparing]
+execute @e[tag=VMW,score_PC-STime=0,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ function vmwp:games/defense/start unless @a[team=,tag=Preparing]
+execute @e[tag=VMW,score_PC-STime=0,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ function vmwp:games/teamDM/start unless @a[team=,tag=Preparing]
+
 #S-Map
 scoreboard players enable @a[tag=S-Map] S-Map
 
@@ -65,9 +73,30 @@ execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fPersonal Confrontation"}]
-execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: You can only get the crown for §equick score§f after three kills. Killing will automatically §echange§f the weapon!"}]
-execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 0
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fDefense"}]
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Players need to go to the §ered circle near the blue beam§f to occupy the target point"}]
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 3
+scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
+scoreboard players tag @a[tag=S-Switch] remove S-Switch
+
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fTeam DM"}]
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: The team that reaches the §e65 kill count§f first will win, including the §eboundary§f limit!"}]
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 4
+scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
+scoreboard players tag @a[tag=S-Switch] remove S-Switch
+
+execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fBlast"}]
+execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Players need to §eremove or install C4§f through sneak in the §ered circle near the blue beam"}]
+execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
+execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 5
+scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
+scoreboard players tag @a[tag=S-Switch] remove S-Switch
+
+execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fPersonal Confrontation"}]
+execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: You can only get the crown for §equick score§f after three kills. Killing will automatically §echange§f the weapon!"}]
+execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 0
 scoreboard players reset @e[score_S-Map_min=1] S-Map
 
 #彩蛋

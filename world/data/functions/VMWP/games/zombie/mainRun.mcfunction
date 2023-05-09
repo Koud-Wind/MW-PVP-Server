@@ -48,6 +48,7 @@ scoreboard players set @a[tag=PVE-Start,score_S-Shop=1,score_S-Shop_min=1] Secon
 replaceitem entity @a[tag=PVE-Start,score_S-Shop=2,score_S-Shop_min=2] slot.hotbar.1 mw:sccy_cpx_2 1 0 {IUuidLeast:-8191587320356669575L,Ammo:10,IUuidMost:-7937418419850818304L,Instance:[B;-32B,83B,21B,-112B,-126B,43B,-31B,45B,117B,49B,126B,79B,17B,126B,62B,-127B,0B,0B,0B,9B,-111B,-40B,-96B,0B,91B,38B,77B,0B,-114B,81B,-94B,-69B,-89B,-117B,-9B,121B,0B,0B,20B,13B,0B,0B,0B,3B,0B,0B,0B,0B,0B,0B,0B,26B,75B,99B,82B,108B,-118B,-87B,-71B,14B,-97B,-92B,100B,-74B,-111B,106B,61B,-40B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,22B,108B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,68B,0B,0B,0B,0B,0B,0B,19B,83B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-99B,0B,0B,0B,0B,0B,0B,0B,0B,10B,0B,64B,0B,0B,0B,0B,0B,0B,1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fCPX-2"}}
 scoreboard players set @a[tag=PVE-Start,score_S-Shop=2,score_S-Shop_min=2] SecondaryW 15
 scoreboard players set @a[tag=PVE-Start] MainW 0
+scoreboard players set @a[tag=PVE-Start] money 0
 
 replaceitem entity @a[tag=PVE-Start] slot.hotbar.2 minecraft:stained_glass_pane 1 15 {display:{Name:" "}}
 replaceitem entity @a[tag=PVE-Start] slot.hotbar.4 minecraft:stained_glass_pane 1 15 {display:{Name:" "}}

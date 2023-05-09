@@ -206,13 +206,13 @@ execute @e[tag=VMW,score_CT-TR=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ title @a
 execute @e[tag=VMW,score_CT-TR=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ function vmwp:games/defense/ctWin
 
 #击败队伍
-execute @e[tag=VMW,score_CT-CTN=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ playsound minecraft:entity.cat.ambient ambient @a[tag=!PVE-IG] ~ ~ ~ 100000000 0
-execute @e[tag=VMW,score_CT-CTN=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ title @a[tag=!PVE-IG] subtitle {"text":"§bAll CT players have been killed"}
-execute @e[tag=VMW,score_CT-CTN=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ function vmwp:games/defense/tWin
+execute @e[tag=VMW,score_CT-CTN=0,score_CT-TR=4799] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ playsound minecraft:entity.cat.ambient ambient @a[tag=!PVE-IG] ~ ~ ~ 100000000 0
+execute @e[tag=VMW,score_CT-CTN=0,score_CT-TR=4799] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ title @a[tag=!PVE-IG] subtitle {"text":"§bAll CT players have been killed"}
+execute @e[tag=VMW,score_CT-CTN=0,score_CT-TR=4799] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ function vmwp:games/defense/tWin
 
-execute @e[tag=VMW,score_CT-TN=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ playsound minecraft:entity.cat.ambient ambient @a[tag=!PVE-IG] ~ ~ ~ 100000000 0
-execute @e[tag=VMW,score_CT-TN=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ title @a[tag=!PVE-IG] subtitle {"text":"§bAll T players have been killed"}
-execute @e[tag=VMW,score_CT-TN=0] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ function vmwp:games/defense/ctWin
+execute @e[tag=VMW,score_CT-TN=0,score_CT-TR=4799] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ playsound minecraft:entity.cat.ambient ambient @a[tag=!PVE-IG] ~ ~ ~ 100000000 0
+execute @e[tag=VMW,score_CT-TN=0,score_CT-TR=4799] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ title @a[tag=!PVE-IG] subtitle {"text":"§bAll T players have been killed"}
+execute @e[tag=VMW,score_CT-TN=0,score_CT-TR=4799] ~ ~ ~ execute @s[tag=!CT-WaitF] ~ ~ ~ function vmwp:games/defense/ctWin
 
 #限制物品格
 replaceitem entity @a[m=2,tag=!PVE-IG] slot.inventory.3 minecraft:air

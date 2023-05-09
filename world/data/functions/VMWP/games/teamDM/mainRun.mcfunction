@@ -7,6 +7,10 @@ execute @a[team=,tag=!PVE-InGame] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},
 #shop函数
 execute @e[tag=VMW,score_CT-TR_min=9700] ~ ~ ~ function vmwp:shop/weaponShop
 function vmwp:shop/buyGive
+execute @e[tag=VMW,score_CT-TR=9700] ~ ~ ~ replaceitem entity @a[m=2,tag=shop,score_S-Shop=0] slot.hotbar.6 minecraft:iron_ingot 1 0 {ench:[{lvl:1s,id:71s}],HideFlags:1,display:{Name:"§fWeapon shop1"}}
+execute @e[tag=VMW,score_CT-TR=9700] ~ ~ ~ replaceitem entity @a[m=2,tag=shop,score_S-Shop=1,score_S-Shop_min=1] slot.hotbar.6 minecraft:flint 1 0 {ench:[{lvl:1s,id:71s}],HideFlags:1,display:{Name:"§fWeapon shop2"}}
+execute @e[tag=VMW,score_CT-TR=9700] ~ ~ ~ replaceitem entity @a[m=2,tag=shop,score_S-Shop=2,score_S-Shop_min=2] slot.hotbar.6 minecraft:feather 1 0 {ench:[{lvl:1s,id:71s}],HideFlags:1,display:{Name:"§fWeapon shop3"}}
+
 #execute @e[tag=VMW,score_CT-TR_min=9000] ~ ~ ~ function vmwp:shop/buyGive
 #execute @e[tag=VMW,score_CT-TR_min=8400,score_CT-TR=8400] ~ ~ ~ function vmwp:shop/buyGive
 #execute @e[tag=VMW,score_CT-TR_min=7800,score_CT-TR=7800] ~ ~ ~ function vmwp:shop/buyGive

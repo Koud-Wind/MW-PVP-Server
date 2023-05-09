@@ -95,4 +95,5 @@ tellraw @a[team=Watch] [{"text":"§7You are watching the whole game!"}]
 
 scoreboard players tag @e[tag=VMW] add GlobalGame
 scoreboard players tag @e[tag=VMW] add start6
+scoreboard players tag @e[tag=VMW] remove RS1
 scoreboard players tag @e[tag=VMW] remove RS2

@@ -16,7 +16,7 @@ MultiArena:
     Line4: '%state%'
 LobbyTimer: 45
 RestartTimer: 5
-RandomMap: true
+RandomMap: false
 StartMap: EnterMapName
 QuitRejoinEnabled: false
 FillEmptySlots: false
@@ -670,7 +670,7 @@ Powerups:
     MinRound: 1
 WeaponsChest:
   ClaimDuration: 20.0
-  GoldPrice: 1800
+  GoldPrice: 2000
   ShoppingSpree:
     GoldPrice: 10
 TeamMachine:

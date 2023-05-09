@@ -100,4 +100,5 @@ execute @e[tag=VMW] ~ ~ ~ function vmwp:games/defense/startAGame
 scoreboard players tag @e[tag=VMW] add GlobalGame
 scoreboard players tag @e[tag=VMW] add start4
 scoreboard players tag @e[tag=VMW] remove CT-WaitF
+scoreboard players tag @e[tag=VMW] remove RS1
 scoreboard players tag @e[tag=VMW] remove RS2
