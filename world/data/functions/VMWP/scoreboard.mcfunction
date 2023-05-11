@@ -75,7 +75,7 @@ scoreboard objectives add leave stat.leaveGame
 
 #开始环节计分板
 scoreboard objectives add start-TR dummy
-scoreboard players set @e[tag=VMW] start-TR 900
+scoreboard players set @e[tag=VMW] start-TR 1200
 
 scoreboard objectives add start-RTC dummy
 scoreboard players set §fdivision start-RTC 20

@@ -185,6 +185,7 @@ scoreboard players tag @a[score_leave_min=1] remove InGame
 scoreboard players tag @a[score_leave_min=1] remove shop
 scoreboard players tag @a[score_leave_min=1] remove 1rd
 scoreboard players tag @a[score_leave_min=1] remove 2rd
+scoreboard players tag @a[score_leave_min=1] remove 3rd
 
 scoreboard teams leave @a[score_leave_min=1]
 scoreboard teams join Watch @a[score_leave_min=1]
