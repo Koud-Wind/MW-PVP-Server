@@ -40,7 +40,7 @@ X5Y1:
   COMMAND: 'open:ItemShop3.yml'
   KEEP-OPEN: true
 X6Y1:
-  ID: MW_FATMAN
+  ID: MWC_M32_MGL
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eUltimate Weapon
@@ -50,7 +50,7 @@ X6Y1:
   COMMAND: 'open:ItemShop4.yml'
   KEEP-OPEN: true
 X7Y1:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSight
@@ -60,7 +60,7 @@ X7Y1:
   COMMAND: 'open:ItemShop5.yml'
   KEEP-OPEN: true
 X8Y1:
-  ID: MW_SILENCER556X45
+  ID: MWC_SILENCER556X45
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSilencer
@@ -240,7 +240,7 @@ X8Y3:
   COMMAND: 'trigger S-SightP set 14'
   KEEP-OPEN: true
 X1Y4:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -251,7 +251,7 @@ X1Y4:
   COMMAND: 'trigger S-SightP set 1'
   KEEP-OPEN: true
 X2Y4:
-  ID: MW_RMRSIGHT
+  ID: MWC_RMRSIGHT
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -262,7 +262,7 @@ X2Y4:
   COMMAND: 'trigger S-SightP set 3'
   KEEP-OPEN: true
 X3Y4:
-  ID: MW_OKP7
+  ID: MWC_OKP7
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -273,7 +273,7 @@ X3Y4:
   COMMAND: 'trigger S-SightP set 5'
   KEEP-OPEN: true
 X4Y4:
-  ID: MW_KOBRA
+  ID: MWC_KOBRA
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -284,7 +284,7 @@ X4Y4:
   COMMAND: 'trigger S-SightP set 7'
   KEEP-OPEN: true
 X5Y4:
-  ID: MW_KOBRAGEN3
+  ID: MWC_KOBRAGEN3
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -295,7 +295,7 @@ X5Y4:
   COMMAND: 'trigger S-SightP set 9'
   KEEP-OPEN: true
 X6Y4:
-  ID: MW_HOLOGRAPHIC2
+  ID: MWC_HOLOGRAPHIC2
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -306,7 +306,7 @@ X6Y4:
   COMMAND: 'trigger S-SightP set 11'
   KEEP-OPEN: true
 X7Y4:
-  ID: MW_VORTEXSIGHT
+  ID: MWC_VORTEXSIGHT
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -317,7 +317,7 @@ X7Y4:
   COMMAND: 'trigger S-SightP set 13'
   KEEP-OPEN: true
 X8Y4:
-  ID: MW_BIJIAREFLEX
+  ID: MWC_BIJIAREFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -328,7 +328,7 @@ X8Y4:
   COMMAND: 'trigger S-SightP set 15'
   KEEP-OPEN: true
 X1Y5:
-  ID: MW_SPECTER
+  ID: MWC_SPECTER
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -339,7 +339,7 @@ X1Y5:
   COMMAND: 'trigger S-SightP set 19'
   KEEP-OPEN: true
 X2Y5:
-  ID: MW_ACOG
+  ID: MWC_ACOG
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -350,7 +350,7 @@ X2Y5:
   COMMAND: 'trigger S-SightP set 21'
   KEEP-OPEN: true
 X3Y5:
-  ID: MW_NIGHTRAIDERSCOPE
+  ID: MWC_NIGHTRAIDERSCOPE
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:

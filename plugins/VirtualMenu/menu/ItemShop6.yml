@@ -40,7 +40,7 @@ X5Y1:
   COMMAND: 'open:ItemShop3.yml'
   KEEP-OPEN: true
 X6Y1:
-  ID: MW_FATMAN
+  ID: MWC_M32_MGL
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eUltimate Weapon
@@ -50,7 +50,7 @@ X6Y1:
   COMMAND: 'open:ItemShop4.yml'
   KEEP-OPEN: true
 X7Y1:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSight
@@ -60,7 +60,7 @@ X7Y1:
   COMMAND: 'open:ItemShop5.yml'
   KEEP-OPEN: true
 X8Y1:
-  ID: MW_SILENCER556X45
+  ID: MWC_SILENCER556X45
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSilencer
@@ -240,7 +240,7 @@ X8Y3:
   COMMAND: 'trigger S-SilencerP set 14'
   KEEP-OPEN: true
 X1Y4:
-  ID: MW_SILENCER762X39
+  ID: MWC_SILENCER762X39
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -251,7 +251,7 @@ X1Y4:
   COMMAND: 'trigger S-SilencerP set 1'
   KEEP-OPEN: true
 X2Y4:
-  ID: MW_SILENCER762X54
+  ID: MWC_SILENCER762X54
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -262,7 +262,7 @@ X2Y4:
   COMMAND: 'trigger S-SilencerP set 3'
   KEEP-OPEN: true
 X3Y4:
-  ID: MW_SILENCER50BMG
+  ID: MWC_SILENCER50BMG
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -273,7 +273,7 @@ X3Y4:
   COMMAND: 'trigger S-SilencerP set 5'
   KEEP-OPEN: true
 X4Y4:
-  ID: MW_SILENCER762X51
+  ID: MWC_SILENCER762X51
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -284,7 +284,7 @@ X4Y4:
   COMMAND: 'trigger S-SilencerP set 7'
   KEEP-OPEN: true
 X5Y4:
-  ID: MW_SILENCER12GAUGE
+  ID: MWC_SILENCER12GAUGE
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -295,7 +295,7 @@ X5Y4:
   COMMAND: 'trigger S-SilencerP set 9'
   KEEP-OPEN: true
 X6Y4:
-  ID: MW_SILENCER45ACP
+  ID: MWC_SILENCER45ACP
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -306,7 +306,7 @@ X6Y4:
   COMMAND: 'trigger S-SilencerP set 11'
   KEEP-OPEN: true
 X7Y4:
-  ID: MW_SILENCER9MM
+  ID: MWC_SILENCER9MM
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -317,7 +317,7 @@ X7Y4:
   COMMAND: 'trigger S-SilencerP set 13'
   KEEP-OPEN: true
 X8Y4:
-  ID: MW_SILENCER556X45
+  ID: MWC_SILENCER556X45
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:

@@ -59,4 +59,4 @@ execute @e[tag=VMW,score_PC-TR_min=7840,score_PC-TR=7840] ~ ~ ~ playsound minecr
 execute @e[tag=VMW,score_PC-TR_min=7820,score_PC-TR=7820] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-IG] ~ ~ ~ 1000000000
 execute @e[tag=VMW,score_PC-TR_min=7800,score_PC-TR=7800] ~ ~ ~ playsound minecraft:block.note.pling ambient @a[tag=!PVE-IG] ~ ~ ~ 1000000000 2
 execute @e[tag=VMW,score_PC-TR_min=7800,score_PC-TR=7800] ~ ~ ~ title @a[tag=!PVE-IG] title [{"text":"§a§lGO!"}]
-execute @e[tag=VMW,score_PC-TR_min=7800] ~ ~ ~ kill @e[type=mw:smokegrenade260]
+execute @e[tag=VMW,score_PC-TR_min=7800] ~ ~ ~ kill @e[type=mwc:smokegrenade260]

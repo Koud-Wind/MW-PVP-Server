@@ -41,7 +41,7 @@ X5Y1:
   COMMAND: 'open:ItemShop3.yml'
   KEEP-OPEN: true
 X6Y1:
-  ID: MW_FATMAN
+  ID: MWC_M32_MGL
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eUltimate Weapon
@@ -51,7 +51,7 @@ X6Y1:
   COMMAND: 'open:ItemShop4.yml'
   KEEP-OPEN: true
 X7Y1:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSight
@@ -61,7 +61,7 @@ X7Y1:
   COMMAND: 'open:ItemShop5.yml'
   KEEP-OPEN: true
 X8Y1:
-  ID: MW_SILENCER556X45
+  ID: MWC_SILENCER556X45
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSilencer
@@ -241,7 +241,7 @@ X8Y3:
   COMMAND: 'trigger S-UltimateWP set 14'
   KEEP-OPEN: true
 X1Y4:
-  ID: MW_GL06
+  ID: MWC_GL06
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4GL-06
@@ -259,7 +259,7 @@ X1Y4:
   COMMAND: 'trigger S-UltimateWP set 1'
   KEEP-OPEN: true
 X2Y4:
-  ID: MW_RPG7
+  ID: MWC_RPG7
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4RPG-7
@@ -277,7 +277,7 @@ X2Y4:
   COMMAND: 'trigger S-UltimateWP set 3'
   KEEP-OPEN: true
 X3Y4:
-  ID: MW_GPCA1
+  ID: MWC_GPCA1
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4GPC-A1
@@ -295,7 +295,7 @@ X3Y4:
   COMMAND: 'trigger S-UltimateWP set 5'
   KEEP-OPEN: true
 X4Y4:
-  ID: MW_VSS_VINTOREZ
+  ID: MWC_VSS_VINTOREZ
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4VSS
@@ -315,7 +315,7 @@ X4Y4:
   COMMAND: 'trigger S-UltimateWP set 7'
   KEEP-OPEN: true
 X5Y4:
-  ID: MW_M202
+  ID: MWC_M202
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4M202
@@ -335,7 +335,7 @@ X5Y4:
   COMMAND: 'trigger S-UltimateWP set 9'
   KEEP-OPEN: true
 X6Y4:
-  ID: MW_M32_MGL
+  ID: MWC_M32_MGL
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4M32 MGL
@@ -355,7 +355,7 @@ X6Y4:
   COMMAND: 'trigger S-UltimateWP set 11'
   KEEP-OPEN: true
 X7Y4:
-  ID: MW_M134
+  ID: MWC_M134
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4M134
@@ -373,7 +373,7 @@ X7Y4:
   COMMAND: 'trigger S-UltimateWP set 13'
   KEEP-OPEN: true
 X8Y4:
-  ID: MW_FATMAN
+  ID: MWC_FATMAN
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4fat man

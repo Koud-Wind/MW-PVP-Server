@@ -54,4 +54,4 @@ execute @e[tag=VMW,score_PC-TR_min=2620,score_PC-TR=2620] ~ ~ ~ playsound minecr
 execute @e[tag=VMW,score_PC-TR_min=2600,score_PC-TR=2600] ~ ~ ~ playsound minecraft:block.note.pling ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000 2
 execute @e[tag=VMW,score_PC-TR_min=2600,score_PC-TR=2600] ~ ~ ~ title @a[tag=!PVE-InGame] title [{"text":"§a§lGO!"}]
 execute @e[tag=VMW,score_PC-TR_min=2600,score_PC-TR=2600] ~ ~ ~ effect @a[tag=InGame] 15 0 0 true
-execute @e[tag=VMW,score_PC-TR_min=2600] ~ ~ ~ kill @e[type=mw:smokegrenade260]
+execute @e[tag=VMW,score_PC-TR_min=2600] ~ ~ ~ kill @e[type=mwc:smokegrenade260]

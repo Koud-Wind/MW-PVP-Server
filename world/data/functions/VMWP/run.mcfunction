@@ -1,6 +1,6 @@
 #榴弹特效
-execute @e[type=mw:ammo256] ~ ~ ~ particle lava ~ ~ ~ 0 0 0 0 1 force @a[rm=2]
-execute @e[type=mw:ammo256] ~ ~ ~ particle largesmoke ~ ~0.7 ~ 0 0 0 0.05 1 force @a[rm=2]
+execute @e[type=mwc:ammo256] ~ ~ ~ particle lava ~ ~ ~ 0 0 0 0 1 force @a[rm=2]
+execute @e[type=mwc:ammo256] ~ ~ ~ particle largesmoke ~ ~0.7 ~ 0 0 0 0.05 1 force @a[rm=2]
 #检测命令执行体
 function vmwp:onceRun/toolARM unless @e[tag=VMW,type=armor_stand]
 #呼吸回血
@@ -8,7 +8,7 @@ effect @a[score_hunger=19] 23 2 1 true
 #禁用音乐
 stopsound @a music
 #清除子弹
-execute @e[type=mw:ammo256] ~ ~ ~ function vmwp:onceRun/selfClear unless @a[r=100]
+execute @e[type=mwc:ammo256] ~ ~ ~ function vmwp:onceRun/selfClear unless @a[r=100]
 #加强实体追踪范围
 scoreboard players tag @e[type=!player,tag=!150FR] add FortifyTrack {Attributes:[{Name:"generic.followRange"}]}
 entitydata @e[tag=FortifyTrack] {Attributes:[{Name:"generic.followRange",Base:150}]}
@@ -17,7 +17,7 @@ scoreboard players tag @e[tag=FortifyTrack] remove FortifyTrack
 #Watch保护
 execute @a[m=3] ~ ~ ~ tp @s[y=-30,dy=30] ~ ~80 ~
 #限制crawl
-scoreboard players tag @a add crawl {ForgeCaps:{"mw:player_entity_flags":1}}
+scoreboard players tag @a add crawl {ForgeCaps:{"mwc:player_entity_flags":1}}
 #反透视体验优化
 #execute @a[m=2,tag=!crawl] ~ ~ ~ particle bubble ~ ~1 ~ 0.01 0.2 0.01 1 10 force @a[rm=0,m=2]
 #execute @a[m=2,tag=crawl] ~ ~ ~ particle bubble ~ ~ ~ 0.01 0.15 0.01 1 10 force @a[rm=0,m=2]

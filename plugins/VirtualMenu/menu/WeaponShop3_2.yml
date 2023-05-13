@@ -13,7 +13,7 @@ X1Y1:
   POSITION-Y: 1
   KEEP-OPEN: false
 X3Y1:
-  ID: MW_M4A1
+  ID: MWC_M4A1
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eAssault Rifle
@@ -29,7 +29,7 @@ X3Y1:
   COMMAND: 'open:WeaponShop3_1.yml'
   KEEP-OPEN: true
 X4Y1:
-  ID: MW_L96A1
+  ID: MWC_L96A1
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSniper/DM Rifle
@@ -47,7 +47,7 @@ X4Y1:
   COMMAND: 'open:WeaponShop3_2.yml'
   KEEP-OPEN: true
 X5Y1:
-  ID: MW_KRISS_VECTOR
+  ID: MWC_KRISS_VECTOR
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSubmachine Gun
@@ -63,7 +63,7 @@ X5Y1:
   COMMAND: 'open:WeaponShop3_3.yml'
   KEEP-OPEN: true
 X6Y1:
-  ID: MW_SPAS_12
+  ID: MWC_SPAS_12
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eShot Gun
@@ -79,7 +79,7 @@ X6Y1:
   COMMAND: 'open:WeaponShop3_4.yml'
   KEEP-OPEN: true
 X9Y1:
-  ID: MW_RUSSIAN_WEAPONS_CASE
+  ID: MWC_RUSSIAN_WEAPONS_CASE
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §4Ultimate Weapon
@@ -165,7 +165,7 @@ X9Y2:
   POSITION-Y: 2
   KEEP-OPEN: true
 X1Y3:
-  ID: MW_AS50
+  ID: MWC_AS50
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -182,7 +182,7 @@ X1Y3:
   COMMAND: 'trigger S&DMRP set 12'
   KEEP-OPEN: true
 X2Y3:
-  ID: MW_SSG_08
+  ID: MWC_SSG_08
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -199,7 +199,7 @@ X2Y3:
   COMMAND: 'trigger S&DMRP set 19'
   KEEP-OPEN: true
 X3Y3:
-  ID: MW_L96A1
+  ID: MWC_L96A1
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -216,7 +216,7 @@ X3Y3:
   COMMAND: 'trigger S&DMRP set 13'
   KEEP-OPEN: true
 X4Y3:
-  ID: MW_REMINGTON_700
+  ID: MWC_REMINGTON_700
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -233,7 +233,7 @@ X4Y3:
   COMMAND: 'trigger S&DMRP set 14'
   KEEP-OPEN: true
 X5Y3:
-  ID: MW_HK_417
+  ID: MWC_HK_417
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -250,7 +250,7 @@ X5Y3:
   COMMAND: 'trigger S&DMRP set 15'
   KEEP-OPEN: true
 X6Y3:
-  ID: MW_ZBROYAR_Z10
+  ID: MWC_ZBROYAR_Z10
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -267,7 +267,7 @@ X6Y3:
   COMMAND: 'trigger S&DMRP set 16'
   KEEP-OPEN: true
 X1Y5:
-  ID: MW_DESERT_EAGLE
+  ID: MWC_DESERT_EAGLE
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -284,7 +284,7 @@ X1Y5:
   COMMAND: 'trigger pistolP set 12'
   KEEP-OPEN: true
 X2Y5:
-  ID: MW_FIVESEVEN
+  ID: MWC_FIVESEVEN
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -301,7 +301,7 @@ X2Y5:
   COMMAND: 'trigger pistolP set 17'
   KEEP-OPEN: true
 X3Y5:
-  ID: MW_MP443
+  ID: MWC_MP443
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -318,7 +318,7 @@ X3Y5:
   COMMAND: 'trigger pistolP set 13'
   KEEP-OPEN: true
 X4Y5:
-  ID: MW_M17
+  ID: MWC_M17
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -337,7 +337,7 @@ X4Y5:
   COMMAND: 'trigger pistolP set 14'
   KEEP-OPEN: true
 X5Y5:
-  ID: MW_SCCY_CPX_2
+  ID: MWC_SCCY_CPX_2
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -354,7 +354,7 @@ X5Y5:
   COMMAND: 'trigger pistolP set 15'
   KEEP-OPEN: true
 X6Y5:
-  ID: MW_CHIAPPA_RHINO
+  ID: MWC_CHIAPPA_RHINO
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -371,7 +371,7 @@ X6Y5:
   COMMAND: 'trigger pistolP set 16'
   KEEP-OPEN: true
 X8Y5:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fSight
@@ -384,7 +384,7 @@ X8Y5:
   COMMAND: 'trigger moduleP set 1'
   KEEP-OPEN: true
 X9Y5:
-  ID: MW_STUBBYGRIP
+  ID: MWC_STUBBYGRIP
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fGrip
@@ -397,7 +397,7 @@ X9Y5:
   COMMAND: 'trigger moduleP set 2'
   KEEP-OPEN: true
 X1Y6:
-  ID: MW_M18WHITE
+  ID: MWC_M18WHITE
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fFrag Grenade
@@ -416,7 +416,7 @@ X1Y6:
   COMMAND: 'trigger grenadeP set 1'
   KEEP-OPEN: true
 X2Y6:
-  ID: MW_M18WHITE
+  ID: MWC_M18WHITE
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fIncendiary Grenade
@@ -435,7 +435,7 @@ X2Y6:
   COMMAND: 'trigger grenadeP set 2'
   KEEP-OPEN: true
 X4Y6:
-  ID: MW_M18WHITE
+  ID: MWC_M18WHITE
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fStun Grenade
@@ -454,7 +454,7 @@ X4Y6:
   COMMAND: 'trigger grenadeP set 4'
   KEEP-OPEN: true
 X5Y6:
-  ID: MW_FLASH
+  ID: MWC_FLASH
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -471,7 +471,7 @@ X5Y6:
   COMMAND: 'trigger grenadeP set 3'
   KEEP-OPEN: true
 X6Y6:
-  ID: MW_M18WHITE
+  ID: MWC_M18WHITE
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fSmoke Grenade
@@ -490,7 +490,7 @@ X6Y6:
   COMMAND: 'trigger grenadeP set 5'
   KEEP-OPEN: true
 X8Y6:
-  ID: MW_SILENCER556X39
+  ID: MWC_SILENCER556X39
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fSilencer
@@ -503,7 +503,7 @@ X8Y6:
   COMMAND: 'trigger moduleP set 3'
   KEEP-OPEN: true
 X9Y6:
-  ID: MW_LASER2
+  ID: MWC_LASER2
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §fTactical Laser

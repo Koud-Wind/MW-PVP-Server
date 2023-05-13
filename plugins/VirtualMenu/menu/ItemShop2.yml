@@ -42,7 +42,7 @@ X5Y1:
   COMMAND: 'open:ItemShop3.yml'
   KEEP-OPEN: true
 X6Y1:
-  ID: MW_FATMAN
+  ID: MWC_M32_MGL
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eUltimate Weapon
@@ -52,7 +52,7 @@ X6Y1:
   COMMAND: 'open:ItemShop4.yml'
   KEEP-OPEN: true
 X7Y1:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSight
@@ -62,7 +62,7 @@ X7Y1:
   COMMAND: 'open:ItemShop5.yml'
   KEEP-OPEN: true
 X8Y1:
-  ID: MW_SILENCER556X45
+  ID: MWC_SILENCER556X45
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSilencer
@@ -269,7 +269,7 @@ X1Y4:
   COMMAND: 'trigger S-PaintingP set 21'
   KEEP-OPEN: true
 X2Y4:
-  ID: MW_UNIT01CAMO
+  ID: MWC_UNIT01CAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eUnit01 Camo
@@ -282,7 +282,7 @@ X2Y4:
   COMMAND: 'trigger S-PaintingP set 16'
   KEEP-OPEN: true
 X3Y4:
-  ID: MW_BLUECAMO
+  ID: MWC_BLUECAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eBlue Camo
@@ -295,7 +295,7 @@ X3Y4:
   COMMAND: 'trigger S-PaintingP set 14'
   KEEP-OPEN: true
 X4Y4:
-  ID: MW_PINKCAMO
+  ID: MWC_PINKCAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §ePink Camo
@@ -308,7 +308,7 @@ X4Y4:
   COMMAND: 'trigger S-PaintingP set 12'
   KEEP-OPEN: true
 X5Y4:
-  ID: MW_BLOODFORESTCAMO
+  ID: MWC_BLOODFORESTCAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eBlood Forest Camo
@@ -321,7 +321,7 @@ X5Y4:
   COMMAND: 'trigger S-PaintingP set 10'
   KEEP-OPEN: true
 X6Y4:
-  ID: MW_WOODLANDCAMO
+  ID: MWC_WOODLANDCAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eWoodland Camo
@@ -334,7 +334,7 @@ X6Y4:
   COMMAND: 'trigger S-PaintingP set 8'
   KEEP-OPEN: true
 X7Y4:
-  ID: MW_ARCTICCAMO
+  ID: MWC_ARCTICCAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eArctic Camo
@@ -347,7 +347,7 @@ X7Y4:
   COMMAND: 'trigger S-PaintingP set 6'
   KEEP-OPEN: true
 X8Y4:
-  ID: MW_GOLDCAMO
+  ID: MWC_GOLDCAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eGold Camo
@@ -360,7 +360,7 @@ X8Y4:
   COMMAND: 'trigger S-PaintingP set 4'
   KEEP-OPEN: true
 X9Y4:
-  ID: MW_DIAMONDCAMO
+  ID: MWC_DIAMONDCAMO
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eDiamond Camo

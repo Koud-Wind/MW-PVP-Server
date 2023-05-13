@@ -41,7 +41,7 @@ X5Y1:
   COMMAND: 'open:ItemShop3.yml'
   KEEP-OPEN: true
 X6Y1:
-  ID: MW_FATMAN
+  ID: MWC_M32_MGL
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eUltimate Weapon
@@ -51,7 +51,7 @@ X6Y1:
   COMMAND: 'open:ItemShop4.yml'
   KEEP-OPEN: true
 X7Y1:
-  ID: MW_REFLEX
+  ID: MWC_REFLEX
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSight
@@ -61,7 +61,7 @@ X7Y1:
   COMMAND: 'open:ItemShop5.yml'
   KEEP-OPEN: true
 X8Y1:
-  ID: MW_SILENCER556X45
+  ID: MWC_SILENCER556X45
   DATA-VALUE: 0
   AMOUNT: 1
   NAME: §eSilencer
@@ -171,7 +171,7 @@ X3Y3:
   COMMAND: 'trigger S-MeleeWP set 4'
   KEEP-OPEN: true
 X1Y4:
-  ID: MW_BASEBALL_BAT
+  ID: MWC_BASEBALL_BAT
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -188,7 +188,7 @@ X1Y4:
   COMMAND: 'trigger S-MeleeWP set 1'
   KEEP-OPEN: true
 X2Y4:
-  ID: MW_TACTICAL_TOMAHAWK
+  ID: MWC_TACTICAL_TOMAHAWK
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:
@@ -205,7 +205,7 @@ X2Y4:
   COMMAND: 'trigger S-MeleeWP set 3'
   KEEP-OPEN: true
 X3Y4:
-  ID: MW_BASEBALL_BAT_NAILS
+  ID: MWC_BASEBALL_BAT_NAILS
   DATA-VALUE: 0
   AMOUNT: 1
   LORE:

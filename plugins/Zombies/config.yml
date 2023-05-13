@@ -391,7 +391,7 @@ Weapon:
   Rifle:
     DisplayName: §4RPK§z
     UltimateDisplayName: ''
-    Material: MW_AK47
+    Material: MWC_AK47
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -411,7 +411,7 @@ Weapon:
   Shotgun:
     DisplayName: §dTurret§z
     UltimateDisplayName: ''
-    Material: MW_TURRETUPGRADED
+    Material: MWC_TURRETUPGRADED
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -430,9 +430,9 @@ Weapon:
     UltimateReload: 1.0
     WeaponsChest: false
   Flamethrower:
-    DisplayName: §0§kSIG P2022§z
+    DisplayName: §0§kMakarov§z
     UltimateDisplayName: ''
-    Material: MW_P2022
+    Material: MWC_MAKAROV_PM
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -452,7 +452,7 @@ Weapon:
   ZombieSoaker:
     DisplayName: §4Glock-18C§z
     UltimateDisplayName: ''
-    Material: MW_GLOCK_18C
+    Material: MWC_GLOCK_18C
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -472,7 +472,7 @@ Weapon:
   RocketLauncher:
     DisplayName: §dGiant armor§z
     UltimateDisplayName: ''
-    Material: MW_RUSSIAN_WEAPONS_CASE
+    Material: MWC_RUSSIAN_WEAPONS_CASE
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -492,7 +492,7 @@ Weapon:
   ElderGun:
     DisplayName: §4Supernova§z
     UltimateDisplayName: ''
-    Material: MW_SUPERNOVA
+    Material: MWC_SUPERNOVA
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -512,7 +512,7 @@ Weapon:
   BlowDart:
     DisplayName: §4Origin-12§z
     UltimateDisplayName: ''
-    Material: MW_ORIGIN12
+    Material: MWC_ORIGIN12
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -532,7 +532,7 @@ Weapon:
   Sniper:
     DisplayName: §4SSG-08§z
     UltimateDisplayName: ''
-    Material: MW_SSG_08
+    Material: MWC_SSG_08
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
@@ -552,7 +552,7 @@ Weapon:
   ThePuncher:
     DisplayName: §4VSS§z
     UltimateDisplayName: ''
-    Material: MW_VSS_VINTOREZ
+    Material: MWC_VSS_VINTOREZ
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_ARROW_SHOOT
@@ -576,7 +576,7 @@ Weapon:
   ZombieZapper:
     DisplayName: §4M134§z
     UltimateDisplayName: ''
-    Material: MW_M134
+    Material: MWC_M134
     Lores:
     - §eVMW_PVE
     HitSound: ENTITY_LIGHTNING_THUNDER

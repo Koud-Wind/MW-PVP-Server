@@ -67,4 +67,4 @@ execute @e[tag=VMW,score_CT-TR_min=9640,score_CT-TR=9640] ~ ~ ~ playsound minecr
 execute @e[tag=VMW,score_CT-TR_min=9620,score_CT-TR=9620] ~ ~ ~ playsound minecraft:block.note.hat ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000
 execute @e[tag=VMW,score_CT-TR_min=9600,score_CT-TR=9600] ~ ~ ~ playsound minecraft:block.note.pling ambient @a[tag=!PVE-InGame] ~ ~ ~ 1000000000 2
 execute @e[tag=VMW,score_CT-TR_min=9600,score_CT-TR=9600] ~ ~ ~ title @a[tag=!PVE-InGame] title [{"text":"§a§lGO!"}]
-execute @e[tag=VMW,score_CT-TR_min=9600] ~ ~ ~ kill @e[type=mw:smokegrenade260]
+execute @e[tag=VMW,score_CT-TR_min=9600] ~ ~ ~ kill @e[type=mwc:smokegrenade260]

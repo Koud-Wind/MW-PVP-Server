@@ -1,40 +1,40 @@
 #细节
-execute @e[type=mw:smokegrenade260] ~ ~ ~ detect ~ ~ ~ minecraft:water -1 scoreboard players tag @s add Extinguish {Motion:[0.0d,0.0d,0.0d]}
-kill @e[type=mw:smokegrenade260,tag=Extinguish]
-scoreboard players tag @e[type=mw:smokegrenade260,tag=Extinguish] remove Extinguish
+execute @e[type=mwc:smokegrenade260] ~ ~ ~ detect ~ ~ ~ minecraft:water -1 scoreboard players tag @s add Extinguish {Motion:[0.0d,0.0d,0.0d]}
+kill @e[type=mwc:smokegrenade260,tag=Extinguish]
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=Extinguish] remove Extinguish
 
 #AGrenade粒子效果
-execute @e[type=mw:smokegrenade260,tag=IncendiaryG] ~ ~ ~ particle largesmoke ~ ~ ~ 0 0 0 0 1 force
-execute @e[type=mw:smokegrenade260,tag=SmokeG] ~ ~ ~ particle cloud ~ ~ ~ 0 0 0 0 1 force
+execute @e[type=mwc:smokegrenade260,tag=IncendiaryG] ~ ~ ~ particle largesmoke ~ ~ ~ 0 0 0 0 1 force
+execute @e[type=mwc:smokegrenade260,tag=SmokeG] ~ ~ ~ particle cloud ~ ~ ~ 0 0 0 0 1 force
 
 #手榴弹
-scoreboard players tag @a add FragG {SelectedItem:{id:"mw:m18white",tag:{tag:["grenade"]}}}
-execute @a[tag=FragG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mw:smokegrenade260,r=3,c=1,tag=!AGrenade] add FragG
-scoreboard players tag @e[type=mw:smokegrenade260,tag=FragG] add AGrenade
-scoreboard players tag @e[type=mw:smokegrenade260,tag=FragG] add ExplosiveG {Motion:[0.0d,0.0d,0.0d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveG] ~ ~ ~ summon minecraft:creeper ~ ~0.5 ~ {ActiveEffects:[{Id:14,Amplifier:0,Duration:3,ShowParticles:0b}],Fuse:4s,ignited:1b,ExplosionRadius:9b,CustomName:"[Frag Grenade]",Silent:1b,CustomNameVisible:0b,Tags:["FragGrenade"]}
-kill @e[type=mw:smokegrenade260,tag=ExplosiveG]
+scoreboard players tag @a add FragG {SelectedItem:{id:"mwc:m18white",tag:{tag:["grenade"]}}}
+execute @a[tag=FragG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!AGrenade] add FragG
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=FragG] add AGrenade
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=FragG] add ExplosiveG {Motion:[0.0d,0.0d,0.0d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveG] ~ ~ ~ summon minecraft:creeper ~ ~0.5 ~ {ActiveEffects:[{Id:14,Amplifier:0,Duration:3,ShowParticles:0b}],Fuse:4s,ignited:1b,ExplosionRadius:9b,CustomName:"[Frag Grenade]",Silent:1b,CustomNameVisible:0b,Tags:["FragGrenade"]}
+kill @e[type=mwc:smokegrenade260,tag=ExplosiveG]
 scoreboard players tag @a[tag=FragG] remove StunG
 scoreboard players tag @a[tag=FragG] remove SmokeG
 scoreboard players tag @a[tag=FragG] remove IncendiaryG
 
 #IncendiaryG
-scoreboard players tag @a add IncendiaryG {SelectedItem:{id:"mw:m18white",tag:{tag:["incendiaryGrenade"]}}}
-execute @a[tag=IncendiaryG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mw:smokegrenade260,r=3,c=1,tag=!AGrenade] add IncendiaryG
-scoreboard players tag @e[type=mw:smokegrenade260,tag=IncendiaryG] add AGrenade
-scoreboard players tag @e[type=mw:smokegrenade260,tag=IncendiaryG] add ExplosiveI {Motion:[0.0d,0.0d,0.0d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["ExplosiveI"],Invisible:1b,Marker:1b,Small:1b}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.40d,0.45d,0.0d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[-0.40d,0.45d,0.0d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.0d,0.45d,0.45d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.0d,0.45d,-0.45d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.35d,0.45d,0.45d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[-0.45d,0.45d,0.45d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.35d,0.45d,-0.45d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[-0.40d,0.45d,-0.45d]}
+scoreboard players tag @a add IncendiaryG {SelectedItem:{id:"mwc:m18white",tag:{tag:["incendiaryGrenade"]}}}
+execute @a[tag=IncendiaryG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!AGrenade] add IncendiaryG
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=IncendiaryG] add AGrenade
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=IncendiaryG] add ExplosiveI {Motion:[0.0d,0.0d,0.0d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["ExplosiveI"],Invisible:1b,Marker:1b,Small:1b}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.40d,0.45d,0.0d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[-0.40d,0.45d,0.0d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.0d,0.45d,0.45d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.0d,0.45d,-0.45d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.35d,0.45d,0.45d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[-0.45d,0.45d,0.45d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[0.35d,0.45d,-0.45d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["Splash"],Invisible:1b,Marker:1b,Small:1b,Motion:[-0.40d,0.45d,-0.45d]}
 
-execute @e[type=mw:smokegrenade260,tag=ExplosiveI] ~ ~ ~ playsound minecraft:block.glass.break ambient @a ~ ~ ~ 2 0
-kill @e[type=mw:smokegrenade260,tag=ExplosiveI]
+execute @e[type=mwc:smokegrenade260,tag=ExplosiveI] ~ ~ ~ playsound minecraft:block.glass.break ambient @a ~ ~ ~ 2 0
+kill @e[type=mwc:smokegrenade260,tag=ExplosiveI]
 scoreboard players tag @a[tag=IncendiaryG] remove FragG
 scoreboard players tag @a[tag=IncendiaryG] remove StunG
 scoreboard players tag @a[tag=IncendiaryG] remove SmokeG
@@ -77,29 +77,29 @@ effect @a[tag=Burning] 7 1 1 true
 scoreboard players tag @a[tag=Burning] remove Burning
 
 #StunG
-scoreboard players tag @a add StunG {SelectedItem:{id:"mw:m18white",tag:{tag:["stunGrenade"]}}}
-execute @a[tag=StunG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mw:smokegrenade260,r=3,c=1,tag=!AGrenade] add StunG
-scoreboard players tag @e[type=mw:smokegrenade260,tag=StunG] add AGrenade
-scoreboard players tag @e[type=mw:smokegrenade260,tag=StunG] add ExplosionS {Motion:[0.0d,0.0d,0.0d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 15 6 0 true 
-execute @e[type=mw:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 2 6 4 true 
-execute @e[type=mw:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 8 2 195 true 
-execute @e[type=mw:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 9 10 0 true 
-execute @e[type=mw:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 24 1 0 true 
-execute @e[type=mw:smokegrenade260,tag=ExplosionS] ~ ~ ~ playsound mw:flashbang ambient @a ~ ~ ~ 2 0.7
-kill @e[type=mw:smokegrenade260,tag=ExplosionS]
+scoreboard players tag @a add StunG {SelectedItem:{id:"mwc:m18white",tag:{tag:["stunGrenade"]}}}
+execute @a[tag=StunG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!AGrenade] add StunG
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=StunG] add AGrenade
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=StunG] add ExplosionS {Motion:[0.0d,0.0d,0.0d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 15 6 0 true 
+execute @e[type=mwc:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 2 6 4 true 
+execute @e[type=mwc:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 8 2 195 true 
+execute @e[type=mwc:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 9 10 0 true 
+execute @e[type=mwc:smokegrenade260,tag=ExplosionS] ~ ~ ~ effect @a[r=8] 24 1 0 true 
+execute @e[type=mwc:smokegrenade260,tag=ExplosionS] ~ ~ ~ playsound mwc:flashbang ambient @a ~ ~ ~ 2 0.7
+kill @e[type=mwc:smokegrenade260,tag=ExplosionS]
 scoreboard players tag @a[tag=StunG] remove FragG
 scoreboard players tag @a[tag=StunG] remove SmokeG
 scoreboard players tag @a[tag=StunG] remove IncendiaryG
 
 #SmokeG
-scoreboard players tag @a add SmokeG {SelectedItem:{id:"mw:m18white",tag:{tag:["smokeGrenade"]}}}
-execute @a[tag=SmokeG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mw:smokegrenade260,r=3,c=1,tag=!AGrenade] add SmokeG
-scoreboard players tag @e[type=mw:smokegrenade260,tag=SmokeG] add AGrenade
-scoreboard players tag @e[type=mw:smokegrenade260,tag=SmokeG] add ExplosionSmo {Motion:[0.0d,0.0d,0.0d]}
-execute @e[type=mw:smokegrenade260,tag=ExplosionSmo] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["ExplosionSmo"],Invisible:1b,Small:1b}
-execute @e[type=mw:smokegrenade260,tag=ExplosionSmo] ~ ~ ~ playsound minecraft:block.lava.extinguish ambient @a ~ ~ ~ 2 0
-kill @e[type=mw:smokegrenade260,tag=ExplosionSmo]
+scoreboard players tag @a add SmokeG {SelectedItem:{id:"mwc:m18white",tag:{tag:["smokeGrenade"]}}}
+execute @a[tag=SmokeG,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!AGrenade] add SmokeG
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=SmokeG] add AGrenade
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=SmokeG] add ExplosionSmo {Motion:[0.0d,0.0d,0.0d]}
+execute @e[type=mwc:smokegrenade260,tag=ExplosionSmo] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["ExplosionSmo"],Invisible:1b,Small:1b}
+execute @e[type=mwc:smokegrenade260,tag=ExplosionSmo] ~ ~ ~ playsound minecraft:block.lava.extinguish ambient @a ~ ~ ~ 2 0
+kill @e[type=mwc:smokegrenade260,tag=ExplosionSmo]
 scoreboard players tag @a[tag=SmokeG] remove FragG
 scoreboard players tag @a[tag=SmokeG] remove StunG
 scoreboard players tag @a[tag=SmokeG] remove IncendiaryG

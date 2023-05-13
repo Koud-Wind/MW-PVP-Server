@@ -26,6 +26,7 @@ scoreboard objectives add pistolP trigger
 scoreboard objectives add ultimateWP trigger
 
 #
+scoreboard players tag @a[tag=JoinHalfway] remove JoinHalfway
 scoreboard players tag @a[tag=Preparing] add InGame
 scoreboard players tag @a[tag=Preparing] remove Preparing
 scoreboard players tag @a[tag=S-Map] remove S-Map
@@ -80,6 +81,7 @@ stopsound @a record
 gamemode 3 @a[team=Watch]
 tellraw @a[tag=InGame] [{"text":"§bTip: Please right click §eweapon shop§b in §ehotbar§b to purchase props!"}]
 tellraw @a[team=Watch] [{"text":"§7You are watching the whole game!"}]
+tellraw @a[team=Watch] [{"text":"§f§l§nClick to join halfway","clickEvent":{"action":"run_command","value":"/trigger CT-Join set 1"}}]
 execute @e[tag=VMW,score_CT-Map=0] ~ ~ ~ tp @a[team=Watch] -265 68 1289 -90 0
 execute @e[tag=VMW,score_CT-Map=1,score_CT-Map_min=1] ~ ~ ~ tp @a[team=Watch] -366 78 1233 -180 0
 execute @e[tag=VMW,score_CT-Map=2,score_CT-Map_min=2] ~ ~ ~ tp @a[team=Watch] -375 76 1302 -90 0

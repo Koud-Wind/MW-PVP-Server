@@ -32,14 +32,14 @@ execute @s[tag=VMW,score_CT-Map=5,score_CT-Map_min=5,score_CT-CTScore_min=30] ~ 
 execute @s[tag=VMW,score_CT-CTScore_min=30] ~ ~ ~ execute @s[tag=!Exchange] ~ ~ ~ scoreboard players tag @s add Exchange
 
 #完胜
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] note 150
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] wins 1
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players operation @a[team=CT,tag=InGame] money /= §fdivision money
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[team=CT,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] note 100
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players remove @a[team=T,tag=InGame,score_wins_min=1] wins 1
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[team=CT,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
-execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ tellraw @a[team=T,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] note 150
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] wins 1
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players operation @s[team=CT,tag=InGame] money /= §fdivision money
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=CT,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] note 100
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players remove @s[team=T,tag=InGame,score_wins_min=1] wins 1
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=CT,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
+execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ tellraw @s[team=T,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
 execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players reset @a[tag=!PVE-InGame] money 0
 
 execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ playsound minecraft:entity.firework.twinkle ambient @a[tag=!PVE-InGame] ~ ~ ~ 100000000
@@ -51,14 +51,14 @@ execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players reset @s CT
 execute @s[tag=VMW,score_CT-CTScore_min=65] ~ ~ ~ scoreboard players reset @s CT-CTScore
 
 
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] note 150
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] wins 1
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players operation @a[team=T,tag=InGame] money /= §fdivision money
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[team=T,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] note 100
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players remove @a[team=CT,tag=InGame,score_wins_min=1] wins 1
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[team=T,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
-execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ tellraw @a[team=CT,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] note 150
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] wins 1
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players operation @s[team=T,tag=InGame] money /= §fdivision money
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=T,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] note 100
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players remove @s[team=CT,tag=InGame,score_wins_min=1] wins 1
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=T,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
+execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ tellraw @s[team=CT,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
 execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players reset @a[tag=!PVE-InGame] money 0
 
 execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ playsound minecraft:entity.firework.twinkle ambient @a[tag=!PVE-InGame] ~ ~ ~ 100000000
@@ -72,14 +72,14 @@ execute @s[tag=VMW,score_CT-TScore_min=65] ~ ~ ~ scoreboard players reset @s CT-
 
 execute @s[tag=VMW,score_CT-TR=0] ~ ~ ~ scoreboard players operation @s CT-CTScore -= @s CT-TScore
 
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] note 150
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] wins 1
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players operation @a[team=CT,tag=InGame] money /= §fdivision money
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[team=CT,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] note 100
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players remove @a[team=T,tag=InGame,score_wins_min=1] wins 1
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[team=CT,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ tellraw @a[team=T,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] note 150
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] wins 1
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players operation @s[team=CT,tag=InGame] money /= §fdivision money
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=CT,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] note 100
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players remove @s[team=T,tag=InGame,score_wins_min=1] wins 1
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=CT,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ tellraw @s[team=T,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players reset @a[tag=!PVE-InGame] money 0
 
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ playsound minecraft:entity.firework.twinkle ambient @a[tag=!PVE-InGame] ~ ~ ~ 100000000
@@ -90,14 +90,14 @@ execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ function vmwp:gam
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players reset @s CT-TScore
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore_min=1] ~ ~ ~ scoreboard players reset @s CT-CTScore
 
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] note 150
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] wins 1
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players operation @a[team=T,tag=InGame] money /= §fdivision money
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[team=T,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] note 100
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players remove @a[team=CT,tag=InGame,score_wins_min=1] wins 1
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[team=T,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ tellraw @a[team=CT,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] note 150
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] wins 1
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players operation @s[team=T,tag=InGame] money /= §fdivision money
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=T,tag=InGame] ~ ~ ~ scoreboard players operation @s note += @s money
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] note 100
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players remove @s[team=CT,tag=InGame,score_wins_min=1] wins 1
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[team=T,tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eComplete victory! +150 note +"},{"score":{"objective":"money","name":"@s"},"color":"yellow"},{"text":" §enote"}]
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ tellraw @s[team=CT,tag=InGame] [{"text":"§eThe match is over! +100 note"}]
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players reset @a[tag=!PVE-InGame] money 0
 
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ playsound minecraft:entity.firework.twinkle ambient @a[tag=!PVE-InGame] ~ ~ ~ 100000000
@@ -108,10 +108,9 @@ execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ function vmwp:games/
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players reset @s CT-CTScore
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=-1] ~ ~ ~ scoreboard players reset @s CT-TScore
 
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ 
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ scoreboard players add @a[team=CT,tag=InGame] note 130
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ scoreboard players add @a[team=T,tag=InGame] note 130
-execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ execute @a[tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eDraw! +130 note"}]
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=CT,tag=InGame] note 130
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ scoreboard players add @s[team=T,tag=InGame] note 130
+execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ execute @a[tag=!JoinHalfway] ~ ~ ~ execute @s[tag=InGame] ~ ~ ~ tellraw @s [{"text":"§eDraw! +130 note"}]
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ scoreboard players reset @a[tag=!PVE-InGame] money
 
 execute @s[tag=VMW,score_CT-TR=0,score_CT-CTScore=0,score_CT-CTScore_min=0] ~ ~ ~ playsound minecraft:entity.firework.twinkle ambient @a[tag=!PVE-InGame] ~ ~ ~ 100000000

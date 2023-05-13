@@ -119,6 +119,8 @@ scoreboard players set §fCT-CTN CT-CTN 1
 scoreboard players set §fCT-TN CT-TN 1
 scoreboard objectives add CT-Assign dummy
 scoreboard players set §fdivision CT-Assign 2
+scoreboard objectives add CT-Join trigger
+scoreboard objectives add CT-BP dummy
 
 #需要规定绑定命令块坐标
 #stats block 269 51 1230 set AffectedEntities §fCT-CTN CT-CTN
