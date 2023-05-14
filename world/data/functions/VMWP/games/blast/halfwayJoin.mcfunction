@@ -37,9 +37,6 @@ replaceitem entity @s slot.enderchest.26 minecraft:air
 clear @s
 xp -10000L @s
 gamemode 3 @s
-scoreboard players tag @s add shop
-scoreboard players tag @s add Melee
-scoreboard players tag @s add Camo
 scoreboard players tag @s add JoinHalfway
 
 

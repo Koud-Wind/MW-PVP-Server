@@ -2493,7 +2493,7 @@ InventoryItems:
 Scoreboard:
   PlayerNameLength: 12
   Lobby:
-    Title: '&e&lVMW_PVE'
+    Title: '&e&lMW_PVE'
     Line1: '&a '
     Line2: '&fmap: &a%map%'
     Line3: '&fplayers: &a%players%/%maxPlayers%'
@@ -2502,10 +2502,10 @@ Scoreboard:
     Line6: '&c   '
     Line7: '&8-------------'
   InGame:
-    Title: '&e&lVMW_PVE'
+    Title: '&e&lMW_PVE'
     Line1: '&a '
     Line2: '&c%state%'
-    Line3: '&fRemaining zombies: %zombies%'
+    Line3: '§bRemaining zombies: %zombies%'
     Line4: '&d  '
     Line5: '%displayName_1%&f: &6%gold_1%'
     Line6: '%displayName_2%&f: &6%gold_2%'
@@ -2513,7 +2513,7 @@ Scoreboard:
     Line8: '%displayName_4%&f: &6%gold_4%'
     Line9: '%displayName_5%&f: &6%gold_5%'
     Line10: '&b    '
-    Line11: '&fGame time: &a%time%'
+    Line11: '§eGame time: &a%time%'
     Line12: '&c   '
     Line13: '&8-------------'
 LobbyLocation: world:-855:69:1285:-40:0

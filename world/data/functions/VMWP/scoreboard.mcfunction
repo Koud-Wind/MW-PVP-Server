@@ -43,10 +43,10 @@ scoreboard objectives add ultimateWP trigger
 #僵尸末日
 scoreboard objectives add PVE-map dummy
 scoreboard objectives add PVE-kill totalKillCount
-scoreboard teams add VMW_PVE
-scoreboard teams option VMW_PVE nametagVisibility hideForOtherTeams
-scoreboard teams option VMW_PVE friendlyfire false
-scoreboard teams option VMW_PVE seeFriendlyInvisibles true
+scoreboard teams add MW_PVE
+scoreboard teams option MW_PVE nametagVisibility hideForOtherTeams
+scoreboard teams option MW_PVE friendlyfire false
+scoreboard teams option MW_PVE seeFriendlyInvisibles true
 
 #玩家数据计分板
 scoreboard objectives add note dummy

@@ -1,4 +1,4 @@
-Prefix: '&7[&eVMW_PVE&7] '
+Prefix: '&7[&eMW_PVE&7] '
 MySQL:
   Enabled: false
   LocalFile: false
@@ -10,7 +10,7 @@ MySQL:
 MultiArena:
   Enabled: true
   SignLayout:
-    Line1: '&b[&8VMW_PVE&b]'
+    Line1: '&b[&8MW_PVE&b]'
     Line2: '%name%'
     Line3: '&f%players%&8/&f%maxPlayers%'
     Line4: '%state%'
@@ -27,13 +27,13 @@ HideChat: false
 Commands:
   Start:
     Enabled: true
-    Permission: VMW_PVE.start
+    Permission: MW_PVE.start
   Stats:
     Enabled: false
-    Permission: VMW_PVE.stats
+    Permission: MW_PVE.stats
   Leave:
     Enabled: true
-    Permission: VMW_PVE.leave
+    Permission: MW_PVE.leave
 MotdDisplay:
   Enabled: false
   Custom: true
@@ -80,10 +80,10 @@ BlockCommands:
   Enabled: false
   ByPassAllowed: false
   BlockMessageAllowed: false
-  ByPassPermission: VMW_PVE.bypass
-  BlockMessage: '&cYou are not allowed to perform Commands while playing VMW_PVE.'
+  ByPassPermission: MW_PVE.bypass
+  BlockMessage: '&cYou are not allowed to perform Commands while playing MW_PVE.'
   AllowedCommands:
-  - /VMW_PVE
+  - /MW_PVE
 Entities:
   DelayedTeleportTicks: 20
 LocalStats:
@@ -95,10 +95,10 @@ GoldStart:
   Default: 200
   Permissions:
     '1':
-      PermissionName: VMW_PVE.permissionsGold
+      PermissionName: MW_PVE.permissionsGold
       GoldValue: 0
     '2':
-      PermissionName: VMW_PVE.morePermissionGold
+      PermissionName: MW_PVE.morePermissionGold
       GoldValue: 0
 Rewards:
   Enabled: true
@@ -393,7 +393,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_AK47
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_FIREWORK_BLAST
     Particle: FIREWORKS_SPARK
@@ -413,7 +413,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_TURRETUPGRADED
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_GENERIC_EXPLODE
     Particle: SMOKE_NORMAL
@@ -434,7 +434,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_MAKAROV_PM
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: BLOCK_FIRE_AMBIENT
     Particle: FLAME
@@ -454,7 +454,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_GLOCK_18C
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_SLIME_ATTACK
     Particle: WATER_DROP
@@ -474,7 +474,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_RUSSIAN_WEAPONS_CASE
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_ARROW_SHOOT
     Particle: ''
@@ -494,7 +494,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_SUPERNOVA
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_LIGHTNING_THUNDER
     Particle: ''
@@ -514,7 +514,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_ORIGIN12
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_ARROW_SHOOT
     Particle: SLIME
@@ -534,7 +534,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_SSG_08
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
     ShootSound: ENTITY_FIREWORK_BLAST
     Particle: FIREWORKS_SPARK
@@ -554,7 +554,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_VSS_VINTOREZ
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_ARROW_SHOOT
     ShootSound: ENTITY_FIREWORK_BLAST
     Particle: ''
@@ -578,7 +578,7 @@ Weapon:
     UltimateDisplayName: ''
     Material: MWC_M134
     Lores:
-    - §eVMW_PVE
+    - §eMW_PVE
     HitSound: ENTITY_LIGHTNING_THUNDER
     ShootSound: ENTITY_FIREWORK_BLAST
     Particle: CRIT
@@ -943,7 +943,7 @@ Messages:
     RIP: '&4RIP'
   MenuInventory:
     MainInventory:
-      Title: Play VMW_PVE
+      Title: Play MW_PVE
       CloseItemTitle: '&cClose'
       CloseItemLores:
       - '&7Click here to close the Menu'
@@ -1007,10 +1007,10 @@ Messages:
     Enabled: false
     List:
     - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
-    - '                               &fVMW_PVE'
+    - '                               &fMW_PVE'
     - ' '
     - '        &eFight with your teammates against oncoming'
-    - '         &ehoards of VMW_PVE and other dangerous mobs.'
+    - '         &ehoards of MW_PVE and other dangerous mobs.'
     - '       &eProgress through the map to buy better weapons'
     - '       &eand armor in order to defend against upgraded'
     - '        &eenemies. Survive as many rounds as possible!'

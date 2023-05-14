@@ -81,14 +81,14 @@ scoreboard players tag @a[score_PVE-map_min=1] add PVE-ClearBed {Inventory:[{id:
 replaceitem entity @a[tag=PVE-ClearBed] slot.hotbar.8 minecraft:air
 scoreboard players tag @a[tag=PVE-ClearBed] remove PVE-ClearBed
 
-scoreboard players tag @a add PVE-IG {Inventory:[{tag:{author:"VMW_PVE"}}]}
+scoreboard players tag @a add PVE-IG {Inventory:[{tag:{author:"MW_PVE"}}]}
 scoreboard players tag @a add PVE-IG {Inventory:[{tag:{author:"map1"}}]}
 scoreboard players tag @a add PVE-IG {Inventory:[{id:"minecraft:skull",tag:{tag:["PVE"]}}]}
 scoreboard players tag @a add PVE-IG {Inventory:[{id:"minecraft:compass",tag:{display:{Name:"§7Watch"}}}]}
 function vmwp:games/zombie/mainRun if @a[tag=PVE-IG]
 scoreboard players tag @a[tag=PVE-IG] remove Preparing
-execute @a[tag=PVE-IG] ~ ~ ~ execute @s[team=!VMW_PVE] scoreboard teams join VMW_PVE @s
-scoreboard teams leave @a[team=VMW_PVE,tag=!PVE-IG]
+execute @a[tag=PVE-IG] ~ ~ ~ execute @s[team=!MW_PVE] scoreboard teams join MW_PVE @s
+scoreboard teams leave @a[team=MW_PVE,tag=!PVE-IG]
 
 
 #函数

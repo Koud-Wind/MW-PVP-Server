@@ -3,13 +3,13 @@ scoreboard players tag @a add PVE-map1 {Inventory:[{tag:{author:"map1"}}]}
 #scoreboard players tag @a add PVE-map2 {Inventory:[{tag:{author:"map2"}}]}
 #scoreboard players tag @a add PVE-map3 {Inventory:[{tag:{author:"map3"}}]}
 
-scoreboard teams join VMW_PVE @a[tag=PVE-map1]
+scoreboard teams join MW_PVE @a[tag=PVE-map1]
 
 replaceitem entity @a[tag=PVE-map1] slot.inventory.26 minecraft:skull 1 2 {map:1b,tag:["PVE"],display:{Name:" "}}
 #replaceitem entity @a[tag=PVE-map2] slot.inventory.26 minecraft:skull 1 2 {map:2b,tag:["PVE"],display:{Name:" "}}
 #replaceitem entity @a[tag=PVE-map3] slot.inventory.26 minecraft:skull 1 2 {map:3b,tag:["PVE"],display:{Name:" "}}
 
-replaceitem entity @a[tag=PVE-map1] slot.hotbar.1 minecraft:written_book 1 0 {generation:0,pages:["{\"extra\":[{\"color\":\"green\",\"text\":\"Objective: \"},{\"color\":\"black\",\"text\":\"Clean up all zombies in the round\"},{\"text\":\"\\n\"},{\"text\":\"-----------------------------\"},{\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"Keep stealth near the wooden door to repair the wooden door and get the repair point.\"},{\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"Use repair points to purchase armor and buff effects.\"},{\"text\":\"\\n\"}],\"text\":\"\"}","{\"extra\":[{\"color\":\"dark_red\",\"text\":\"Each round may need to leave a monster to let teammates repair the wooden door and get repair points to reduce the difficulty of the game.\"},{\"text\":\"\\n\"},{\"text\":\"-----------------------------\"},{\"text\":\"\\n\"},{\"text\":\"When passing rounds 5, 10, 15, 20, 25, 30, notes will be settled.\"},{\"text\":\"\\n\"}],\"text\":\"\"}"],author:"VMW_PVE",display:{Name:"§fhelp"},title:"§fhelp",resolved:1b}
+replaceitem entity @a[tag=PVE-map1] slot.hotbar.1 minecraft:written_book 1 0 {generation:0,pages:["{\"extra\":[{\"color\":\"green\",\"text\":\"Objective: \"},{\"color\":\"black\",\"text\":\"Clean up all zombies in the round\"},{\"text\":\"\\n\"},{\"text\":\"-----------------------------\"},{\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"Keep stealth near the wooden door to repair the wooden door and get the repair point.\"},{\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"Use repair points to purchase armor and buff effects.\"},{\"text\":\"\\n\"}],\"text\":\"\"}","{\"extra\":[{\"color\":\"dark_red\",\"text\":\"Each round may need to leave a monster to let teammates repair the wooden door and get repair points to reduce the difficulty of the game.\"},{\"text\":\"\\n\"},{\"text\":\"-----------------------------\"},{\"text\":\"\\n\"},{\"text\":\"When passing rounds 5, 10, 15, 20, 25, 30, notes will be settled.\"},{\"text\":\"\\n\"}],\"text\":\"\"}"],author:"MW_PVE",display:{Name:"§fhelp"},title:"§fhelp",resolved:1b}
 
 scoreboard players set @a[tag=PVE-map1] money 0
 #scoreboard players set @a[tag=PVE-map2] money 0
@@ -91,7 +91,7 @@ scoreboard players set @a[tag=PVE-Origin-12] MainW 108
 scoreboard players set @a[tag=PVE-Origin-12] SecondaryW 0
 scoreboard players tag @a[tag=PVE-Origin-12] remove PVE-Origin-12
 
-scoreboard players tag @a[score_PVE-map_min=1] add PVE-SSG-08 {Inventory:[{id:"mwc:m82_barrett",tag:{display:{Name:"§4SSG-08§z"}}}]}
+scoreboard players tag @a[score_PVE-map_min=1] add PVE-SSG-08 {Inventory:[{id:"mwc:ssg_08",tag:{display:{Name:"§4SSG-08§z"}}}]}
 replaceitem entity @a[tag=PVE-SSG-08] slot.hotbar.0 mwc:ssg_08 1 0 {IUuidLeast:-8772435811930582007L,AtId:[I;4493,4568,0,0,0,0,0,0,4178,0,0,0,0,0,4694,4693,0,0,0,0,0,0,0,0,0,4096,0],Ammo:38,IUuidMost:6010202164348799567L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,83B,104B,-121B,6B,106B,75B,74B,79B,-122B,66B,12B,27B,126B,-10B,84B,9B,0B,0B,19B,-107B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,30B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,17B,-115B,0B,0B,17B,-40B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,19B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,82B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,86B,0B,0B,18B,85B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,38B,0B,64B,-128B,0B,0B,127B,-1B,-1B,-1B,62B,15B,92B,41B,0B,0B,0B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§4SSG-08"}}
 replaceitem entity @a[tag=PVE-SSG-08] slot.hotbar.1 minecraft:stained_glass_pane 1 15 {display:{Name:" "}}
 scoreboard players set @a[tag=PVE-SSG-08] MainW 110
