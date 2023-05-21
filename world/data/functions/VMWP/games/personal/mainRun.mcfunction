@@ -28,6 +28,7 @@ execute @e[tag=VMW,score_PC-Map=1,score_PC-Map_min=1] ~ ~ ~ execute @a[tag=Rando
 execute @e[tag=VMW,score_PC-Map=2,score_PC-Map_min=2] ~ ~ ~ execute @a[tag=RandomTp] ~ ~ ~ scoreboard players tag @s[y=80,dy=200] add DRandomTp
 execute @e[tag=VMW,score_PC-Map=3,score_PC-Map_min=3] ~ ~ ~ execute @a[tag=RandomTp] ~ ~ ~ scoreboard players tag @s[y=81,dy=200] add DRandomTp
 execute @e[tag=VMW,score_PC-Map=4,score_PC-Map_min=4] ~ ~ ~ execute @a[tag=RandomTp] ~ ~ ~ scoreboard players tag @s[y=80,dy=200] add DRandomTp
+execute @e[tag=VMW,score_PC-Map=4,score_PC-Map_min=4] ~ ~ ~ execute @a[tag=RandomTp] ~ ~ ~ scoreboard players tag @s[y=67,dy=-10] add DRandomTp
 execute @e[tag=VMW,score_PC-Map=5,score_PC-Map_min=5] ~ ~ ~ execute @a[tag=RandomTp] ~ ~ ~ scoreboard players tag @s[y=77,dy=200] add DRandomTp
 execute @e[tag=VMW,score_PC-Map=5,score_PC-Map_min=5] ~ ~ ~ execute @a[tag=RandomTp] ~ ~ ~ scoreboard players tag @s[y=70,dy=-10] add DRandomTp
 execute @a[tag=RandomTp] ~ ~ ~ execute @p[tag=InGame,r=20,rm=1] ~ ~ ~ scoreboard players tag @a[tag=RandomTp] add DRandomTp

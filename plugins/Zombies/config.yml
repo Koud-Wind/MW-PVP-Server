@@ -103,8 +103,8 @@ GoldStart:
 Rewards:
   Enabled: true
   GameLoose:
-  - entitydata @e[type=mw:turretupgraded] {Health:-1.0f}
-  - entitydata @e[type=mw:turret] {Health:-1.0f}
+  - entitydata @e[type=mwc:turretupgraded] {Health:-1.0f}
+  - entitydata @e[type=mwc:turret] {Health:-1.0f}
   - scoreboard players remove @a[score_PVE-map_min=1,tag=!PVE-End,score_wins_min=1]
     wins 1
   - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] MainW
@@ -124,8 +124,8 @@ Rewards:
   - fill -876 80 1296 -878 77 1296 minecraft:quartz_block 3
   - fill -876 78 1296 -878 78 1296 minecraft:stained_glass 8
   GameWin:
-  - entitydata @e[type=mw:turretupgraded] {Health:-1.0f}
-  - entitydata @e[type=mw:turret] {Health:-1.0f}
+  - entitydata @e[type=mwc:turretupgraded] {Health:-1.0f}
+  - entitydata @e[type=mwc:turret] {Health:-1.0f}
   - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-End] note 500
   - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-End] wins 10
   - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-End] MainW

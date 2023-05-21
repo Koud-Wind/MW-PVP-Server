@@ -37,6 +37,7 @@ scoreboard players set @e[tag=VMW] PC-N 4
 scoreboard players set @e[tag=VMW] PC-WaitT 0
 scoreboard players set @e[tag=VMW] PC-1rdK 0
 scoreboard players set @e[tag=VMW] PC-2rdK 0
+scoreboard players set @e[tag=VMW] PC-3rdK -1
 scoreboard players set @e[tag=VMW] CT-STime 1
 scoreboard players set @a[tag=InGame] money 29
 scoreboard players set @a[tag=InGame] PC-KillCount 0

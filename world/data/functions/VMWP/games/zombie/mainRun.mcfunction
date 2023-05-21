@@ -40,6 +40,9 @@ scoreboard players tag @a[tag=det1] remove det1
 #开始
 scoreboard players tag @a[score_PVE-map_min=1] add PVE-Start {Inventory:[{id:"minecraft:banner",tag:{ItemDamage:"6.0",BlockEntityTag:{Patterns:[]},display:{Name:"§0GO"}}}]}
 
+execute @a[tag=PVE-Start] ~ ~ ~ entitydata @e[type=mwc:turretupgraded] {Health:-1.0f}
+execute @a[tag=PVE-Start] ~ ~ ~ entitydata @e[type=mwc:turret] {Health:-1.0f}
+
 replaceitem entity @a[tag=PVE-Start] slot.hotbar.0 minecraft:air
 replaceitem entity @a[tag=PVE-Start,score_S-Shop=0] slot.hotbar.1 mwc:hk_p12 1 0 {IUuidLeast:-7984625428159484800L,Ammo:8,IUuidMost:-8818720879475343136L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,-123B,-99B,-100B,21B,109B,-115B,64B,-32B,-111B,48B,-23B,122B,58B,0B,-84B,-128B,0B,0B,19B,81B,0B,0B,0B,4B,0B,0B,0B,0B,0B,0B,0B,10B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-19B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,8B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,63B,0B,0B,18B,55B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,0B,0B,0B,0B,8B,0B,64B,-128B,0B,0B,0B,0B,0B,1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fHK P12"}}
 scoreboard players set @a[tag=PVE-Start,score_S-Shop=0] SecondaryW 5
