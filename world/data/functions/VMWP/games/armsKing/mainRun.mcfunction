@@ -3,14 +3,17 @@ execute @a[tag=InGame] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"
 execute @a[team=Watch] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §7Currently in Watch state §aFirst score:"},{"score":{"objective":"PC-1rdK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2rdK","name":"@e[tag=VMW]"}}]
 execute @a[team=,tag=!PVE-IG] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §cPlease wait for end §aFirst score:"},{"score":{"objective":"PC-1rdK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2rdK","name":"@e[tag=VMW]"}}]
 
+#优化计时器检测
+execute @e[tag=VMW,score_PC-TR_min=7800] ~ ~ ~ function vmwp:games/armsKing/detectionT
+
 #击杀
 execute @a[score_PC-KillJ_min=1,tag=InGame] ~ ~ ~ function vmwp:games/armsKing/kill
 
+#结算
+function vmwp:games/armsKing/settlement if @a[team=CTT,tag=InGame,score_PC-Score_min=120]
+
 #shop函数
 execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/buyGive
-
-#优化计时器检测
-execute @e[tag=VMW,score_PC-TR_min=7800] ~ ~ ~ function vmwp:games/armsKing/detectionT
 
 #死亡处理
 effect @a[tag=RandomTp] 11 2 50 true
@@ -83,9 +86,6 @@ execute @e[tag=VMW,score_PC-TR_min=20,score_PC-TR=20] ~ ~ ~ playsound minecraft:
 scoreboard players operation @e[tag=VMW] PC-RTC = @e[tag=VMW] PC-TR
 scoreboard players operation @e[tag=VMW] PC-RTC /= §fdivision PC-RTC
 execute @e[tag=VMW] ~ ~ ~ scoreboard players remove @s[score_PC-TR_min=1] PC-TR 1
-
-#结算
-function vmwp:games/armsKing/settlement if @a[team=CTT,tag=InGame,score_PC-Score_min=120]
 
 #时间结束
 execute @e[tag=VMW,score_PC-TR=0] ~ ~ ~ function vmwp:games/armsKing/settlement

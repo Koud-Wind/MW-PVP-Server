@@ -64,6 +64,8 @@ scoreboard objectives remove CT-CTScore
 scoreboard objectives remove CT-TScore
 scoreboard objectives remove CT-Games
 scoreboard objectives remove CT-WaitT
+scoreboard objectives remove CT-Join
+scoreboard objectives remove CT-BP
 #scoreboard objectives remove money
 #scoreboard objectives remove MainW
 #scoreboard objectives remove SecondaryW

@@ -82,6 +82,8 @@ scoreboard objectives remove PC-RTC
 scoreboard objectives remove PC-KCC
 scoreboard objectives remove PC-1rdK
 scoreboard objectives remove PC-2rdK
+scoreboard objectives remove PC-3rdK
+scoreboard objectives remove PC-Join
 #scoreboard objectives remove money
 #scoreboard objectives remove MainW
 #scoreboard objectives remove SecondaryW
