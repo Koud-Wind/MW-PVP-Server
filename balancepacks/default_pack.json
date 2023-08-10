@@ -1,23 +1,52 @@
 {
   "packName": "default",
   "version": "1.0",
-  "packManagerVersion": "1.0",
+  "packManagerVersion": "1.2",
   "globalParameters": {
     "damageMultiplier": 1.0,
-    "recoilMultiplier": 1.05,
-    "headshotMultiplier": 2.5
+    "recoilMultiplier": 1.1,
+    "headshotMultiplier": 2.5,
+    "hipFireSpread": 7.5
   },
   "gunConfigurations": [
-    {
-      "name": "exampleWeapon",
-      "enabled": true,
-      "damage": 8.0,
-      "recoil": 1.0
-    },
     {
       "name": "dsr1",
       "enabled": true,
       "damage": 15.0
+    },
+    {
+      "name": "svd_dragunov",
+      "enabled": true,
+      "recoil": 10.0
+    },
+    {
+      "name": "ar15",
+      "enabled": true,
+      "firemodeSingle": true,
+      "firemodeBurst": 3,
+      "firemodeAuto": true
+    },
+    {
+      "name": "aac_honey_badger",
+      "enabled": true,
+      "damage": 6.4
+    },
+    {
+      "name": "supernova",
+      "enabled": true,
+      "damage": 7.0,
+      "inaccuracy": 10.0
+    },
+    {
+      "name": "remington870",
+      "enabled": true,
+      "damage": 7.0
+    },
+    {
+      "name": "desert_eagle",
+      "enabled": true,
+      "damage": 8.6,
+      "recoil": 15.0
     },
     {
       "name": "Python",
@@ -30,10 +59,12 @@
       "damage": 5.4
     },
     {
-      "name": "ar15",
+      "name": "makarov_pm",
       "enabled": true,
+      "firerate": 10.0,
+      "damage": 4.5,
       "firemodeSingle": true,
-      "firemodeBurst": 3,
+      "firemodeBurst": 10,
       "firemodeAuto": true
     },
     {
@@ -47,77 +78,62 @@
       "firerate": 1.5,
       "damage": 8.0,
       "inaccuracy": 2.0
-    },
-    {
-      "name": "makarov_pm",
-      "enabled": true,
-      "firerate": 10.0,
-      "damage": 4.5,
-      "firemodeSingle": true,
-      "firemodeBurst": 10,
-      "firemodeAuto": true
-    },
-    {
-      "name": "svd_dragunov",
-      "enabled": true,
-      "recoil": 12.0
-    },
-    {
-      "name": "supernova",
-      "enabled": true,
-      "damage": 7.0
-    },
-    {
-      "name": "remington870",
-      "enabled": true,
-      "damage": 7.0
     }
   ],
   "categoryConfigurations": [
     {
-      "group": "DMR",
-      "damageMultiplier": 0.85,
-      "recoilMultiplier": 1.4
-    },
-    {
-      "group": "SHOTGUN",
-      "damageMultiplier": 0.9,
-      "recoilMultiplier": 5.0
-    },
-    {
-      "group": "SMG",
-      "damageMultiplier": 1.0,
-      "recoilMultiplier": 1.0
-    },
-    {
-      "group": "RIFLES",
-      "damageMultiplier": 1.0,
-      "recoilMultiplier": 1.0
-    },
-    {
       "group": "SIDEARM",
-      "damageMultiplier": 1.0,
-      "recoilMultiplier": 1.0
-    },
-    {
-      "group": "LONG_RANGE_RIFLES",
-      "damageMultiplier": 0.9,
-      "recoilMultiplier": 1.4
-    },
-    {
-      "group": "NONE",
-      "damageMultiplier": 1.0,
-      "recoilMultiplier": 1.0
+      "damageMultiplier": 0.97,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 0.1
     },
     {
       "group": "HEAVY",
       "damageMultiplier": 1.0,
-      "recoilMultiplier": 1.35
+      "recoilMultiplier": 1.35,
+      "hipFireSpreadMultiplier": 1.1
     },
     {
       "group": "REVOLVER",
+      "damageMultiplier": 1.2,
+      "recoilMultiplier": 1.4,
+      "hipFireSpreadMultiplier": 0.2
+    },
+    {
+      "group": "NONE",
       "damageMultiplier": 1.0,
-      "recoilMultiplier": 1.4
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.0
+    },
+    {
+      "group": "DMR",
+      "damageMultiplier": 0.85,
+      "recoilMultiplier": 1.4,
+      "hipFireSpreadMultiplier": 1.6
+    },
+    {
+      "group": "SMG",
+      "damageMultiplier": 0.97,
+      "recoilMultiplier": 1.3,
+      "hipFireSpreadMultiplier": 0.3
+    },
+    {
+      "group": "LONG_RANGE_RIFLES",
+      "damageMultiplier": 0.9,
+      "recoilMultiplier": 1.4,
+      "hipFireSpreadMultiplier": 2.0
+    },
+    {
+      "group": "RIFLES",
+      "damageMultiplier": 1.0,
+      "recoilMultiplier": 1.0,
+      "hipFireSpreadMultiplier": 1.0
+    },
+    {
+      "group": "SHOTGUN",
+      "damageMultiplier": 0.9,
+      "recoilMultiplier": 5.0,
+      "hipFireSpreadMultiplier": 0.0
     }
   ]
 }

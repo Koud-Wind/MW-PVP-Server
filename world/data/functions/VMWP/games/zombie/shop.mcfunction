@@ -37,7 +37,7 @@ scoreboard players tag @a[score_assaultRP_min=24,score_assaultRP=24,score_PVE-ma
 scoreboard players tag @a[score_assaultRP_min=25,score_assaultRP=25,score_PVE-map_min=1,score_money_min=18,score_S-Shop=0] add BySIG-556
 scoreboard players tag @a[score_assaultRP_min=26,score_assaultRP=26,score_PVE-map_min=1,score_money_min=14,score_S-Shop=1,score_S-Shop_min=1] add ByAK-74
 scoreboard players tag @a[score_assaultRP_min=27,score_assaultRP=27,score_PVE-map_min=1,score_money_min=15,score_S-Shop=2,score_S-Shop_min=2] add ByType-20
-scoreboard players tag @a[score_assaultRP_min=28,score_assaultRP=28,score_PVE-map_min=1,score_money_min=18,score_S-Shop=2,score_S-Shop_min=2] add ByHoneyBadger
+scoreboard players tag @a[score_assaultRP_min=28,score_assaultRP=28,score_PVE-map_min=1,score_money_min=20,score_S-Shop=2,score_S-Shop_min=2] add ByHoneyBadger
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_assaultRP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] S&DMRP

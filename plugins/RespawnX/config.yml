@@ -2,7 +2,7 @@
 # Made for version 2.0.0
 
 # Should the plugin be allowed to check for updates?
-update-checker: true
+update-checker: false
 
 # How long should RespawnX wait before automatically respawning players?
 # The delay is in ticks
@@ -36,7 +36,7 @@ disabled-world-list:
 # Default:
 # - "give {player} rotten_flesh 1 0"
 respawn-commands:
-  - ""
+  - null
 
 respawn-near-death:
   # Should players respawn near the location they died?
@@ -48,4 +48,4 @@ respawn-near-death:
   # The distance is a circular radius of blocks
   #
   # Default: 1
-  radius: 1
+  radius: 20
