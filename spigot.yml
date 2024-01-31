@@ -12,13 +12,17 @@
 
 config-version: 11
 settings:
-  item-dirty-ticks: 20
+  bungeecord: false
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  player-shuffle: 0
+  user-cache-size: 1000
+  sample-count: 12
+  save-user-cache-on-stop-only: false
   late-bind: false
   int-cache-limit: 1024
-  timeout-time: 90
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
+  item-dirty-ticks: 20
   attribute:
     maxHealth:
       max: 2048.0
@@ -26,61 +30,53 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  bungeecord: false
-  sample-count: 12
-  save-user-cache-on-stop-only: false
-  player-shuffle: 0
-  user-cache-size: 1000
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
-  moved-too-quickly-multiplier: 10.0
+  netty-threads: 4
+  timeout-time: 90
+  restart-on-crash: true
+  restart-script: ./start.sh
+stats:
+  disable-saving: false
+  forced-stats: {}
 commands:
+  tab-complete: 0
+  silent-commandblock-console: false
+  log: true
+  spam-exclusions:
+  - /skill
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  log: true
-  spam-exclusions:
-  - /skill
-  tab-complete: 0
-  silent-commandblock-console: false
-messages:
-  restart: Server is restarting
-stats:
-  disable-saving: false
-  forced-stats: {}
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+messages:
+  restart: Server is restarting
 world-settings:
   default:
     verbose: false
-    enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
-    entity-tracking-range:
-      players: 150
-      animals: 64
-      monsters: 64
-      misc: 32
-      other: 150
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    item-despawn-rate: 6000
-    nerf-spawner-mobs: false
-    hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
-    max-tnt-per-tick: 100
+    random-light-updates: false
     entity-activation-range:
       animals: 100
       monsters: 100
       misc: 100
       water: 100
       tick-inactive-villagers: true
-    squid-spawn-range:
-      min: 45.0
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    mob-spawn-range: 1
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -92,27 +88,30 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
-    random-light-updates: false
     max-tick-time:
       tile: 1000
       entity: 1000
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
+    squid-spawn-range:
+      min: 45.0
     save-structure-info: true
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    mob-spawn-range: 1
+    max-tnt-per-tick: 100
+    hanging-tick-frequency: 100
+    nerf-spawner-mobs: false
+    zombie-aggressive-towards-villager: true
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    wither-spawn-sound-radius: 0
+    enable-zombie-pigmen-portal-spawns: true
+    item-despawn-rate: 6000
     view-distance: 10
+    entity-tracking-range:
+      players: 150
+      animals: 64
+      monsters: 64
+      misc: 32
+      other: 150
     arrow-despawn-rate: 1200
-    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
     seed-monument: 10387313
@@ -120,3 +119,4 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+    dragon-death-sound-radius: 0
