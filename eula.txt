@@ -1,3 +1,0 @@
-通过把下面的设置修改为true以同意我们的最终用户许可协议(EULA) (https://account.mojang.com/documents/minecraft_eula)。
-2022-06-27
-eula=true

@@ -1,9 +1,0 @@
-TAB插件唯一汉化发布地址：https://www.mcbbs.net/thread-802303-1-1.html
-TAB插件原帖地址：https://github.com/NEZNAMY/TAB
-PCD服主交流群：476731621
-
-单服和群组服在config配置上略有不同，本汉化包提供的config.yml默认是适用于单服的。
-
-若您将此插件用于BungeeCord群组服，需要启用config.yml中暂被注释掉的一些配置（加了【BungeeCord配置】的标签）
-
-此外，部分适用于单服的配置并不适用于BungeeCord群组服，配置时需注意。

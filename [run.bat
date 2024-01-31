@@ -1,1 +1,0 @@
-java -Xmx4g -Xmn4g -jar mohist-1.12.2-320-server.jar
