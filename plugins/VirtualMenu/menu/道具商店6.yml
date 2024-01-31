@@ -1,0 +1,473 @@
+menu-settings:
+  name: '道具商店'
+  rows: 6
+X1Y1:
+  ID: STRUCTURE_VOID
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §f关闭页面
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZuWFs+mXremhtemdogAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: false
+X3Y1:
+  ID: WATCH
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e武器商店
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZeatpuWZqOWVhuW6lwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店1.yml'
+  KEEP-OPEN: true
+X4Y1:
+  ID: INK_SACK
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NAME: §e涂装
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUACcKnZea2guijhQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店2.yml'
+  KEEP-OPEN: true
+X5Y1:
+  ID: STONE_SWORD
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e近战武器
+  POSITION-X: 5
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店3.yml'
+  KEEP-OPEN: true
+X6Y1:
+  ID: MWC_M32_MGL
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e终极武器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZee7iOaegeatpuWZqAAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店4.yml'
+  KEEP-OPEN: true
+X7Y1:
+  ID: MWC_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e瞄准镜
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZeeehOWHhumVnAAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店5.yml'
+  KEEP-OPEN: true
+X8Y1:
+  ID: MWC_SILENCER556X45
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e消音器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZea2iOmfs+WZqAAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店6.yml'
+  KEEP-OPEN: true
+X1Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X3Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X4Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X5Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X6Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X7Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X8Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X9Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e7.62x54mm Silencer
+  LORE:
+  - '§b价格: 100钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiAxMDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABXCp2U3LjYyeDU0bW0gU2lsZW5jZXIAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 2'
+  KEEP-OPEN: true
+X3Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e.50 BMG Silencer
+  LORE:
+  - '§b价格: 100钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiAxMDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABPCp2UuNTAgQk1HIFNpbGVuY2VyAAA=\r\n"
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 4'
+  KEEP-OPEN: true
+X4Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e7.62x51mm NATO Silencer
+  LORE:
+  - '§b价格: 200钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiAyMDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABrCp2U3LjYyeDUxbW0gTkFUTyBTaWxlbmNlcgAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 6'
+  KEEP-OPEN: true
+X5Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e12 Gauge Silencer
+  LORE:
+  - '§b价格: 500钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA1MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABTCp2UxMiBHYXVnZSBTaWxlbmNlcgAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 8'
+  KEEP-OPEN: true
+X6Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e.45 ACP Silencer
+  LORE:
+  - '§b价格: 500钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA1MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABPCp2UuNDUgQUNQIFNpbGVuY2VyAAA=\r\n"
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 10'
+  KEEP-OPEN: true
+X7Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e9(x18/19)mm Silencer
+  LORE:
+  - '§b价格: 600钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA2MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABfCp2U5KHgxOC8xOSltbSBTaWxlbmNlcgAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 12'
+  KEEP-OPEN: true
+X8Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e5.56x45mm NATO Silencer
+  LORE:
+  - '§b价格: 600钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA2MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lABrCp2U1LjU2eDQ1bW0gTkFUTyBTaWxlbmNlcgAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择消音器页面 set 14'
+  KEEP-OPEN: true
+X1Y4:
+  ID: MWC_SILENCER762X39
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 1'
+  KEEP-OPEN: true
+X2Y4:
+  ID: MWC_SILENCER762X54
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 3'
+  KEEP-OPEN: true
+X3Y4:
+  ID: MWC_SILENCER50BMG
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 5'
+  KEEP-OPEN: true
+X4Y4:
+  ID: MWC_SILENCER762X51
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 7'
+  KEEP-OPEN: true
+X5Y4:
+  ID: MWC_SILENCER12GAUGE
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 9'
+  KEEP-OPEN: true
+X6Y4:
+  ID: MWC_SILENCER45ACP
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 11'
+  KEEP-OPEN: true
+X7Y4:
+  ID: MWC_SILENCER9MM
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 13'
+  KEEP-OPEN: true
+X8Y4:
+  ID: MWC_SILENCER556X45
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择消音器页面 set 15'
+  KEEP-OPEN: true
+X1Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X2Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X3Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X4Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X5Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X6Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X7Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X8Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X9Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X1Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X2Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X3Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X4Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X5Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X6Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X7Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X8Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X9Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 6
+  KEEP-OPEN: true

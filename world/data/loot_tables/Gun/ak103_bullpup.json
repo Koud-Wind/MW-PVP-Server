@@ -1,0 +1,94 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			"min":2,
+			"max":5
+			},
+            "entries": [
+				{
+                    "type": "item",
+                    "name": "mw:ak103_bullpup",
+                    "weight": 50,
+					"functions": [
+                        {
+						    "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "mw:ak15mag_2",
+                    "weight": 50,
+					"functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Ammo:13}"
+                        },
+						{
+						    "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "mw:ak47pmagtan",
+                    "weight": 5,
+					"functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Ammo:13}"
+                        },
+						{
+						    "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "mw:bullet762x39",
+                    "weight": 30,
+					"functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "loot_table",
+                    "name": "item:mods7.62",
+                    "weight": 5
+                },
+				{
+                    "type": "loot_table",
+                    "name": "item:disposable",
+                    "weight": 20
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+

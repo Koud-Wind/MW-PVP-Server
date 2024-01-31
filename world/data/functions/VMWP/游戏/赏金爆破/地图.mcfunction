@@ -1,0 +1,12 @@
+execute @e[tag=VMW,score_爆破-地图=0] ~ ~ ~ tp @a[team=CT] -265 68 1289 -90 0
+execute @e[tag=VMW,score_爆破-地图=0] ~ ~ ~ tp @a[team=T] -176 76 1313 180 0
+execute @e[tag=VMW,score_爆破-地图=1,score_爆破-地图_min=1] ~ ~ ~ tp @a[team=CT] -366 78 1233 -180 0
+execute @e[tag=VMW,score_爆破-地图=1,score_爆破-地图_min=1] ~ ~ ~ tp @a[team=T] -295 75 1198 0 0
+execute @e[tag=VMW,score_爆破-地图=2,score_爆破-地图_min=2] ~ ~ ~ tp @a[team=CT] -375 76 1302 -90 0
+execute @e[tag=VMW,score_爆破-地图=2,score_爆破-地图_min=2] ~ ~ ~ tp @a[team=T] -301 76 1386 180 0
+execute @e[tag=VMW,score_爆破-地图=3,score_爆破-地图_min=3] ~ ~ ~ tp @a[team=CT] -388 78 1213 90 0
+execute @e[tag=VMW,score_爆破-地图=3,score_爆破-地图_min=3] ~ ~ ~ tp @a[team=T] -460 73 1184 -90 0
+execute @e[tag=VMW,score_爆破-地图=4,score_爆破-地图_min=4] ~ ~ ~ tp @a[team=CT] -476 73 1581 -90 0
+execute @e[tag=VMW,score_爆破-地图=4,score_爆破-地图_min=4] ~ ~ ~ tp @a[team=T] -394 72 1568 -90 0
+execute @e[tag=VMW,score_爆破-地图=5,score_爆破-地图_min=5] ~ ~ ~ tp @a[team=CT] -171 73 1596 90 0
+execute @e[tag=VMW,score_爆破-地图=5,score_爆破-地图_min=5] ~ ~ ~ tp @a[team=T] -282 73 1462 0 0

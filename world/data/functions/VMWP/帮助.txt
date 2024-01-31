@@ -1,0 +1,13 @@
+计分板.mcfunction需要设定世界重生点坐标,绑定命令块坐标(3个)
+工具人.mcfunction需要设定世界重生点坐标
+
+赏金爆破:
+开始.mcfunction, 主体运行.mcfunction , 地图.mcfunction,地图重置.mcfunction与 地图设定.mcfunction需要设定坐标
+
+个人对抗:
+计时检测.mcfunction, 主体运行.mcfunction,重置.mcfunction需要设定坐标
+
+世界重生点需要循环:
+testfor @a[tag=准备中]
+testfor @a[team=CT,m=2]
+testfor @a[team=T,m=2]

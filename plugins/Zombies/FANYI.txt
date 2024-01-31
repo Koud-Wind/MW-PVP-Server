@@ -1,0 +1,110 @@
+离开
+/zombies leave
+加入<名称>
+/zombies join <name>
+重新加入
+/zombies rejoin <name>
+随机加入
+/zombies randomJoin
+随机连接<模式>
+/zombies randomJoin <Mode>
+随机连接映射<名称>
+/zombies randomJoinMap <name>
+菜单
+/zombies menu
+统计<名称>
+/zombies stats <Name>
+开始<名称>
+/zombies start <Name>
+停止<名称>
+/zombies stop <Name>
+添加地图<名称>
+/zombies addMap <Name>
+设置“繁殖<名称>”- 
+/zombies setSpawn <Name>
+设置大厅<名称>
+/zombies setLobby <Name>
+设置重置<名称>
+/zombies setReset <Name>
+添加默认老板生成<名称>
+/zombies addDefaultBossSpawn <Name>
+添加Boss繁殖<僵尸类型><名称>
+/zombies addBossSpawn <ZombieType> <Name>
+创建区域<1/2>
+/zombies createArea <1/2>
+保存块窗口<窗口名称><名称>
+/zombies saveBlockWindow <WindowName> <Name>
+保存僵尸窗口区域<窗口名称><名称>
+/zombies saveZombieWindowArea <WindowName> <Name>
+保存播放器窗口区域<窗口名称><名称>
+/zombies savePlayerWindowArea <WindowName> <Name>
+保存门<黄金><门名称><名称>
+/zombies saveDoor <Gold> <DoorName> <Name>
+保存假门<黄金><门名><假门名>
+/zombies saveFakeDoor <Gold> <DoorName> <FakeDoorName> <Name>
+切换门<门名称><RoundId><名称>
+/zombies toggleDoor <DoorName> <RoundId> <Name>
+连接门<门名称><门名称，..><名称>
+/zombies connectDoors <DoorName> <DoorName,..> <Name>
+添加默认生成者<生成者名称><名称>
+/zombies addDefaultSpawner <SpawnerName> <Name>
+添加繁殖者<繁殖者姓名><门姓名><姓名>
+/zombies addSpawner <SpawnerName> <DoorName> <Name>
+connect生成者<生成者名称><窗口名称><名称>
+/zombies connectSpawner <SpawnerName> <WindowName> <Name>
+save Armor Pack Shop<Gold><Leather | Gold | Iron | Diamond><Up | Down><Name>
+拯救装甲包商店
+/zombies saveArmorPackShop <Gold> <Leather|Gold|Iron|Diamond> <Up|Down> <Name>
+保存武器商店<武器黄金><弹药黄金><武器名称><名称>
+/zombies saveWeaponShop <WeaponGold> <AmmoGold> <WeaponName> <Name>
+save Perk商店<Perk Gold><Perk Name><Name>
+/zombies savePerkShop
+保存电源开关<金色电源开关><名称>
+/zombies savePowerSwitch <PowerSwitchGold> <Name>
+添加武器箱<名称>
+/zombies addWeaponsChest <Name>
+添加团队计算机<名称>
+/zombies addTeamMachine <Name>
+保存终极机器<黄金><名称>
+/zombies saveUltimateMachine <Gold> <Name>
+保存统计全息图<名称>
+/zombies saveStatsHologram <Name>
+
+
+保存练习假人<名称>
+
+切换练习假人<名称>
+
+
+
+给予金牌<Player><金额>
+/zombies giveGold <Player> <Amount>
+
+
+跳过回合<名称>
+/zombies skipRound <Name>
+切换无限模式<名称>
+/zombies toggleEndlessMode <Name>
+切换难度<名称>
+/zombies toggleDifficulty <Name>
+
+
+查找<PlayerName>
+/zombies find <PlayerName>
+
+
+添加地图统计全息图<数量><统计名称><名称><地图名称>
+/zombies addMapStatsHologram <Amount> <StatsName> <Name> <MapName>
+添加全局统计全息图<数量><统计名称><名称>
+/zombies addGlobalStatsHologram <Amount> <StatsName> <Name>
+移除统计全息图<名称>
+/zombies removeStatsHologram <Name>
+
+
+全局统计<统计名称><金额>
+/zombies globalStats <StatsName> <Amount>
+地图统计信息<统计信息名称><数量><地图名称>
+/zombies mapStats <StatsName> <Amount> <mapName>
+
+
+重新加载

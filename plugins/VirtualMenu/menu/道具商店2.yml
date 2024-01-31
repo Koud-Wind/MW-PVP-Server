@@ -1,0 +1,518 @@
+menu-settings:
+  name: '道具商店'
+  rows: 6
+X1Y1:
+  ID: STRUCTURE_VOID
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §f关闭页面
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZuWFs+mXremhtemdogAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: false
+X3Y1:
+  ID: WATCH
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e武器商店
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZeatpuWZqOWVhuW6lwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店1.yml'
+  KEEP-OPEN: true
+X4Y1:
+  ID: INK_SACK
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NAME: §e涂装
+  NBT: "CgAACQAEZW5jaAoAAAABAgADbHZsAAECAAJpZABHAAMACUhpZGVGbGFncwAAAAEKAAdkaXNwbGF5\r\
+    \nCAAETmFtZQAPwqc057uI5p6B5q2m5ZmoAAA=\r\n"
+  POSITION-X: 4
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店2.yml'
+  KEEP-OPEN: true
+X5Y1:
+  ID: STONE_SWORD
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e近战武器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZei/keaImOatpuWZqAAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店3.yml'
+  KEEP-OPEN: true
+X6Y1:
+  ID: MWC_M32_MGL
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e终极武器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZee7iOaegeatpuWZqAAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店4.yml'
+  KEEP-OPEN: true
+X7Y1:
+  ID: MWC_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e瞄准镜
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZeeehOWHhumVnAAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店5.yml'
+  KEEP-OPEN: true
+X8Y1:
+  ID: MWC_SILENCER556X45
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e消音器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZea2iOmfs+WZqAAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店6.yml'
+  KEEP-OPEN: true
+X1Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X3Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X4Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X5Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X6Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X7Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X8Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X9Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e外星涂装
+  LORE:
+  - '§b价格: 100钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiAxMDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAA/Cp2XlpJbmmJ/mtoLoo4UAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 15'
+  KEEP-OPEN: true
+X3Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e蓝色涂装
+  LORE:
+  - '§b价格: 2000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAyMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6JOd6Imy5raC6KOFAAA=\r\n"
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 13'
+  KEEP-OPEN: true
+X4Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e粉色涂装
+  LORE:
+  - '§b价格: 2000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAyMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl57KJ6Imy5raC6KOFAAA=\r\n"
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 11'
+  KEEP-OPEN: true
+X5Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e血液涂装
+  LORE:
+  - '§b价格: 2000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAyMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6KGA5ray5raC6KOFAAA=\r\n"
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 9'
+  KEEP-OPEN: true
+X6Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e沙漠涂装
+  LORE:
+  - '§b价格: 3000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAzMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl5rKZ5ryg5raC6KOFAAA=\r\n"
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 7'
+  KEEP-OPEN: true
+X7Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e雪地涂装
+  LORE:
+  - '§b价格: 3000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAzMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6Zuq5Zyw5raC6KOFAAA=\r\n"
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 5'
+  KEEP-OPEN: true
+X8Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e黄金涂装
+  LORE:
+  - '§b价格: 4000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiA0MDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6buE6YeR5raC6KOFAAA=\r\n"
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 3'
+  KEEP-OPEN: true
+X9Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e钻石涂装
+  LORE:
+  - '§b价格: 5000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiA1MDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdl6ZK755+z5raC6KOFAAA=\r\n"
+  POSITION-X: 9
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择涂装页面 set 1'
+  KEEP-OPEN: true
+X1Y4:
+  ID: INK_SACK
+  DATA-VALUE: 1
+  AMOUNT: 1
+  NAME: §4不使用涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAEsKnNOS4\r\
+    \njeS9v+eUqOa2guijhQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 21'
+  KEEP-OPEN: true
+X2Y4:
+  ID: MWC_UNIT01CAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e外星涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeWk\r\
+    \nluaYn+a2guijhQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 16'
+  KEEP-OPEN: true
+X3Y4:
+  ID: MWC_BLUECAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e蓝色涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeiT\r\
+    \nneiJsua2guijhQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 14'
+  KEEP-OPEN: true
+X4Y4:
+  ID: MWC_PINKCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e粉色涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeey\r\
+    \nieiJsua2guijhQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 12'
+  KEEP-OPEN: true
+X5Y4:
+  ID: MWC_BLOODFORESTCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e血液涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeih\r\
+    \ngOa2sua2guijhQAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 10'
+  KEEP-OPEN: true
+X6Y4:
+  ID: MWC_WOODLANDCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e沙漠涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZeay\r\
+    \nmea8oOa2guijhQAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 8'
+  KEEP-OPEN: true
+X7Y4:
+  ID: MWC_ARCTICCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e雪地涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZemb\r\
+    \nquWcsOa2guijhQAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 6'
+  KEEP-OPEN: true
+X8Y4:
+  ID: MWC_GOLDCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e黄金涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZem7\r\
+    \nhOmHkea2guijhQAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 4'
+  KEEP-OPEN: true
+X9Y4:
+  ID: MWC_DIAMONDCAMO
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e钻石涂装
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQgABE5hbWUAD8KnZemS\r\
+    \nu+efs+a2guijhQAA\r\n"
+  POSITION-X: 9
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择涂装页面 set 2'
+  KEEP-OPEN: true
+X1Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X2Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X3Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X4Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X5Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X6Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X7Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X8Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X9Y5:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 5
+  KEEP-OPEN: true
+X1Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X2Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X3Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X4Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X5Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X6Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X7Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X8Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 6
+  KEEP-OPEN: true
+X9Y6:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 6
+  KEEP-OPEN: true

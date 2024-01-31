@@ -1,0 +1,882 @@
+Prefix: '&7[&cVMW_PVE&7] '
+MySQL:
+  Enabled: false
+  LocalFile: false
+  Hostname: localhost
+  Port: 3306
+  Database: database
+  Username: username
+  Password: password
+MultiArena:
+  Enabled: true
+  SignLayout:
+    Line1: '&b[&8VMW_PVE&b]'
+    Line2: '%name%'
+    Line3: '&f%players%&8/&f%maxPlayers%'
+    Line4: '%state%'
+LobbyTimer: 20
+RestartTimer: 5
+RandomMap: true
+StartMap: EnterMapName
+QuitRejoinEnabled: true
+FillEmptySlots: false
+PremiumKickEnabled: false
+ChatFormatEnabled: false
+HidePlayers: true
+HideChat: true
+Commands:
+  Start:
+    Enabled: true
+    Permission: VMW_PVE.start
+  Stats:
+    Enabled: true
+    Permission: VMW_PVE.stats
+  Leave:
+    Enabled: true
+    Permission: VMW_PVE.leave
+MotdDisplay:
+  Enabled: false
+  Custom: true
+  Lobby: '&a&lLobby &7- &f%players% &7| &f%time%s'
+  InGame: '&c&lInGame &7- &f%map% &7| &f%time%'
+  Restarting: '&c&lRestarting'
+ChatFormat:
+  Enabled: true
+State:
+  Lobby: '&aLobby'
+  InGame: '&cInGame'
+  Restarting: '&4Restarting'
+Sound:
+  Countdown: BLOCK_NOTE_HAT
+  BreakWindow: ENTITY_WITHER_BREAK_BLOCK
+  RepairWindow: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD
+  RepairedWindow: BLOCK_ANVIL_LAND
+  KnockedDown: ENTITY_ENDERDRAGON_GROWL
+  NotEnoughGold: ENTITY_ENDERMEN_TELEPORT
+  WeaponReload: ENTITY_HORSE_GALLOP
+  WeaponCooldown: ENTITY_HORSE_GALLOP
+  ShopItemBought: ENTITY_EXPERIENCE_ORB_PICKUP
+  PowerSwitchActivated: ENTITY_BLAZE_DEATH
+  UltimateMachineUpgrade: ENTITY_EXPERIENCE_ORB_PICKUP
+  PowerupPickup: ENTITY_EXPERIENCE_ORB_PICKUP
+  WeaponsChestRolling: ENTITY_EXPERIENCE_ORB_PICKUP
+  TeamMachinePurchase: ENTITY_EXPERIENCE_ORB_PICKUP
+  WeaponsChestOpen: BLOCK_CHEST_OPEN
+  WeaponsChestClose: BLOCK_CHEST_CLOSE
+  DoorOpen: BLOCK_WOODEN_DOOR_OPEN
+Window:
+  BarrierWall: true
+  RepairDelay: 1500
+Revive:
+  Time: 25.0
+  SneakTime: 1.5
+  Hologram:
+  - '&e■■■■■■■■■■■■■■■'
+  - '&e&lHOLD SNEAK TO REVIVE!'
+  - '&e■■■■■■■■■■■■■■■'
+  - '&c%time%s'
+MapMenuEnabled: true
+BlockCommands:
+  Enabled: false
+  ByPassAllowed: false
+  BlockMessageAllowed: false
+  ByPassPermission: VMW_PVE.bypass
+  BlockMessage: '&cYou are not allowed to perform Commands while playing VMW_PVE.'
+  AllowedCommands:
+  - /VMW_PVE
+Entities:
+  DelayedTeleportTicks: 20
+LocalStats:
+  DelayedUpdateTicks: 1000
+EntitySpawnDelay:
+  Start: 0
+  Round: 0
+GoldStart:
+  Default: 0
+  Permissions:
+    '1':
+      PermissionName: VMW_PVE.permissionsGold
+      GoldValue: 0
+    '2':
+      PermissionName: VMW_PVE.morePermissionGold
+      GoldValue: 0
+Rewards:
+  Enabled: false
+  GameLoose:
+  - insert commands here that should be executed on loosing the game
+  GameWin:
+  - insert commands here that should be executed on winning the game
+  Rounds:
+    '1':
+    - insert commands here that should be executed on surviving round 1
+    '2':
+    - insert commands here that should be executed on surviving round 2
+SoundPitch:
+  NotEnoughGold: 1.0
+  PowerupPickup: 1.0
+  WeaponShootSound: 4.0
+  WeaponHitSound: 2.0
+  WeaponReloadSound: 0.5
+  WeaponCooldownSound: 0.5
+  ShopItemBought: 2.0
+  PowerSwitchActivated: 2.0
+  TeamMachinePurchase: 2.0
+  UltimateMachineUpgrade: 2.0
+  ReviveKnockedDown: 1.0
+  WeaponsChestOpen: 1.0
+  WeaponsChestClose: 1.0
+  RepairWindow: 1.5
+  RepairedWindow: 4.0
+  BreakWindow: 1.0
+  DoorOpen: 1.0
+BossBar:
+  Color: PURPLE
+  Style: PROGRESS
+WeaponBuilder:
+  Damage: ' &8▪ &7Damage: &a%damageValue% HP'
+  Ammo: ' &8▪ &7Ammo: &a%ammoValue%'
+  ClipAmmo: ' &8▪ &7Clip Ammo: &a%clipAmmoValue%'
+  FireRate: ' &8▪ &7Fire Rate: &a%fireRateValue%s'
+  Reload: ' &8▪ &7Reload: &a%reloadValue%s'
+  AffectedEnemies: ' &8▪ &7Affected Enemies: &a%affectedEnemiesValue%'
+  Cooldown: ' &8▪ &7Cooldown: &a%cooldownValue%s'
+  Lores:
+  - '&eLEFT-CLICK &7to reload.'
+  - '&eRIGHT-CLICK &7to shoot.'
+UltimateWeaponBuilder:
+  Damage: ' &8▪ &7Damage: &8%oldDamageValue% HP ➔ &a%damageValue% HP'
+  Ammo: ' &8▪ &7Ammo: &8%oldAmmoValue% ➔ &a%ammoValue%'
+  ClipAmmo: ' &8▪ &7Clip Ammo: &8%oldClipAmmoValue% ➔ &a%clipAmmoValue%'
+  FireRate: ' &8▪ &7Fire Rate: &8%oldFireRateValue%s ➔ &a%fireRateValue%s'
+  Reload: ' &8▪ &7Reload: &8%oldReloadValue%s ➔ &a%reloadValue%s'
+  AffectedEnemies: ' &8▪ &7Enemies Affected: &8%oldAffectedEnemiesValue%s ➔ &a%affectedEnemiesValue%'
+  Cooldown: ' &8▪ &7Cooldown: &8%oldCooldownValue%s ➔ &a%cooldownValue%'
+  Lores:
+  - '&eLEFT-CLICK &7to reload.'
+  - '&eRIGHT-CLICK &7to shoot.'
+Weapon:
+  Knife:
+    DisplayName: '&aHK-416'
+    Material: MW_M38_DMR
+    Lores: []
+    NBT: '{IUuidLeast:-8702026805475859664L,AtId:[I;4577,-1,-1,-1,4890,0,4818,0,4379,4472,4432,4389,4510,4794,4793,0,0,0,4807,0,0,0,0,0,0,4096,0],Ammo:2147482450,IUuidMost:-2675255275443172701L,Instance:[B;-32B,83B,21B,-112B,-126B,43B,-31B,45B,117B,49B,126B,79B,17B,126B,62B,-127B,0B,0B,0B,9B,-38B,-33B,-107B,-128B,71B,-72B,74B,-93B,-121B,60B,48B,-71B,-55B,-81B,35B,48B,0B,0B,19B,-126B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,19B,44B,75B,99B,82B,108B,-118B,-87B,-71B,14B,-97B,-92B,100B,-74B,-111B,106B,61B,-40B,0B,0B,0B,1B,27B,0B,0B,17B,-31B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,19B,26B,0B,0B,0B,0B,0B,0B,18B,-46B,0B,0B,0B,0B,0B,0B,17B,27B,0B,0B,17B,120B,0B,0B,17B,80B,0B,0B,17B,37B,0B,0B,17B,-98B,0B,0B,18B,-70B,0B,0B,18B,-71B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-57B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,127B,-1B,-5B,82B,0B,64B,64B,0B,0B,127B,-1B,-1B,-1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B]}'
+  PracticeGun:
+    DisplayName: '&6PracticeGun'
+    UltimateDisplayName: ''
+    Material: WOOD_HOE
+    Lores:
+    - '&7Practice with this gun!'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_IRONGOLEM_HURT
+    Particle: CRIT
+    Damage: 0.0
+    Ammo: 0
+    ClipAmmo: 0
+    FireRate: 0
+    Reload: 0
+    UltimateDamage: 0
+    UltimateAmmo: 0
+    UltimateClipAmmo: 0
+    UltimateFireRate: 0
+    UltimateReload: 0
+    WeaponsChest: false
+  Pistol:
+    DisplayName: '&6Pistol'
+    UltimateDisplayName: '&6&lUltimate Pistol'
+    Material: WOOD_HOE
+    Lores:
+    - '&7This is your starter gun. You''re'
+    - '&7gonna want to upgrade this at'
+    - '&7some point, or may Notch save'
+    - '&7your soul.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_IRONGOLEM_HURT
+    Particle: CRIT
+    Damage: 6.0
+    Ammo: 300
+    ClipAmmo: 10
+    FireRate: 0.5
+    Reload: 1.5
+    UltimateDamage: 6.0
+    UltimateAmmo: 360
+    UltimateClipAmmo: 12
+    UltimateFireRate: 0.4
+    UltimateReload: 1.0
+    WeaponsChest: false
+  Rifle:
+    DisplayName: '&6Rifle'
+    UltimateDisplayName: '&6&lUltimate Rifle'
+    Material: STONE_HOE
+    Lores:
+    - '&7Shoots at a faster rate than the'
+    - '&7Pistol.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: FIREWORKS_SPARK
+    Damage: 4.0
+    Ammo: 256
+    ClipAmmo: 32
+    FireRate: 0.2
+    Reload: 1.5
+    UltimateDamage: 5.0
+    UltimateAmmo: 280
+    UltimateClipAmmo: 35
+    UltimateFireRate: 0.2
+    UltimateReload: 1.0
+    WeaponsChest: false
+  Shotgun:
+    DisplayName: '&6Shotgun'
+    UltimateDisplayName: '&6&lUltimate Shotgun'
+    Material: IRON_HOE
+    Lores:
+    - '&7Shoots at barrage of bullets.'
+    - '&7Good for close range combat.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_GENERIC_EXPLODE
+    Particle: SMOKE_NORMAL
+    Damage: 6.5
+    Bullets: 8
+    Ammo: 65
+    ClipAmmo: 5
+    FireRate: 1.4
+    Reload: 1.5
+    UltimateDamage: 6.5
+    UltimateAmmo: 80
+    UltimateClipAmmo: 5
+    UltimateFireRate: 1.0
+    UltimateReload: 1.0
+    WeaponsChest: false
+  Flamethrower:
+    DisplayName: '&6Flamethrower'
+    UltimateDisplayName: '&6&lUltimate Flamethrower'
+    Material: GOLD_HOE
+    Lores:
+    - '&7Sprays fire on enemies. Less'
+    - '&7effective on fire VMW_PVE.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: BLOCK_FIRE_AMBIENT
+    Particle: FLAME
+    Damage: 2.0
+    Ammo: 350
+    ClipAmmo: 50
+    FireRate: 0.1
+    Reload: 3.0
+    UltimateDamage: 2.0
+    UltimateAmmo: 500
+    UltimateClipAmmo: 50
+    UltimateFireRate: 0.1
+    UltimateReload: 1.8
+    WeaponsChest: true
+  ZombieSoaker:
+    DisplayName: '&6Zombie Soaker'
+    UltimateDisplayName: '&6&lUltimate Zombie Soaker'
+    Material: DIAMOND_HOE
+    Lores:
+    - '&7Deals bonus damage to fire'
+    - '&7zombies!'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_SLIME_ATTACK
+    Particle: WATER_DROP
+    Damage: 4.0
+    Ammo: 256
+    ClipAmmo: 32
+    FireRate: 0.3
+    Reload: 1.5
+    UltimateDamage: 4.0
+    UltimateAmmo: 280
+    UltimateClipAmmo: 50
+    UltimateFireRate: 0.1
+    UltimateReload: 1.0
+    WeaponsChest: true
+  RocketLauncher:
+    DisplayName: '&6Rocket Launcher'
+    UltimateDisplayName: '&6&lUltimate Rocket Launcher'
+    Material: STONE_SPADE
+    Lores:
+    - '&7Launches fire rockets that'
+    - '&7explode on impact.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_ARROW_SHOOT
+    Particle: ''
+    Damage: 15.0
+    Ammo: 20
+    ClipAmmo: 4
+    FireRate: 2.0
+    Reload: 3.0
+    UltimateDamage: 20
+    UltimateAmmo: 32
+    UltimateClipAmmo: 4
+    UltimateFireRate: 1.5
+    UltimateReload: 2.0
+    WeaponsChest: false
+  ElderGun:
+    DisplayName: '&6Elder Gun'
+    UltimateDisplayName: '&6&lUltimate Elder Gun'
+    Material: SHEARS
+    Lores:
+    - '&7Shoots a long beam that can'
+    - '&7penetrate multiple enemies,'
+    - '&7stunning them.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_LIGHTNING_THUNDER
+    Particle: ''
+    Damage: 10.0
+    Ammo: 60
+    ClipAmmo: 4
+    FireRate: 1.0
+    Reload: 2.0
+    UltimateDamage: 15.0
+    UltimateAmmo: 100
+    UltimateClipAmmo: 4
+    UltimateFireRate: 1.0
+    UltimateReload: 2.0
+    WeaponsChest: true
+  BlowDart:
+    DisplayName: '&6Blow Dart'
+    UltimateDisplayName: '&6&lUltimate Blow Dart'
+    Material: STONE_SPADE
+    Lores:
+    - '&7Shoots poisonous darts, briefly'
+    - '&7poisoning and slowing any hit'
+    - '&7enemies!'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_ARROW_SHOOT
+    Particle: SLIME
+    Damage: 10.0
+    Ammo: 100
+    ClipAmmo: 10
+    FireRate: 0.5
+    Reload: 3.0
+    UltimateDamage: 15.0
+    UltimateAmmo: 150
+    UltimateClipAmmo: 5
+    UltimateFireRate: 0.4
+    UltimateReload: 1.5
+    WeaponsChest: true
+  Sniper:
+    DisplayName: '&6Sniper'
+    UltimateDisplayName: '&6&lUltimate Sniper'
+    Material: WOOD_SPADE
+    Lores:
+    - '&7Deals high damage from long'
+    - '&7distances. Bullets can penetrate'
+    - '&7multiple enemies.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: FIREWORKS_SPARK
+    Damage: 20.0
+    Ammo: 40
+    ClipAmmo: 4
+    FireRate: 1.0
+    Reload: 2.0
+    UltimateDamage: 30.0
+    UltimateAmmo: 60
+    UltimateClipAmmo: 5
+    UltimateFireRate: 1.0
+    UltimateReload: 1.5
+    WeaponsChest: false
+  ThePuncher:
+    DisplayName: '&aThe Puncher'
+    UltimateDisplayName: '&a&lThe Puncher Ultimate'
+    Material: DIAMOND_AXE
+    Lores:
+    - '&7Damages enemies within a small'
+    - '&7radius, knocking them back when'
+    - '&7not cooling down.'
+    HitSound: ENTITY_ARROW_SHOOT
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: ''
+    Damage: 5.0
+    Ammo: 0
+    ClipAmmo: 0
+    FireRate: 0.0
+    Reload: 0.0
+    AffectedEnemies: 3
+    Cooldown: 5.0
+    UltimateDamage: 7.0
+    UltimateAmmo: 0
+    UltimateClipAmmo: 0
+    UltimateFireRate: 0.0
+    UltimateReload: 0.0
+    UltimateAffectedEnemies: 5
+    UltimateCooldown: 3.0
+    WeaponsChest: true
+  ZombieZapper:
+    DisplayName: '&6Zombie Zapper'
+    UltimateDisplayName: '&6&lZombie Zapper Ultimate'
+    Material: DIAMOND_PICKAXE
+    Lores:
+    - '&7When you shoot an enemy, nearby'
+    - '&7enemies are electrified.'
+    HitSound: ENTITY_LIGHTNING_THUNDER
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: CRIT
+    Damage: 12.0
+    Ammo: 100
+    ClipAmmo: 10
+    FireRate: 0.5
+    Reload: 2.0
+    UltimateDamage: 18.0
+    UltimateAmmo: 120
+    UltimateClipAmmo: 10
+    UltimateFireRate: 0.5
+    UltimateReload: 1.5
+    WeaponsChest: true
+  VMW_PVEoaker:
+    DisplayName: '&6Zombie Soaker'
+    UltimateDisplayName: '&6&lUltimate Zombie Soaker'
+    Material: DIAMOND_HOE
+    Lores:
+    - '&7Deals bonus damage to fire'
+    - '&7VMW_PVE!'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_SLIME_ATTACK
+    Particle: WATER_DROP
+    Damage: 4.0
+    Ammo: 256
+    ClipAmmo: 32
+    FireRate: 0.3
+    Reload: 1.5
+    UltimateDamage: 4.0
+    UltimateAmmo: 280
+    UltimateClipAmmo: 50
+    UltimateFireRate: 0.1
+    UltimateReload: 1.0
+    WeaponsChest: true
+PerksRemoveCooldownEnabled: false
+PerksRemoveCooldown: 30000
+Perks:
+  Speed:
+    DisplayName: '&9&lSpeed'
+    Material: SUGAR
+    Lores:
+    - '&7Gain Speed I.'
+    - ''
+    - '&8&oActive until death.'
+  ExtraHealth:
+    DisplayName: '&9&lExtra Health'
+    Material: GOLD_NUGGET
+    Lores:
+    - '&7Gain an extra &a10 HP of'
+    - '&7maximum health.'
+    - ''
+    - '&8&oActive until death.'
+  FastRevive:
+    DisplayName: '&9&lFast Revive'
+    Material: COOKIE
+    Lores:
+    - '&7Revive fallen teammates twice as'
+    - '&7fast.'
+    - ''
+    - '&8&oActive until death.'
+  FlameBullets:
+    DisplayName: '&9&lFlame Bullets'
+    Material: BLAZE_POWDER
+    Lores:
+    - '&7All your bullets set enemies on fire,'
+    - '&7including enemies immune to fire.'
+    - ''
+    - '&8&oActive until death.'
+  FrozenBullets:
+    DisplayName: '&9&lFrozen Bullets'
+    Material: GHAST_TEAR
+    Lores:
+    - '&7All your bullets are ice cold,'
+    - '&7slowing enemies down briefly'
+    - ''
+    - '&8&oActive until death.'
+  ExtraWeapon:
+    DisplayName: '&9&lExtra Weapon'
+    Material: IRON_INGOT
+    Lores:
+    - '&7Adds one weapon slot'
+    - '&7to your inventory.'
+    - ''
+    - '&8&oActive until death.'
+  QuickFire:
+    DisplayName: '&9&lQuick Fire'
+    Material: BLAZE_ROD
+    Lores:
+    - '&7Increase the fire rate'
+    - '&7of all Weapons by 25%.'
+    - ''
+    - '&8&oActive until death.'
+Powerups:
+  DOUBLE_GOLD:
+    Duration: 30
+    MinRound: 1
+  INSTA_KILL:
+    Duration: 10
+    MinRound: 1
+  SHOPPING_SPREE:
+    Duration: 30
+    MinRound: 1
+  BONUS_GOLD:
+    GoldValue: 1000
+    MinRound: 1
+  MAX_AMMO:
+    MinRound: 1
+  CARPENTER:
+    MinRound: 1
+WeaponsChest:
+  ClaimDuration: 10.0
+  GoldPrice: 1000
+  ShoppingSpree:
+    GoldPrice: 100
+TeamMachine:
+  Price:
+    AmmoSupply: 1000
+    FullRevive: 2000
+    DragonsWrath: 3000
+Messages:
+  PremiumKick: '%prefix%&cYou got kicked from the Game because a higher ranked player
+    joined the server.'
+  Leaderboard:
+    PlaceRegistered: '&aPlace &7%placeId%&a. &e%player% &7(&c%formattedTime%&7)'
+    PlaceUnregistered: '&aPlace &7%placeId%&a. &e<?> &7(&c%formattedTime%&7)'
+  LeaveArena: '%prefix%&cYou left the arena.'
+  LeaveArenaFailed: '%prefix%&cYou are not in a arena.'
+  MultiArenaJoinFailed: '%prefix%&cThe arena is full.'
+  MultiArenaJoinEndFailed: '%prefix%&cThe arena has already ended.'
+  MultiArenaRejoinFailed: '%prefix%&cThere aren''t Maps you could rejoin.'
+  MultiArenaMapsFailed: '%prefix%&cThere aren''t Maps available!'
+  BungeeKickFullArena: '%prefix%&cThe arena is full.'
+  ChatFormat:
+    Normal: '%prefix%&a%player%: &f%message%'
+    Spectator: '%prefix%&7(&cSPEC&7) &a%player%: &f%message%'
+  GameStartChatPrefixHigh: '&6'
+  GameStartChatPrefixMedium: '&c'
+  GameStartChatPrefixLow: '&c'
+  GameStartTitlePrefixHigh: '&a'
+  GameStartTitlePrefixMedium: '&e'
+  GameStartTitlePrefixLow: '&c'
+  GameStopChatPrefixHigh: '&c'
+  GameStopChatPrefixLow: '&c'
+  GameStartCountdown: '%prefix%&eThe game starts in %time% &eseconds!'
+  GameStopCountdown: '%prefix%&cThe game restarts in %time% &cseconds!'
+  DoorHologram:
+  - '&a&l%doorName%'
+  - '&6%gold% Gold'
+  NotEnoughGold: '%prefix%&cYou don''t have enough Gold to purchase that!'
+  EarnGold: '%prefix%&6+ %gold% Gold'
+  WindowRepairInformation: '&eHold SNEAK to repair.'
+  WindowRepair: '%prefix%&aRepairing windows. Keep holding SNEAK to continue repairing.'
+  WindowRepairStopped: '%prefix%&cStopped repairing. Hold SNEAK to continue repairing!'
+  WindowRepaired: '%prefix%&aYou have fully repaired this window!'
+  WindowRepairFailed: '%prefix%&cYou can''t repair windows while enemies are nearby!'
+  WeaponReloadInformation: '&c&lRELOADING'
+  WeaponCooldownInformation: '&c&lCOOLDOWN'
+  Round: '&c&lRound %round%'
+  GameOver: '&c&lGame Over'
+  OpenDoor: '%prefix%%displayName% &7opened &a&l%doorName%'
+  EmptyPlayer: '&7Empty'
+  QuitState: '&cQUIT'
+  DeadState: '&cDEAD'
+  ReviveState: '&eREVIVE'
+  TitleWin: '&aYou Win!'
+  SubTitleWin: '&7You made it to Round %round%!'
+  TitleLoose: '&cGame Over!'
+  SubTitleLoose: '&7You made it to Round %round%!'
+  BossSpawn: '%prefix%%name% &7has spawned!'
+  BossKill: '%prefix%%displayName% &7killed %name%&7!'
+  BombieName: '&6&lBombie'
+  InfernoName: '&c&lInferno'
+  TheBroodmotherName: '&5&lThe Broodmother'
+  KingSlimeName: '&a&lKing Slime'
+  KingWitherName: '&8&lKing Wither'
+  HerobrineName: '&4&lHerobrine'
+  SantaClausName: '&c&lSanta Claus'
+  PennywiseName: '&4&lPennywise'
+  KnockedDownTitle: '&f%displayName% &7was knocked down!'
+  ReviveTitle: '&aYou are beeing revived...'
+  ReviveActionBar: '&aYou will die in &c%time%s'
+  Revive: '%prefix%&f%displayName% &ewas knocked down by &7%name%&e! You have &c%time%s
+    &eto revive them!'
+  Revived: '%prefix%&f%displayName% &erevived &f%revivedDisplayName%&e!'
+  ReviveDead: '%prefix%&f%displayName% &7was killed by %name%&7!'
+  ReviveDeadUnknown: '%prefix%&f%displayName% &7died.'
+  DeathTitle: '&cYou died!'
+  DeathSubTitle: '&7You will respawn next round.'
+  OutOfAmmo: '%prefix%&c&lThis weapon is out of ammo! You can refill ammo at the place
+    that you purchased the weapon or through collecting the &9&lMax Ammo Power up&c&l.'
+  Spectator:
+    Teleporter:
+      InventoryName: '&7Teleporter'
+      ItemName: '&7Teleporter'
+  Shop:
+    Armor:
+      LEATHER:
+        UP: '&aLeather Helmet & Chestplate'
+        DOWN: '&aLeather Leggings & Boots'
+      GOLD:
+        UP: '&aGold Helmet & Chestplate'
+        DOWN: '&aGold Leggings & Boots'
+      IRON:
+        UP: '&aIron Helmet & Chestplate'
+        DOWN: '&aIron Leggings & Boots'
+      DIAMOND:
+        UP: '&aDiamond Helmet & Chestplate'
+        DOWN: '&aDiamond Leggings & Boots'
+      Unlocked: '&6UNLOCKED'
+      NotUnlocked: '&6%goldValue% Gold'
+      Purchase: '%prefix%&aYou purchased &9%armorName%&a!'
+      AlreadyWearing: '%prefix%&cYou are already wearing that armor!'
+      Downgrade: '%prefix%&cThis armor is a downgrade from your current armor.'
+    Weapon:
+      Name: '&a%weaponName%'
+      NotUnlocked: '&6%goldValue% Gold'
+      AmmoName: '&a%weaponName% Ammo'
+      Purchase: '%prefix%&aYou purchased &9%weaponName%&a!'
+      AlreadyMaxAmmo: '%prefix%&cYou already have max ammo for this weapon!'
+      WrongClick: '%prefix%&cClick with one of your gun slots to purchase a gun!'
+      SwapWeapon: '%prefix%&cYou already have this weapon! Swap to that weapon and
+        click to refill your ammo.'
+    Perks:
+      Purchase: '%prefix%&eYou activated the &9%perkName% Perk&e!'
+      AlreadyPurchased: '%prefix%&cYou already have %perkName% activated!'
+      RequiresPower: '%prefix%&cPerk Machines requires Power to use! Find and activate
+        the &6Power Switch &cin the &a&lPower Station &cfirst!'
+      MaxPerks: '%prefix%&cYou can only have 3 Perks active at a time. Switch to an
+        active Perk in your hotbar and click the Perk Machine again to replace that
+        Perk!'
+      Unlocked: '&6UNLOCKED'
+      HologramHeader: '&b%perkName%'
+      InactiveHologramFooter: '&7&oRequires power!'
+      ActiveHologramFooter: '&6%goldValue% Gold'
+  PowerSwitch:
+    Title: '%displayName% &7activated the Power!'
+    SubTitle: '&7You can now use machines!'
+    HologramHeader: '&6&lPower Switch'
+    InactiveHologramFooter: '&6%goldValue% Gold'
+    ActiveHologramFooter: '&7&oActivated!'
+    AlreadyActivated: '%prefix%&cThe Power has already been activated!'
+  Powerups:
+    DOUBLE_GOLD:
+      Message: '%prefix%%displayName% &eactivated &6&lDouble Gold &efor &c%duration%s&e!'
+      Title: '&6Double Gold'
+      Hologram: '&6&lDOUBLE GOLD'
+      BarTag: '&6&lDouble Gold &7- &a&l%doubleGoldDuration%s'
+    MAX_AMMO:
+      Message: '%prefix%%displayName% &eactivated &9&lMax Ammo&e!'
+      Title: '&9Max Ammo'
+      Hologram: '&9&lMAX AMMO'
+    INSTA_KILL:
+      Message: '%prefix%%displayName% &eactivated &c&lInsta Kill &efor &c%duration%s&e!'
+      Title: '&cInsta Kill'
+      Hologram: '&c&lINSTA KILL'
+      BarTag: '&c&lInsta Kill &7- &a&l%instaKillDuration%s'
+    SHOPPING_SPREE:
+      Message: '%prefix%%displayName% &eactivated &b&lShopping Spree &efor &c%duration%s&e!'
+      Title: '&bShopping Spree'
+      Hologram: '&b&lSHOPPING SPREE'
+      BarTag: '&b&lShopping Spree &7- &a&l%shoppingSpreeDuration%s'
+    BONUS_GOLD:
+      Message: '%prefix%%displayName% &eactivated &6&lBonus Gold&e!'
+      Title: '&6Bonus Gold'
+      Hologram: '&6&lBONUS GOLD'
+    CARPENTER:
+      Message: '%prefix%%displayName% &eactivated &9&lCarpenter&e!'
+      Title: '&9Carpenter'
+      Hologram: '&9&lCARPENTER'
+  WeaponsChest:
+    Inactive:
+      Hologram:
+      - '&5Weapons Chest'
+      - '&e&l%goldValue% Gold'
+    Active:
+      Hologram:
+      - '&5Weapons Chest'
+      - '&e&l%displayName% is rolling...'
+      - '%weaponName%'
+    ActiveFinished:
+      Hologram:
+      - '&c%time%s'
+      - ' '
+      - '&5Weapons Chest'
+      - '&eRIGHT-CLICK TO CLAIM'
+      - '%weaponName%'
+    NotActive: '%prefix%&cThis Weapons Chest is not active right now!'
+    InUse: '%prefix%&cSomeone else is using the Weapons Chest right now. Try again
+      when they are finished!'
+    Moved: '%prefix%&7The &5Weapons Chest &7has moved to a new location!'
+    FoundWeapon: '%prefix%%displayName% &7found %weaponName% &7in the &5Weapons Chest&7!'
+    PersonalFoundWeapon: '%prefix%&7You found %weaponName% &7in the &5Weapons Chest&7!
+      &7You have &c%claimDuration%s &7to claim it before it disappears!'
+    Claimed: '%prefix%&7You claimed %weaponName% &7in the &5Weapons Chest&7!'
+    WrongClick: '%prefix%&cClick with one of your gun slots to claim the gun!'
+    AlreadyAvailable: '%prefix%&cYou already have the Weapon!'
+  UltimateMachine:
+    HologramHeader: '&a&lUltimate Machine'
+    InactiveHologramFooter: '&7&oRequires power!'
+    ActiveHologramFooter: '&6%goldValue% Gold'
+    Upgraded: '%prefix%&eYou have upgraded your &9%weaponName% &eto &9Ultimate&e!'
+    AlreadyUpgraded: '%prefix%&eYou already upgraded your weapon to &9Ultimate&e!'
+    HoldingInvalidWeapon: '%prefix%&cYou are not holding a weapon!'
+    RequiresPower: '%prefix%&cUltimate Machines requires Power to use! Find and activate
+      the &6Power Switch &cin the &a&lPower Station &cfirst!'
+  TeamMachine:
+    HologramHeader: '&a&lTeam Machine'
+    InactiveHologramFooter: '&7&oRequires power!'
+    ActiveHologramFooter: '&eRIGHT-CLICK TO OPEN!'
+    RequiresPower: '%prefix%&cTeam Machines requires Power to use! Find and activate
+      the &6Power Switch &cin the &a&lPower Station &cfirst!'
+    InventoryName: Team Machine
+    AmmoSupply:
+      Purchaseable:
+        DisplayName: '&aAmmo Supply'
+        Lores:
+        - '&7Gain max ammo for all of yours'
+        - '&7and your teammates'' weapons.'
+        - ' '
+        - '&7Cost: &6%ammoSupplyGoldValue% Gold'
+        - ' '
+        - '&eClick to purchase!'
+      NotPurchaseable:
+        DisplayName: '&cAmmo Supply'
+      MotPurchaseable:
+        Lores:
+        - '&7Gain max ammo for all of yours'
+        - '&7and your teammates'' weapons.'
+        - ' '
+        - '&7Cost: &6%ammoSupplyGoldValue% Gold'
+        - ' '
+        - '&cYou don''t have enough Gold!'
+    FullRevive:
+      Purchaseable:
+        DisplayName: '&aFull Revive'
+        Lores:
+        - '&7Revives all downed and dead'
+        - '&7teammates.'
+        - ' '
+        - '&7Cost: &6%fullReviveGoldValue% Gold'
+        - ' '
+        - '&eClick to purchase!'
+      NotPurchaseable:
+        DisplayName: '&cFull Revive'
+        Lores:
+        - '&7Revives all downed and dead'
+        - '&7teammates.'
+        - ' '
+        - 'Cost: &6%fullReviveGoldValue% Gold'
+        - ' '
+        - '&cYou don''t have enough Gold!'
+    DragonsWrath:
+      Purchaseable:
+        DisplayName: '&aDragon''s Wrath'
+        Lores:
+        - '&7Kills all enemies within a &a15'
+        - '&7block radius after a short'
+        - '&7delay.'
+        - ' '
+        - '&7Cost: &6%dragonsWrathGoldValue% Gold'
+        - ' '
+        - '&eClick to purchase!'
+      NotPurchaseable:
+        DisplayName: '&cDragon''s Wrath'
+      MotPurchaseable:
+        Lores:
+        - '&7Kills all enemies within a &a15'
+        - '&7block radius after a short'
+        - '&7delay.'
+        - ' '
+        - '&7Cost: &6%dragonsWrathGoldValue% Gold'
+        - ' '
+        - '&cYou don''t have enough Gold!'
+      KillMessage: '%prefix%&aKilled %killedEnemies% enemies!'
+    CloseItem:
+      DisplayName: '&cClose'
+      Lores: []
+    Activate: '%prefix%%displayName% &7activated &a&l%purchasedType% &7from the &aTeam
+      Machine&7!'
+  StatsHologram:
+    Header:
+    - '&b&l%mapName%'
+    - '&7Fastest Win'
+    - '  '
+    Players: '&e%placeId%. &7%name% &7- &e%time%'
+  Mode:
+    Endless: '&cEndless'
+    Normal: '&aNormal'
+  Difficulty:
+    Normal: '&aNormal'
+    Hard: '&cHard'
+    RIP: '&4RIP'
+  MenuInventory:
+    MainInventory:
+      Title: Play VMW_PVE
+      CloseItemTitle: '&cClose'
+      CloseItemLores:
+      - '&7Click here to close the Menu'
+      BackItemTitle: '&aBack'
+      BackItemLores:
+      - '&7Click here to go back'
+      RejoinItemTitle: '&cRejoin'
+      RejoinItemLores:
+      - '&7Rejoin your last arena'
+      RandomJoinItemTitle: '&cRandom Join'
+      RandomJoinItemLores:
+      - '&7Click here to join a random arena'
+      NormalModeItemTitle: '&aNormal Mode'
+      NormalModeItemLores:
+      - '&7Click here to choose Maps'
+      - '&7There are currently %maps% Maps available.'
+      EndlessModeItemTitle: '&cEndless Mode'
+      EndlessModeItemLores:
+      - '&7Click here to choose Maps'
+      - '&7There are currently %maps% Maps available.'
+      NormalDifficultyItemTitle: '&aNormal Difficulty'
+      NormalDifficultyItemLores:
+      - '&7Click here to select &aNormal &7Difficulty'
+      - '&7There are currently %maps% Maps available.'
+      HardDifficultyItemTitle: '&cHard Difficulty'
+      HardDifficultyItemLores:
+      - '&7Click here to select &cHard &7Difficulty'
+      - '&7There are currently %maps% Maps available.'
+      RIPDifficultyItemTitle: '&4RIP Difficulty'
+      RIPDifficultyItemLores:
+      - '&7Click here to select &4RIP &7Difficulty'
+      - '&7There are currently %maps% Maps available.'
+    MapInventory:
+      Title: Choose Map..
+      MapInformation:
+      - ''
+      - '&7Players: &e%players%&7/&e%maxPlayers%'
+      - '&7State: %state%'
+      - '&7Time: &e%time%'
+      - '&7Round: &f%round%'
+      ItemType: STAINED_CLAY
+      DataId:
+        EmptyArena: 5
+        FilledArena: 13
+        FullArena: 1
+        StartedArena: 9
+        StoppedArena: 14
+      Color:
+        EmptyArena: '&a&l'
+        FilledArena: '&2&l'
+        FullArena: '&6&l'
+        StartedArena: '&7&l'
+        StoppedArena: '&c&l'
+  PracticeDummy:
+    Name: '&cPractice Dummy'
+    HologramName: '&e&lRIGHT-CLICK &7to shoot!'
+  EnemyDetectorActionBar: '&7Nearest Enemy is beeing tracked &a%xCoordinateDifference%&7X
+    &8/ &a%yCoordinateDifference%&7Y blocks away.'
+  StartMessages:
+    Enabled: false
+    List:
+    - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '                               &fVMW_PVE'
+    - ' '
+    - '        &eFight with your teammates against oncoming'
+    - '         &ehoards of VMW_PVE and other dangerous mobs.'
+    - '       &eProgress through the map to buy better weapons'
+    - '       &eand armor in order to defend against upgraded'
+    - '        &eenemies. Survive as many rounds as possible!'
+    - ' '
+    - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+Effects:
+  SLOW_DIGGING:
+    Amplifier: 0
+  REGENERATION:
+    Amplifier: 2

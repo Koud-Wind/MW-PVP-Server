@@ -1,0 +1,1 @@
+function vmwp:游戏/军火之王/生成王冠 unless @a[tag=持有王冠]

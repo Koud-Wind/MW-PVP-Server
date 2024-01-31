@@ -1,0 +1,218 @@
+(2)[2023/03/27 17:16:00]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 453ms),
+  (TPS: 19.96), (Hacker: false), (Online: 1), (type: normal, reason: blocks, horizontal:
+  0.845878337316291, limit: 0.7, dynamic-limit: 0.7, vertical: -0.15523200451660557,
+  air: 3)]'
+(3)[2023/03/27 17:16:00]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 3) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 453ms),
+  (TPS: 19.956), (Hacker: false), (Online: 1), (type: normal, reason: blocks, horizontal:
+  0.7658783146708211, limit: 0.7, dynamic-limit: 0.7, vertical: -0.23052736891295922,
+  air: 4)]'
+(4)[2023/03/27 17:16:14]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 1) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 339ms),
+  (TPS: 19.94), (Hacker: false), (Online: 1), (type: normal, reason: air, horizontal:
+  0.9472777545414995, limit: 0.3675, dynamic-limit: 0.3675, vertical: 0.0, air: 0)]'
+(5)[2023/03/27 17:16:14]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 339ms),
+  (TPS: 19.94), (Hacker: false), (Online: 1), (type: normal, reason: blocks, horizontal:
+  0.8672837839287177, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(6)[2023/03/27 17:23:42]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 1) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.964), (Hacker: false), (Online: 1), (type: normal, reason: air, horizontal:
+  0.9244303483186673, limit: 0.3675, dynamic-limit: 0.3675, vertical: 0.0, air: 0)]'
+(7)[2023/03/27 17:23:43]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.968), (Hacker: false), (Online: 1), (type: normal, reason: blocks, horizontal:
+  0.7614387751078849, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(8)[2023/03/27 17:23:50]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 3) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.952), (Hacker: false), (Online: 1), (type: normal, reason: air, horizontal:
+  0.9493900048446826, limit: 0.3675, dynamic-limit: 0.3675, vertical: 0.0, air: 0)]'
+(9)[2023/03/27 17:23:50]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 4) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.948), (Hacker: false), (Online: 1), (type: normal, reason: blocks, horizontal:
+  0.8693900354719934, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(10)[2023/03/27 17:23:50]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 5) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.944), (Hacker: false), (Online: 1), (type: normal, reason: blocks, horizontal:
+  0.7893900720346049, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(2)[2023/03/27 17:59:54]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 1) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.964), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8623798579300874, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(3)[2023/03/27 17:59:56]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.964), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7093968827715671, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(4)[2023/03/27 18:00:01]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 3) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.94), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8692358438305854, limit: 0.78, dynamic-limit: 0.78, vertical: -0.07840000152587834,
+  air: 0)]'
+(5)[2023/03/27 18:00:02]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 4) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.952), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.9039174639863499, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(6)[2023/03/27 18:00:04]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 5) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.948), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.8112570428518798, limit: 0.78, dynamic-limit: 0.78, vertical: 0.0, air: 0)]'
+(7)[2023/03/27 18:00:13]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 6) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.932), (Hacker: false), (Online: 2), (type: normal, reason: walking,
+  horizontal: 0.7653860409570669, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(8)[2023/03/27 18:00:18]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 7) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.944), (Hacker: false), (Online: 2), (type: normal, reason: walking,
+  horizontal: 0.9485743452462565, limit: 0.525, dynamic-limit: 0.525, vertical: 0.0,
+  air: 0)]'
+(9)[2023/03/27 18:00:22]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 8) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.964), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7093769802141823, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(10)[2023/03/27 18:00:26]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 9) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.952), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.9489785044658345, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(11)[2023/03/27 18:00:44]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 1) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.96), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8676770591873817, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(12)[2023/03/27 18:00:49]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.964), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7658691477656632, limit: 0.7, dynamic-limit: 0.7, vertical: -0.23052736891295922,
+  air: 0)]'
+(13)[2023/03/27 18:01:55]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 1) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.94), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.7658492477725608, limit: 0.7, dynamic-limit: 0.7, vertical: -0.15523200451660557,
+  air: 0)]'
+(14)[2023/03/27 18:01:57]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.928), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.8694000115160636, limit: 0.7, dynamic-limit: 0.7, vertical: 0.5, air: 0)]'
+(15)[2023/03/27 18:01:57]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 3) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.924), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.7658800177090506, limit: 0.7, dynamic-limit: 0.7, vertical: 0.5, air: 0)]'
+(16)[2023/03/27 18:02:06]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 4) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.916), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.8687493872387007, limit: 0.78, dynamic-limit: 0.78, vertical: 0.5, air: 0)]'
+(17)[2023/03/27 18:02:07]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 5) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.924), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.8563630734674417, limit: 0.78, dynamic-limit: 0.78, vertical: 0.0, air: 0)]'
+(18)[2023/03/27 18:02:07]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 6) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.92), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.5754379565847559, limit: 0.3675, dynamic-limit: 0.3675, vertical: -0.23052736891295922,
+  air: 0)]'
+(19)[2023/03/27 18:02:07]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 7) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.924), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.5473826898008807, limit: 0.3675, dynamic-limit: 0.3675, vertical: -0.03584062504455687,
+  air: 0)]'
+(20)[2023/03/27 18:02:07]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 8) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.916), (Hacker: false), (Online: 2), (type: normal, reason: ypos, horizontal:
+  0.8244219781125804, limit: 0.68, dynamic-limit: 0.68, vertical: 0.41999998688697815,
+  air: 0)]'
+(21)[2023/03/27 18:02:09]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 9) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.968), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.7009058767446371, limit: 0.7, dynamic-limit: 0.7, vertical: 0.5, air: 0)]'
+(22)[2023/03/27 18:02:12]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 10) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.944), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.8978889609480978, limit: 0.7, dynamic-limit: 0.7, vertical: 0.5, air: 3)]'
+(23)[2023/03/27 18:02:12]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 11) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.94), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.821774295233003, limit: 0.7, dynamic-limit: 0.7, vertical: 0.5, air:
+  0)]'
+(24)[2023/03/27 18:02:14]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 12) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.936), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8693007614316631, limit: 0.78, dynamic-limit: 0.78, vertical: 0.0,
+  air: 0)]'
+(25)[2023/03/27 18:02:20]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 13) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.968), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.9493888534982814, limit: 0.78, dynamic-limit: 0.78, vertical: 0.0, air: 0)]'
+(26)[2023/03/27 18:02:21]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 14) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.964), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7853595619527798, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(27)[2023/03/27 18:02:21]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 15) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.964), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7133994926317356, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(28)[2023/03/27 18:02:23]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 16) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.944), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.9493660970363075, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(29)[2023/03/27 18:02:23]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 17) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.944), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8693722687759529, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(30)[2023/03/27 18:02:23]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 18) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.944), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7893926780610885, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(31)[2023/03/27 18:02:24]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 19) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.94), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8268047699388491, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(32)[2023/03/27 18:02:25]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 20) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.932), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.948375007045825, limit: 0.3675, dynamic-limit: 0.3675, vertical: 0.5, air: 0)]'
+(33)[2023/03/27 18:02:25]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 21) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.928), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7073927887571784, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(34)[2023/03/27 18:02:38]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 22) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.956), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.9483927063156635, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 2)]'
+(35)[2023/03/27 18:02:38]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 23) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.956), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.8680749598433526, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(36)[2023/03/27 18:02:38]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 24) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping:
+  0ms), (TPS: 19.96), (Hacker: false), (Online: 2), (type: normal, reason: blocks,
+  horizontal: 0.7880131436191139, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air:
+  0)]'
+(37)[2023/03/27 18:02:41]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 1) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.944), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.7888234313348467, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(38)[2023/03/27 18:02:44]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 2) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.948), (Hacker: false), (Online: 2), (type: normal, reason: air, horizontal:
+  0.9040112052043916, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 1)]'
+(39)[2023/03/27 18:02:44]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 3) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.948), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.8170336257664338, limit: 0.7, dynamic-limit: 0.7, vertical: 0.0, air: 0)]'
+(40)[2023/03/27 18:02:44]: '[Spartan Phase 484/137-512396/2030557-97314] Command_Koud
+  failed Speed (VL: 4) [(Version: Unknown 1.12), (C-V: 4) (Silent: true), (Ping: 0ms),
+  (TPS: 19.948), (Hacker: false), (Online: 2), (type: normal, reason: blocks, horizontal:
+  0.736194655422103, limit: 0.7, dynamic-limit: 0.7, vertical: -0.07840000152587834,
+  air: 0)]'

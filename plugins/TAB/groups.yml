@@ -1,0 +1,29 @@
+Owner:
+  tabprefix: "&0&l[&a&l服主&0&l] &a"
+  tagprefix: "&2&l服主&a"
+Admin:
+  tabprefix: "&0&l[&4&l管理员&0&l] &1"
+  tagprefix: "&4&l管理员 &a"
+Player:
+  tabprefix: "&0&l[&7&l玩家&0&l] &3"
+  tagprefix: "&2&l玩家 &3"
+example_group:
+  header:
+    - "名叫example_group的示例组的Tab顶部内容"
+  footer:
+    - "名叫example_group的示例组的Tab底部内容"
+
+ # 所有组的默认设置，如果没有做特殊的设置，所有组都将采用这个设置
+_DEFAULT_:
+  tabprefix: "%vault-prefix%"
+  tagprefix: "%vault-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # 需要开启 unlimited nametag mode
+  tabsuffix: "%vault-suffix%"
+  tagsuffix: "%vault-suffix%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&l服主&0&l] &a"
+      tagprefix: "&2&l服主 &a"

@@ -1,0 +1,404 @@
+menu-settings:
+  name: '道具商店'
+  rows: 6
+X1Y1:
+  ID: STRUCTURE_VOID
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §f关闭页面
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZuWFs+mXremhtemdogAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: false
+X3Y1:
+  ID: WATCH
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e武器商店
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZeatpuWZqOWVhuW6lwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店1.yml'
+  KEEP-OPEN: true
+X4Y1:
+  ID: INK_SACK
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NAME: §e涂装
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUACcKnZea2guijhQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店2.yml'
+  KEEP-OPEN: true
+X5Y1:
+  ID: STONE_SWORD
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e近战武器
+  POSITION-X: 5
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店3.yml'
+  KEEP-OPEN: true
+X6Y1:
+  ID: MWC_M32_MGL
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e终极武器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUAD8KnZee7iOaegeatpuWZqAAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店4.yml'
+  KEEP-OPEN: true
+X7Y1:
+  ID: MWC_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e瞄准镜
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZeeehOWHhumVnAAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店5.yml'
+  KEEP-OPEN: true
+X8Y1:
+  ID: MWC_SILENCER556X45
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §e消音器
+  NBT: "CgAACgAHZGlzcGxheQgABE5hbWUADMKnZea2iOmfs+WZqAAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店6.yml'
+  KEEP-OPEN: true
+X1Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X3Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X4Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X5Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X6Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X7Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X8Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X9Y2:
+  ID: STAINED_GLASS_PANE
+  DATA-VALUE: 14
+  AMOUNT: 1
+  NBT: "CgAAAA==\r\n"
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+X2Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eRMR
+  LORE:
+  - '§b价格: 500钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA1MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAbCp2VSTVIAAA==\r\n"
+  POSITION-X: 2
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 2'
+  KEEP-OPEN: true
+X3Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eOKP-7
+  LORE:
+  - '§b价格: 500钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA1MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAjCp2VPS1AtNwAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 4'
+  KEEP-OPEN: true
+X4Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §e8-18 Kobra
+  LORE:
+  - '§b价格: 700钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA3MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAA3Cp2U4LTE4IEtvYnJhAAA=\r\n"
+  POSITION-X: 4
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 6'
+  KEEP-OPEN: true
+X5Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eKobra Gen-3
+  LORE:
+  - '§b价格: 700钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA3MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAA7Cp2VLb2JyYSBHZW4tMwAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 8'
+  KEEP-OPEN: true
+X6Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eEOTech
+  LORE:
+  - '§b价格: 700钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA3MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAnCp2VFT1RlY2gAAA==\r\n"
+  POSITION-X: 6
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 10'
+  KEEP-OPEN: true
+X7Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eVortex
+  LORE:
+  - '§b价格: 800钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAUwqdi5Lu35qC8OiA4MDDpkp7npagAEMKnZeeCueWH\r\
+    \nu+i0reS5sCEIAAROYW1lAAnCp2VWb3J0ZXgAAA==\r\n"
+  POSITION-X: 7
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 12'
+  KEEP-OPEN: true
+X8Y3:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eBijia
+  LORE:
+  - '§b价格: 1000钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxMDAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAIwqdlQmlqaWEAAA==\r\n"
+  POSITION-X: 8
+  POSITION-Y: 3
+  COMMAND: 'trigger 选择瞄具页面 set 14'
+  KEEP-OPEN: true
+X1Y4:
+  ID: MWC_REFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 1'
+  KEEP-OPEN: true
+X2Y4:
+  ID: MWC_RMRSIGHT
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 3'
+  KEEP-OPEN: true
+X3Y4:
+  ID: MWC_OKP7
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 5'
+  KEEP-OPEN: true
+X4Y4:
+  ID: MWC_KOBRA
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 4
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 7'
+  KEEP-OPEN: true
+X5Y4:
+  ID: MWC_KOBRAGEN3
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 5
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 9'
+  KEEP-OPEN: true
+X6Y4:
+  ID: MWC_HOLOGRAPHIC2
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 6
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 11'
+  KEEP-OPEN: true
+X7Y4:
+  ID: MWC_VORTEXSIGHT
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 13'
+  KEEP-OPEN: true
+X8Y4:
+  ID: MWC_BIJIAREFLEX
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 8
+  POSITION-Y: 4
+  COMMAND: 'trigger 选择瞄具页面 set 15'
+  KEEP-OPEN: true
+X1Y5:
+  ID: MWC_SPECTER
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 5
+  COMMAND: 'trigger 选择瞄具页面 set 19'
+  KEEP-OPEN: true
+X2Y5:
+  ID: MWC_ACOG
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 5
+  COMMAND: 'trigger 选择瞄具页面 set 21'
+  KEEP-OPEN: true
+X3Y5:
+  ID: MWC_NIGHTRAIDERSCOPE
+  DATA-VALUE: 0
+  AMOUNT: 1
+  LORE:
+  - §5点击切换!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAQwqc154K55Ye75YiH5o2iIQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 5
+  COMMAND: 'trigger 选择瞄具页面 set 23'
+  KEEP-OPEN: true
+X1Y6:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eSpecter
+  LORE:
+  - '§b价格: 1100钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxMTAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAKwqdlU3BlY3RlcgAA\r\n"
+  POSITION-X: 1
+  POSITION-Y: 6
+  COMMAND: 'trigger 选择瞄具页面 set 18'
+  KEEP-OPEN: true
+X2Y6:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eACOG
+  LORE:
+  - '§b价格: 1200钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxMjAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAHwqdlQUNPRwAA\r\n"
+  POSITION-X: 2
+  POSITION-Y: 6
+  COMMAND: 'trigger 选择瞄具页面 set 20'
+  KEEP-OPEN: true
+X3Y6:
+  ID: INK_SACK
+  DATA-VALUE: 10
+  AMOUNT: 1
+  NAME: §eNight Raider
+  LORE:
+  - '§b价格: 1500钞票'
+  - §e点击购买!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAgAVwqdi5Lu35qC8OiAxNTAw6ZKe56WoABDCp2Xngrnl\r\
+    \nh7votK3kubAhCAAETmFtZQAPwqdlTmlnaHQgUmFpZGVyAAA=\r\n"
+  POSITION-X: 3
+  POSITION-Y: 6
+  COMMAND: 'trigger 选择瞄具页面 set 22'
+  KEEP-OPEN: true

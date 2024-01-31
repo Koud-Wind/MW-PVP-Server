@@ -1,0 +1,31 @@
+menu-settings:
+  name: '菜单'
+  rows: 1
+X3Y1:
+  ID: SKULL_ITEM
+  DATA-VALUE: 2
+  AMOUNT: 1
+  NAME: §4§l僵尸末日
+  LORE:
+  - §e点击开始游玩僵尸末日!
+  - §c注意:有队友伤害!进入后会取消准备!
+  - §c需要满2人方可参与
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAcwqdl54K55Ye75omT5byA5ri4546p6I+c5Y2VIQgA\r\
+    \nBE5hbWUAD8KnY+WDteWwuOacq+aXpQAA\r\n"
+  POSITION-X: 3
+  POSITION-Y: 1
+  COMMAND: 'zombies join map1'
+  KEEP-OPEN: false
+X7Y1:
+  ID: GOLD_BLOCK
+  DATA-VALUE: 0
+  AMOUNT: 1
+  NAME: §6§l道具商店
+  LORE:
+  - §e点击打开商店菜单!
+  NBT: "CgAACgAHZGlzcGxheQkABExvcmUIAAAAAQAcwqdl54K55Ye75omT5byA5ZWG5bqX6I+c5Y2VIQgA\r\
+    \nBE5hbWUAD8KnNumBk+WFt+WVhuW6lwAA\r\n"
+  POSITION-X: 7
+  POSITION-Y: 1
+  COMMAND: 'open:道具商店1.yml'
+  KEEP-OPEN: true

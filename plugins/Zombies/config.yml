@@ -1,0 +1,972 @@
+Prefix: '&7[&eMW_PVE&7] '
+MySQL:
+  Enabled: false
+  LocalFile: false
+  Hostname: localhost
+  Port: 3306
+  Database: database
+  Username: username
+  Password: password
+MultiArena:
+  Enabled: true
+  SignLayout:
+    Line1: '&b[&8MW_PVE&b]'
+    Line2: '%name%'
+    Line3: '&f%players%&8/&f%maxPlayers%'
+    Line4: '%state%'
+LobbyTimer: 45
+RestartTimer: 5
+RandomMap: false
+StartMap: EnterMapName
+QuitRejoinEnabled: false
+FillEmptySlots: false
+PremiumKickEnabled: false
+ChatFormatEnabled: false
+HidePlayers: false
+HideChat: false
+Commands:
+  Start:
+    Enabled: true
+    Permission: MW_PVE.start
+  Stats:
+    Enabled: false
+    Permission: MW_PVE.stats
+  Leave:
+    Enabled: true
+    Permission: MW_PVE.leave
+MotdDisplay:
+  Enabled: false
+  Custom: true
+  Lobby: '&a&l大厅 &7- &f%players% &7| &f%time%秒'
+  InGame: '&c&l游戏中 &7- &f%map% &7| &f%time%秒'
+  Restarting: '&c&l正在重新启动'
+ChatFormat:
+  Enabled: false
+State:
+  Lobby: '&a大厅'
+  InGame: '&c游戏中'
+  Restarting: '&4正在重新启动'
+Sound:
+  Countdown: BLOCK_NOTE_HAT
+  BreakWindow: ENTITY_WITHER_BREAK_BLOCK
+  RepairWindow: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD
+  RepairedWindow: BLOCK_ANVIL_LAND
+  KnockedDown: ENTITY_ENDERDRAGON_GROWL
+  NotEnoughGold: ENTITY_ENDERMEN_TELEPORT
+  WeaponReload: ENTITY_HORSE_GALLOP
+  WeaponCooldown: ENTITY_HORSE_GALLOP
+  ShopItemBought: ENTITY_EXPERIENCE_ORB_PICKUP
+  PowerSwitchActivated: ENTITY_BLAZE_DEATH
+  UltimateMachineUpgrade: ENTITY_EXPERIENCE_ORB_PICKUP
+  PowerupPickup: ENTITY_EXPERIENCE_ORB_PICKUP
+  WeaponsChestRolling: ENTITY_EXPERIENCE_ORB_PICKUP
+  TeamMachinePurchase: ENTITY_EXPERIENCE_ORB_PICKUP
+  WeaponsChestOpen: BLOCK_CHEST_OPEN
+  WeaponsChestClose: BLOCK_CHEST_CLOSE
+  DoorOpen: BLOCK_WOODEN_DOOR_OPEN
+Window:
+  BarrierWall: true
+  RepairDelay: 200
+Revive:
+  Time: 35.0
+  SneakTime: 1.0
+  Hologram:
+  - '&e■■■■■■■■■■■■■■■'
+  - '&e&l使用潜行进行救援!'
+  - '&e■■■■■■■■■■■■■■■'
+  - '&c%time%s'
+MapMenuEnabled: true
+BlockCommands:
+  Enabled: false
+  ByPassAllowed: false
+  BlockMessageAllowed: false
+  ByPassPermission: MW_PVE.bypass
+  BlockMessage: '&cYou are not allowed to perform Commands while playing MW_PVE.'
+  AllowedCommands:
+  - /MW_PVE
+Entities:
+  DelayedTeleportTicks: 20
+LocalStats:
+  DelayedUpdateTicks: 1000
+EntitySpawnDelay:
+  Start: 600
+  Round: 30
+GoldStart:
+  Default: 200
+  Permissions:
+    '1':
+      PermissionName: MW_PVE.permissionsGold
+      GoldValue: 0
+    '2':
+      PermissionName: MW_PVE.morePermissionGold
+      GoldValue: 0
+Rewards:
+  Enabled: true
+  GameLoose:
+  - entitydata @e[type=mwc:turretupgraded] {Health:-1.0f}
+  - entitydata @e[type=mwc:turret] {Health:-1.0f}
+  - scoreboard players remove @a[score_PVE-map_min=1,tag=!PVE-结算,score_胜场数_min=1]
+    胜场数 1
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-选择的主武器
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-选择的副武器
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱
+  - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+  - fill -858 69 1286 -858 72 1288 minecraft:quartz_block 4
+  - fill -858 70 1286 -858 70 1288 minecraft:stained_glass 8
+  - fill -843 72 1308 -843 69 1310 minecraft:quartz_block 4
+  - fill -843 70 1308 -843 70 1310 minecraft:stained_glass 8
+  - fill -837 73 1309 -837 70 1311 minecraft:quartz_block 4
+  - fill -837 71 1309 -837 71 1311 minecraft:stained_glass 8
+  - fill -853 72 1258 -851 69 1258 minecraft:quartz_block 3
+  - fill -853 70 1258 -851 70 1258 minecraft:stained_glass 8
+  - fill -861 79 1269 -863 76 1269 minecraft:quartz_block 3
+  - fill -861 77 1269 -863 77 1269 minecraft:stained_glass 8
+  - fill -876 80 1296 -878 77 1296 minecraft:quartz_block 3
+  - fill -876 78 1296 -878 78 1296 minecraft:stained_glass 8
+  GameWin:
+  - entitydata @e[type=mwc:turretupgraded] {Health:-1.0f}
+  - entitydata @e[type=mwc:turret] {Health:-1.0f}
+  - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 500
+  - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 胜场数 10
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-选择的主武器
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-选择的副武器
+  - scoreboard players reset @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱
+  - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +500钞票"}]
+  - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+  - fill -858 69 1286 -858 72 1288 minecraft:quartz_block 4
+  - fill -858 70 1286 -858 70 1288 minecraft:stained_glass 8
+  - fill -843 72 1308 -843 69 1310 minecraft:quartz_block 4
+  - fill -843 70 1308 -843 70 1310 minecraft:stained_glass 8
+  - fill -837 73 1309 -837 70 1311 minecraft:quartz_block 4
+  - fill -837 71 1309 -837 71 1311 minecraft:stained_glass 8
+  - fill -853 72 1258 -851 69 1258 minecraft:quartz_block 3
+  - fill -853 70 1258 -851 70 1258 minecraft:stained_glass 8
+  - fill -861 79 1269 -863 76 1269 minecraft:quartz_block 3
+  - fill -861 77 1269 -863 77 1269 minecraft:stained_glass 8
+  - fill -876 80 1296 -878 77 1296 minecraft:quartz_block 3
+  - fill -876 78 1296 -878 78 1296 minecraft:stained_glass 8
+  Rounds:
+    '1':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 8
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +8金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '2':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '3':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '4':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '5':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 50
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +50钞票"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '6':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '7':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '8':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '9':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '10':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 100
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +100钞票"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '11':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '12':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '13':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '14':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '15':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 150
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +150钞票"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '16':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '17':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '18':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '19':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '20':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 200
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +200钞票"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '21':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '22':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '23':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '24':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '25':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 300
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +300钞票"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '26':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '27':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '28':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '29':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 爆破-金钱 5
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§6回合结束! +5金钱"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+    '30':
+    - scoreboard players add @a[score_PVE-map_min=1,tag=!PVE-结算] 钞票 500
+    - tellraw @a[score_PVE-map_min=1,tag=!PVE-结算] [{"text":"§e回合结束! +500钞票"}]
+    - scoreboard players tag @a[score_PVE-map_min=1,tag=!PVE-结算] add PVE-结算
+SoundPitch:
+  NotEnoughGold: 1.0
+  PowerupPickup: 1.0
+  WeaponShootSound: 4.0
+  WeaponHitSound: 2.0
+  WeaponReloadSound: 0.5
+  WeaponCooldownSound: 0.5
+  ShopItemBought: 2.0
+  PowerSwitchActivated: 2.0
+  TeamMachinePurchase: 2.0
+  UltimateMachineUpgrade: 2.0
+  ReviveKnockedDown: 1.0
+  WeaponsChestOpen: 1.0
+  WeaponsChestClose: 1.0
+  RepairWindow: 1.5
+  RepairedWindow: 4.0
+  BreakWindow: 1.0
+  DoorOpen: 1.0
+BossBar:
+  Color: PURPLE
+  Style: PROGRESS
+WeaponBuilder:
+  Damage: §d-------------------
+  Ammo: ''
+  ClipAmmo: §a看起来是个划算的交易
+  FireRate: ''
+  Reload: §d-------------------
+  AffectedEnemies: ''
+  Cooldown: ''
+  Lores:
+  - '&eLEFT-CLICK &7to reload.'
+  - '&eRIGHT-CLICK &7to shoot.'
+UltimateWeaponBuilder:
+  Damage: ' &8▪ &7Damage: &8%oldDamageValue% HP ➔ &a%damageValue% HP'
+  Ammo: ' &8▪ &7Ammo: &8%oldAmmoValue% ➔ &a%ammoValue%'
+  ClipAmmo: ' &8▪ &7Clip Ammo: &8%oldClipAmmoValue% ➔ &a%clipAmmoValue%'
+  FireRate: ' &8▪ &7Fire Rate: &8%oldFireRateValue%s ➔ &a%fireRateValue%s'
+  Reload: ' &8▪ &7Reload: &8%oldReloadValue%s ➔ &a%reloadValue%s'
+  AffectedEnemies: ' &8▪ &7Enemies Affected: &8%oldAffectedEnemiesValue%s ➔ &a%affectedEnemiesValue%'
+  Cooldown: ' &8▪ &7Cooldown: &8%oldCooldownValue%s ➔ &a%cooldownValue%'
+  Lores:
+  - '&eLEFT-CLICK &7to reload.'
+  - '&eRIGHT-CLICK &7to shoot.'
+Weapon:
+  Knife:
+    DisplayName: §0GO
+    Material: BANNER
+    Lores: []
+  PracticeGun:
+    DisplayName: '&6PracticeGun'
+    UltimateDisplayName: ''
+    Material: WOOD_HOE
+    Lores:
+    - '&7Practice with this gun!'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_IRONGOLEM_HURT
+    Particle: CRIT
+    Damage: 0.0
+    Ammo: 0
+    ClipAmmo: 0
+    FireRate: 0
+    Reload: 0
+    UltimateDamage: 0
+    UltimateAmmo: 0
+    UltimateClipAmmo: 0
+    UltimateFireRate: 0
+    UltimateReload: 0
+    WeaponsChest: false
+  Pistol:
+    DisplayName: '&6Pistol'
+    UltimateDisplayName: '&6&lUltimate Pistol'
+    Material: WOOD_HOE
+    Lores:
+    - '&7This is your starter gun. You''re'
+    - '&7gonna want to upgrade this at'
+    - '&7some point, or may Notch save'
+    - '&7your soul.'
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_IRONGOLEM_HURT
+    Particle: CRIT
+    Damage: 6.0
+    Ammo: 300
+    ClipAmmo: 10
+    FireRate: 0.5
+    Reload: 1.5
+    UltimateDamage: 6.0
+    UltimateAmmo: 360
+    UltimateClipAmmo: 12
+    UltimateFireRate: 0.4
+    UltimateReload: 1.0
+    WeaponsChest: false
+  Rifle:
+    DisplayName: §4RPK§z
+    UltimateDisplayName: ''
+    Material: MWC_AK47
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: FIREWORKS_SPARK
+    Damage: 4.0
+    Ammo: 256
+    ClipAmmo: 32
+    FireRate: 0.2
+    Reload: 1.5
+    UltimateDamage: 5.0
+    UltimateAmmo: 280
+    UltimateClipAmmo: 35
+    UltimateFireRate: 0.2
+    UltimateReload: 1.0
+    WeaponsChest: true
+  Shotgun:
+    DisplayName: §dTurret§z
+    UltimateDisplayName: ''
+    Material: MWC_TURRETUPGRADED
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_GENERIC_EXPLODE
+    Particle: SMOKE_NORMAL
+    Damage: 6.5
+    Bullets: 8
+    Ammo: 65
+    ClipAmmo: 5
+    FireRate: 1.4
+    Reload: 1.5
+    UltimateDamage: 6.5
+    UltimateAmmo: 80
+    UltimateClipAmmo: 5
+    UltimateFireRate: 1.0
+    UltimateReload: 1.0
+    WeaponsChest: false
+  Flamethrower:
+    DisplayName: §0§kMakarov§z
+    UltimateDisplayName: ''
+    Material: MWC_MAKAROV_PM
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: BLOCK_FIRE_AMBIENT
+    Particle: FLAME
+    Damage: 2.0
+    Ammo: 350
+    ClipAmmo: 50
+    FireRate: 0.1
+    Reload: 3.0
+    UltimateDamage: 2.0
+    UltimateAmmo: 500
+    UltimateClipAmmo: 50
+    UltimateFireRate: 0.1
+    UltimateReload: 1.8
+    WeaponsChest: true
+  ZombieSoaker:
+    DisplayName: §4Glock-18C§z
+    UltimateDisplayName: ''
+    Material: MWC_GLOCK_18C
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_SLIME_ATTACK
+    Particle: WATER_DROP
+    Damage: 4.0
+    Ammo: 256
+    ClipAmmo: 32
+    FireRate: 0.3
+    Reload: 1.5
+    UltimateDamage: 4.0
+    UltimateAmmo: 280
+    UltimateClipAmmo: 50
+    UltimateFireRate: 0.1
+    UltimateReload: 1.0
+    WeaponsChest: true
+  RocketLauncher:
+    DisplayName: §dGiant armor§z
+    UltimateDisplayName: ''
+    Material: MWC_RUSSIAN_WEAPONS_CASE
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_ARROW_SHOOT
+    Particle: ''
+    Damage: 15.0
+    Ammo: 20
+    ClipAmmo: 4
+    FireRate: 2.0
+    Reload: 3.0
+    UltimateDamage: 20
+    UltimateAmmo: 32
+    UltimateClipAmmo: 4
+    UltimateFireRate: 1.5
+    UltimateReload: 2.0
+    WeaponsChest: true
+  ElderGun:
+    DisplayName: §4Supernova§z
+    UltimateDisplayName: ''
+    Material: MWC_SUPERNOVA
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_LIGHTNING_THUNDER
+    Particle: ''
+    Damage: 10.0
+    Ammo: 60
+    ClipAmmo: 4
+    FireRate: 1.0
+    Reload: 2.0
+    UltimateDamage: 15.0
+    UltimateAmmo: 100
+    UltimateClipAmmo: 4
+    UltimateFireRate: 1.0
+    UltimateReload: 2.0
+    WeaponsChest: true
+  BlowDart:
+    DisplayName: §4Origin-12§z
+    UltimateDisplayName: ''
+    Material: MWC_ORIGIN12
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_ARROW_SHOOT
+    Particle: SLIME
+    Damage: 10.0
+    Ammo: 100
+    ClipAmmo: 10
+    FireRate: 0.5
+    Reload: 3.0
+    UltimateDamage: 15.0
+    UltimateAmmo: 150
+    UltimateClipAmmo: 5
+    UltimateFireRate: 0.4
+    UltimateReload: 1.5
+    WeaponsChest: true
+  Sniper:
+    DisplayName: §4SSG-08§z
+    UltimateDisplayName: ''
+    Material: MWC_SSG_08
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: FIREWORKS_SPARK
+    Damage: 20.0
+    Ammo: 40
+    ClipAmmo: 4
+    FireRate: 1.0
+    Reload: 2.0
+    UltimateDamage: 30.0
+    UltimateAmmo: 60
+    UltimateClipAmmo: 5
+    UltimateFireRate: 1.0
+    UltimateReload: 1.5
+    WeaponsChest: true
+  ThePuncher:
+    DisplayName: §4VSS§z
+    UltimateDisplayName: ''
+    Material: MWC_VSS_VINTOREZ
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_ARROW_SHOOT
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: ''
+    Damage: 5.0
+    Ammo: 0
+    ClipAmmo: 0
+    FireRate: 0.0
+    Reload: 0.0
+    AffectedEnemies: 3
+    Cooldown: 5.0
+    UltimateDamage: 7.0
+    UltimateAmmo: 0
+    UltimateClipAmmo: 0
+    UltimateFireRate: 0.0
+    UltimateReload: 0.0
+    UltimateAffectedEnemies: 5
+    UltimateCooldown: 3.0
+    WeaponsChest: true
+  ZombieZapper:
+    DisplayName: §4M134§z
+    UltimateDisplayName: ''
+    Material: MWC_M134
+    Lores:
+    - §eMW_PVE
+    HitSound: ENTITY_LIGHTNING_THUNDER
+    ShootSound: ENTITY_FIREWORK_BLAST
+    Particle: CRIT
+    Damage: 12.0
+    Ammo: 100
+    ClipAmmo: 10
+    FireRate: 0.5
+    Reload: 2.0
+    UltimateDamage: 18.0
+    UltimateAmmo: 120
+    UltimateClipAmmo: 10
+    UltimateFireRate: 0.5
+    UltimateReload: 1.5
+    WeaponsChest: true
+PerksRemoveCooldownEnabled: false
+PerksRemoveCooldown: 30000
+Perks:
+  Speed:
+    DisplayName: '&9&l速度'
+    Material: SUGAR
+    Lores:
+    - '&7获得速度 I.'
+    - ''
+    - '&8&o死亡后失去此效果.'
+  ExtraHealth:
+    DisplayName: '&9&l增加生命上限'
+    Material: GOLD_NUGGET
+    Lores:
+    - '&7增加10点生命上限'
+    - ''
+    - '&8&o死亡后失去此效果.'
+  FastRevive:
+    DisplayName: '&9&l快速救援'
+    Material: COOKIE
+    Lores:
+    - '&7增加救援队友的速度'
+    - ''
+    - '&8&o死亡后失去此效果.'
+  FlameBullets:
+    DisplayName: '&9&lFlame Bullets'
+    Material: BLAZE_POWDER
+    Lores:
+    - '&7All your bullets set enemies on fire,'
+    - '&7including enemies immune to fire.'
+    - ''
+    - '&8&oActive until death.'
+  FrozenBullets:
+    DisplayName: '&9&lFrozen Bullets'
+    Material: GHAST_TEAR
+    Lores:
+    - '&7All your bullets are ice cold,'
+    - '&7slowing enemies down briefly'
+    - ''
+    - '&8&oActive until death.'
+  ExtraWeapon:
+    DisplayName: '&9&lExtra Weapon'
+    Material: IRON_INGOT
+    Lores:
+    - '&7Adds one weapon slot'
+    - '&7to your inventory.'
+    - ''
+    - '&8&oActive until death.'
+  QuickFire:
+    DisplayName: '&9&lQuick Fire'
+    Material: BLAZE_ROD
+    Lores:
+    - '&7Increase the fire rate'
+    - '&7of all Weapons by 25%.'
+    - ''
+    - '&8&oActive until death.'
+Powerups:
+  DOUBLE_GOLD:
+    Duration: 30
+    MinRound: 1
+  INSTA_KILL:
+    Duration: 10
+    MinRound: 1
+  SHOPPING_SPREE:
+    Duration: 30
+    MinRound: 1
+  BONUS_GOLD:
+    GoldValue: 1000
+    MinRound: 1
+  MAX_AMMO:
+    MinRound: 1
+  CARPENTER:
+    MinRound: 1
+WeaponsChest:
+  ClaimDuration: 20.0
+  GoldPrice: 2000
+  ShoppingSpree:
+    GoldPrice: 10
+TeamMachine:
+  Price:
+    AmmoSupply: 999999
+    FullRevive: 300
+    DragonsWrath: 750
+Messages:
+  PremiumKick: '%prefix%&cYou got kicked from the Game because a higher ranked player
+    joined the server.'
+  Leaderboard:
+    PlaceRegistered: '&aPlace &7%placeId%&a. &e%player% &7(&c%formattedTime%&7)'
+    PlaceUnregistered: '&aPlace &7%placeId%&a. &e<?> &7(&c%formattedTime%&7)'
+  LeaveArena: '%prefix%&c你离开了游戏.'
+  LeaveArenaFailed: '%prefix%&c你不在游戏中.'
+  MultiArenaJoinFailed: '%prefix%&c游戏人数已满.'
+  MultiArenaJoinEndFailed: '%prefix%&c游戏已结束.'
+  MultiArenaRejoinFailed: '%prefix%&c没有可重新加入的地图.'
+  MultiArenaMapsFailed: '%prefix%&c没有可用的地图!'
+  BungeeKickFullArena: '%prefix%&c游戏人数已满.'
+  ChatFormat:
+    Normal: '%prefix%&a%player%: &f%message%'
+    Spectator: '%prefix%&7(&cSPEC&7) &a%player%: &f%message%'
+  GameStartChatPrefixHigh: '&6'
+  GameStartChatPrefixMedium: '&c'
+  GameStartChatPrefixLow: '&c'
+  GameStartTitlePrefixHigh: '&a'
+  GameStartTitlePrefixMedium: '&e'
+  GameStartTitlePrefixLow: '&c'
+  GameStopChatPrefixHigh: '&c'
+  GameStopChatPrefixLow: '&c'
+  GameStartCountdown: '%prefix%&e游戏于%time%&e秒后开始!'
+  GameStopCountdown: '%prefix%&c游戏于%time%&c秒后关闭!'
+  DoorHologram:
+  - '&a&l%doorName%'
+  - '&6%gold% 修复点'
+  NotEnoughGold: '%prefix%&c您没有足够的修复点购买!'
+  EarnGold: '&6+%gold%修复点'
+  WindowRepairInformation: '&e按住潜行修理木门.'
+  WindowRepair: '&a正在修理木门...'
+  WindowRepairStopped: '&c已经停止修理木门.'
+  WindowRepaired: '&a修复完毕!'
+  WindowRepairFailed: '&c附近有敌人,修理停止!'
+  WeaponReloadInformation: '&c&l装填中'
+  WeaponCooldownInformation: '&c&l冷却中'
+  Round: '&c&l回合 %round%'
+  GameOver: '&c&l游戏结束'
+  OpenDoor: '%prefix%%displayName% &7打开了 &a&l%doorName%'
+  EmptyPlayer: '&7无'
+  QuitState: '&c已退出'
+  DeadState: '&c已去世'
+  ReviveState: '&e需救援'
+  TitleWin: '&a你赢了!'
+  SubTitleWin: '&7你撑到了回合 %round%!'
+  TitleLoose: '&c游戏结束!'
+  SubTitleLoose: '&7你撑到了回合 %round%!'
+  BossSpawn: '%prefix%%name% &7已生成!'
+  BossKill: '%prefix%%displayName% &7击杀了 %name%&7!'
+  BombieName: '&6&lBombie'
+  InfernoName: '&c&lInferno'
+  TheBroodmotherName: '&5&lThe Broodmother'
+  KingSlimeName: '&a&lKing Slime'
+  KingWitherName: '&8&lKing Wither'
+  HerobrineName: '&4&lHerobrine'
+  SantaClausName: '&c&lSanta Claus'
+  PennywiseName: '&4&lPennywise'
+  KnockedDownTitle: '&f%displayName% &7被击倒了!'
+  ReviveTitle: '&a你正在被救援...'
+  ReviveActionBar: ''
+  Revive: '%prefix%&f%displayName% &e被 &7%name%&e击倒! 你有 &c%time%秒 &e去救援!'
+  Revived: '%prefix%&f%displayName% &e救援了 &f%revivedDisplayName%&e!'
+  ReviveDead: '%prefix%&f%displayName% &7被%name%&7击杀!'
+  ReviveDeadUnknown: '%prefix%&f%displayName% &7去世了,下回合后重生.'
+  DeathTitle: '&c你去世了!'
+  DeathSubTitle: '&7您将在下一轮中重生.'
+  OutOfAmmo: '%prefix%&c&lThis weapon is out of ammo! You can refill ammo at the place
+    that you purchased the weapon or through collecting the &9&lMax Ammo Power up&c&l.'
+  Spectator:
+    Teleporter:
+      InventoryName: '&7旁观'
+      ItemName: '&7旁观'
+  Shop:
+    Armor:
+      LEATHER:
+        UP: '&a皮革头盔&胸甲'
+        DOWN: '&a皮革裤子&靴子'
+      GOLD:
+        UP: '&a金制头盔&胸甲'
+        DOWN: '&a金制裤子&靴子'
+      IRON:
+        UP: '&a铁制头盔&胸甲'
+        DOWN: '&a铁制裤子&靴子'
+      DIAMOND:
+        UP: '&a合金头盔&胸甲'
+        DOWN: '&a合金裤子&靴子'
+      Unlocked: '&6解锁'
+      NotUnlocked: '&6%goldValue% 修复点'
+      Purchase: '%prefix%&a你购买了 &9%armorName%&a!'
+      AlreadyWearing: '%prefix%&c你已经拥有了!'
+      Downgrade: '%prefix%&c这是不值当的买卖.'
+    Weapon:
+      Name: '&a%weaponName%'
+      NotUnlocked: '&6%goldValue% 修复点'
+      AmmoName: '&a%weaponName% '
+      Purchase: '%prefix%&a你购买了 &9%weaponName%&a!'
+      AlreadyMaxAmmo: '%prefix%&c你已经拥有了!'
+      WrongClick: '%prefix%&cClick with one of your gun slots to purchase a gun!'
+      SwapWeapon: '%prefix%&c你已经拥有了!'
+    Perks:
+      Purchase: '%prefix%&e你激活了&9%perkName%&e!'
+      AlreadyPurchased: '%prefix%&c你已经激活了%perkName%!'
+      RequiresPower: '%prefix%&c需要启用电源才能使用! 请寻找电源并启用.'
+      MaxPerks: '%prefix%&c请手持需要替换的增益效果'
+      Unlocked: '&6解锁'
+      HologramHeader: '&b%perkName%'
+      InactiveHologramFooter: '&7&o需要启用电源!'
+      ActiveHologramFooter: '&6%goldValue% 修复点'
+  PowerSwitch:
+    Title: '%displayName% &7启用了电源!'
+    SubTitle: '&7您现在可以使用机器了!'
+    HologramHeader: '&6&l电源开关'
+    InactiveHologramFooter: '&6%goldValue% 修复点'
+    ActiveHologramFooter: '&7&o激活!'
+    AlreadyActivated: '%prefix%&c电源已经启用!'
+  Powerups:
+    DOUBLE_GOLD:
+      Message: '%prefix%%displayName% &e激活了&6&l双倍修复点 &e&c%duration%s&e!'
+      Title: '&6双倍修复点'
+      Hologram: '&6&l双倍修复点'
+      BarTag: '&6&l双倍修复点 &7- &a&l%doubleGoldDuration%s'
+    MAX_AMMO:
+      Message: ''
+      Title: ''
+      Hologram: ''
+    INSTA_KILL:
+      Message: '%prefix%%displayName% &eactivated &c&lInsta Kill &efor &c%duration%s&e!'
+      Title: '&cInsta Kill'
+      Hologram: '&c&lINSTA KILL'
+      BarTag: '&c&lInsta Kill &7- &a&l%instaKillDuration%s'
+    SHOPPING_SPREE:
+      Message: '%prefix%%displayName% &eactivated &b&lShopping Spree &efor &c%duration%s&e!'
+      Title: '&bShopping Spree'
+      Hologram: '&b&lSHOPPING SPREE'
+      BarTag: '&b&lShopping Spree &7- &a&l%shoppingSpreeDuration%s'
+    BONUS_GOLD:
+      Message: '%prefix%%displayName% &eactivated &6&lBonus Gold&e!'
+      Title: '&6Bonus Gold'
+      Hologram: '&6&lBONUS GOLD'
+    CARPENTER:
+      Message: '%prefix%%displayName% &eactivated &9&lCarpenter&e!'
+      Title: '&9Carpenter'
+      Hologram: '&9&lCARPENTER'
+  WeaponsChest:
+    Inactive:
+      Hologram:
+      - '&5终极武器箱'
+      - '&e&l%goldValue% 修复点'
+    Active:
+      Hologram:
+      - '&5终极武器箱'
+      - '&e&l%displayName% 正在抽取...'
+      - '%weaponName%'
+    ActiveFinished:
+      Hologram:
+      - '&c%time%s'
+      - ' '
+      - '&5终极武器箱'
+      - '&e右键拿取'
+      - '%weaponName%'
+    NotActive: '%prefix%&c武器箱不可用!'
+    InUse: '%prefix%&c其他人正在使用!'
+    Moved: '%prefix%&5武器箱被转移到其他地方!'
+    FoundWeapon: '%prefix%%displayName% &7found %weaponName% &7in the &5Weapons Chest&7!'
+    PersonalFoundWeapon: '%prefix%&7你抽到了%weaponName%&7! &7你有&c%claimDuration%秒&7的时间去拿取!'
+    Claimed: '%prefix%&7你获得了 %weaponName% !'
+    WrongClick: '%prefix%&c使用枪槽以进行拿取!'
+    AlreadyAvailable: '%prefix%&c你已经有此武器了!'
+  UltimateMachine:
+    HologramHeader: '&a&lUltimate Machine'
+    InactiveHologramFooter: '&7&oRequires power!'
+    ActiveHologramFooter: '&6%goldValue% Gold'
+    Upgraded: '%prefix%&eYou have upgraded your &9%weaponName% &eto &9Ultimate&e!'
+    AlreadyUpgraded: '%prefix%&eYou already upgraded your weapon to &9Ultimate&e!'
+    HoldingInvalidWeapon: '%prefix%&cYou are not holding a weapon!'
+    RequiresPower: '%prefix%&cUltimate Machines requires Power to use! Find and activate
+      the &6Power Switch &cin the &a&lPower Station &cfirst!'
+  TeamMachine:
+    HologramHeader: '&a&l团队机器'
+    InactiveHologramFooter: '&7&o需要启用电源!'
+    ActiveHologramFooter: '&e右键打开功能菜单'
+    RequiresPower: '%prefix%&c需要启用电源才能使用! 请寻找电源并启用.'
+    InventoryName: 团队机器
+    AmmoSupply:
+      Purchaseable:
+        DisplayName: '&7敬请期待'
+        Lores:
+        - ''
+      NotPurchaseable:
+        DisplayName: '&7敬请期待'
+      MotPurchaseable:
+        Lores:
+        - ''
+    FullRevive:
+      Purchaseable:
+        DisplayName: '&a救援'
+        Lores:
+        - '&7立即救援全部倒地的队友'
+        - '&7价格: &6%fullReviveGoldValue% 修复点'
+        - ' '
+        - '&e点击使用!'
+      NotPurchaseable:
+        DisplayName: '&c救援'
+        Lores:
+        - '&7立即救援全部倒地的队友'
+        - ' '
+        - '价格: &6%fullReviveGoldValue% 修复点'
+        - ' '
+        - '&c你没有足够的修复点!'
+    DragonsWrath:
+      Purchaseable:
+        DisplayName: '&a龙之怒'
+        Lores:
+        - '&75秒后瞬间灭掉以你15格范围内全部敌人'
+        - ' '
+        - '&7价格: &6%dragonsWrathGoldValue% 修复点'
+        - ' '
+        - '&e点击使用!'
+      NotPurchaseable:
+        DisplayName: '&c龙之怒'
+      MotPurchaseable:
+        Lores:
+        - '&75秒后瞬间灭掉15格范围内全部敌人'
+        - ' '
+        - '&7价格: &6%dragonsWrathGoldValue% 修复点'
+        - ' '
+        - '&c你没有足够的修复点!'
+      KillMessage: '%prefix%&a灭掉了%killedEnemies%个敌人!'
+    CloseItem:
+      DisplayName: '&c关闭'
+      Lores: []
+    Activate: '%prefix%%displayName% &7激活了 &a&l%purchasedType% !'
+  StatsHologram:
+    Header:
+    - '&b&l%mapName%'
+    - '&7最快通关'
+    - '  '
+    Players: '&e%placeId%. &7%name% &7- &e%time%'
+  Mode:
+    Endless: '&7敬请期待'
+    Normal: '&a正常'
+  Difficulty:
+    Normal: '&a一般'
+    Hard: '&c困难'
+    RIP: '&4大师'
+  MenuInventory:
+    MainInventory:
+      Title: 游玩 MW_PVE
+      CloseItemTitle: '&c关闭'
+      CloseItemLores:
+      - '&7点击关闭菜单'
+      BackItemTitle: '&a返回'
+      BackItemLores:
+      - '&7点击返回'
+      RejoinItemTitle: '&c重新加入'
+      RejoinItemLores:
+      - '&7重新加入你的游戏'
+      RandomJoinItemTitle: '&c随机进入'
+      RandomJoinItemLores:
+      - '&7点击随机进入任意一场游戏'
+      NormalModeItemTitle: '&a正常模式'
+      NormalModeItemLores:
+      - '&7点击选择难度'
+      EndlessModeItemTitle: '&7敬请期待'
+      EndlessModeItemLores:
+      - ''
+      NormalDifficultyItemTitle: '&a简单难度'
+      NormalDifficultyItemLores:
+      - '&7点击选择&a简单&7难度'
+      - '&7有%maps%种地图可选择'
+      - '&c注意:有队友伤害!'
+      HardDifficultyItemTitle: '&a正常难度'
+      HardDifficultyItemLores:
+      - '&7点击选择&a正常&7难度'
+      - '&7有%maps%种地图可选择'
+      - '&c注意:有队友伤害!'
+      RIPDifficultyItemTitle: '&4困难难度'
+      RIPDifficultyItemLores:
+      - '&7点击选择&4困难&7难度'
+      - '&7有%maps%种地图可选择'
+      - '&c注意:有队友伤害!'
+    MapInventory:
+      Title: 选择地图中..
+      MapInformation:
+      - ''
+      - '&7玩家数: &e%players%&7/&e%maxPlayers%'
+      - '&7状态: %state%'
+      - '&7游戏时间: &e%time%'
+      - '&7回合数: &f%round%'
+      - '&c注意:有队友伤害!'
+      ItemType: STAINED_CLAY
+      DataId:
+        EmptyArena: 5
+        FilledArena: 13
+        FullArena: 1
+        StartedArena: 9
+        StoppedArena: 14
+      Color:
+        EmptyArena: '&a&l'
+        FilledArena: '&2&l'
+        FullArena: '&6&l'
+        StartedArena: '&7&l'
+        StoppedArena: '&c&l'
+  PracticeDummy:
+    Name: '&c练习假人'
+    HologramName: '&e&l使用武器开火攻击!'
+  EnemyDetectorActionBar: '&7最近的敌人距离你大约&a%xCoordinateDifference%&7格 &8/ &a%yCoordinateDifference%&7高度.'
+  StartMessages:
+    Enabled: false
+    List:
+    - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '                               &fMW_PVE'
+    - ' '
+    - '        &eFight with your teammates against oncoming'
+    - '         &ehoards of MW_PVE and other dangerous mobs.'
+    - '       &eProgress through the map to buy better weapons'
+    - '       &eand armor in order to defend against upgraded'
+    - '        &eenemies. Survive as many rounds as possible!'
+    - ' '
+    - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+Effects:
+  REGENERATION:
+    Amplifier: 1

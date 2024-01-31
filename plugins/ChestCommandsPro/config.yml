@@ -1,0 +1,13 @@
+# 监听注入器 是否注入InventoryHandler 以支持更多功能
+ListenerInjector: true
+# 两次点击背包物品的间隔，必须启用监听注入器
+AntiSpam: 200
+# 是否重载ChestCommandPro的同时重载ChestCommand
+ReloadChestCommand: true
+# 是否启用NBT支持，需要ProtocolLib作为前置
+SupportNBT: true
+# 插件事件
+PluginEvent:
+  ConfigReload: true
+  MenuOpen: true
+  MenuRefresh: true

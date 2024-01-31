@@ -1,0 +1,3012 @@
+EndlessMode: false
+Difficulty: 0
+MinPlayers: 2
+MaxPlayers: 4
+Health:
+  NormalZombie: 30.0
+  NormalStrongZombie: 30.0
+  NormalProtectedZombie: 30.0
+  PigZombie: 30.0
+  TNTZombie: 20.0
+  EmpoweredZombie: 30.0
+  IronZombie: 34.0
+  IronProtectedZombie: 34.0
+  GlowingZombie: 30.0
+  MagmaZombie: 30.0
+  GuardianZombie: 30.0
+  Skeleton: 30.0
+  Wolf: 30.0
+  Endermite: 20.0
+  Witch: 30.0
+  CaveSpider: 12.0
+  Spider: 30.0
+  WitherZombie: 80.0
+  SlimeZombie: 60.0
+  SantaHelperZombie: 30.0
+  EasterBunnyZombie: 30.0
+  Blaze: 80.0
+  Soldier: 30.0
+  Mosquito: 30.0
+  Clown: 30.0
+  Penguin: 30.0
+  EnderZombie: 30.0
+  Inferno: 500.0
+  Bombie: 1000.0
+  TheBroodmother: 1500.0
+  KingSlime: 500.0
+  KingWither: 500.0
+  Herobrine: 500.0
+  SantaClaus: 500.0
+  Pennywise: 500.0
+Rounds: 30
+Round:
+  '1':
+    Entities:
+      NormalZombie: 8
+      NormalStrongZombie: 0
+      NormalProtectedZombie: 0
+      PigZombie: 0
+      TNTZombie: 0
+      EmpoweredZombie: 0
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 0
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '2':
+    Entities:
+      NormalZombie: 10
+      NormalStrongZombie: 0
+      NormalProtectedZombie: 0
+      PigZombie: 0
+      TNTZombie: 0
+      EmpoweredZombie: 0
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 0
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '3':
+    Entities:
+      NormalZombie: 12
+      NormalStrongZombie: 1
+      NormalProtectedZombie: 1
+      PigZombie: 1
+      TNTZombie: 1
+      EmpoweredZombie: 1
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 1
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '4':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 2
+      NormalProtectedZombie: 2
+      PigZombie: 2
+      TNTZombie: 2
+      EmpoweredZombie: 2
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 2
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '5':
+    Entities:
+      NormalZombie: 0
+      NormalStrongZombie: 0
+      NormalProtectedZombie: 0
+      PigZombie: 0
+      TNTZombie: 0
+      EmpoweredZombie: 0
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 50
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '6':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 4
+      NormalProtectedZombie: 4
+      PigZombie: 4
+      TNTZombie: 4
+      EmpoweredZombie: 4
+      IronZombie: 2
+      IronProtectedZombie: 2
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 4
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 2
+      CaveSpider: 2
+      Spider: 2
+      WitherZombie: 0
+      SlimeZombie: 1
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '7':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 5
+      NormalProtectedZombie: 5
+      PigZombie: 5
+      TNTZombie: 5
+      EmpoweredZombie: 5
+      IronZombie: 3
+      IronProtectedZombie: 3
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 5
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 3
+      CaveSpider: 3
+      Spider: 3
+      WitherZombie: 0
+      SlimeZombie: 2
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '8':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 6
+      NormalProtectedZombie: 6
+      PigZombie: 6
+      TNTZombie: 6
+      EmpoweredZombie: 6
+      IronZombie: 4
+      IronProtectedZombie: 4
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 6
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 4
+      CaveSpider: 4
+      Spider: 4
+      WitherZombie: 0
+      SlimeZombie: 3
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '9':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 7
+      NormalProtectedZombie: 7
+      PigZombie: 7
+      TNTZombie: 7
+      EmpoweredZombie: 7
+      IronZombie: 5
+      IronProtectedZombie: 5
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 7
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 5
+      CaveSpider: 5
+      Spider: 5
+      WitherZombie: 0
+      SlimeZombie: 4
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.3
+      NormalStrongZombie: 0.3
+      NormalProtectedZombie: 0.3
+      PigZombie: 0.3
+      TNTZombie: 0.3
+      EmpoweredZombie: 0.3
+      IronZombie: 0.3
+      IronProtectedZombie: 0.3
+      GlowingZombie: 0.3
+      MagmaZombie: 0.3
+      GuardianZombie: 0.5
+      Skeleton: 0.3
+      Wolf: 0.3
+      Endermite: 0.3
+      Blaze: 0.3
+      Soldier: 0.3
+      Witch: 0.3
+      CaveSpider: 0.3
+      Spider: 0.3
+      WitherZombie: 0.3
+      SlimeZombie: 0.3
+      SantaHelperZombie: 0.3
+      EasterBunnyZombie: 0.3
+      Mosquito: 0.3
+      Clown: 0.3
+      Penguin: 0.2
+      EnderZombie: 0.3
+      Inferno: 0.3
+      Bombie: 0.3
+      TheBroodmother: 0.5
+      KingSlime: 0.3
+      KingWither: 0.3
+      Herobrine: 0.3
+      SantaClaus: 0.3
+      Pennywise: 0.3
+  '10':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 8
+      NormalProtectedZombie: 8
+      PigZombie: 8
+      TNTZombie: 8
+      EmpoweredZombie: 8
+      IronZombie: 6
+      IronProtectedZombie: 6
+      GlowingZombie: 1
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 8
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 6
+      CaveSpider: 6
+      Spider: 6
+      WitherZombie: 1
+      SlimeZombie: 5
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 1
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '11':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 9
+      NormalProtectedZombie: 9
+      PigZombie: 9
+      TNTZombie: 9
+      EmpoweredZombie: 9
+      IronZombie: 7
+      IronProtectedZombie: 7
+      GlowingZombie: 2
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 9
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 7
+      CaveSpider: 7
+      Spider: 7
+      WitherZombie: 2
+      SlimeZombie: 6
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '12':
+    Entities:
+      NormalZombie: 14
+      NormalStrongZombie: 10
+      NormalProtectedZombie: 10
+      PigZombie: 10
+      TNTZombie: 10
+      EmpoweredZombie: 10
+      IronZombie: 8
+      IronProtectedZombie: 8
+      GlowingZombie: 3
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 10
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 8
+      CaveSpider: 8
+      Spider: 8
+      WitherZombie: 3
+      SlimeZombie: 7
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '13':
+    Entities:
+      NormalZombie: 16
+      NormalStrongZombie: 11
+      NormalProtectedZombie: 11
+      PigZombie: 11
+      TNTZombie: 11
+      EmpoweredZombie: 11
+      IronZombie: 9
+      IronProtectedZombie: 9
+      GlowingZombie: 4
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 11
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 9
+      CaveSpider: 9
+      Spider: 9
+      WitherZombie: 4
+      SlimeZombie: 8
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '14':
+    Entities:
+      NormalZombie: 16
+      NormalStrongZombie: 12
+      NormalProtectedZombie: 12
+      PigZombie: 12
+      TNTZombie: 12
+      EmpoweredZombie: 12
+      IronZombie: 10
+      IronProtectedZombie: 10
+      GlowingZombie: 5
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 12
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 10
+      CaveSpider: 10
+      Spider: 10
+      WitherZombie: 5
+      SlimeZombie: 9
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '15':
+    Entities:
+      NormalZombie: 0
+      NormalStrongZombie: 0
+      NormalProtectedZombie: 0
+      PigZombie: 0
+      TNTZombie: 100
+      EmpoweredZombie: 0
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 0
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 20
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '16':
+    Entities:
+      NormalZombie: 16
+      NormalStrongZombie: 14
+      NormalProtectedZombie: 14
+      PigZombie: 14
+      TNTZombie: 14
+      EmpoweredZombie: 14
+      IronZombie: 12
+      IronProtectedZombie: 12
+      GlowingZombie: 7
+      MagmaZombie: 2
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 14
+      Endermite: 2
+      Blaze: 2
+      Soldier: 0
+      Witch: 12
+      CaveSpider: 12
+      Spider: 12
+      WitherZombie: 7
+      SlimeZombie: 11
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '17':
+    Entities:
+      NormalZombie: 18
+      NormalStrongZombie: 15
+      NormalProtectedZombie: 15
+      PigZombie: 15
+      TNTZombie: 15
+      EmpoweredZombie: 15
+      IronZombie: 13
+      IronProtectedZombie: 13
+      GlowingZombie: 8
+      MagmaZombie: 3
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 15
+      Endermite: 3
+      Blaze: 3
+      Soldier: 0
+      Witch: 13
+      CaveSpider: 13
+      Spider: 13
+      WitherZombie: 8
+      SlimeZombie: 12
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '18':
+    Entities:
+      NormalZombie: 18
+      NormalStrongZombie: 16
+      NormalProtectedZombie: 16
+      PigZombie: 16
+      TNTZombie: 16
+      EmpoweredZombie: 16
+      IronZombie: 14
+      IronProtectedZombie: 14
+      GlowingZombie: 9
+      MagmaZombie: 4
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 16
+      Endermite: 4
+      Blaze: 4
+      Soldier: 0
+      Witch: 14
+      CaveSpider: 14
+      Spider: 14
+      WitherZombie: 9
+      SlimeZombie: 13
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '19':
+    Entities:
+      NormalZombie: 18
+      NormalStrongZombie: 17
+      NormalProtectedZombie: 17
+      PigZombie: 17
+      TNTZombie: 17
+      EmpoweredZombie: 17
+      IronZombie: 15
+      IronProtectedZombie: 15
+      GlowingZombie: 10
+      MagmaZombie: 5
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 17
+      Endermite: 5
+      Blaze: 5
+      Soldier: 0
+      Witch: 15
+      CaveSpider: 15
+      Spider: 15
+      WitherZombie: 10
+      SlimeZombie: 14
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.32
+      NormalStrongZombie: 0.32
+      NormalProtectedZombie: 0.32
+      PigZombie: 0.32
+      TNTZombie: 0.32
+      EmpoweredZombie: 0.32
+      IronZombie: 0.32
+      IronProtectedZombie: 0.32
+      GlowingZombie: 0.32
+      MagmaZombie: 0.32
+      GuardianZombie: 0.5
+      Skeleton: 0.32
+      Wolf: 0.32
+      Endermite: 0.32
+      Blaze: 0.32
+      Soldier: 0.32
+      Witch: 0.32
+      CaveSpider: 0.32
+      Spider: 0.32
+      WitherZombie: 0.32
+      SlimeZombie: 0.32
+      SantaHelperZombie: 0.32
+      EasterBunnyZombie: 0.32
+      Mosquito: 0.32
+      Clown: 0.32
+      Penguin: 0.2
+      EnderZombie: 0.32
+      Inferno: 0.32
+      Bombie: 0.32
+      TheBroodmother: 0.5
+      KingSlime: 0.32
+      KingWither: 0.32
+      Herobrine: 0.32
+      SantaClaus: 0.32
+      Pennywise: 0.32
+  '20':
+    Entities:
+      NormalZombie: 18
+      NormalStrongZombie: 18
+      NormalProtectedZombie: 18
+      PigZombie: 18
+      TNTZombie: 18
+      EmpoweredZombie: 18
+      IronZombie: 16
+      IronProtectedZombie: 16
+      GlowingZombie: 11
+      MagmaZombie: 6
+      GuardianZombie: 1
+      Skeleton: 1
+      Wolf: 18
+      Endermite: 6
+      Blaze: 6
+      Soldier: 0
+      Witch: 16
+      CaveSpider: 16
+      Spider: 16
+      WitherZombie: 11
+      SlimeZombie: 15
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 1
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '21':
+    Entities:
+      NormalZombie: 20
+      NormalStrongZombie: 19
+      NormalProtectedZombie: 19
+      PigZombie: 19
+      TNTZombie: 19
+      EmpoweredZombie: 19
+      IronZombie: 17
+      IronProtectedZombie: 17
+      GlowingZombie: 12
+      MagmaZombie: 7
+      GuardianZombie: 2
+      Skeleton: 2
+      Wolf: 19
+      Endermite: 7
+      Blaze: 7
+      Soldier: 0
+      Witch: 17
+      CaveSpider: 17
+      Spider: 17
+      WitherZombie: 12
+      SlimeZombie: 16
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '22':
+    Entities:
+      NormalZombie: 20
+      NormalStrongZombie: 20
+      NormalProtectedZombie: 20
+      PigZombie: 20
+      TNTZombie: 20
+      EmpoweredZombie: 20
+      IronZombie: 18
+      IronProtectedZombie: 18
+      GlowingZombie: 13
+      MagmaZombie: 8
+      GuardianZombie: 3
+      Skeleton: 3
+      Wolf: 20
+      Endermite: 8
+      Blaze: 8
+      Soldier: 0
+      Witch: 18
+      CaveSpider: 18
+      Spider: 18
+      WitherZombie: 13
+      SlimeZombie: 17
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '23':
+    Entities:
+      NormalZombie: 20
+      NormalStrongZombie: 21
+      NormalProtectedZombie: 21
+      PigZombie: 21
+      TNTZombie: 21
+      EmpoweredZombie: 21
+      IronZombie: 19
+      IronProtectedZombie: 19
+      GlowingZombie: 14
+      MagmaZombie: 9
+      GuardianZombie: 4
+      Skeleton: 4
+      Wolf: 21
+      Endermite: 9
+      Blaze: 9
+      Soldier: 0
+      Witch: 19
+      CaveSpider: 19
+      Spider: 19
+      WitherZombie: 14
+      SlimeZombie: 18
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '24':
+    Entities:
+      NormalZombie: 20
+      NormalStrongZombie: 22
+      NormalProtectedZombie: 22
+      PigZombie: 22
+      TNTZombie: 22
+      EmpoweredZombie: 22
+      IronZombie: 20
+      IronProtectedZombie: 20
+      GlowingZombie: 15
+      MagmaZombie: 10
+      GuardianZombie: 5
+      Skeleton: 5
+      Wolf: 22
+      Endermite: 10
+      Blaze: 10
+      Soldier: 0
+      Witch: 20
+      CaveSpider: 20
+      Spider: 20
+      WitherZombie: 15
+      SlimeZombie: 19
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '25':
+    Entities:
+      NormalZombie: 0
+      NormalStrongZombie: 0
+      NormalProtectedZombie: 0
+      PigZombie: 0
+      TNTZombie: 0
+      EmpoweredZombie: 0
+      IronZombie: 0
+      IronProtectedZombie: 0
+      GlowingZombie: 0
+      MagmaZombie: 0
+      GuardianZombie: 0
+      Skeleton: 0
+      Wolf: 0
+      Endermite: 0
+      Blaze: 0
+      Soldier: 0
+      Witch: 0
+      CaveSpider: 0
+      Spider: 0
+      WitherZombie: 0
+      SlimeZombie: 0
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 6
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '26':
+    Entities:
+      NormalZombie: 25
+      NormalStrongZombie: 24
+      NormalProtectedZombie: 24
+      PigZombie: 24
+      TNTZombie: 24
+      EmpoweredZombie: 24
+      IronZombie: 22
+      IronProtectedZombie: 22
+      GlowingZombie: 17
+      MagmaZombie: 12
+      GuardianZombie: 7
+      Skeleton: 7
+      Wolf: 24
+      Endermite: 12
+      Blaze: 12
+      Soldier: 0
+      Witch: 22
+      CaveSpider: 22
+      Spider: 22
+      WitherZombie: 17
+      SlimeZombie: 21
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '27':
+    Entities:
+      NormalZombie: 25
+      NormalStrongZombie: 25
+      NormalProtectedZombie: 25
+      PigZombie: 25
+      TNTZombie: 25
+      EmpoweredZombie: 25
+      IronZombie: 23
+      IronProtectedZombie: 23
+      GlowingZombie: 18
+      MagmaZombie: 13
+      GuardianZombie: 8
+      Skeleton: 8
+      Wolf: 25
+      Endermite: 13
+      Blaze: 13
+      Soldier: 0
+      Witch: 23
+      CaveSpider: 23
+      Spider: 23
+      WitherZombie: 18
+      SlimeZombie: 22
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '28':
+    Entities:
+      NormalZombie: 25
+      NormalStrongZombie: 26
+      NormalProtectedZombie: 26
+      PigZombie: 26
+      TNTZombie: 26
+      EmpoweredZombie: 26
+      IronZombie: 24
+      IronProtectedZombie: 24
+      GlowingZombie: 19
+      MagmaZombie: 14
+      GuardianZombie: 9
+      Skeleton: 9
+      Wolf: 26
+      Endermite: 14
+      Blaze: 14
+      Soldier: 0
+      Witch: 24
+      CaveSpider: 24
+      Spider: 24
+      WitherZombie: 19
+      SlimeZombie: 23
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '29':
+    Entities:
+      NormalZombie: 25
+      NormalStrongZombie: 27
+      NormalProtectedZombie: 27
+      PigZombie: 27
+      TNTZombie: 27
+      EmpoweredZombie: 27
+      IronZombie: 25
+      IronProtectedZombie: 25
+      GlowingZombie: 20
+      MagmaZombie: 15
+      GuardianZombie: 10
+      Skeleton: 10
+      Wolf: 27
+      Endermite: 15
+      Blaze: 15
+      Soldier: 0
+      Witch: 25
+      CaveSpider: 25
+      Spider: 25
+      WitherZombie: 20
+      SlimeZombie: 24
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 0
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+  '30':
+    Entities:
+      NormalZombie: 40
+      NormalStrongZombie: 28
+      NormalProtectedZombie: 28
+      PigZombie: 28
+      TNTZombie: 28
+      EmpoweredZombie: 28
+      IronZombie: 26
+      IronProtectedZombie: 26
+      GlowingZombie: 21
+      MagmaZombie: 16
+      GuardianZombie: 11
+      Skeleton: 11
+      Wolf: 28
+      Endermite: 16
+      Blaze: 16
+      Soldier: 0
+      Witch: 26
+      CaveSpider: 26
+      Spider: 26
+      WitherZombie: 21
+      SlimeZombie: 25
+      SantaHelperZombie: 0
+      EasterBunnyZombie: 0
+      Mosquito: 0
+      Clown: 0
+      Penguin: 0
+      EnderZombie: 0
+      Inferno: 0
+      Bombie: 0
+      TheBroodmother: 1
+      KingSlime: 0
+      KingWither: 0
+      Herobrine: 0
+      SantaClaus: 0
+      Pennywise: 0
+    Speed:
+      NormalZombie: 0.34
+      NormalStrongZombie: 0.34
+      NormalProtectedZombie: 0.34
+      PigZombie: 0.34
+      TNTZombie: 0.34
+      EmpoweredZombie: 0.34
+      IronZombie: 0.34
+      IronProtectedZombie: 0.34
+      GlowingZombie: 0.34
+      MagmaZombie: 0.34
+      GuardianZombie: 0.5
+      Skeleton: 0.34
+      Wolf: 0.34
+      Endermite: 0.34
+      Blaze: 0.34
+      Soldier: 0.34
+      Witch: 0.34
+      CaveSpider: 0.34
+      Spider: 0.34
+      WitherZombie: 0.34
+      SlimeZombie: 0.34
+      SantaHelperZombie: 0.34
+      EasterBunnyZombie: 0.34
+      Mosquito: 0.34
+      Clown: 0.34
+      Penguin: 0.2
+      EnderZombie: 0.34
+      Inferno: 0.34
+      Bombie: 0.34
+      TheBroodmother: 0.5
+      KingSlime: 0.34
+      KingWither: 0.34
+      Herobrine: 0.34
+      SantaClaus: 0.34
+      Pennywise: 0.34
+Name:
+  NormalZombie: '&7Zombie'
+  NormalStrongZombie: '&7Zombie'
+  NormalProtectedZombie: '&7Zombie'
+  PigZombie: '&cPig Zombie'
+  TNTZombie: '&cExplosive Zombie'
+  EmpoweredZombie: '&cEmpowered Zombie'
+  IronZombie: '&fIron Zombie'
+  IronProtectedZombie: '&fIron Zombie'
+  GlowingZombie: '&6Blaze Zombie'
+  MagmaZombie: '&cMagma Zombie'
+  GuardianZombie: '&bGuardian Zombie'
+  Skeleton: '&8Skeleton'
+  Wolf: '&8Zombie Wolf'
+  Endermite: '&5Endermite'
+  Blaze: '&6Blaze'
+  Soldier: '&aSoldier'
+  Witch: '&5Witch'
+  CaveSpider: '&4Cave Spider'
+  Spider: '&cSpider'
+  WitherZombie: '&8Wither Zombie'
+  SlimeZombie: '&aSlime Zombie'
+  SantaHelperZombie: '&aSanta Helper'
+  EasterBunnyZombie: '&aEaster Bunny'
+  Mosquito: '&6Mosquito'
+  Clown: '&cClown'
+  Penguin: '&bPingu'
+  EnderZombie: '&5Ender Zombie'
+  Inferno: '&c&lInferno'
+  Bombie: '&6&lBombie'
+  TheBroodmother: '&5&lThe Broodmother'
+  KingSlime: '&a&lKing Slime'
+  KingWither: '&8&lKing Wither'
+  Herobrine: '&4&lHerobrine'
+  SantaClaus: '&c&lSanta Claus'
+  Pennywise: '&4&lPennywise'
+EMode:
+  Default:
+    NormalZombie: 66
+    NormalStrongZombie: 28
+    NormalProtectedZombie: 28
+    PigZombie: 28
+    TNTZombie: 28
+    EmpoweredZombie: 28
+    IronZombie: 26
+    IronProtectedZombie: 26
+    GlowingZombie: 21
+    MagmaZombie: 16
+    GuardianZombie: 11
+    Skeleton: 11
+    Wolf: 28
+    Endermite: 16
+    Blaze: 16
+    Soldier: 16
+    Witch: 16
+    CaveSpider: 16
+    Spider: 16
+    WitherZombie: 16
+    SlimeZombie: 16
+    SantaHelperZombie: 0
+    EasterBunnyZombie: 0
+    Mosquito: 0
+    Clown: 0
+    Penguin: 0
+    EnderZombie: 0
+    Inferno: 0
+    Bombie: 0
+    TheBroodmother: 0
+    KingSlime: 0
+    KingWither: 0
+    Herobrine: 0
+    SantaClaus: 0
+    Pennywise: 0
+  RoundMultiplicator:
+    NormalZombie: 2
+    NormalStrongZombie: 1
+    NormalProtectedZombie: 1
+    PigZombie: 1
+    TNTZombie: 1
+    EmpoweredZombie: 1
+    IronZombie: 1
+    IronProtectedZombie: 1
+    GlowingZombie: 1
+    MagmaZombie: 1
+    GuardianZombie: 1
+    Skeleton: 1
+    Wolf: 1
+    Endermite: 1
+    Witch: 1
+    CaveSpider: 1
+    Spider: 1
+    WitherZombie: 1
+    SlimeZombie: 1
+    SantaHelperZombie: 0
+    EasterBunnyZombie: 0
+    Mosquito: 0
+    Clown: 0
+    Penguin: 0
+    EnderZombie: 0
+    Blaze: 1
+    Soldier: 1
+    Inferno: 0
+    Bombie: 0
+    TheBroodmother: 0
+    KingSlime: 0
+    KingWither: 0
+    Herobrine: 0
+    SantaClaus: 0
+    Pennywise: 0
+  Speed:
+    NormalZombie: 0.3
+    NormalStrongZombie: 0.3
+    NormalProtectedZombie: 0.3
+    PigZombie: 0.3
+    TNTZombie: 0.3
+    EmpoweredZombie: 0.3
+    IronZombie: 0.3
+    IronProtectedZombie: 0.3
+    GlowingZombie: 0.3
+    MagmaZombie: 0.3
+    GuardianZombie: 0.5
+    Skeleton: 0.3
+    Wolf: 0.3
+    Endermite: 0.3
+    Blaze: 0.3
+    Soldier: 0.3
+    Witch: 0.3
+    CaveSpider: 0.3
+    Spider: 0.3
+    WitherZombie: 0.3
+    SlimeZombie: 0.3
+    SantaHelperZombie: 0.3
+    EasterBunnyZombie: 0.3
+    Mosquito: 0.3
+    Clown: 0.3
+    Penguin: 0.2
+    EnderZombie: 0.3
+    Inferno: 0.3
+    Bombie: 0.3
+    TheBroodmother: 0.5
+    KingSlime: 0.3
+    KingWither: 0.3
+    Herobrine: 0.3
+    SantaClaus: 0.3
+    Pennywise: 0.3
+Gold:
+  RepairWindow: 10
+  NormalZombie: 33
+  NormalStrongZombie: 33
+  NormalProtectedZombie: 33
+  PigZombie: 33
+  TNTZombie: 33
+  EmpoweredZombie: 33
+  IronZombie: 33
+  IronProtectedZombie: 33
+  GlowingZombie: 33
+  MagmaZombie: 33
+  GuardianZombie: 33
+  Skeleton: 33
+  Wolf: 13
+  Endermite: 13
+  Witch: 13
+  CaveSpider: 13
+  Spider: 13
+  WitherZombie: 33
+  SlimeZombie: 33
+  SantaHelperZombie: 33
+  EasterBunnyZombie: 33
+  Mosquito: 33
+  Clown: 33
+  Blaze: 33
+  Soldier: 33
+  Penguin: 33
+  EnderZombie: 33
+  Inferno: 33
+  Bombie: 33
+  TheBroodmother: 33
+  KingSlime: 33
+  KingWither: 33
+  Herobrine: 33
+  SantaClaus: 33
+  Pennywise: 33
+  CriticalHit: 17.0
+  InstaKill: 50
+InventoryItems:
+  Lobby:
+    LeaveArena:
+      Enabled: true
+      DisplayName: '&c离开游戏'
+      Lores:
+      - '&7右键离开游戏!'
+      Material: BED
+      DataId: 14
+      InventorySlot: 2
+      PerformedCommands:
+      - zombies leave
+    Book:
+      Enabled: true
+      DisplayName: §f帮助
+      Title: §f帮助
+      Author: map1
+      InventorySlot: 1
+      Sites:
+        '1':
+          MessageList:
+          - §a§l目标:§0§l清理回合内全部僵尸
+          - '-----------------------------'
+          - §c在木门附近保持潜行修复木门并得到修复点
+          - §c使用修复点可以购买盔甲和增益效果
+          - §c花费修复点使用电源以及团队机器
+          - §c击败僵尸会获得金钱以购买武器使用
+        '2':
+          MessageList:
+          - §4每回合或许需要留怪让队友修复木门并得到修复点以降低游戏难度.
+          - '-----------------------------'
+          - §l通过5,10,15,20,25,30回合时,会结算出钞票.
+  Spectator:
+    LeaveArena:
+      Enabled: true
+      DisplayName: '&c离开游戏'
+      Lores:
+      - '&7右键离开游戏!'
+      Material: BED
+      DataId: 14
+      InventorySlot: 8
+      PerformedCommands:
+      - zombies leave
+  Finish:
+    LeaveArena:
+      Enabled: true
+      DisplayName: '&c离开游戏'
+      Lores:
+      - '&7右键离开游戏!'
+      Material: BED
+      DataId: 14
+      InventorySlot: 8
+      PerformedCommands:
+      - zombies leave
+  InGame:
+    EnemyDetector:
+      Enabled: true
+      DisplayName: '&6探测器'
+      Lores:
+      - '&7常指向敌人所在地'
+      Material: COMPASS
+      DataId: 0
+      InventorySlot: 5
+      PerformedCommands: []
+  GunSlot:
+    DisplayName: '&6%id%'
+    Lores:
+    - ''
+  ActivePerkSlot:
+    DisplayName: '&e增益效果 #%id%'
+    Lores:
+    - '&7启用机器并得到增益.'
+  InactivePerkSlot:
+    DisplayName: '&e增益效果 #%id%'
+    Lores:
+    - '&7寻找机器并启用,得到增益&7.'
+Scoreboard:
+  PlayerNameLength: 12
+  Lobby:
+    Title: '&e&lVMW_PVE'
+    Line1: '&a '
+    Line2: '&f地图: &a%map%'
+    Line3: '&f玩家数: &a%players%/%maxPlayers%'
+    Line4: '&b  '
+    Line5: '&f还有&a%time%秒&f后开始'
+    Line6: '&c   '
+    Line7: '&8-------------'
+  InGame:
+    Title: '&e&lVMW_PVE'
+    Line1: '&a '
+    Line2: '&c%state%'
+    Line3: '&f剩余敌人: &a%zombies%'
+    Line4: '&d  '
+    Line5: '%displayName_1%&f: &6%gold_1%'
+    Line6: '%displayName_2%&f: &6%gold_2%'
+    Line7: '%displayName_3%&f: &6%gold_3%'
+    Line8: '%displayName_4%&f: &6%gold_4%'
+    Line9: '&b    '
+    Line11: '&f游戏时间: &a%time%'
+    Line12: '&c   '
+    Line13: '&8-------------'
+LobbyLocation: world:-855:69:1285:-40:0
+BossSpawns:
+  Default:
+  - world:-855:69:1285:-40:0
+Window:
+  W-1-1:
+    Player:
+      Pos1: world:-832:70:1281
+      Pos2: world:-834:73:1281
+    Block:
+      Pos1: world:-834:73:1280
+      Pos2: world:-832:72:1280
+    Zombie:
+      Pos1: world:-832:71:1279
+      Pos2: world:-834:74:1279
+  W-1-2:
+    Block:
+      Pos1: world:-832:73:1290
+      Pos2: world:-832:72:1292
+    Player:
+      Pos1: world:-833:70:1292
+      Pos2: world:-833:73:1290
+    Zombie:
+      Pos1: world:-831:71:1292
+      Pos2: world:-831:74:1290
+  W-1-3:
+    Player:
+      Pos1: world:-858:69:1292
+      Pos2: world:-858:72:1294
+    Block:
+      Pos1: world:-859:72:1294
+      Pos2: world:-859:71:1292
+    Zombie:
+      Pos1: world:-860:70:1292
+      Pos2: world:-860:73:1294
+  W-1-4:
+    Player:
+      Pos1: world:-858:72:1306
+      Pos2: world:-858:69:1304
+    Block:
+      Pos1: world:-859:72:1306
+      Pos2: world:-859:71:1304
+    Zombie:
+      Pos1: world:-860:73:1304
+      Pos2: world:-860:70:1306
+  W-2-1:
+    Player:
+      Pos1: world:-872:71:1302
+      Pos2: world:-874:68:1302
+    Block:
+      Pos1: world:-872:71:1303
+      Pos2: world:-874:70:1303
+    Zombie:
+      Pos1: world:-874:72:1304
+      Pos2: world:-872:69:1304
+  W-2-2:
+    Player:
+      Pos1: world:-877:71:1285
+      Pos2: world:-875:68:1285
+    Block:
+      Pos1: world:-877:71:1284
+      Pos2: world:-875:70:1284
+    Zombie:
+      Pos1: world:-875:71:1283
+      Pos2: world:-877:69:1283
+  W-2-3:
+    Player:
+      Pos1: world:-845:72:1275
+      Pos2: world:-845:69:1277
+    Block:
+      Pos1: world:-844:72:1275
+      Pos2: world:-844:71:1277
+    Zombie:
+      Pos1: world:-843:73:1277
+      Pos2: world:-843:70:1275
+  W-2-4:
+    Player:
+      Pos1: world:-848:72:1264
+      Pos2: world:-848:69:1266
+    Block:
+      Pos1: world:-847:72:1264
+      Pos2: world:-847:71:1266
+    Zombie:
+      Pos1: world:-846:73:1266
+      Pos2: world:-846:70:1264
+  W-2-5:
+    Player:
+      Pos1: world:-870:79:1251
+      Pos2: world:-868:76:1251
+    Block:
+      Pos1: world:-870:79:1250
+      Pos2: world:-868:78:1250
+    Zombie:
+      Pos1: world:-868:80:1249
+      Pos2: world:-870:77:1249
+  W-2-6:
+    Player:
+      Pos1: world:-850:79:1264
+      Pos2: world:-850:76:1266
+    Block:
+      Pos1: world:-849:79:1264
+      Pos2: world:-849:78:1266
+    Zombie:
+      Pos1: world:-848:79:1266
+      Pos2: world:-848:77:1264
+  W-3-1:
+    Player:
+      Pos1: world:-830:80:1301
+      Pos2: world:-828:76:1301
+    Block:
+      Pos1: world:-830:79:1300
+      Pos2: world:-828:78:1300
+    Zombie:
+      Pos1: world:-828:79:1299
+      Pos2: world:-830:77:1299
+  W-3-2:
+    Player:
+      Pos1: world:-823:80:1301
+      Pos2: world:-821:76:1301
+    Block:
+      Pos1: world:-823:79:1300
+      Pos2: world:-821:78:1300
+    Zombie:
+      Pos1: world:-821:79:1299
+      Pos2: world:-823:77:1299
+  W-3-3:
+    Player:
+      Pos1: world:-816:80:1323
+      Pos2: world:-818:76:1323
+    Block:
+      Pos1: world:-816:79:1324
+      Pos2: world:-818:78:1324
+    Zombie:
+      Pos1: world:-818:80:1325
+      Pos2: world:-816:77:1325
+  W-4-1:
+    Player:
+      Pos1: world:-856:79:1271
+      Pos2: world:-856:76:1273
+    Block:
+      Pos1: world:-855:79:1271
+      Pos2: world:-855:78:1273
+    Zombie:
+      Pos1: world:-854:80:1273
+      Pos2: world:-854:77:1271
+  W-4-2:
+    Player:
+      Pos1: world:-880:79:1288
+      Pos2: world:-880:76:1286
+    Block:
+      Pos1: world:-881:79:1288
+      Pos2: world:-881:78:1286
+    Zombie:
+      Pos1: world:-882:80:1286
+      Pos2: world:-882:77:1288
+  W-4-3:
+    Player:
+      Pos1: world:-866:79:1324
+      Pos2: world:-868:76:1324
+    Block:
+      Pos1: world:-866:79:1325
+      Pos2: world:-868:78:1325
+    Zombie:
+      Pos1: world:-868:80:1326
+      Pos2: world:-866:77:1326
+  W-4-4:
+    Player:
+      Pos1: world:-878:79:1312
+      Pos2: world:-878:76:1310
+    Block:
+      Pos1: world:-879:79:1312
+      Pos2: world:-879:78:1310
+    Zombie:
+      Pos1: world:-880:80:1310
+      Pos2: world:-880:77:1312
+  W-5-1:
+    Player:
+      Pos1: world:-843:79:1338
+      Pos2: world:-843:76:1336
+    Block:
+      Pos1: world:-844:79:1338
+      Pos2: world:-844:78:1336
+    Zombie:
+      Pos1: world:-845:80:1336
+      Pos2: world:-845:77:1338
+  W-5-2:
+    Player:
+      Pos1: world:-848:79:1328
+      Pos2: world:-850:76:1328
+    Block:
+      Pos1: world:-848:79:1329
+      Pos2: world:-850:78:1329
+    Zombie:
+      Pos1: world:-850:80:1330
+      Pos2: world:-848:77:1330
+  W-5-3:
+    Player:
+      Pos1: world:-843:79:1315
+      Pos2: world:-843:76:1317
+    Block:
+      Pos1: world:-842:79:1315
+      Pos2: world:-842:78:1317
+    Zombie:
+      Pos1: world:-841:80:1317
+      Pos2: world:-841:77:1315
+  W-6-1:
+    Player:
+      Pos1: world:-878:86:1324
+      Pos2: world:-880:83:1324
+    Block:
+      Pos1: world:-878:86:1325
+      Pos2: world:-880:85:1325
+    Zombie:
+      Pos1: world:-880:87:1326
+      Pos2: world:-878:84:1326
+  W-6-2:
+    Player:
+      Pos1: world:-870:86:1324
+      Pos2: world:-872:83:1324
+    Block:
+      Pos1: world:-870:86:1325
+      Pos2: world:-872:85:1325
+    Zombie:
+      Pos1: world:-872:87:1326
+      Pos2: world:-870:84:1326
+  W-6-3:
+    Player:
+      Pos1: world:-868:86:1303
+      Pos2: world:-866:83:1303
+    Block:
+      Pos1: world:-868:86:1302
+      Pos2: world:-866:85:1302
+    Zombie:
+      Pos1: world:-866:86:1301
+      Pos2: world:-868:84:1301
+  W-7-1:
+    Player:
+      Pos1: world:-888:86:1323
+      Pos2: world:-890:83:1323
+    Block:
+      Pos1: world:-888:86:1324
+      Pos2: world:-890:85:1324
+    Zombie:
+      Pos1: world:-890:87:1325
+      Pos2: world:-888:84:1325
+  W-7-2:
+    Player:
+      Pos1: world:-888:86:1301
+      Pos2: world:-887:83:1301
+    Block:
+      Pos1: world:-888:86:1300
+      Pos2: world:-887:85:1300
+    Zombie:
+      Pos1: world:-887:87:1299
+      Pos2: world:-888:84:1299
+  W-7-3:
+    Player:
+      Pos1: world:-902:86:1296
+      Pos2: world:-901:83:1296
+    Block:
+      Pos1: world:-902:86:1295
+      Pos2: world:-901:85:1295
+    Zombie:
+      Pos1: world:-901:87:1294
+      Pos2: world:-902:84:1294
+  W-7-4:
+    Player:
+      Pos1: world:-914:86:1299
+      Pos2: world:-914:83:1298
+    Block:
+      Pos1: world:-915:86:1299
+      Pos2: world:-915:85:1298
+    Zombie:
+      Pos1: world:-916:87:1298
+      Pos2: world:-916:84:1300
+Spawner:
+  S-1-1:
+    Position: world:-830:71:1274
+    Window: W-1-1
+  S-1-2:
+    Position: world:-827:71:1295
+    Window: W-1-2
+  S-1-3:
+    Position: world:-863:70:1296
+    Window: W-1-3
+  S-1-4:
+    Position: world:-865:70:1308
+    Window: W-1-4
+  S-2-1:
+    Position: world:-871:69:1312
+    Window: W-2-1
+  S-2-2:
+    Position: world:-878:69:1280
+    Window: W-2-2
+  S-2-3:
+    Position: world:-843:70:1270
+    Window: W-2-3
+  S-2-4:
+    Position: world:-844:70:1263
+    Window: W-2-4
+  S-2-5:
+    Position: world:-872:77:1244
+    Window: W-2-5
+  S-2-6:
+    Position: world:-844:77:1261
+    Window: W-2-6
+  S-3-1:
+    Position: world:-827:77:1293
+    Window: W-3-1
+  S-3-2:
+    Position: world:-818:77:1297
+    Window: W-3-2
+  S-3-3:
+    Position: world:-813:77:1330
+    Window: W-3-3
+  S-4-1:
+    Position: world:-850:77:1274
+    Window: W-4-1
+  S-4-2:
+    Position: world:-885:77:1282
+    Window: W-4-2
+  S-4-3:
+    Position: world:-873:77:1328
+    Window: W-4-3
+  S-4-4:
+    Position: world:-883:77:1316
+    Window: W-4-4
+  S-5-1:
+    Position: world:-847:77:1342
+    Window: W-5-1
+  S-5-2:
+    Position: world:-854:77:1331
+    Window: W-5-2
+  S-5-3:
+    Position: world:-840:77:1319
+    Window: W-5-3
+  S-6-1:
+    Position: world:-876:84:1332
+    Window: W-6-1
+  S-6-2:
+    Position: world:-867:84:1328
+    Window: W-6-2
+  S-6-3:
+    Position: world:-870:84:1298
+    Window: W-6-3
+  S-7-1:
+    Position: world:-886:84:1330
+    Window: W-7-1
+  S-7-2:
+    Position: world:-883:84:1296
+    Window: W-7-2
+  S-7-3:
+    Position: world:-906:84:1291
+    Window: W-7-3
+  S-7-4:
+    Position: world:-919:84:1303
+    Window: W-7-4
+WeaponsChest:
+  Position:
+    world##world#:
+      Pos1: world:-853:68:1232
+      Pos2: world:-852:68:1232
+      Hologram: world:-852:70:1232.5:0:0
+PowerSwitch:
+  Pos1: world:-863:84:1309
+  Pos2: world:-863:84:1309
+  Gold: 700
+  Hologram: world:-862.5:85:1309.5:0:0
+TeamMachine:
+  Position:
+    world#-49#72#1392#world#-49#72#1392:
+      Pos1: world:-909:84:1317
+      Pos2: world:-909:84:1317
+      Hologram: world:-908.5:85:1317.5:0:0
+SpawnLocation: world:-855:69:1285:-40:0
+UltimateMachine:
+  Pos1: world:-854:0:1293
+  Pos2: world:-854:0:1293
+  Gold: 99999
+  Hologram: world:-854:0:1293:0:0
+PerkShop:
+  Position:
+    world#-15#73#1357#world#-15#73#1357:
+      Pos1: world:-853:77:1254
+      Pos2: world:-853:77:1254
+      PerkName: FAST_REVIVE
+      PerkGold: 200
+      Hologram: world:-852.5:78:1254.5:0:0
+    world#-33#73#1357#world#-33#73#1357:
+      Pos1: world:-828:77:1311
+      Pos2: world:-828:77:1311
+      PerkName: SPEED
+      PerkGold: 400
+      Hologram: world:-827.5:78:1311.5:0:0
+    world#-43#73#1357#world#-43#73#1357:
+      Pos1: world:-885:84:1311
+      Pos2: world:-885:84:1311
+      PerkName: EXTRA_HEALTH
+      PerkGold: 700
+      Hologram: world:-884.5:85:1311.5:0:0
+ArmorShop:
+  Position:
+    world#8#73#1363#world#8#75#1365:
+      Pos1: world:-873:78:1324
+      Pos2: world:-875:76:1325
+      Type: IRON
+      Pack: DOWN
+      Gold: 500
+      Hologram: world:-873.5:76.5:1324.5:0:0
+    world#8#73#1375#world#8#75#1377:
+      Pos1: world:-914:85:1311
+      Pos2: world:-915:83:1309
+      Type: DIAMOND
+      Pack: UP
+      Gold: 600
+      Hologram: world:-913.5:83.5:1310.5:0:0
+Door:
+  酒店:
+    Pos1: world:-858:72:1288
+    Pos2: world:-858:69:1286
+    Gold: 240
+    Hologram: world:-856.5:71.0:1287.5:270.40607:1.6864259
+    Spawners:
+    - world:-871:69:1312
+    - world:-878:69:1280
+    - world:-843:70:1270
+    - world:-844:70:1263
+    - world:-872:77:1244
+    - world:-844:77:1261
+  办公室:
+    Pos1: world:-843:72:1308
+    Pos2: world:-843:69:1310
+    Gold: 240
+    Hologram: world:-843.5:71.0:1309.5:88.774605:6.439864
+    Spawners:
+    - world:-827:77:1293
+    - world:-818:77:1297
+    - world:-813:77:1330
+  公寓:
+    Pos1: world:-861:79:1269
+    Pos2: world:-863:76:1269
+    Gold: 240
+    Hologram: world:-861.5:78.0:1268.5:-178.71758:2.1868374
+    Spawners:
+    - world:-850:77:1274
+    - world:-885:77:1282
+    - world:-873:77:1328
+    - world:-883:77:1316
+  花园:
+    Pos1: world:-853:72:1258
+    Pos2: world:-851:69:1258
+    Gold: 300
+    Hologram: world:-851.5:71.0:1259.5:-359.8478:1.6864212
+  画廊:
+    Pos1: world:-832:79:1323
+    Pos2: world:-834:76:1323
+    Gold: 240
+    Hologram: world:-832.5:78.0:1322.5:180.97052:3.937989
+    Spawners:
+    - world:-847:77:1342
+    - world:-854:77:1331
+    - world:-840:77:1319
+  发电站-1:
+    Pos1: world:-855:80:1321
+    Pos2: world:-855:76:1319
+    Gold: 360
+    Hologram: world:-853.5:78.0:1320.5:-89.903076:5.439171
+    Spawners:
+    - world:-876:84:1332
+    - world:-867:84:1328
+    - world:-870:84:1298
+  发电站-2:
+    Pos1: world:-876:80:1296
+    Pos2: world:-878:77:1296
+    Gold: 360
+    Hologram: world:-876.4934939405239:79.0:1295.3799074236258:179.54016:3.6878629
+    Spawners:
+    - world:-876:84:1332
+    - world:-867:84:1328
+    - world:-870:84:1298
+  屋顶:
+    Pos1: world:-883:86:1321
+    Pos2: world:-883:83:1319
+    Gold: 420
+    Hologram: world:-881.5:85.0:1320.5:270.13446:3.1876698
+    Spawners:
+    - world:-886:84:1330
+    - world:-883:84:1296
+    - world:-906:84:1291
+    - world:-919:84:1303
+DefaultSpawners:
+- world:-830:71:1274
+- world:-827:71:1295
+- world:-863:70:1296
+- world:-865:70:1308
