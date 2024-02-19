@@ -133,7 +133,7 @@ scoreboard players operation @e[tag=VMW] 爆破-T人数 = §f爆破-T人数 爆�
 #关于c4
 scoreboard players tag @e[type=item] add C4掉落物 {Item:{id:"minecraft:red_nether_brick",tag:{ench:[{lvl:1s,id:16s}]}}}
 execute @e[tag=C4掉落物,type=item] ~ ~ ~ execute @s[tag=!显示] ~ ~ ~ tellraw @a[team=T] {"text":"§c§l炸弹已掉落"}
-entitydata @e[type=item,tag=C4掉落物] {Tags:["C4掉落物","显示"],Item:{id:"minecraft:red_nether_brick",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:999999999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§4C4炸弹",Glowing:1b}
+entitydata @e[type=item,tag=C4掉落物] {Tags:["C4掉落物","显示"],Item:{id:"minecraft:red_nether_brick",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:9999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§4C4炸弹",Glowing:1b}
 execute @e[type=item,tag=C4掉落物] ~ ~ ~ scoreboard players tag @a[r=1,team=T,m=2] add 捡起C4
 replaceitem entity @a[tag=捡起C4] slot.hotbar.4 minecraft:red_nether_brick 1 0 {ench:[{lvl:1s,id:16s}],HideFlags:1,display:{Name:"§4§lC4炸弹(红圈内按shift使用)"}}
 execute @a[tag=捡起C4] ~ ~ ~ kill @e[type=item,tag=C4掉落物,c=1]
