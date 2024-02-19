@@ -133,7 +133,7 @@ scoreboard players operation @e[tag=VMW] CT-TN = §fCT-TN CT-TN
 #关于c4
 scoreboard players tag @e[type=item] add C4Drops {Item:{id:"minecraft:red_nether_brick",tag:{ench:[{lvl:1s,id:16s}]}}}
 execute @e[tag=C4Drops,type=item] ~ ~ ~ execute @s[tag=!Display] ~ ~ ~ tellraw @a[team=T] {"text":"§cThe bomb has fallen!"}
-entitydata @e[type=item,tag=C4Drops] {Tags:["C4Drops","Display"],Item:{id:"minecraft:red_nether_brick",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:999999999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§4C4",Glowing:1b}
+entitydata @e[type=item,tag=C4Drops] {Tags:["C4Drops","Display"],Item:{id:"minecraft:red_nether_brick",Count:1b,Damage:0s,tag:{ench:[{lvl:1s,id:16s}]}},Age:-32767,Owner:0,Health:9999,Attributes:[{Name:"generic.maxHealth",Base:999999999}],Fire:-20,CustomNameVisible:1b,CustomName:"§4C4",Glowing:1b}
 execute @e[type=item,tag=C4Drops] ~ ~ ~ scoreboard players tag @a[r=1,team=T,m=2] add PickUpC4
 replaceitem entity @a[tag=PickUpC4] slot.hotbar.4 minecraft:red_nether_brick 1 0 {ench:[{lvl:1s,id:16s}],HideFlags:1,display:{Name:"§4C4 bomb (press shift in the red circle)"}}
 execute @a[tag=PickUpC4] ~ ~ ~ kill @e[type=item,tag=C4Drops,c=1]
