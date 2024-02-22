@@ -53,6 +53,7 @@ function vmwp:games/blast/resetMap
 kill @e[tag=C4,type=armor_stand]
 scoreboard players tag @e remove suspend
 scoreboard players tag @e remove GlobalGame
+scoreboard players tag @e remove HalfHMode
 scoreboard players tag @e remove CT-WaitF
 scoreboard players tag @e remove CT-C4Placed
 scoreboard players set @e[tag=VMW] Start-SMode 0

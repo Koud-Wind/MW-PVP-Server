@@ -61,7 +61,8 @@ scoreboard players tag @a[tag=RandomTp] remove RandomTp
 
 #落地替换护甲
 execute @e[tag=VMW,score_PC-TR=2790] ~ ~ ~ scoreboard players tag @a[tag=InGame] add ElytraFall {OnGround:1b,Inventory:[{id:"minecraft:elytra"}]}
-replaceitem entity @a[tag=ElytraFall] slot.armor.chest minecraft:leather_chestplate 1 0 {ench:[{lvl:1s,id:10s}],Unbreakable:1b,HideFlags:5,display:{color:8388863,Name:""},AttributeModifiers:[{UUIDMost:3618156733941892737L,UUIDLeast:-7584274578594019785L,Amount:13.0d,Slot:"chest",AttributeName:"generic.armor",Operation:0,Name:"generic.armor"}]}
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ replaceitem entity @a[tag=ElytraFall] slot.armor.chest minecraft:leather_chestplate 1 0 {ench:[{lvl:1s,id:10s}],Unbreakable:1b,HideFlags:5,display:{color:8388863,Name:""},AttributeModifiers:[{UUIDMost:3618156733941892737L,UUIDLeast:-7584274578594019785L,Amount:13.0d,Slot:"chest",AttributeName:"generic.armor",Operation:0,Name:"generic.armor"}]}
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ replaceitem entity @a[tag=ElytraFall] slot.armor.chest minecraft:leather_chestplate 1 0 {ench:[{lvl:1s,id:10s}],Unbreakable:1b,HideFlags:5,display:{color:8388863,Name:""},AttributeModifiers:[{UUIDMost:3618156733941892737L,UUIDLeast:-7584274578594019785L,Amount:13.0d,Slot:"chest",AttributeName:"generic.armor",Operation:0,Name:"generic.armor"},{UUIDMost:6576250448452734424L,UUIDLeast:-7523519124796604724L,Amount:-10.0d,Slot:"chest",AttributeName:"generic.maxHealth",Operation:0,Name:"generic.maxHealth"}]}
 execute @e[tag=VMW,score_PC-TR_min=2600] ~ ~ ~ effect @a[tag=ElytraFall] 15 9 0 true
 scoreboard players tag @a[tag=ElytraFall] remove ElytraFall
 

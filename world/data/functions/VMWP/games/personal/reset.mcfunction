@@ -71,6 +71,7 @@ execute @e[type=armor_stand,tag=!VMW] ~ ~ ~ fill ~6 ~7 ~6 ~-6 ~-7 ~-6 air 0 repl
 kill @e[type=armor_stand,tag=!VMW]
 scoreboard players tag @e remove suspend
 scoreboard players tag @e remove GlobalGame
+scoreboard players tag @e remove HalfHMode
 scoreboard players set @e[tag=VMW] Start-SMode 0
 
 scoreboard objectives remove PC-Map

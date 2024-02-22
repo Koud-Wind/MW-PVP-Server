@@ -55,6 +55,7 @@ function vmwp:games/teamDM/resetMap
 execute @e[tag=VMW] ~ ~ ~ tp @s -49 250 1054
 scoreboard players tag @e remove suspend
 scoreboard players tag @e remove GlobalGame
+scoreboard players tag @e remove HalfHMode
 scoreboard players tag @e remove Exchange
 scoreboard players set @e[tag=VMW] Start-SMode 0
 

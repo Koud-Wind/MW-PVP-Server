@@ -47,6 +47,7 @@ execute @a[score_health_min=11,tag=injured] ~ ~ ~ playsound minecraft:item.shiel
 scoreboard players tag @a[tag=injured] remove injured
 scoreboard players tag @e[tag=EInjured] remove EInjured
 #血量过半
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[tag=!10health] ~ ~ ~ scoreboard players tag @s[tag=InGame] add 10health
 execute @a[score_health=10,tag=!10health] ~ ~ ~ playsound minecraft:item.shield.break ambient @a ~ ~ ~ 2 1
 execute @a[score_health=10,tag=!10health] ~ ~ ~ playsound minecraft:item.shield.break ambient @a ~ ~ ~ 2 1
 execute @a[score_health=10,tag=!10health] ~ ~ ~ playsound minecraft:item.shield.break ambient @a ~ ~ ~ 2 1
