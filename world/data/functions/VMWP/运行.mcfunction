@@ -47,6 +47,7 @@ execute @a[score_生命_min=11,tag=受伤] ~ ~ ~ playsound minecraft:item.shield
 scoreboard players tag @a[tag=受伤] remove 受伤
 scoreboard players tag @e[tag=实体受伤] remove 实体受伤
 #血量过半
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=半血模式] ~ ~ ~ execute @a[tag=!半血] ~ ~ ~ scoreboard players tag @s[tag=游戏中] add 半血
 execute @a[score_生命=10,tag=!半血] ~ ~ ~ playsound minecraft:item.shield.break ambient @a ~ ~ ~ 2 1
 execute @a[score_生命=10,tag=!半血] ~ ~ ~ playsound minecraft:item.shield.break ambient @a ~ ~ ~ 2 1
 execute @a[score_生命=10,tag=!半血] ~ ~ ~ playsound minecraft:item.shield.break ambient @a ~ ~ ~ 2 1

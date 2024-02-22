@@ -53,6 +53,7 @@ function vmwp:游戏/赏金爆破/地图重置
 kill @e[tag=C4,type=armor_stand]
 scoreboard players tag @e remove 暂停
 scoreboard players tag @e remove 全局游戏
+scoreboard players tag @e remove 半血模式
 scoreboard players tag @e remove 爆破-等待
 scoreboard players tag @e remove 爆破-已安放C4
 scoreboard players set @e[tag=VMW] 开始-选择模式 0
