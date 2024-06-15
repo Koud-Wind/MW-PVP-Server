@@ -130,13 +130,13 @@ execute @a[score_S-Map_min=5,score_S-Map=5,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-
 execute @a[score_S-Map_min=6,score_S-Map=6,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 5
 execute @a[score_S-Map_min=6,score_S-Map=6,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap6"}]
 
-execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lSet player's max health to §fhalf"}]
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aSet player's max health to §fhalf"}]
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @e[tag=VMW] add HalfHMode
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lSet player's max health to §fnormal"}]
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aSet player's max health to §fnormal"}]
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @e[tag=VMW] remove HalfHMode
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
