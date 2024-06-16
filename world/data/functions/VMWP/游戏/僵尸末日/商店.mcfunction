@@ -38,6 +38,7 @@ scoreboard players tag @a[score_突击步枪页面_min=25,score_突击步枪页�
 scoreboard players tag @a[score_突击步枪页面_min=26,score_突击步枪页面=26,score_PVE-map_min=1,score_爆破-金钱_min=14,score_选择的商店=1,score_选择的商店_min=1] add 购买AK-74
 scoreboard players tag @a[score_突击步枪页面_min=27,score_突击步枪页面=27,score_PVE-map_min=1,score_爆破-金钱_min=15,score_选择的商店=2,score_选择的商店_min=2] add 购买Type-20
 scoreboard players tag @a[score_突击步枪页面_min=28,score_突击步枪页面=28,score_PVE-map_min=1,score_爆破-金钱_min=20,score_选择的商店=2,score_选择的商店_min=2] add 购买HoneyBadger
+scoreboard players tag @a[score_突击步枪页面_min=29,score_突击步枪页面=29,score_PVE-map_min=1,score_爆破-金钱_min=19,score_选择的商店=0] add 购买F2000
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_突击步枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 狙击枪&射手步枪页面
@@ -57,9 +58,10 @@ scoreboard players tag @a[score_狙击枪&射手步枪页面_min=13,score_狙击
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=14,score_狙击枪&射手步枪页面=14,score_PVE-map_min=1,score_爆破-金钱_min=25,score_选择的商店=2,score_选择的商店_min=2] add 购买Remington-700
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=15,score_狙击枪&射手步枪页面=15,score_PVE-map_min=1,score_爆破-金钱_min=24,score_选择的商店=2,score_选择的商店_min=2] add 购买HK417
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=16,score_狙击枪&射手步枪页面=16,score_PVE-map_min=1,score_爆破-金钱_min=17,score_选择的商店=2,score_选择的商店_min=2] add 购买Z10
-#scoreboard players tag @a[score_狙击枪&射手步枪页面_min=17,score_狙击枪&射手步枪页面=17,score_PVE-map_min=1,score_爆破-金钱_min=32,score_选择的商店=0] add 购买PGMHecate
+scoreboard players tag @a[score_狙击枪&射手步枪页面_min=17,score_狙击枪&射手步枪页面=17,score_PVE-map_min=1,score_爆破-金钱_min=32,score_选择的商店=0] add 购买PGMHecate
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=18,score_狙击枪&射手步枪页面=18,score_PVE-map_min=1,score_爆破-金钱_min=34,score_选择的商店=0] add 购买SVD
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=19,score_狙击枪&射手步枪页面=19,score_PVE-map_min=1,score_爆破-金钱_min=34,score_选择的商店=2,score_选择的商店_min=2] add 购买SSG-08
+scoreboard players tag @a[score_狙击枪&射手步枪页面_min=20,score_狙击枪&射手步枪页面=20,score_PVE-map_min=1,score_爆破-金钱_min=29,score_选择的商店=1,score_选择的商店_min=1] add 购买AX50
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_狙击枪&射手步枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 冲锋枪页面
@@ -76,6 +78,7 @@ scoreboard players tag @a[score_冲锋枪页面_min=10,score_冲锋枪页面=10,
 scoreboard players tag @a[score_冲锋枪页面_min=11,score_冲锋枪页面=11,score_PVE-map_min=1,score_爆破-金钱_min=17,score_选择的商店=2,score_选择的商店_min=2] add 购买S7-10Tricun
 scoreboard players tag @a[score_冲锋枪页面_min=12,score_冲锋枪页面=12,score_PVE-map_min=1,score_爆破-金钱_min=16,score_选择的商店=2,score_选择的商店_min=2] add 购买SIGMPX
 scoreboard players tag @a[score_冲锋枪页面_min=13,score_冲锋枪页面=13,score_PVE-map_min=1,score_爆破-金钱_min=14,score_选择的商店=2,score_选择的商店_min=2] add 购买Uzi
+scoreboard players tag @a[score_冲锋枪页面_min=14,score_冲锋枪页面=14,score_PVE-map_min=1,score_爆破-金钱_min=14,score_选择的商店=2,score_选择的商店_min=2] add 购买PP19
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_冲锋枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 霰弹枪页面
@@ -91,7 +94,7 @@ function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_霰弹枪页�
 
 scoreboard players enable @a[score_PVE-map_min=1] 机枪页面
 scoreboard players tag @a[score_机枪页面_min=1,score_机枪页面=1,score_PVE-map_min=1,score_爆破-金钱_min=25,score_选择的商店=0] add 购买M249
-scoreboard players tag @a[score_机枪页面_min=2,score_机枪页面=2,score_PVE-map_min=1,score_爆破-金钱_min=25,score_选择的商店=1,score_选择的商店_min=1] add 购买StonerA1
+scoreboard players tag @a[score_机枪页面_min=2,score_机枪页面=2,score_PVE-map_min=1,score_爆破-金钱_min=30,score_选择的商店=1,score_选择的商店_min=1] add 购买StonerA1
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_机枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 手枪页面
@@ -112,6 +115,7 @@ scoreboard players tag @a[score_手枪页面_min=14,score_手枪页面=14,score_
 scoreboard players tag @a[score_手枪页面_min=15,score_手枪页面=15,score_PVE-map_min=1,score_爆破-金钱_min=5,score_选择的商店=2,score_选择的商店_min=2] add 购买CPX-2
 scoreboard players tag @a[score_手枪页面_min=16,score_手枪页面=16,score_PVE-map_min=1,score_爆破-金钱_min=0,score_选择的商店=2,score_选择的商店_min=2] add 购买Chiappa
 scoreboard players tag @a[score_手枪页面_min=17,score_手枪页面=17,score_PVE-map_min=1,score_爆破-金钱_min=9,score_选择的商店=2,score_选择的商店_min=2] add 购买FN57
+scoreboard players tag @a[score_手枪页面_min=18,score_手枪页面=18,score_PVE-map_min=1,score_爆破-金钱_min=8,score_选择的商店=1,score_选择的商店_min=1] add 购买M1911
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_手枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 特殊武器页面
@@ -181,10 +185,10 @@ replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=56
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=57,score_爆破-选择的主武器=57] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=58,score_爆破-选择的主武器=58] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=59,score_爆破-选择的主武器=59] slot.inventory.1 mwc:origin12drummag 6 0 {Ammo:20}
-replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=60,score_爆破-选择的主武器=60] slot.inventory.1 mwc:saigamag_2 6 0 {Ammo:5}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=60,score_爆破-选择的主武器=60] slot.inventory.1 mwc:saigamag_3 6 0 {Ammo:12}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=61,score_爆破-选择的主武器=61] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=62,score_爆破-选择的主武器=62] slot.inventory.1 mwc:m249mag 6 0 {Ammo:100}
-replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=63,score_爆破-选择的主武器=63] slot.inventory.1 mwc:stonermag 6 0 {Ammo:100}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=63,score_爆破-选择的主武器=63] slot.inventory.1 mwc:m60mag 6 0 {Ammo:100}
 
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=65,score_爆破-选择的主武器=65] slot.inventory.1 mwc:hecateiimag 6 0 {Ammo:7}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=66,score_爆破-选择的主武器=66] slot.inventory.1 mwc:m4a1mag_2 6 0 {Ammo:30}
@@ -194,20 +198,23 @@ replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=69
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=70,score_爆破-选择的主武器=70] slot.inventory.1 mwc:ssg08mag 6 0 {Ammo:8}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=71,score_爆破-选择的主武器=71] slot.inventory.1 mwc:glockmag50 6 0 {Ammo:50}
 
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=73,score_爆破-选择的主武器=73] slot.inventory.1 mwc:m4a1mag_2 6 0 {Ammo:30}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=74,score_爆破-选择的主武器=74] slot.inventory.1 mwc:ax50mag 6 0 {Ammo:5}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=75,score_爆破-选择的主武器=75] slot.inventory.1 mwc:pp1901mag 6 0 {Ammo:30}
+
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=100,score_爆破-选择的主武器=100] slot.inventory.1 mwc:grenade40mm 16 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=101,score_爆破-选择的主武器=101] slot.inventory.1 mwc:rpg7_rocket 2 0
-replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=102,score_爆破-选择的主武器=102] slot.inventory.1 mwc:plasmacapsule 64 0
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=102,score_爆破-选择的主武器=102] slot.inventory.1 mwc:pkmmag 6 0 {Ammo:480}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=103,score_爆破-选择的主武器=103] slot.inventory.1 mwc:asvalmag 6 0 {Ammo:40}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=104,score_爆破-选择的主武器=104] slot.inventory.1 mwc:m202rocket 4 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=105,score_爆破-选择的主武器=105] slot.inventory.1 mwc:grenade40mm 16 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=106,score_爆破-选择的主武器=106] slot.inventory.1 mwc:m134mag 6 0 {Ammo:200}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=107,score_爆破-选择的主武器=107] slot.inventory.1 mwc:mininuke 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=108,score_爆破-选择的主武器=108] slot.inventory.1 mwc:origin12drummag 6 0 {Ammo:25}
-replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=109,score_爆破-选择的主武器=109] slot.inventory.1 mwc:m134mag 6 0 {Ammo:1000}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=109,score_爆破-选择的主武器=109] slot.inventory.1 mwc:pkmmag 6 0 {Ammo:1200}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=110,score_爆破-选择的主武器=110] slot.inventory.1 mwc:ssg08mag 6 0 {Ammo:38}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=111,score_爆破-选择的主武器=111] slot.inventory.1 mwc:glock18cmag_2 6 0 {Ammo:1.E99}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=112,score_爆破-选择的主武器=112] slot.inventory.1 mwc:makarovmag 6 0 {Ammo:1.E99}
-replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=113,score_爆破-选择的主武器=113] slot.inventory.1 mwc:ak100mag 6 0 {Ammo:120}
 
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=1,score_爆破-选择的副武器=1] slot.inventory.2 mwc:apsmag_2 6 0 {Ammo:20}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=2,score_爆破-选择的副武器=2] slot.inventory.2 mwc:bullet500 64 0
@@ -227,6 +234,7 @@ replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=14
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=15,score_爆破-选择的副武器=15] slot.inventory.2 mwc:sccycpx2mag 6 0 {Ammo:10}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=16,score_爆破-选择的副武器=16] slot.inventory.2 mwc:bullet357 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=17,score_爆破-选择的副武器=17] slot.inventory.2 mwc:fivesevenmag 6 0 {Ammo:20}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的副武器_min=18,score_爆破-选择的副武器=18] slot.inventory.2 mwc:m1911mag_2 6 0 {Ammo:15}
 
 #涂装
 replaceitem entity @a[score_选择的涂装_min=1,score_选择的涂装=1,score_PVE-map_min=1] slot.inventory.0 mwc:diamondcamo 1 0

@@ -83,10 +83,10 @@ replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=56,score
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=57,score_爆破-选择的主武器=57] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=58,score_爆破-选择的主武器=58] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=59,score_爆破-选择的主武器=59] slot.inventory.1 mwc:origin12drummag 6 0 {Ammo:12}
-replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=60,score_爆破-选择的主武器=60] slot.inventory.1 mwc:saigamag_2 6 0 {Ammo:4}
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=60,score_爆破-选择的主武器=60] slot.inventory.1 mwc:saigamag_2 6 0 {Ammo:5}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=61,score_爆破-选择的主武器=61] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=62,score_爆破-选择的主武器=62] slot.inventory.1 mwc:m249mag 6 0 {Ammo:100}
-replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=63,score_爆破-选择的主武器=63] slot.inventory.1 mwc:stonermag 6 0 {Ammo:100}
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=63,score_爆破-选择的主武器=63] slot.inventory.1 mwc:m60mag 6 0 {Ammo:100}
 
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=65,score_爆破-选择的主武器=65] slot.inventory.1 mwc:hecateiimag 6 0 {Ammo:7}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=66,score_爆破-选择的主武器=66] slot.inventory.1 mwc:m4a1mag_2 6 0 {Ammo:30}
@@ -96,9 +96,13 @@ replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=69,score
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=70,score_爆破-选择的主武器=70] slot.inventory.1 mwc:ssg08mag 6 0 {Ammo:8}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=71,score_爆破-选择的主武器=71] slot.inventory.1 mwc:glockmag50 6 0 {Ammo:50}
 
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=73,score_爆破-选择的主武器=73] slot.inventory.1 mwc:m4a1mag_2 6 0 {Ammo:30}
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=74,score_爆破-选择的主武器=74] slot.inventory.1 mwc:ax50mag 6 0 {Ammo:5}
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=75,score_爆破-选择的主武器=75] slot.inventory.1 mwc:pp1901mag 6 0 {Ammo:30}
+
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=100,score_爆破-选择的主武器=100] slot.inventory.1 mwc:grenade40mm 16 0
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=101,score_爆破-选择的主武器=101] slot.inventory.1 mwc:rpg7_rocket 2 0
-replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=102,score_爆破-选择的主武器=102] slot.inventory.1 mwc:plasmacapsule 64 0
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=102,score_爆破-选择的主武器=102] slot.inventory.1 mwc:pkmmag 6 0 {Ammo:120}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=103,score_爆破-选择的主武器=103] slot.inventory.1 mwc:asvalmag 6 0 {Ammo:20}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=104,score_爆破-选择的主武器=104] slot.inventory.1 mwc:m202rocket 4 0
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=105,score_爆破-选择的主武器=105] slot.inventory.1 mwc:grenade40mm 16 0
@@ -123,6 +127,7 @@ replaceitem entity @a[tag=游戏中,score_爆破-选择的副武器_min=14,score
 replaceitem entity @a[tag=游戏中,score_爆破-选择的副武器_min=15,score_爆破-选择的副武器=15] slot.inventory.2 mwc:sccycpx2mag 6 0 {Ammo:10}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的副武器_min=16,score_爆破-选择的副武器=16] slot.inventory.2 mwc:bullet357 64 0
 replaceitem entity @a[tag=游戏中,score_爆破-选择的副武器_min=17,score_爆破-选择的副武器=17] slot.inventory.2 mwc:fivesevenmag 6 0 {Ammo:20}
+replaceitem entity @a[tag=游戏中,score_爆破-选择的副武器_min=18,score_爆破-选择的副武器=18] slot.inventory.2 mwc:m1911mag_2 6 0 {Ammo:15}
 
 
 

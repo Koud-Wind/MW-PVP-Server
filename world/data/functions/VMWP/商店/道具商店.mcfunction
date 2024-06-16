@@ -39,14 +39,17 @@ scoreboard players tag @a[tag=购买RPG-7] remove 购买RPG-7
 scoreboard players set @a[score_选择特殊武器页面_min=3,score_选择特殊武器页面=3,tag=RPG-7] 选择的特殊武器 1
 tellraw @a[score_选择特殊武器页面_min=3,score_选择特殊武器页面=3,tag=RPG-7] {"text":"§5§l特殊武器切换成功"}
 
-execute @a[score_选择特殊武器页面_min=4,score_选择特殊武器页面=4,tag=!游戏中] ~ ~ ~ scoreboard players tag @s[score_钞票_min=600,tag=!GPC-A1] add 购买GPC-A1
-tellraw @a[tag=购买GPC-A1] {"text":"§a§l购买特殊武器成功!"}
-scoreboard players tag @a[tag=购买GPC-A1] add GPC-A1
-scoreboard players remove @a[tag=购买GPC-A1] 钞票 600
-scoreboard players tag @a[tag=购买GPC-A1] remove 购买GPC-A1
+execute @a[score_选择特殊武器页面_min=4,score_选择特殊武器页面=4,tag=!游戏中] ~ ~ ~ scoreboard players tag @s[score_钞票_min=600,tag=!PKM] add 购买PKM
+tellraw @a[tag=购买PKM] {"text":"§a§l购买特殊武器成功!"}
+scoreboard players tag @a[tag=购买PKM] add PKM
+scoreboard players remove @a[tag=购买PKM] 钞票 600
+scoreboard players tag @a[tag=购买PKM] remove 购买PKM
 
-scoreboard players set @a[score_选择特殊武器页面_min=5,score_选择特殊武器页面=5,tag=GPC-A1] 选择的特殊武器 2
-tellraw @a[score_选择特殊武器页面_min=5,score_选择特殊武器页面=5,tag=GPC-A1] {"text":"§5§l特殊武器切换成功"}
+scoreboard players tag @a[tag=GPC-A1] add PKM
+scoreboard players tag @a[tag=GPC-A1] remove GPC-A1
+
+scoreboard players set @a[score_选择特殊武器页面_min=5,score_选择特殊武器页面=5,tag=PKM] 选择的特殊武器 2
+tellraw @a[score_选择特殊武器页面_min=5,score_选择特殊武器页面=5,tag=PKM] {"text":"§5§l特殊武器切换成功"}
 
 execute @a[score_选择特殊武器页面_min=6,score_选择特殊武器页面=6,tag=!游戏中] ~ ~ ~ scoreboard players tag @s[score_钞票_min=1000,tag=!VSS] add 购买VSS
 tellraw @a[tag=购买VSS] {"text":"§a§l购买特殊武器成功!"}
