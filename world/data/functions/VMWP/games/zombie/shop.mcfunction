@@ -42,7 +42,7 @@ scoreboard players tag @a[score_assaultRP_min=29,score_assaultRP=29,score_PVE-ma
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_assaultRP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] S&DMRP
-scoreboard players tag @a[score_S&DMRP_min=1,score_S&DMRP=1,score_PVE-map_min=1,score_money_min=30,score_S-Shop=1,score_S-Shop_min=1] add ByM200
+scoreboard players tag @a[score_S&DMRP_min=1,score_S&DMRP=1,score_PVE-map_min=1,score_money_min=33,score_S-Shop=1,score_S-Shop_min=1] add ByM200
 scoreboard players tag @a[score_S&DMRP_min=2,score_S&DMRP=2,score_PVE-map_min=1,score_money_min=28,score_S-Shop=0] add ByDSR1
 scoreboard players tag @a[score_S&DMRP_min=3,score_S&DMRP=3,score_PVE-map_min=1,score_money_min=27,score_S-Shop=0] add ByM40A6
 scoreboard players tag @a[score_S&DMRP_min=4,score_S&DMRP=4,score_PVE-map_min=1,score_money_min=24,score_S-Shop=0] add ByM14DMR
@@ -61,7 +61,7 @@ scoreboard players tag @a[score_S&DMRP_min=16,score_S&DMRP=16,score_PVE-map_min=
 scoreboard players tag @a[score_S&DMRP_min=17,score_S&DMRP=17,score_PVE-map_min=1,score_money_min=32,score_S-Shop=0] add ByPGMHecate
 scoreboard players tag @a[score_S&DMRP_min=18,score_S&DMRP=18,score_PVE-map_min=1,score_money_min=34,score_S-Shop=0] add BySVD
 scoreboard players tag @a[score_S&DMRP_min=19,score_S&DMRP=19,score_PVE-map_min=1,score_money_min=34,score_S-Shop=2,score_S-Shop_min=2] add BySSG-08
-scoreboard players tag @a[score_S&DMRP_min=20,score_S&DMRP=20,score_PVE-map_min=1,score_money_min=29,score_S-Shop=1,score_S-Shop_min=1] add ByAX50
+scoreboard players tag @a[score_S&DMRP_min=20,score_S&DMRP=20,score_PVE-map_min=1,score_money_min=30,score_S-Shop=1,score_S-Shop_min=1] add ByAX50
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_S&DMRP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] SMGP
