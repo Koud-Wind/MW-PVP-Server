@@ -42,7 +42,7 @@ scoreboard players tag @a[score_突击步枪页面_min=29,score_突击步枪页�
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_突击步枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 狙击枪&射手步枪页面
-scoreboard players tag @a[score_狙击枪&射手步枪页面_min=1,score_狙击枪&射手步枪页面=1,score_PVE-map_min=1,score_爆破-金钱_min=30,score_选择的商店=1,score_选择的商店_min=1] add 购买M200
+scoreboard players tag @a[score_狙击枪&射手步枪页面_min=1,score_狙击枪&射手步枪页面=1,score_PVE-map_min=1,score_爆破-金钱_min=33,score_选择的商店=1,score_选择的商店_min=1] add 购买M200
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=2,score_狙击枪&射手步枪页面=2,score_PVE-map_min=1,score_爆破-金钱_min=28,score_选择的商店=0] add 购买DSR1
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=3,score_狙击枪&射手步枪页面=3,score_PVE-map_min=1,score_爆破-金钱_min=27,score_选择的商店=0] add 购买M40A6
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=4,score_狙击枪&射手步枪页面=4,score_PVE-map_min=1,score_爆破-金钱_min=24,score_选择的商店=0] add 购买M14DMR
@@ -61,7 +61,7 @@ scoreboard players tag @a[score_狙击枪&射手步枪页面_min=16,score_狙击
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=17,score_狙击枪&射手步枪页面=17,score_PVE-map_min=1,score_爆破-金钱_min=32,score_选择的商店=0] add 购买PGMHecate
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=18,score_狙击枪&射手步枪页面=18,score_PVE-map_min=1,score_爆破-金钱_min=34,score_选择的商店=0] add 购买SVD
 scoreboard players tag @a[score_狙击枪&射手步枪页面_min=19,score_狙击枪&射手步枪页面=19,score_PVE-map_min=1,score_爆破-金钱_min=34,score_选择的商店=2,score_选择的商店_min=2] add 购买SSG-08
-scoreboard players tag @a[score_狙击枪&射手步枪页面_min=20,score_狙击枪&射手步枪页面=20,score_PVE-map_min=1,score_爆破-金钱_min=29,score_选择的商店=1,score_选择的商店_min=1] add 购买AX50
+scoreboard players tag @a[score_狙击枪&射手步枪页面_min=20,score_狙击枪&射手步枪页面=20,score_PVE-map_min=1,score_爆破-金钱_min=30,score_选择的商店=1,score_选择的商店_min=1] add 购买AX50
 function vmwp:商店/武器商店 if @a[score_PVE-map_min=1,score_狙击枪&射手步枪页面_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] 冲锋枪页面
