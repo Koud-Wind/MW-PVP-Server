@@ -282,6 +282,13 @@ scoreboard players set @a[tag=ByHoneyBadger] MainW 41
 tellraw @a[tag=ByHoneyBadger] {"text":"§aSuccessfully purchased §fHoney Badger§a§l!"}
 scoreboard players tag @a[tag=ByHoneyBadger] remove ByHoneyBadger
 
+execute @e[tag=GlobalGame] ~ ~ ~ scoreboard players tag @a[score_assaultRP_min=29,score_assaultRP=29,tag=InGame,score_money_min=19,score_S-Shop=0] add ByF2000
+replaceitem entity @a[tag=ByF2000] slot.hotbar.0 mwc:f2000 1 0 {IUuidLeast:-6350252504368271991L,AtId:[I;5210,0,0,0,0,0,0,4356,5190,0,0,0,5191,0,0,4612,0,4732,0,0,0,0,0,0,0,4096,0],Ammo:30,IUuidMost:1272366650905938208L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,17B,-88B,90B,-70B,75B,77B,73B,32B,-89B,-33B,94B,-2B,11B,24B,45B,-119B,0B,0B,19B,107B,0B,0B,0B,3B,0B,0B,0B,0B,0B,0B,0B,37B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,20B,90B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-58B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,4B,0B,0B,20B,70B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,71B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,4B,0B,0B,0B,0B,0B,0B,18B,124B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,30B,0B,63B,-64B,0B,0B,127B,-1B,-1B,-1B,63B,-128B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fFN F2000"}}
+scoreboard players remove @a[tag=ByF2000] money 19
+scoreboard players set @a[tag=ByF2000] MainW 73
+tellraw @a[tag=ByF2000] {"text":"§aSuccessfully purchased §fFN F2000§a§l!"}
+scoreboard players tag @a[tag=ByF2000] remove ByF2000
+
 scoreboard players reset @a[score_assaultRP_min=1] assaultRP
 
 
@@ -421,6 +428,13 @@ scoreboard players set @a[tag=BySSG-08] MainW 70
 tellraw @a[tag=BySSG-08] {"text":"§aSuccessfully purchased §fSSG-08§a§l!"}
 scoreboard players tag @a[tag=BySSG-08] remove BySSG-08
 
+execute @e[tag=GlobalGame] ~ ~ ~ scoreboard players tag @a[score_S&DMRP_min=20,score_S&DMRP=20,tag=InGame,score_money_min=29,score_S-Shop=1,score_S-Shop_min=1] add ByAX50
+replaceitem entity @a[tag=ByAX50] slot.hotbar.0 mwc:ax50 1 0 {IUuidLeast:-6412135845193157127L,AtId:[I;4493,0,0,0,0,0,0,4356,0,0,4362,0,-1,4574,5228,0,0,4732,0,0,0,0,0,0,0,4096,0],Ammo:5,IUuidMost:-6429737159450212062L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,-90B,-60B,-4B,30B,-93B,-41B,73B,34B,-89B,3B,-124B,107B,-9B,-74B,117B,-7B,0B,0B,20B,102B,0B,0B,0B,4B,0B,0B,0B,0B,0B,0B,0B,21B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,17B,-115B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,65B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,4B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,10B,0B,0B,0B,0B,-1B,-1B,-1B,-1B,0B,0B,17B,-34B,0B,0B,20B,108B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,124B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,5B,0B,65B,112B,0B,0B,0B,0B,0B,1B,62B,15B,92B,41B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fAX-50"}}
+scoreboard players remove @a[tag=ByAX50] money 29
+scoreboard players set @a[tag=ByAX50] MainW 74
+tellraw @a[tag=ByAX50] {"text":"§aSuccessfully purchased §fAX-50§a§l!"}
+scoreboard players tag @a[tag=ByAX50] remove ByAX50
+
 scoreboard players reset @a[score_S&DMRP_min=1] S&DMRP
 
 
@@ -518,6 +532,13 @@ scoreboard players set @a[tag=ByUzi] MainW 53
 tellraw @a[tag=ByUzi] {"text":"§aSuccessfully purchased §fUzi§a§l!"}
 scoreboard players tag @a[tag=ByUzi] remove ByUzi
 
+execute @e[tag=GlobalGame] ~ ~ ~ scoreboard players tag @a[score_SMGP_min=14,score_SMGP=14,tag=InGame,score_money_min=14,score_S-Shop=2,score_S-Shop_min=2] add ByPP19
+replaceitem entity @a[tag=ByPP19] slot.hotbar.0 mwc:pp19vityaz 1 0 {IUuidLeast:-8351289981746104828L,AtId:[I;0,0,0,0,0,0,0,0,5211,5225,5216,0,0,5242,0,0,0,0,0,0,0,0,0,0,0,4096,0],Ammo:30,IUuidMost:-8238554343017527502L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,-115B,-86B,-58B,121B,-119B,-80B,71B,50B,-116B,26B,66B,2B,53B,-66B,-74B,4B,0B,0B,20B,123B,0B,0B,0B,3B,0B,0B,0B,0B,0B,0B,0B,43B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,8B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,91B,0B,0B,20B,105B,0B,0B,20B,96B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,122B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,30B,0B,64B,0B,0B,0B,127B,-1B,-1B,-1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fPP-19"}}
+scoreboard players remove @a[tag=ByPP19] money 14
+scoreboard players set @a[tag=ByPP19] MainW 75
+tellraw @a[tag=ByPP19] {"text":"§aSuccessfully purchased §fPP-19§a§l!"}
+scoreboard players tag @a[tag=ByPP19] remove ByPP19
+
 scoreboard players reset @a[score_SMGP_min=1] SMGP
 
 
@@ -567,7 +588,7 @@ tellraw @a[tag=ByOrigin-12] {"text":"§aSuccessfully purchased §fOrigin-12§a§
 scoreboard players tag @a[tag=ByOrigin-12] remove ByOrigin-12
 
 execute @e[tag=GlobalGame] ~ ~ ~ scoreboard players tag @a[score_shotGunP_min=7,score_shotGunP=7,tag=InGame,score_money_min=20,score_S-Shop=2,score_S-Shop_min=2] add BySaiga12
-replaceitem entity @a[tag=BySaiga12] slot.hotbar.0 mwc:saiga12 1 0 {IUuidLeast:-7821613522827601590L,Ammo:4,IUuidMost:-7503162114418851234L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,-105B,-33B,105B,-49B,117B,-27B,66B,94B,-109B,116B,11B,-15B,17B,120B,25B,74B,0B,0B,19B,-124B,0B,0B,0B,3B,0B,0B,0B,0B,0B,0B,0B,14B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-36B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,76B,0B,0B,18B,75B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,4B,0B,64B,-96B,0B,0B,0B,0B,0B,1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fSaiga 12"}}
+replaceitem entity @a[tag=BySaiga12] slot.hotbar.0 mwc:saiga12 1 0 {IUuidLeast:-7329432454202202158L,AtId:[I;0,0,0,0,0,0,0,0,5195,5202,5241,0,0,4684,4683,0,0,0,0,0,0,0,0,0,0,4096,0],Ammo:5,IUuidMost:-5151813209826376781L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,-72B,-127B,21B,46B,95B,34B,67B,-77B,-102B,72B,-96B,4B,18B,14B,-25B,-46B,0B,0B,19B,-124B,0B,0B,0B,2B,0B,0B,0B,0B,0B,0B,0B,45B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-36B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,75B,0B,0B,20B,82B,0B,0B,20B,121B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,76B,0B,0B,18B,75B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,5B,0B,65B,16B,0B,0B,0B,0B,0B,1B,63B,-128B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fSaiga 12"}}
 scoreboard players remove @a[tag=BySaiga12] money 20
 scoreboard players set @a[tag=BySaiga12] MainW 60
 tellraw @a[tag=BySaiga12] {"text":"§aSuccessfully purchased §fSaiga 12§a§l!"}
@@ -594,10 +615,10 @@ tellraw @a[tag=ByM249] {"text":"§aSuccessfully purchased §fM249§a§l!"}
 scoreboard players tag @a[tag=ByM249] remove ByM249
 
 execute @e[tag=GlobalGame] ~ ~ ~ scoreboard players tag @a[score_heavyP_min=2,score_heavyP=2,tag=InGame,score_money_min=30,score_S-Shop=1,score_S-Shop_min=1] add ByStonerA1
-replaceitem entity @a[tag=ByStonerA1] slot.hotbar.0 mwc:stonera1 1 0 {IUuidLeast:-8079973872194883267L,Ammo:100,IUuidMost:1449176338948705609L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,20B,28B,-126B,51B,-61B,-16B,77B,73B,-113B,-34B,42B,-110B,-95B,98B,-15B,61B,0B,0B,19B,-108B,0B,0B,0B,4B,0B,0B,0B,0B,0B,0B,0B,12B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,17B,-74B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-60B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,4B,0B,0B,16B,113B,0B,0B,16B,-93B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,117B,0B,0B,0B,0B,0B,0B,18B,28B,0B,0B,18B,27B,0B,0B,18B,39B,0B,0B,18B,124B,0B,0B,18B,123B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,100B,0B,64B,0B,0B,0B,127B,-1B,-1B,-1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fStoner A1"}}
+replaceitem entity @a[tag=ByStonerA1] slot.hotbar.0 mwc:m60e4 1 0 {IUuidLeast:-6404782372020131635L,Ammo:100,AtId:[I;0,0,0,0,4802,0,0,5244,5223,0,0,0,4468,5198,4634,4644,0,0,0,0,0,0,0,0,0,4096,0],IUuidMost:8481142300183186102L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,117B,-77B,17B,-4B,-85B,-11B,74B,-74B,-89B,29B,-92B,93B,-36B,14B,104B,-51B,0B,0B,19B,-109B,0B,0B,0B,3B,0B,0B,0B,0B,0B,0B,0B,32B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-62B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,124B,0B,0B,20B,103B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,17B,116B,0B,0B,20B,78B,0B,0B,18B,26B,0B,0B,18B,36B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,100B,0B,64B,64B,0B,0B,127B,-1B,-1B,-1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fM60E4"}}
 scoreboard players remove @a[tag=ByStonerA1] money 30
 scoreboard players set @a[tag=ByStonerA1] MainW 63
-tellraw @a[tag=ByStonerA1] {"text":"§aSuccessfully purchased §fStoner A1§a§l!"}
+tellraw @a[tag=ByStonerA1] {"text":"§aSuccessfully purchased §fM60E4§a§l!"}
 scoreboard players tag @a[tag=ByStonerA1] remove ByStonerA1
 
 scoreboard players reset @a[score_heavyP_min=1] heavyP
@@ -724,6 +745,13 @@ scoreboard players remove @a[tag=ByFN57] money 9
 scoreboard players set @a[tag=ByFN57] SecondaryW 17
 tellraw @a[tag=ByFN57] {"text":"§aSuccessfully purchased §fFN57§a§l!"}
 scoreboard players tag @a[tag=ByFN57] remove ByFN57
+
+execute @e[tag=GlobalGame] ~ ~ ~ scoreboard players tag @a[score_pistolP_min=18,score_pistolP=18,tag=InGame,score_money_min=8,score_S-Shop=1,score_S-Shop_min=1] add ByM1911
+replaceitem entity @a[tag=ByM1911] slot.hotbar.1 mwc:m1911 1 0 {IUuidLeast:-5293492200443398088L,AtId:[I;0,0,0,0,0,0,0,0,0,0,4103,0,5227,0,0,0,0,0,0,0,0,0,0,0,0,4096,0],Ammo:15,IUuidMost:-3953501036077824633L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,-55B,34B,87B,-63B,21B,113B,69B,-121B,-74B,-119B,-68B,-29B,-53B,69B,56B,56B,0B,0B,19B,88B,0B,0B,0B,3B,0B,0B,0B,0B,0B,0B,0B,31B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,1B,27B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,20B,93B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,7B,0B,0B,0B,0B,0B,0B,20B,107B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,15B,0B,64B,-56B,0B,0B,0B,0B,0B,1B,63B,-128B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fM1911"}}
+scoreboard players remove @a[tag=ByM1911] money 8
+scoreboard players set @a[tag=ByM1911] SecondaryW 18
+tellraw @a[tag=ByM1911] {"text":"§aSuccessfully purchased §fM1911§a§l!"}
+scoreboard players tag @a[tag=ByM1911] remove ByM1911
 
 scoreboard players reset @a[score_pistolP_min=1] pistolP
 

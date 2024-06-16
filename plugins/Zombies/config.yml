@@ -389,9 +389,9 @@ Weapon:
     UltimateReload: 1.0
     WeaponsChest: false
   Rifle:
-    DisplayName: §4RPK§z
+    DisplayName: §4PKM§z
     UltimateDisplayName: ''
-    Material: MWC_AK47
+    Material: MWC_PKM
     Lores:
     - §eMW_PVE
     HitSound: ENTITY_EXPERIENCE_ORB_PICKUP

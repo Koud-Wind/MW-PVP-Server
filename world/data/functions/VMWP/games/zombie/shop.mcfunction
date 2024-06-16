@@ -38,6 +38,7 @@ scoreboard players tag @a[score_assaultRP_min=25,score_assaultRP=25,score_PVE-ma
 scoreboard players tag @a[score_assaultRP_min=26,score_assaultRP=26,score_PVE-map_min=1,score_money_min=14,score_S-Shop=1,score_S-Shop_min=1] add ByAK-74
 scoreboard players tag @a[score_assaultRP_min=27,score_assaultRP=27,score_PVE-map_min=1,score_money_min=15,score_S-Shop=2,score_S-Shop_min=2] add ByType-20
 scoreboard players tag @a[score_assaultRP_min=28,score_assaultRP=28,score_PVE-map_min=1,score_money_min=20,score_S-Shop=2,score_S-Shop_min=2] add ByHoneyBadger
+scoreboard players tag @a[score_assaultRP_min=29,score_assaultRP=29,score_PVE-map_min=1,score_money_min=19,score_S-Shop=0] add ByF2000
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_assaultRP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] S&DMRP
@@ -57,9 +58,10 @@ scoreboard players tag @a[score_S&DMRP_min=13,score_S&DMRP=13,score_PVE-map_min=
 scoreboard players tag @a[score_S&DMRP_min=14,score_S&DMRP=14,score_PVE-map_min=1,score_money_min=25,score_S-Shop=2,score_S-Shop_min=2] add ByRemington-700
 scoreboard players tag @a[score_S&DMRP_min=15,score_S&DMRP=15,score_PVE-map_min=1,score_money_min=24,score_S-Shop=2,score_S-Shop_min=2] add ByHK417
 scoreboard players tag @a[score_S&DMRP_min=16,score_S&DMRP=16,score_PVE-map_min=1,score_money_min=17,score_S-Shop=2,score_S-Shop_min=2] add ByZ10
-#scoreboard players tag @a[score_S&DMRP_min=17,score_S&DMRP=17,score_PVE-map_min=1,score_money_min=32,score_S-Shop=0] add ByPGMHecate
+scoreboard players tag @a[score_S&DMRP_min=17,score_S&DMRP=17,score_PVE-map_min=1,score_money_min=32,score_S-Shop=0] add ByPGMHecate
 scoreboard players tag @a[score_S&DMRP_min=18,score_S&DMRP=18,score_PVE-map_min=1,score_money_min=34,score_S-Shop=0] add BySVD
 scoreboard players tag @a[score_S&DMRP_min=19,score_S&DMRP=19,score_PVE-map_min=1,score_money_min=34,score_S-Shop=2,score_S-Shop_min=2] add BySSG-08
+scoreboard players tag @a[score_S&DMRP_min=20,score_S&DMRP=20,score_PVE-map_min=1,score_money_min=29,score_S-Shop=1,score_S-Shop_min=1] add ByAX50
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_S&DMRP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] SMGP
@@ -76,6 +78,7 @@ scoreboard players tag @a[score_SMGP_min=10,score_SMGP=10,score_PVE-map_min=1,sc
 scoreboard players tag @a[score_SMGP_min=11,score_SMGP=11,score_PVE-map_min=1,score_money_min=17,score_S-Shop=2,score_S-Shop_min=2] add ByS7-10Tricun
 scoreboard players tag @a[score_SMGP_min=12,score_SMGP=12,score_PVE-map_min=1,score_money_min=16,score_S-Shop=2,score_S-Shop_min=2] add BySIGMPX
 scoreboard players tag @a[score_SMGP_min=13,score_SMGP=13,score_PVE-map_min=1,score_money_min=14,score_S-Shop=2,score_S-Shop_min=2] add ByUzi
+scoreboard players tag @a[score_SMGP_min=14,score_SMGP=14,score_PVE-map_min=1,score_money_min=14,score_S-Shop=2,score_S-Shop_min=2] add ByPP19
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_SMGP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] shotGunP
@@ -91,7 +94,7 @@ function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_shotGunP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] heavyP
 scoreboard players tag @a[score_heavyP_min=1,score_heavyP=1,score_PVE-map_min=1,score_money_min=25,score_S-Shop=0] add ByM249
-scoreboard players tag @a[score_heavyP_min=2,score_heavyP=2,score_PVE-map_min=1,score_money_min=25,score_S-Shop=1,score_S-Shop_min=1] add ByStonerA1
+scoreboard players tag @a[score_heavyP_min=2,score_heavyP=2,score_PVE-map_min=1,score_money_min=30,score_S-Shop=1,score_S-Shop_min=1] add ByStonerA1
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_heavyP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] pistolP
@@ -112,6 +115,7 @@ scoreboard players tag @a[score_pistolP_min=14,score_pistolP=14,score_PVE-map_mi
 scoreboard players tag @a[score_pistolP_min=15,score_pistolP=15,score_PVE-map_min=1,score_money_min=5,score_S-Shop=2,score_S-Shop_min=2] add ByCPX-2
 scoreboard players tag @a[score_pistolP_min=16,score_pistolP=16,score_PVE-map_min=1,score_money_min=0,score_S-Shop=2,score_S-Shop_min=2] add ByChiappa
 scoreboard players tag @a[score_pistolP_min=17,score_pistolP=17,score_PVE-map_min=1,score_money_min=9,score_S-Shop=2,score_S-Shop_min=2] add ByFN57
+scoreboard players tag @a[score_pistolP_min=18,score_pistolP=18,score_PVE-map_min=1,score_money_min=8,score_S-Shop=1,score_S-Shop_min=1] add ByM1911
 function vmwp:shop/weaponShop if @a[score_PVE-map_min=1,score_pistolP_min=1]
 
 scoreboard players enable @a[score_PVE-map_min=1] ultimateWP
@@ -181,10 +185,10 @@ replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=56,score_MainW=56] slo
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=57,score_MainW=57] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=58,score_MainW=58] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=59,score_MainW=59] slot.inventory.1 mwc:origin12drummag 6 0 {Ammo:20}
-replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=60,score_MainW=60] slot.inventory.1 mwc:saigamag_2 6 0 {Ammo:5}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=60,score_MainW=60] slot.inventory.1 mwc:saigamag_3 6 0 {Ammo:12}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=61,score_MainW=61] slot.inventory.1 mwc:shotgun12gauge 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=62,score_MainW=62] slot.inventory.1 mwc:m249mag 6 0 {Ammo:100}
-replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=63,score_MainW=63] slot.inventory.1 mwc:stonermag 6 0 {Ammo:100}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=63,score_MainW=63] slot.inventory.1 mwc:m60mag 6 0 {Ammo:100}
 
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=65,score_MainW=65] slot.inventory.1 mwc:hecateiimag 6 0 {Ammo:7}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=66,score_MainW=66] slot.inventory.1 mwc:m4a1mag_2 6 0 {Ammo:30}
@@ -194,16 +198,20 @@ replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=69,score_MainW=69] slo
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=70,score_MainW=70] slot.inventory.1 mwc:ssg08mag 6 0 {Ammo:8}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=71,score_MainW=71] slot.inventory.1 mwc:glockmag50 6 0 {Ammo:50}
 
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=73,score_MainW=73] slot.inventory.1 mwc:m4a1mag_2 6 0 {Ammo:30}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=74,score_MainW=74] slot.inventory.1 mwc:ax50mag 6 0 {Ammo:5}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=75,score_MainW=75] slot.inventory.1 mwc:pp1901mag 6 0 {Ammo:30}
+
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=100,score_MainW=100] slot.inventory.1 mwc:grenade40mm 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=101,score_MainW=101] slot.inventory.1 mwc:rpg7_rocket 64 0
-replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=102,score_MainW=102] slot.inventory.1 mwc:plasmacapsule 64 0
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=102,score_MainW=102] slot.inventory.1 mwc:pkmmag 6 0 {Ammo:480}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=103,score_MainW=103] slot.inventory.1 mwc:asvalmag 6 0 {Ammo:40}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=104,score_MainW=104] slot.inventory.1 mwc:m202rocket 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=105,score_MainW=105] slot.inventory.1 mwc:grenade40mm 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=106,score_MainW=106] slot.inventory.1 mwc:m134mag 6 0 {Ammo:200}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=107,score_MainW=107] slot.inventory.1 mwc:mininuke 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=108,score_MainW=108] slot.inventory.1 mwc:origin12drummag 6 0 {Ammo:25}
-replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=109,score_MainW=109] slot.inventory.1 mwc:m134mag 6 0 {Ammo:1000}
+replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=109,score_MainW=109] slot.inventory.1 mwc:pkmmag 6 0 {Ammo:1200}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=110,score_MainW=110] slot.inventory.1 mwc:ssg08mag 6 0 {Ammo:38}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=111,score_MainW=111] slot.inventory.1 mwc:glock18cmag_2 6 0 {Ammo:1.E99}
 replaceitem entity @a[score_PVE-map_min=1,score_MainW_min=112,score_MainW=112] slot.inventory.1 mwc:makarovmag 6 0 {Ammo:1.E99}
@@ -227,6 +235,7 @@ replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=14,score_Secondar
 replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=15,score_SecondaryW=15] slot.inventory.2 mwc:sccycpx2mag 6 0 {Ammo:10}
 replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=16,score_SecondaryW=16] slot.inventory.2 mwc:bullet357 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=17,score_SecondaryW=17] slot.inventory.2 mwc:fivesevenmag 6 0 {Ammo:20}
+replaceitem entity @a[score_PVE-map_min=1,score_SecondaryW_min=18,score_SecondaryW=18] slot.inventory.2 mwc:m1911mag_2 6 0 {Ammo:15}
 
 #Camo
 replaceitem entity @a[score_S-Painting_min=1,score_S-Painting=1,score_PVE-map_min=1] slot.inventory.0 mwc:diamondcamo 1 0

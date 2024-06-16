@@ -39,14 +39,17 @@ scoreboard players tag @a[tag=ByRPG-7] remove ByRPG-7
 scoreboard players set @a[score_S-UltimateWP_min=3,score_S-UltimateWP=3,tag=RPG-7] S-UltimateW 1
 tellraw @a[score_S-UltimateWP_min=3,score_S-UltimateWP=3,tag=RPG-7] {"text":"§5Ultimate weapon switch succeeded!"}
 
-execute @a[score_S-UltimateWP_min=4,score_S-UltimateWP=4,tag=!InGame] ~ ~ ~ scoreboard players tag @s[score_note_min=600,tag=!GPC-A1] add ByGPC-A1
-tellraw @a[tag=ByGPC-A1] {"text":"§aSuccessfully purchased the ultimate weapon!"}
-scoreboard players tag @a[tag=ByGPC-A1] add GPC-A1
-scoreboard players remove @a[tag=ByGPC-A1] note 600
-scoreboard players tag @a[tag=ByGPC-A1] remove ByGPC-A1
+execute @a[score_S-UltimateWP_min=4,score_S-UltimateWP=4,tag=!InGame] ~ ~ ~ scoreboard players tag @s[score_note_min=600,tag=!PKM] add ByPKM
+tellraw @a[tag=ByPKM] {"text":"§aSuccessfully purchased the ultimate weapon!"}
+scoreboard players tag @a[tag=ByPKM] add PKM
+scoreboard players remove @a[tag=ByPKM] note 600
+scoreboard players tag @a[tag=ByPKM] remove ByPKM
 
-scoreboard players set @a[score_S-UltimateWP_min=5,score_S-UltimateWP=5,tag=GPC-A1] S-UltimateW 2
-tellraw @a[score_S-UltimateWP_min=5,score_S-UltimateWP=5,tag=GPC-A1] {"text":"§5Ultimate weapon switch succeeded!"}
+scoreboard players tag @a[tag=GPC-A1] add PKM
+scoreboard players tag @a[tag=GPC-A1] remove GPC-A1
+
+scoreboard players set @a[score_S-UltimateWP_min=5,score_S-UltimateWP=5,tag=PKM] S-UltimateW 2
+tellraw @a[score_S-UltimateWP_min=5,score_S-UltimateWP=5,tag=PKM] {"text":"§5Ultimate weapon switch succeeded!"}
 
 execute @a[score_S-UltimateWP_min=6,score_S-UltimateWP=6,tag=!InGame] ~ ~ ~ scoreboard players tag @s[score_note_min=1000,tag=!VSS] add ByVSS
 tellraw @a[tag=ByVSS] {"text":"§aSuccessfully purchased the ultimate weapon!"}
