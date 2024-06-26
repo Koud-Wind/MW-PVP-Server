@@ -8,8 +8,9 @@ execute @e[type=mwc:smokegrenade260,tag=燃烧瓶] ~ ~ ~ particle largesmoke ~ ~
 execute @e[type=mwc:smokegrenade260,tag=烟雾弹] ~ ~ ~ particle cloud ~ ~ ~ 0 0 0 0 1 force
 
 #手榴弹
-scoreboard players tag @a add 手雷 {SelectedItem:{id:"mwc:m18white",tag:{tag:["手雷"]}}}
-execute @a[tag=手雷,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!投掷物] add 手雷
+#scoreboard players tag @a add 手雷 {SelectedItem:{id:"mwc:m18white",tag:{tag:["手雷"]}}}
+#execute @a[tag=手雷,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=4,c=1,tag=!投掷物] add 手雷
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=!投掷物] add 手雷 {CustomName:"§fFrag Grenade"}
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=手雷] add 投掷物
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=手雷] add 爆炸手雷 {Motion:[0.0d,0.0d,0.0d]}
 execute @e[type=mwc:smokegrenade260,tag=爆炸手雷] ~ ~ ~ summon minecraft:creeper ~ ~1 ~ {ActiveEffects:[{Id:14,Amplifier:0,Duration:3,ShowParticles:0b}],Fuse:4s,NoGravity:1b,ignited:1b,ExplosionRadius:9b,CustomName:"[破片手榴弹]",Silent:1b,CustomNameVisible:0b,Tags:["破片手榴弹"]}
@@ -20,8 +21,9 @@ scoreboard players tag @a[tag=手雷] remove 烟雾弹
 scoreboard players tag @a[tag=手雷] remove 燃烧瓶
 
 #燃烧瓶
-scoreboard players tag @a add 燃烧瓶 {SelectedItem:{id:"mwc:m18white",tag:{tag:["燃烧瓶"]}}}
-execute @a[tag=燃烧瓶,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!投掷物] add 燃烧瓶
+#scoreboard players tag @a add 燃烧瓶 {SelectedItem:{id:"mwc:m18white",tag:{tag:["燃烧瓶"]}}}
+#execute @a[tag=燃烧瓶,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=4,c=1,tag=!投掷物] add 燃烧瓶
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=!投掷物] add 燃烧瓶 {CustomName:"§fMolotov Cocktail"}
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=燃烧瓶] add 投掷物
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=燃烧瓶] add 爆炸燃烧 {Motion:[0.0d,0.0d,0.0d]}
 execute @e[type=mwc:smokegrenade260,tag=爆炸燃烧] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["爆炸燃烧"],Invisible:1b,Marker:1b,Small:1b}
@@ -78,8 +80,9 @@ effect @a[tag=燃烧中] 7 1 1 true
 scoreboard players tag @a[tag=燃烧中] remove 燃烧中
 
 #震撼弹
-scoreboard players tag @a add 震撼弹 {SelectedItem:{id:"mwc:m18white",tag:{tag:["震撼弹"]}}}
-execute @a[tag=震撼弹,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!投掷物] add 震撼弹
+#scoreboard players tag @a add 震撼弹 {SelectedItem:{id:"mwc:m18white",tag:{tag:["震撼弹"]}}}
+#execute @a[tag=震撼弹,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=4,c=1,tag=!投掷物] add 震撼弹
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=!投掷物] add 震撼弹 {CustomName:"§fStun Grenade"}
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=震撼弹] add 投掷物
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=震撼弹] add 爆炸震撼 {Motion:[0.0d,0.0d,0.0d]}
 execute @e[type=mwc:smokegrenade260,tag=爆炸震撼] ~ ~ ~ effect @a[r=8] 15 6 0 true 
@@ -94,8 +97,9 @@ scoreboard players tag @a[tag=震撼弹] remove 烟雾弹
 scoreboard players tag @a[tag=震撼弹] remove 燃烧瓶
 
 #烟雾弹
-scoreboard players tag @a add 烟雾弹 {SelectedItem:{id:"mwc:m18white",tag:{tag:["烟雾弹"]}}}
-execute @a[tag=烟雾弹,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=3,c=1,tag=!投掷物] add 烟雾弹
+#scoreboard players tag @a add 烟雾弹 {SelectedItem:{id:"mwc:m18white",tag:{tag:["烟雾弹"]}}}
+#execute @a[tag=烟雾弹,m=!3] ~ ~ ~ scoreboard players tag @e[type=mwc:smokegrenade260,r=4,c=1,tag=!投掷物] add 烟雾弹
+scoreboard players tag @e[type=mwc:smokegrenade260,tag=!投掷物] add 烟雾弹 {CustomName:"§fSmoke Grenade"}
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=烟雾弹] add 投掷物
 scoreboard players tag @e[type=mwc:smokegrenade260,tag=烟雾弹] add 爆炸烟雾 {Motion:[0.0d,0.0d,0.0d]}
 execute @e[type=mwc:smokegrenade260,tag=爆炸烟雾] ~ ~ ~ summon minecraft:armor_stand ~ ~ ~ {Tags:["爆炸烟雾"],Invisible:1b,Small:1b}

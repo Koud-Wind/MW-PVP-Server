@@ -46,7 +46,7 @@ replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=21,score
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=22,score_爆破-选择的主武器=22] slot.inventory.1 mwc:ak15mag_2 6 0 {Ammo:30}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=23,score_爆破-选择的主武器=23] slot.inventory.1 mwc:ak15mag_2 6 0 {Ammo:30}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=24,score_爆破-选择的主武器=24] slot.inventory.1 mwc:ngswr_mag 6 0 {Ammo:20}
-replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=25,score_爆破-选择的主武器=25] slot.inventory.1 mwc:interventionmag 6 0 {Ammo:7}
+replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=25,score_爆破-选择的主武器=25] slot.inventory.1 mwc:interventionmagextend 6 0 {Ammo:10}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=26,score_爆破-选择的主武器=26] slot.inventory.1 mwc:dsr1magext 6 0 {Ammo:10}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=27,score_爆破-选择的主武器=27] slot.inventory.1 mwc:m40a6mag_2 6 0 {Ammo:7}
 replaceitem entity @a[tag=游戏中,score_爆破-选择的主武器_min=28,score_爆破-选择的主武器=28] slot.inventory.1 mwc:mk14ebrmag_2 6 0 {Ammo:20}

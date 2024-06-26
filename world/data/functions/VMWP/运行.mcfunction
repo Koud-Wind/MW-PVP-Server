@@ -21,7 +21,7 @@ scoreboard players tag @a add 爬行 {ForgeCaps:{"mwc:player_entity_flags":1}}
 #反透视体验优化
 #execute @a[m=2,tag=!爬行] ~ ~ ~ particle bubble ~ ~1 ~ 0.01 0.2 0.01 1 10 force @a[rm=0,m=2]
 #execute @a[m=2,tag=爬行] ~ ~ ~ particle bubble ~ ~ ~ 0.01 0.15 0.01 1 10 force @a[rm=0,m=2]
-execute @a[m=2,tag=!烟雾隐藏] ~ ~ ~ particle bubble ~ ~1 ~ 0.01 0.2 0.01 1 10 force @a[rm=0,m=2]
+execute @a[m=2,tag=!烟雾隐藏] ~ ~ ~ particle bubble ~ ~0.3 ~ 0.01 0.1 0.01 1 10 force @a[rm=0,m=2]
 scoreboard players tag @a[tag=烟雾隐藏] remove 烟雾隐藏
 #限制爬行
 #effect @a[tag=爬行] 8 1 130 true
