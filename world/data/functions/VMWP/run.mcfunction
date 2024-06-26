@@ -21,7 +21,7 @@ scoreboard players tag @a add crawl {ForgeCaps:{"mwc:player_entity_flags":1}}
 #反透视体验优化
 #execute @a[m=2,tag=!crawl] ~ ~ ~ particle bubble ~ ~1 ~ 0.01 0.2 0.01 1 10 force @a[rm=0,m=2]
 #execute @a[m=2,tag=crawl] ~ ~ ~ particle bubble ~ ~ ~ 0.01 0.15 0.01 1 10 force @a[rm=0,m=2]
-execute @a[m=2,tag=!smokeHide] ~ ~ ~ particle bubble ~ ~1 ~ 0.01 0.2 0.01 1 10 force @a[rm=0,m=2]
+execute @a[m=2,tag=!smokeHide] ~ ~ ~ particle bubble ~ ~0.3 ~ 0.01 0.1 0.01 1 10 force @a[rm=0,m=2]
 scoreboard players tag @a[tag=smokeHide] remove smokeHide
 #限制crawl
 #effect @a[tag=crawl] 8 1 130 true
