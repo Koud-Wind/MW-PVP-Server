@@ -27,6 +27,11 @@
       "firemodeAuto": true
     },
     {
+      "name": "m60e4",
+      "enabled": true,
+      "firerate": 0.5
+    },
+    {
       "name": "aac_honey_badger",
       "enabled": true,
       "damage": 6.4
