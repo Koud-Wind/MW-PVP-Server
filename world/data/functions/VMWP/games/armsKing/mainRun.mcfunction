@@ -47,10 +47,10 @@ scoreboard players set @a[score_PC-DeathJ_min=1] PC-DeathJ 0
 
 #HoldCrown玩家
 scoreboard players tag @a[tag=InGame,team=CTT] add HoldCrown {Inventory:[{id:"minecraft:golden_helmet",tag:{ench:[{lvl:1s,id:16s},{lvl:1s,id:10s}]}}]}
-scoreboard players add @a[tag=HoldCrown,score_PC-CrownT=39] PC-CrownT 1
+scoreboard players add @a[tag=HoldCrown,score_PC-CrownT=59] PC-CrownT 1
 effect @a[tag=HoldCrown] 24 1 0 true
 effect @a[tag=HoldCrown] 2 1 1 true
-execute @a[tag=HoldCrown,score_PC-CrownT_min=40] ~ ~ ~ function vmwp:games/armsKing/getScore
+execute @a[tag=HoldCrown,score_PC-CrownT_min=60] ~ ~ ~ function vmwp:games/armsKing/getScore
 
 #是否存在Crown
 execute @e[tag=VMW,score_PC-TR=7900] ~ ~ ~ function vmwp:games/armsKing/crownDetection unless @e[type=item,tag=Crown]

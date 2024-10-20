@@ -106,7 +106,7 @@ replaceitem entity @a[tag=InGame,score_MainW_min=102,score_MainW=102] slot.inven
 replaceitem entity @a[tag=InGame,score_MainW_min=103,score_MainW=103] slot.inventory.1 mwc:asvalmag 6 0 {Ammo:20}
 replaceitem entity @a[tag=InGame,score_MainW_min=104,score_MainW=104] slot.inventory.1 mwc:m202rocket 4 0
 replaceitem entity @a[tag=InGame,score_MainW_min=105,score_MainW=105] slot.inventory.1 mwc:grenade40mm 16 0
-replaceitem entity @a[tag=InGame,score_MainW_min=106,score_MainW=106] slot.inventory.1 mwc:m134mag 6 0 {Ammo:60}
+replaceitem entity @a[tag=InGame,score_MainW_min=106,score_MainW=106] slot.inventory.1 mwc:m134mag 6 0 {Ammo:100}
 replaceitem entity @a[tag=InGame,score_MainW_min=107,score_MainW=107] slot.inventory.1 mwc:mininuke 64 0
 
 replaceitem entity @a[tag=InGame,score_SecondaryW_min=1,score_SecondaryW=1] slot.inventory.2 mwc:apsmag_2 6 0 {Ammo:20}
