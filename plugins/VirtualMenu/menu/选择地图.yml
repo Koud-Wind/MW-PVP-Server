@@ -80,7 +80,7 @@ X7Y2:
   ID: BOW
   DATA-VALUE: 0
   AMOUNT: 1
-  NAME: §a§lChange Game
+  NAME: §a§l更变模式
   NBT: "CgAACQAEZW5jaAoAAAABAgADbHZsAAECAAJpZABHAAMACUhpZGVGbGFncwAAAAEKAAdkaXNwbGF5\r\
     \nCAAETmFtZQARwqdhwqdsQ2hhbmdlIEdhbWUAAA==\r\n"
   POSITION-X: 7
@@ -91,7 +91,7 @@ X9Y2:
   ID: REDSTONE_BLOCK
   DATA-VALUE: 0
   AMOUNT: 1
-  NAME: §a§lChange Player max health
+  NAME: §a§l更变血量
   NBT: "CgAACQAEZW5jaAoAAAABAgADbHZsAAECAAJpZABHAAMACUhpZGVGbGFncwAAAAEKAAdkaXNwbGF5\r\
     \nCAAETmFtZQAewqdhwqdsQ2hhbmdlIFBsYXllciBtYXggaGVhbHRoAAA=\r\n"
   POSITION-X: 9
