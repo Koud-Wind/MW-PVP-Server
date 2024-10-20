@@ -48,10 +48,10 @@ scoreboard players set @a[score_个人-死亡判定_min=1] 个人-死亡判定 0
 
 #持有王冠玩家
 scoreboard players tag @a[tag=游戏中,team=CTT] add 持有王冠 {Inventory:[{id:"minecraft:golden_helmet",tag:{ench:[{lvl:1s,id:16s},{lvl:1s,id:10s}]}}]}
-scoreboard players add @a[tag=持有王冠,score_个人-王冠计时器=39] 个人-王冠计时器 1
+scoreboard players add @a[tag=持有王冠,score_个人-王冠计时器=59] 个人-王冠计时器 1
 effect @a[tag=持有王冠] 24 1 0 true
 effect @a[tag=持有王冠] 2 1 1 true
-execute @a[tag=持有王冠,score_个人-王冠计时器_min=40] ~ ~ ~ function vmwp:游戏/军火之王/得分
+execute @a[tag=持有王冠,score_个人-王冠计时器_min=60] ~ ~ ~ function vmwp:游戏/军火之王/得分
 
 #是否存在王冠
 execute @e[tag=VMW,score_个人-剩余时间=7900] ~ ~ ~ function vmwp:游戏/军火之王/王冠检测 unless @e[type=item,tag=王冠]

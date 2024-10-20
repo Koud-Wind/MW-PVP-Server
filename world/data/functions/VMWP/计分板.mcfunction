@@ -27,7 +27,7 @@ scoreboard objectives add 跳跃 stat.jump
 scoreboard objectives add 投掷物时间 dummy
 
 scoreboard objectives add 开始-选择模式 dummy
-scoreboard players set @e[tag=VMW] 开始-选择模式 0
+scoreboard players add @e[tag=VMW] 开始-选择模式 0
 
 #商店计分板
 scoreboard objectives add 配件页面 trigger
@@ -130,7 +130,7 @@ stats block -46 52 1050 set AffectedEntities §f爆破-T人数 爆破-T人数
 
 scoreboard objectives add 选择地图 trigger
 scoreboard objectives add 爆破-地图 dummy
-scoreboard players set @e[tag=VMW] 爆破-地图 0
+scoreboard players add @e[tag=VMW] 爆破-地图 0
 
 scoreboard objectives add 爆破-剩余时间 dummy
 scoreboard objectives add 爆破-剩余时间换算 dummy
@@ -161,7 +161,7 @@ scoreboard objectives add 爆破-生命数显示 dummy §e剩余生命数
 scoreboard objectives add 个人-选择时间 dummy
 
 scoreboard objectives add 个人-地图 dummy
-scoreboard players set @e[tag=VMW] 个人-地图 0
+scoreboard players add @e[tag=VMW] 个人-地图 0
 
 scoreboard teams add CTT
 scoreboard teams option CTT nametagVisibility never

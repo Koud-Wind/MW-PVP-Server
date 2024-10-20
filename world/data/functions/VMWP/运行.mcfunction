@@ -94,11 +94,16 @@ scoreboard teams leave @a[team=MW_PVE,tag=!PVE-游戏中]
 
 #函数
 scoreboard players set 薛定谔的菜鸟 投掷物页面 0
-effect 1 24 1 0 true
-effect 2 24 1 0 true
-effect 3 24 1 0 true
-effect 4 24 1 0 true
-effect 5 24 1 0 true
+#effect 1 24 1 0 true
+#effect 2 24 1 0 true
+#effect 3 24 1 0 true
+#effect 4 24 1 0 true
+#effect 5 24 1 0 true
+effect 1 5 1 3 true
+effect 2 5 1 3 true
+effect 3 5 1 3 true
+effect 4 5 1 3 true
+effect 5 5 1 3 true
 function vmwp:新人
 function vmwp:投掷物
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!全局游戏] ~ ~ ~ execute @s[tag=!预开始1] ~ ~ ~ execute @s[tag=!预开始2] ~ ~ ~ function vmwp:大厅

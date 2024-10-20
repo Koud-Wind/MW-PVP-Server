@@ -8,11 +8,16 @@ execute @a[team=1-准备] ~ ~ ~ particle lava ~ ~ ~ 1 0 1 0 1
 effect @a[team=1-准备] 24 1 0 true
 
 #假人
-scoreboard players tag 1 add 准备中
-scoreboard players tag 2 add 准备中
-scoreboard players tag 3 add 准备中
-scoreboard players tag 4 add 准备中
-scoreboard players tag 5 add 准备中
+execute @e[tag=VMW,score_开始-准备人数=4] ~ ~ ~ scoreboard players tag @a[name=1] add 准备中
+execute @e[tag=VMW,score_开始-准备人数=4] ~ ~ ~ scoreboard players tag @a[name=2] add 准备中
+execute @e[tag=VMW,score_开始-准备人数=4] ~ ~ ~ scoreboard players tag @a[name=3] add 准备中
+execute @e[tag=VMW,score_开始-准备人数=4] ~ ~ ~ scoreboard players tag @a[name=4] add 准备中
+execute @e[tag=VMW,score_开始-准备人数=4] ~ ~ ~ scoreboard players tag @a[name=5] add 准备中
+execute @e[tag=VMW,score_开始-准备人数_min=6] ~ ~ ~ scoreboard players tag @a[name=1] remove 准备中
+execute @e[tag=VMW,score_开始-准备人数_min=6] ~ ~ ~ scoreboard players tag @a[name=2] remove 准备中
+execute @e[tag=VMW,score_开始-准备人数_min=6] ~ ~ ~ scoreboard players tag @a[name=3] remove 准备中
+execute @e[tag=VMW,score_开始-准备人数_min=6] ~ ~ ~ scoreboard players tag @a[name=4] remove 准备中
+execute @e[tag=VMW,score_开始-准备人数_min=6] ~ ~ ~ scoreboard players tag @a[name=5] remove 准备中
 
 #商店函数
 scoreboard players enable @a 选择近战武器页面

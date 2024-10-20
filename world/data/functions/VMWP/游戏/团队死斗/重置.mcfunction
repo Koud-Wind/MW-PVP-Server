@@ -55,11 +55,11 @@ function vmwp:游戏/团队死斗/地图重置
 execute @e[tag=VMW] ~ ~ ~ tp @s -49 250 1054
 scoreboard players tag @e remove 暂停
 scoreboard players tag @e remove 全局游戏
-scoreboard players tag @e remove 半血模式
+#scoreboard players tag @e remove 半血模式
 scoreboard players tag @e remove 换边
-scoreboard players set @e[tag=VMW] 开始-选择模式 0
+#scoreboard players set @e[tag=VMW] 开始-选择模式 0
+#scoreboard objectives remove 爆破-地图
 
-scoreboard objectives remove 爆破-地图
 scoreboard objectives remove 爆破-剩余时间
 scoreboard objectives remove 爆破-剩余时间换算
 scoreboard objectives remove 爆破-CT比分

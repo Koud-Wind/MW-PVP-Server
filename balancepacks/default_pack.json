@@ -27,14 +27,19 @@
       "firemodeAuto": true
     },
     {
+      "name": "aac_honey_badger",
+      "enabled": true,
+      "damage": 6.4
+    },
+    {
       "name": "m60e4",
       "enabled": true,
       "firerate": 0.5
     },
     {
-      "name": "aac_honey_badger",
+      "name": "pkm",
       "enabled": true,
-      "damage": 6.4
+      "damage": 11.4
     },
     {
       "name": "supernova",

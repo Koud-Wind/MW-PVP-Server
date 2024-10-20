@@ -212,6 +212,7 @@ replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=10
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=107,score_爆破-选择的主武器=107] slot.inventory.1 mwc:mininuke 64 0
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=108,score_爆破-选择的主武器=108] slot.inventory.1 mwc:origin12drummag 6 0 {Ammo:25}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=109,score_爆破-选择的主武器=109] slot.inventory.1 mwc:pkmmag 6 0 {Ammo:1200}
+replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=109,score_爆破-选择的主武器=109] slot.inventory.2 mwc:m134mag 1 0 {Ammo:1000}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=110,score_爆破-选择的主武器=110] slot.inventory.1 mwc:ssg08mag 6 0 {Ammo:38}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=111,score_爆破-选择的主武器=111] slot.inventory.1 mwc:glock18cmag_2 6 0 {Ammo:1.E99}
 replaceitem entity @a[score_PVE-map_min=1,score_爆破-选择的主武器_min=112,score_爆破-选择的主武器=112] slot.inventory.1 mwc:makarovmag 6 0 {Ammo:1.E99}

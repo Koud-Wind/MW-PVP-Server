@@ -72,12 +72,12 @@ execute @e[type=armor_stand,tag=!VMW] ~ ~ ~ fill ~6 ~7 ~6 ~-6 ~-7 ~-6 air 0 repl
 kill @e[type=armor_stand,tag=!VMW]
 scoreboard players tag @e remove 暂停
 scoreboard players tag @e remove 全局游戏
-scoreboard players tag @e remove 半血模式
+#scoreboard players tag @e remove 半血模式
 scoreboard players tag @e remove 个人-等待
 scoreboard players tag @e[tag=发光提示] remove 发光提示
-scoreboard players set @e[tag=VMW] 开始-选择模式 0
+#scoreboard players set @e[tag=VMW] 开始-选择模式 0
+#scoreboard objectives remove 个人-地图
 
-scoreboard objectives remove 个人-地图
 scoreboard objectives remove 个人-剩余时间
 scoreboard objectives remove 个人-剩余时间换算
 scoreboard objectives remove 个人-击杀数计算
