@@ -27,7 +27,7 @@ scoreboard objectives add jump stat.jump
 scoreboard objectives add ThrowingT dummy
 
 scoreboard objectives add Start-SMode dummy
-scoreboard players set @e[tag=VMW] Start-SMode 0
+scoreboard players add @e[tag=VMW] Start-SMode 0
 
 #shop计分板
 scoreboard objectives add moduleP trigger
@@ -130,7 +130,7 @@ stats block -46 52 1050 set AffectedEntities §fCT-TN CT-TN
 
 scoreboard objectives add S-Map trigger
 scoreboard objectives add CT-Map dummy
-scoreboard players set @e[tag=VMW] CT-Map 0
+scoreboard players add @e[tag=VMW] CT-Map 0
 
 scoreboard objectives add CT-TR dummy
 scoreboard objectives add CT-RTC dummy
@@ -161,7 +161,7 @@ scoreboard objectives add CT-lifeC dummy §eRemaining Life
 scoreboard objectives add PC-STime dummy
 
 scoreboard objectives add PC-Map dummy
-scoreboard players set @e[tag=VMW] PC-Map 0
+scoreboard players add @e[tag=VMW] PC-Map 0
 
 scoreboard teams add CTT
 scoreboard teams option CTT nametagVisibility never

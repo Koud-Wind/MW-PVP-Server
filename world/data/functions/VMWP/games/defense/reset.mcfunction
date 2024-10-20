@@ -53,11 +53,11 @@ kill @e[type=item]
 function vmwp:games/defense/resetMap
 scoreboard players tag @e remove suspend
 scoreboard players tag @e remove GlobalGame
-scoreboard players tag @e remove HalfHMode
+#scoreboard players tag @e remove HalfHMode
 scoreboard players tag @e remove CT-WaitF
-scoreboard players set @e[tag=VMW] Start-SMode 0
+#scoreboard players set @e[tag=VMW] Start-SMode 0
 
-scoreboard objectives remove CT-Map
+#scoreboard objectives remove CT-Map
 scoreboard objectives remove CT-TR
 scoreboard objectives remove CT-RTC
 scoreboard objectives remove CT-CTScore

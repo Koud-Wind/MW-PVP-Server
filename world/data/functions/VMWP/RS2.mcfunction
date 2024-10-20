@@ -46,8 +46,8 @@ execute @e[tag=VMW] ~ ~ ~ replaceitem entity @a[tag=S-Map] slot.hotbar.2 minecra
 execute @e[tag=VMW] ~ ~ ~ replaceitem entity @a[tag=Preparing] slot.hotbar.7 mwc:remington_700 1 0 {IUuidLeast:-8526920175805208252L,AtId:[I;4493,0,0,0,0,0,0,0,0,0,4176,0,0,0,4696,4695,0,0,0,0,0,0,0,0,0,4096,0],Ammo:0,IUuidMost:8402382143315660442L,Instance:[B;76B,97B,-17B,6B,112B,-40B,-64B,96B,-20B,-124B,8B,-95B,100B,-107B,5B,-33B,0B,0B,0B,9B,116B,-101B,66B,10B,-89B,106B,78B,-102B,-119B,-86B,75B,71B,21B,4B,-23B,68B,0B,0B,19B,83B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,38B,-56B,-30B,-89B,46B,-14B,7B,37B,75B,-109B,48B,-17B,71B,-94B,4B,125B,-126B,0B,0B,0B,22B,27B,0B,0B,17B,-115B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,-2B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,80B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,18B,88B,0B,0B,18B,87B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,16B,0B,0B,0B,0B,0B,27B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,-1B,0B,0B,0B,0B,0B,65B,32B,0B,0B,0B,0B,0B,1B,62B,97B,71B,-82B,0B,0B,0B,0B,0B,0B,0B,1B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B,0B],display:{Name:"§fLoad sight"},tag:["NO"]}
 
 #倒计时结束后计算平衡(未加入队伍玩家将分配到需要平衡的队伍)
-execute @e[tag=VMW,score_CT-STime=0,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ scoreboard players operation @s PC-Map = @s CT-Map
-execute @e[tag=VMW,score_CT-STime=0,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ function vmwp:games/survival/start
+execute @e[tag=VMW,score_CT-STime=0,score_Start-SMode_min=3] ~ ~ ~ scoreboard players operation @s PC-Map = @s CT-Map
+execute @e[tag=VMW,score_CT-STime=0,score_Start-SMode_min=3] ~ ~ ~ function vmwp:games/survival/start
 
 scoreboard players operation @e[tag=VMW] CT-CTN = §fCT-CTN CT-CTN
 scoreboard players operation @e[tag=VMW] CT-TN = §fCT-TN CT-TN
@@ -118,52 +118,52 @@ execute @e[tag=VMW,score_CT-STime=0,score_Start-SMode=2,score_Start-SMode_min=2]
 scoreboard players enable @a[tag=S-Map] S-Map
 
 execute @a[score_S-Map_min=1,score_S-Map=1,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 0
-execute @a[score_S-Map_min=1,score_S-Map=1,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap1"}]
+execute @a[score_S-Map_min=1,score_S-Map=1,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lMap changed to §fmap1"}]
 execute @a[score_S-Map_min=2,score_S-Map=2,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 1
-execute @a[score_S-Map_min=2,score_S-Map=2,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap2"}]
+execute @a[score_S-Map_min=2,score_S-Map=2,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lMap changed to §fmap2"}]
 execute @a[score_S-Map_min=3,score_S-Map=3,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 2
-execute @a[score_S-Map_min=3,score_S-Map=3,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap3"}]
+execute @a[score_S-Map_min=3,score_S-Map=3,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lMap changed to §fmap3"}]
 execute @a[score_S-Map_min=4,score_S-Map=4,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 3
-execute @a[score_S-Map_min=4,score_S-Map=4,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap4"}]
+execute @a[score_S-Map_min=4,score_S-Map=4,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lMap changed to §fmap4"}]
 execute @a[score_S-Map_min=5,score_S-Map=5,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 4
-execute @a[score_S-Map_min=5,score_S-Map=5,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap5"}]
+execute @a[score_S-Map_min=5,score_S-Map=5,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lMap changed to §fmap5"}]
 execute @a[score_S-Map_min=6,score_S-Map=6,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] CT-Map 5
-execute @a[score_S-Map_min=6,score_S-Map=6,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aMap will be selected as §fmap6"}]
+execute @a[score_S-Map_min=6,score_S-Map=6,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lMap changed to §fmap6"}]
 
-execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aSet player's max health to §fhalf"}]
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lPlayer max health changed to §fHalf"}]
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @e[tag=VMW] add HalfHMode
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aSet player's max health to §fnormal"}]
+execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a§lPlayer max health changed to §fNormal"}]
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map_min=21,score_S-Map=21,tag=S-Map] ~ ~ ~ scoreboard players tag @e[tag=VMW] remove HalfHMode
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fDefense"}]
+execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fDefense"}]
 execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Players need to go to the §ered circle near the blue beam§f to occupy the target point"}]
 execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 1
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fTeam DM"}]
+execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fTeam DM"}]
 execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: The team that reaches the §e65 kill count§f first will win, including the §eboundary§f limit!"}]
 execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 2
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fSurvival"}]
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fSurvival"}]
 execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Cancel team, The main weapon can only use §eSR/DMR/SMG, §fremember to §euse elytra§f for landing after entering!"}]
 execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 3
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"\n§eGame mode changed to §fBlast"}]
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fBlast"}]
 execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Players need to §eremove or install C4§f through sneak in the §ered circle near the blue beam"}]
 execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 0
 scoreboard players reset @e[score_S-Map_min=1] S-Map
