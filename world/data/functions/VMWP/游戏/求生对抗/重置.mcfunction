@@ -39,8 +39,8 @@ replaceitem entity @a slot.enderchest.26 minecraft:air
 
 scoreboard players tag @a remove 游戏中
 scoreboard players tag @e remove 商店
-scoreboard players tag @a remove 1rd
-scoreboard players tag @a remove 2rd
+scoreboard players tag @a remove 1st
+scoreboard players tag @a remove 2nd
 
 scoreboard players set @a 背景音乐 0
 scoreboard players reset @a[tag=!PVE-游戏中] 爆破-金钱

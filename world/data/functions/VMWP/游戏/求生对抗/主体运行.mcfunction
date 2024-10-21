@@ -184,8 +184,8 @@ scoreboard players reset @a[score_离开游戏_min=1] 个人-分数
 scoreboard players tag @a[score_离开游戏_min=1] remove 准备中
 scoreboard players tag @a[score_离开游戏_min=1] remove 游戏中
 scoreboard players tag @a[score_离开游戏_min=1] remove 商店
-scoreboard players tag @a[score_离开游戏_min=1] remove 1rd
-scoreboard players tag @a[score_离开游戏_min=1] remove 2rd
+scoreboard players tag @a[score_离开游戏_min=1] remove 1st
+scoreboard players tag @a[score_离开游戏_min=1] remove 2nd
 scoreboard players tag @a[score_离开游戏_min=1] remove 3rd
 
 scoreboard teams leave @a[score_离开游戏_min=1]
