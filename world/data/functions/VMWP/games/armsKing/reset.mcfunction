@@ -39,8 +39,8 @@ replaceitem entity @a slot.enderchest.26 minecraft:air
 
 scoreboard players tag @a remove InGame
 scoreboard players tag @e remove shop
-scoreboard players tag @a remove 1rd
-scoreboard players tag @a remove 2rd
+scoreboard players tag @a remove 1st
+scoreboard players tag @a remove 2nd
 
 scoreboard players set @a music 0
 scoreboard players reset @a[tag=!PVE-IG] money
@@ -80,8 +80,8 @@ scoreboard players tag @e remove GlobalGame
 scoreboard objectives remove PC-TR
 scoreboard objectives remove PC-RTC
 scoreboard objectives remove PC-KCC
-scoreboard objectives remove PC-1rdK
-scoreboard objectives remove PC-2rdK
+scoreboard objectives remove PC-1stK
+scoreboard objectives remove PC-2ndK
 scoreboard objectives remove PC-3rdK
 scoreboard objectives remove PC-Join
 #scoreboard objectives remove money

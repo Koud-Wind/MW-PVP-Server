@@ -1,7 +1,7 @@
 #Display器
-execute @a[tag=InGame] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §aFirst score:"},{"score":{"objective":"PC-1rdK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2rdK","name":"@e[tag=VMW]"}},{"text":" §cYour kill count:"},{"score":{"objective":"PC-KillCount","name":"@s"}}]
-execute @a[team=Watch] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §7Currently in Watch state §aFirst score:"},{"score":{"objective":"PC-1rdK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2rdK","name":"@e[tag=VMW]"}}]
-execute @a[team=,tag=!PVE-IG] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §cPlease wait for end §aFirst score:"},{"score":{"objective":"PC-1rdK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2rdK","name":"@e[tag=VMW]"}}]
+execute @a[tag=InGame] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §aFirst score:"},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2ndK","name":"@e[tag=VMW]"}},{"text":" §cYour kill count:"},{"score":{"objective":"PC-KillCount","name":"@s"}}]
+execute @a[team=Watch] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §7Currently in Watch state §aFirst score:"},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2ndK","name":"@e[tag=VMW]"}}]
+execute @a[team=,tag=!PVE-IG] ~ ~ ~ title @s actionbar [{"text":"§bTime:"},{"score":{"objective":"PC-RTC","name":"@e[tag=VMW]"}},{"text":"s §cPlease wait for end §aFirst score:"},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}},{"text":" §2Second score:"},{"score":{"objective":"PC-2ndK","name":"@e[tag=VMW]"}}]
 
 #优化计时器检测
 execute @e[tag=VMW,score_PC-TR_min=7800] ~ ~ ~ function vmwp:games/armsKing/detectionT
@@ -120,8 +120,8 @@ scoreboard players reset @a[score_leave_min=1] PC-CrownT
 scoreboard players tag @a[score_leave_min=1] remove Preparing
 scoreboard players tag @a[score_leave_min=1] remove InGame
 scoreboard players tag @a[score_leave_min=1] remove shop
-scoreboard players tag @a[score_leave_min=1] remove 1rd
-scoreboard players tag @a[score_leave_min=1] remove 2rd
+scoreboard players tag @a[score_leave_min=1] remove 1st
+scoreboard players tag @a[score_leave_min=1] remove 2nd
 scoreboard players tag @a[score_leave_min=1] remove 3rd
 
 scoreboard teams leave @a[score_leave_min=1]

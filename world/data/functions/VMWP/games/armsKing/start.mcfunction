@@ -32,8 +32,8 @@ scoreboard players tag @a[tag=S-Map] remove S-Map
 
 scoreboard players set @a music 0
 scoreboard players set @e[tag=VMW] PC-TR 8000
-scoreboard players set @e[tag=VMW] PC-1rdK 0
-scoreboard players set @e[tag=VMW] PC-2rdK 0
+scoreboard players set @e[tag=VMW] PC-1stK 0
+scoreboard players set @e[tag=VMW] PC-2ndK 0
 scoreboard players set @e[tag=VMW] PC-3rdK -1
 scoreboard players set @a[tag=InGame] PC-KillCount 0
 scoreboard players set @a[tag=InGame] PC-KillJ 0
