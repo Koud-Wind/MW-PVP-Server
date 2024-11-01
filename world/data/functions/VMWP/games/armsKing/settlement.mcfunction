@@ -1,4 +1,4 @@
-tellraw @a[tag=!PVE-IG] [{"text":"§bTop 3 in Weapon King:\n"},{"text":"§a1st: "},{"selector":"@a[tag=1st]"},{"text":" §eScore: "},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}}]
+tellraw @a[tag=!PVE-IG] [{"text":"§bTop 3 in King of Weapons:\n"},{"text":"§a1st: "},{"selector":"@a[tag=1st]"},{"text":" §eScore: "},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}}]
 execute @p[tag=2nd] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a2nd: "},{"selector":"@a[tag=2nd]"},{"text":" §eScore: "},{"score":{"objective":"PC-2ndK","name":"@e[tag=VMW]"}}]
 execute @p[tag=3rd] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a3rd: "},{"selector":"@a[tag=3rd]"},{"text":" §eScore: "},{"score":{"objective":"PC-3rdK","name":"@e[tag=VMW]"}}]
 

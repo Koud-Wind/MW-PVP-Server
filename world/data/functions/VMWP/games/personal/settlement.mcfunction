@@ -1,4 +1,4 @@
-tellraw @a[tag=!PVE-IG] [{"text":"§bTop 3 in Personal Confrontation:\n"},{"text":"§a1st: "},{"selector":"@a[tag=1st]"},{"text":" §cKill count: "},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}}]
+tellraw @a[tag=!PVE-IG] [{"text":"§bTop 3 in Free For All:\n"},{"text":"§a1st: "},{"selector":"@a[tag=1st]"},{"text":" §cKill count: "},{"score":{"objective":"PC-1stK","name":"@e[tag=VMW]"}}]
 execute @p[tag=2nd] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a2nd: "},{"selector":"@a[tag=2nd]"},{"text":" §cKill count: "},{"score":{"objective":"PC-2ndK","name":"@e[tag=VMW]"}}]
 execute @p[tag=3rd] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§a3rd: "},{"selector":"@a[tag=3rd]"},{"text":" §cKill count: "},{"score":{"objective":"PC-3rdK","name":"@e[tag=VMW]"}}]
 

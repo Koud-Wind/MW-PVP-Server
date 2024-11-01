@@ -13,12 +13,12 @@ execute @e[tag=VMW,score_PC-Map=3,score_PC-Map_min=3] ~ ~ ~ tellraw @a[tag=!PVE-
 execute @e[tag=VMW,score_PC-Map=4,score_PC-Map_min=4] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lMap: §fmap5"}]
 execute @e[tag=VMW,score_PC-Map=5,score_PC-Map_min=5] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lMap: §fmap6"}]
 
-execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fPersonal Confrontation"}]
-execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fWeapon King"}]
-execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fSurvival"}]
-execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fBlast"}]
-execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fDefense"}]
-execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fTeam DM"}]
+execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fFree For All"}]
+execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fKing of Weapons"}]
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fSurvival Showdown"}]
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fBounty Bombing"}]
+execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fPoint Capture"}]
+execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame: §fTeam Deathmatch"}]
 
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!HalfHMode] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lPlayer max health: §fNormal"}]
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lPlayer max health: §fHalf"}]

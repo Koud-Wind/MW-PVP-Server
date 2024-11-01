@@ -72,42 +72,42 @@ execute @e[tag=VMW] ~ ~ ~ execute @s[tag=HalfHMode] ~ ~ ~ execute @a[score_S-Map
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fWeapon King"}]
+execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fKing of Weapons"}]
 execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: You can only get the crown for §equick score§f after three kills. Killing will automatically §echange§f the weapon!"}]
 execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=0] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 1
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fSurvival"}]
+execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fSurvival Showdown"}]
 execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: The main weapon can only use §eSR/DMR/SMG, §fremember to §euse elytra§f for landing after entering!"}]
 execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=1,score_Start-SMode_min=1] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 2
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fBlast"}]
+execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fBounty Bombing"}]
 execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Players need to §eremove or install C4§f through sneak in the §ered circle near the blue beam"}]
 execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=2,score_Start-SMode_min=2] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 3
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fDefense"}]
+execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fPoint Capture"}]
 execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: Players need to go to the §ered circle near the blue beam§f to occupy the target point"}]
 execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=3,score_Start-SMode_min=3] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 4
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fTeam DM"}]
+execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fTeam Deathmatch"}]
 execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: The team that reaches the §e65 kill count§f first will win, including the §eboundary§f limit!"}]
 execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players tag @s add S-Switch
 execute @e[tag=VMW,score_Start-SMode=4,score_Start-SMode_min=4] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 5
 scoreboard players reset @e[score_S-Map_min=1,tag=S-Switch] S-Map
 scoreboard players tag @a[tag=S-Switch] remove S-Switch
 
-execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fPersonal Confrontation"}]
+execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lGame changed to §fFree For All"}]
 execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§fTip: You can only get the crown for §equick score§f after three kills. Killing will automatically §echange§f the weapon!"}]
 execute @e[tag=VMW,score_Start-SMode=5,score_Start-SMode_min=5] ~ ~ ~ execute @a[score_S-Map_min=20,score_S-Map=20,tag=S-Map] ~ ~ ~ scoreboard players set @e[tag=VMW] Start-SMode 0
 scoreboard players reset @e[score_S-Map_min=1] S-Map
