@@ -28,7 +28,7 @@ After two years of personal maintenance and due to limited energy and finances, 
 ## Deploy and Play
 **0.** **Server requirements: `2 cores` with a maximum clock speed of `4.0GHz`, `4GB` of allocatable RAM, `1GB` of disk space, `20Mbps` upload bandwidth, `Java8` runtime environment**
 
-**1.** **Download the server software from [here](https://github.com/Koud-Wind/MW-PVP-Server/releases) and extract it**
+**1.** **Download the server software from [here](https://github.com/Koud-Wind/MW-PVP-Server/archive/refs/heads/main.zip) and extract it**
 
 **2.** Edit the `server.properties` file and set `server-port` to an unused port number
 
