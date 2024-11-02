@@ -15,6 +15,11 @@
       "damage": 15.0
     },
     {
+      "name": "m200_intervention",
+      "enabled": true,
+      "firerate": 0.16
+    },
+    {
       "name": "svd_dragunov",
       "enabled": true,
       "recoil": 10.0
