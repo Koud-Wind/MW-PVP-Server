@@ -28,7 +28,7 @@
 ## 部署及游玩
 **0.** **服务器所需规格: `2颗`最大睿频为`4.0GHz`的CPU核心, `4GB`可分配运存, `1GB`磁盘空间, `20Mbps`网络上行带宽, `Java8`运行环境**
 
-**1.** **从[这里](https://github.com/Koud-Wind/MW-PVP-Server/releases)下载服务端本体, 解压它**
+**1.** **从[这里](https://github.com/Koud-Wind/MW-PVP-Server/archive/refs/heads/main-zh.zip)下载服务端本体, 解压它**
 
 **2.** 编辑 `server.properties` 文件, 将 `server-port` 设置为未被占用的端口号
 
