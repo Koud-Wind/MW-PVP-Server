@@ -104,9 +104,11 @@ After two years of personal maintenance and due to limited energy and finances, 
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/map6-1.png)
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/map6-2.png)
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/map6-3.png)
-
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/zombie-1.png)
-![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/map6-3.png)
+![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/hall-1.png)
+![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/hall-2.png)
+![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/hall-3.png)
+
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/game-0.png)
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/game-1.png)
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/game-2.png)
