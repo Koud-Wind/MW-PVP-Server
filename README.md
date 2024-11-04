@@ -50,7 +50,7 @@ After two years of personal maintenance and due to limited energy and finances, 
 
 <details>
 <summary><strong>Free For All</strong></summary>
-  Each player fights alone, aiming to achieve 25 kills for a round's end. The top two players in kill count win. If no one is killed for a duration, all players will receive a map-wide marker for 1 second, with 3 seconds at multiples of 25. Kills via throwables do not count.
+  Each player fights alone, aiming to achieve 30 kills for a round's end. The top two players in kill count win. If no one is killed for a duration, all players will receive a map-wide marker for 1 second, with 3 seconds at multiples of 25. Kills via throwables do not count.
 </details>
 
 <details>

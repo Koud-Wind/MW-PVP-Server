@@ -14,7 +14,7 @@ execute @e[tag=VMW,score_PC-TR_min=1] ~ ~ ~ function vmwp:shop/buyGive
 execute @a[score_PC-KillJ_min=1,tag=InGame] ~ ~ ~ function vmwp:games/personal/kill
 
 #满20杀结算
-function vmwp:games/personal/settlement if @a[team=CTT,tag=InGame,score_PC-KillCount_min=25]
+function vmwp:games/personal/settlement if @a[team=CTT,tag=InGame,score_PC-KillCount_min=30]
 
 #10秒不杀敌发光
 execute @e[tag=VMW,score_PC-Glow_min=200] ~ ~ ~ effect @a[tag=InGame] 24 2 0 true
