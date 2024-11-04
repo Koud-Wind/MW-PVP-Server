@@ -14,7 +14,7 @@ execute @e[tag=VMW,score_个人-剩余时间_min=1] ~ ~ ~ function vmwp:商店/�
 execute @a[score_个人-击杀判定_min=1,tag=游戏中] ~ ~ ~ function vmwp:游戏/个人对抗/击杀
 
 #满20杀结算
-function vmwp:游戏/个人对抗/结算 if @a[team=CTT,tag=游戏中,score_个人-击杀数_min=25]
+function vmwp:游戏/个人对抗/结算 if @a[team=CTT,tag=游戏中,score_个人-击杀数_min=30]
 
 #10秒不杀敌发光
 execute @e[tag=VMW,score_个人-不击杀发光_min=200] ~ ~ ~ effect @a[tag=游戏中] 24 2 0 true
