@@ -94,7 +94,15 @@
 
 交流群: [856636717](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=j6JedJrblKhGaHmsl1NmRjozu553-lrP&authKey=oiCUxEb6JyiQvXOEsTpf4XaR5vpH2K96uhvRf%2BHHsHSpiOwGgUJXonAogLeT1ynM&noverify=0&group_code=856636717)
 
-## 图片及视频
+
+
+## 视频
+https://www.bilibili.com/video/BV1WuDLYSE1g
+
+https://www.bilibili.com/video/BV1L4DLYMERg
+
+
+## 图片
 
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/map1-1.png)
 ![](https://github.com/Koud-Wind/MW-PVP-Server/blob/resources/image/map1-2.png)
