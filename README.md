@@ -101,6 +101,9 @@ https://www.bilibili.com/video/BV1WuDLYSE1g
 
 https://www.bilibili.com/video/BV1L4DLYMERg
 
+https://www.bilibili.com/video/BV1fzDUYMERa
+
+https://www.bilibili.com/video/BV1JpDQY2EJw
 
 ## 图片
 
