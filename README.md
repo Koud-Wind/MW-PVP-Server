@@ -88,6 +88,8 @@ After two years of personal maintenance and due to limited energy and finances, 
 ## Videos
 [![YouTube](http://i.ytimg.com/vi/lCvRqAWai0w/hqdefault.jpg)](https://www.youtube.com/watch?v=lCvRqAWai0w)
 [![YouTube](http://i.ytimg.com/vi/QpJ-bzr0Q2Y/hqdefault.jpg)](https://www.youtube.com/watch?v=QpJ-bzr0Q2Y)
+[![YouTube](http://i.ytimg.com/vi/0oTTQu2N6yY/hqdefault.jpg)](https://www.youtube.com/watch?v=0oTTQu2N6yY)
+[![YouTube](http://i.ytimg.com/vi/KrWCA5OBhoM/hqdefault.jpg)](https://www.youtube.com/watch?v=KrWCA5OBhoM)
 
 
 
