@@ -93,6 +93,12 @@ scoreboard teams leave @a[team=MW_PVE,tag=!PVE-IG]
 
 
 #函数
+effect 1 5 1 3 true
+effect 2 5 1 3 true
+effect 3 5 1 3 true
+effect 4 5 1 3 true
+effect 5 5 1 3 true
+
 function vmwp:novice
 function vmwp:grenade
 execute @e[tag=VMW] ~ ~ ~ execute @s[tag=!GlobalGame] ~ ~ ~ execute @s[tag=!RS1] ~ ~ ~ execute @s[tag=!RS2] ~ ~ ~ function vmwp:hall

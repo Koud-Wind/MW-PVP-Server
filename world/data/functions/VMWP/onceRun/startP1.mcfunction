@@ -3,7 +3,7 @@ scoreboard teams leave @a[tag=Preparing]
 execute @a[tag=!PVE-IG] ~ ~ ~ scoreboard teams join Watch @s[tag=!Preparing]
 execute @a[tag=!PVE-IG] ~ ~ ~ clear @s
 scoreboard players set @e[tag=VMW] PC-STime 300
-scoreboard players tag @r[tag=Preparing] add S-Map
+scoreboard players tag @p[tag=Preparing,c=-1] add S-Map
 
 execute @a[tag=S-Map] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§aSelect the map by "},{"selector":"@s"}]
 execute @e[tag=VMW,score_PC-Map=0] ~ ~ ~ tellraw @a[tag=!PVE-IG] [{"text":"§e§lMap: §fmap1"}]
