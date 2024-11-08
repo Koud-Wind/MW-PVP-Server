@@ -11,6 +11,8 @@ effect @a[team=1-ready] 24 1 0 true
 scoreboard players tag 1 add Preparing
 scoreboard players tag 2 add Preparing
 scoreboard players tag 3 add Preparing
+scoreboard players tag 4 add Preparing
+scoreboard players tag 5 add Preparing
 
 #shop函数
 scoreboard players enable @a S-MeleeWP
